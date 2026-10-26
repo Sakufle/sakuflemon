@@ -5,11 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Commandes · Sakuflemon</title>
 <meta name="description" content="Les commandes utiles du serveur">
+<link rel="icon" href="assets/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;800&display=swap">
 <link rel="stylesheet" href="assets/style.css">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
 </head>
 <body>
 <header><div class="barre">
-<a class="logo" href="index.html">Sakufle<span>mon</span></a>
+<a class="logo" href="index.html"><img src="assets/logo.svg" alt=""><span>Sakufle<span class="degrade">mon</span></span></a>
 <nav>
 <a href="index.html">Accueil</a>
 <a href="installer.html">Installer</a>
@@ -17,9 +22,10 @@
 <a href="regles.html">Règles</a>
 <a href="nouveautes.html">Nouveautés</a>
 </nav>
+<button class="bascule" id="bascule" type="button">Thème</button>
 </div></header>
 <main>
-<h1>Commandes</h1>
+<h1 class="page-titre">Commandes</h1>
 <div class="tableau"><table>
 <tr><th>Commande</th><th>À quoi ça sert</th></tr>
 <tr><td><code>/spawn</code></td><td>Retourner au spawn</td></tr>

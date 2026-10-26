@@ -1,0 +1,13 @@
+name = "TMCraft"
+filename = "tmcraft-1.4.19+1.8.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HU6mkUZs/versions/Ux6Nixgo/tmcraft-1.4.19%2B1.8.3.jar"
+hash-format = "sha512"
+hash = "c2e0fb704b0ef81e056a5fa856677841f16450ef3fae1428b1191b96a9280c0efe8978a8c281d01d2552656b0eb847dc5bd9e58e3da1e3b38775a76c5fcefe70"
+
+[update]
+[update.modrinth]
+mod-id = "HU6mkUZs"
+version = "Ux6Nixgo"

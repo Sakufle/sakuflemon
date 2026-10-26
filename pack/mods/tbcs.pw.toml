@@ -1,0 +1,13 @@
+name = "Cobblemon Trainer Battle Commands"
+filename = "tbcs-fabric-1.21.1-0.15.0-beta.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NApIzVVy/versions/38O58pij/tbcs-fabric-1.21.1-0.15.0-beta.jar"
+hash-format = "sha512"
+hash = "c551e7896bd041100939e36d247bec2088571f34cf7fd53edb295a8c93a498c3a31ab56c89321188662bde6eec514cca8725a16f0019ed3a34795627c1ffb658"
+
+[update]
+[update.modrinth]
+mod-id = "NApIzVVy"
+version = "38O58pij"

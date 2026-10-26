@@ -1,0 +1,13 @@
+name = "ResourcePackCached"
+filename = "rpc-1.2.10+1.20.3-1.21.11.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/d4phKsx2/versions/J9pEsaEX/rpc-1.2.10%2B1.20.3-1.21.11.jar"
+hash-format = "sha512"
+hash = "05d7ae650e82d5dc15651e5df4102dd3759980de6b73fc66505f58b2df84973b45f91dec2159c470efd6164971cbf75dbbb44b45ca95263302597f4b50628efc"
+
+[update]
+[update.modrinth]
+mod-id = "d4phKsx2"
+version = "J9pEsaEX"

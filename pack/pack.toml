@@ -1,0 +1,13 @@
+name = "Sakuflemon"
+author = "Lucas"
+version = "1.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "db79f0c793e7024800639bd4aad69eaae1ee555ba15f2f6ebebad4f1a89aa125"
+
+[versions]
+fabric = "0.20.1"
+minecraft = "1.21.1"

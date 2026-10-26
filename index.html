@@ -5,11 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sakuflemon</title>
 <meta name="description" content="Serveur Cobblemon entre amis">
+<link rel="icon" href="assets/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;800&display=swap">
 <link rel="stylesheet" href="assets/style.css">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
 </head>
 <body>
 <header><div class="barre">
-<a class="logo" href="index.html">Sakufle<span>mon</span></a>
+<a class="logo" href="index.html"><img src="assets/logo.svg" alt=""><span>Sakufle<span class="degrade">mon</span></span></a>
 <nav>
 <a href="index.html">Accueil</a>
 <a href="installer.html">Installer</a>
@@ -17,22 +22,24 @@
 <a href="regles.html">Règles</a>
 <a href="nouveautes.html">Nouveautés</a>
 </nav>
+<button class="bascule" id="bascule" type="button">Thème</button>
 </div></header>
 <main>
 <section class="hero">
 <h1>Sakuflemon</h1>
-<p>Le serveur Cobblemon entre potes · <span data-version></span></p>
-<div class="ip"><span data-ip></span><button class="btn" data-copy-ip>Copier l'IP</button></div>
+<p class="sous-titre">Vérité et Idéaux · <span data-version></span></p>
+<div><div class="ip"><span data-ip></span><button class="btn" data-copy-ip>Copier l'IP</button></div></div>
 <div><span id="statut" class="statut"></span></div>
-<p style="margin-top:24px"><a class="btn" href="installer.html">Installer et jouer</a></p>
+<div class="actions"><a class="btn feu" href="installer.html">🔥 Installer et jouer</a><a class="btn foudre" href="commandes.html">⚡ Guide du serveur</a></div>
 </section>
+<h2 class="section-titre">Ce qui t'attend</h2>
 <section class="grille">
-<div class="carte"><h3>Méga-évolutions</h3><p>Méga, capacités Z, Dynamax et Téracristal avec Mega Showdown.</p></div>
-<div class="carte"><h3>Marchands</h3><p>Gagne des CobbleDollars et dépense-les chez les marchands du spawn.</p></div>
-<div class="carte"><h3>Caisses</h3><p>Récupère des clés et ouvre les caisses pour des Pokémon et objets rares.</p></div>
-<div class="carte"><h3>Raids et dresseurs</h3><p>Affronte des raids en groupe et des dresseurs PNJ dans tout le monde.</p></div>
-<div class="carte"><h3>Nouveaux biomes</h3><p>Des dizaines de biomes à explorer pour trouver chaque Pokémon.</p></div>
-<div class="carte"><h3>Mises à jour auto</h3><p>Le launcher télécharge tout seul les mods à chaque lancement.</p></div>
+<div class="carte"><div class="icone">💎</div><h3>Méga-évolutions</h3><p>Méga, capacités Z, Dynamax et Téracristal avec Mega Showdown.</p></div>
+<div class="carte"><div class="icone">🪙</div><h3>Marchands</h3><p>Gagne des CobbleDollars et dépense-les chez les marchands du spawn.</p></div>
+<div class="carte"><div class="icone">🎁</div><h3>Caisses</h3><p>Récupère des clés et ouvre les caisses pour des Pokémon et objets rares.</p></div>
+<div class="carte"><div class="icone">⚔️</div><h3>Raids et dresseurs</h3><p>Affronte des raids en groupe et des dresseurs PNJ dans tout le monde.</p></div>
+<div class="carte"><div class="icone">🌲</div><h3>Nouveaux biomes</h3><p>Des dizaines de biomes à explorer pour trouver chaque Pokémon.</p></div>
+<div class="carte"><div class="icone">🔄</div><h3>Mises à jour auto</h3><p>Le launcher télécharge tout seul les mods à chaque lancement.</p></div>
 </section>
 </main>
 <footer>Sakuflemon · serveur Cobblemon entre amis · <span data-version></span></footer>

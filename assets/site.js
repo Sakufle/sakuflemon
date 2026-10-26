@@ -39,3 +39,21 @@
     if (a.getAttribute("href").split("/").pop() === path) a.setAttribute("aria-current", "page");
   });
 })();
+
+(function () {
+  var btn = document.getElementById("bascule");
+  if (!btn) return;
+  function courant() {
+    var t = document.documentElement.dataset.theme;
+    if (t) return t;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
+  function maj() { btn.textContent = courant() === "dark" ? "⚡ Zekrom" : "🔥 Reshiram"; }
+  btn.addEventListener("click", function () {
+    var t = courant() === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    try { localStorage.setItem("theme", t); } catch (e) {}
+    maj();
+  });
+  maj();
+})();

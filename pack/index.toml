@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
-hash = "6617eb1603c3a3aeab26549ba43c232f34d8323d8bdbae6c9af6dee8567cb60a"
+hash = "e6f3c76fae88fe87f568b0ea7ec5385cd33ea5bda94789fe3240e16245f3d338"
 
 [[files]]
 file = "config/paxi/resourcepacks/cobblemon-emissive-ores.pw.toml"
@@ -32,6 +32,10 @@ metafile = true
 [[files]]
 file = "config/paxi/resourcepacks/sakuflemon-badges.zip"
 hash = "9de3280d99895af8c23dc0e61ee5a273d610473095029fc1190c97e8eea34870"
+
+[[files]]
+file = "config/paxi/resourcepacks/sakuflemon-caisses.zip"
+hash = "e173ec46bbcf316163a401dda0d862fbd8d4c21592b57c1e9a27176400d6238f"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"

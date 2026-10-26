@@ -23,3 +23,7 @@ Ajoute 4 dimensions vides (biome the_void, aucun Pokémon sauvage naturel) :
 - À la première connexion, chaque joueur est envoyé sur la place de Skyloft (tag `sakuflemon.arrive`).
 - Après une mort, un joueur sans lit réapparaît au hub ; avec un lit, il réapparaît à son lit.
 - Pour renvoyer quelqu'un au hub à la prochaine connexion : `/tag <joueur> remove sakuflemon.arrive`.
+
+## Protection
+- Dans les dimensions Incarnam, les joueurs passent automatiquement en mode Aventure (ils ne peuvent rien casser ni poser), et repassent en Survie ailleurs.
+- Pour construire : `/tag <joueur> add sakuflemon.builder` (retirer avec `remove`).

@@ -1,0 +1,13 @@
+name = "CobbleSafari"
+filename = "cobblesafari-fabric-1.21.1-0.3.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zj3GsKts/versions/FImyhFQC/cobblesafari-fabric-1.21.1-0.3.5.jar"
+hash-format = "sha512"
+hash = "8e87ec3fba2408d1335a2c3cd3a11661e637d85f5317478bc4e1446963888d077be3a4f67f8ebffdf946f391b36a36cf0f5ea7f165a364af613f5efd17fb7729"
+
+[update]
+[update.modrinth]
+mod-id = "zj3GsKts"
+version = "FImyhFQC"

@@ -18,3 +18,8 @@ Ajoute 4 dimensions vides (biome the_void, aucun Pokémon sauvage naturel) :
 - `/gamemode creative` puis `/function sakuflemon:aller/grand_incarnam` : aller sur la capitale (place centrale de Skyloft, 0 200 0).
 - `/function sakuflemon:admin/plateforme` : pose une dalle 9x9 sous soi pour commencer à construire.
 - `/function sakuflemon:aller/monde` : retour au monde principal.
+
+## Hub
+- À la première connexion, chaque joueur est envoyé sur la place de Skyloft (tag `sakuflemon.arrive`).
+- Après une mort, un joueur sans lit réapparaît au hub ; avec un lit, il réapparaît à son lit.
+- Pour renvoyer quelqu'un au hub à la prochaine connexion : `/tag <joueur> remove sakuflemon.arrive`.

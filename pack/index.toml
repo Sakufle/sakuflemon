@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
-hash = "486262aadd28d71ab550027f240958f677a921473e563603ad2c8517b7f70c29"
+hash = "6617eb1603c3a3aeab26549ba43c232f34d8323d8bdbae6c9af6dee8567cb60a"
 
 [[files]]
 file = "config/paxi/resourcepacks/cobblemon-emissive-ores.pw.toml"
@@ -28,6 +28,10 @@ metafile = true
 file = "config/paxi/resourcepacks/rct-trainer-textures-plus.pw.toml"
 hash = "8bd76c90d8c9b4d21e94bdb99ceee8e14d9a523b8e6cccf4ed64eaccdccc7852"
 metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/sakuflemon-badges.zip"
+hash = "9de3280d99895af8c23dc0e61ee5a273d610473095029fc1190c97e8eea34870"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -122,6 +126,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemonraiddens.pw.toml"
 hash = "b4314d30b3711b0b1b4be04de1a2c0dae824228da7dd8c74a8c9260b41fc0e79"
+metafile = true
+
+[[files]]
+file = "mods/cobblesafari.pw.toml"
+hash = "5a3b933cc7c4cb1b60e33779f2cff7583475e7c7b1eba023bf43739ab336cdd1"
 metafile = true
 
 [[files]]

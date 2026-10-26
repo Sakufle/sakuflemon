@@ -1,6 +1,35 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/paxi/resourcepack_load_order.json"
+hash = "486262aadd28d71ab550027f240958f677a921473e563603ad2c8517b7f70c29"
+
+[[files]]
+file = "config/paxi/resourcepacks/cobblemon-emissive-ores.pw.toml"
+hash = "ff320cd6d96b0c739a18af1220175c562b15b8c1114aae675718f12bbeee60df"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/cobblemon-interface-modded.pw.toml"
+hash = "f812bf391fc0a1577007d566a1c87c4aa65286f56880b05552f186d28ebced52"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/cobblemon-interface.pw.toml"
+hash = "252ea5b173528625a9e30c39598d80c1a18021f6695c822fece342c88db86ea2"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/e19-cobblemon-minimap-icons.pw.toml"
+hash = "ccd098693c4af5129c89d96b2cdff05f73f98210e622a91c55216391cd906320"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/rct-trainer-textures-plus.pw.toml"
+hash = "8bd76c90d8c9b4d21e94bdb99ceee8e14d9a523b8e6cccf4ed64eaccdccc7852"
+metafile = true
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "21dfa9e779823eb37404ff87561e83b5169686b518b7e42d20aa72f30f9487d9"
 metafile = true
@@ -233,6 +262,11 @@ metafile = true
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "60a3d23eb73106ecb6ba5a391d4539e3557cbd9b1f3611a2de08052155d78b3a"
+metafile = true
+
+[[files]]
+file = "mods/paxi.pw.toml"
+hash = "4d327db95d15a81aa38ca20bcdfd573a0537360c898622d13b263b2d9c06cd8d"
 metafile = true
 
 [[files]]

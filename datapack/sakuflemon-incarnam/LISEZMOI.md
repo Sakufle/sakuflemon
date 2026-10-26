@@ -15,6 +15,6 @@ Ajoute 4 dimensions vides (biome the_void, aucun Pokémon sauvage naturel) :
 3. Redémarrer le serveur (les nouvelles dimensions ne se chargent qu'au démarrage).
 
 ## Commandes (op)
-- `/gamemode creative` puis `/function sakuflemon:aller/grand_incarnam` : aller sur la capitale (0, 100, 0).
+- `/gamemode creative` puis `/function sakuflemon:aller/grand_incarnam` : aller sur la capitale (place centrale de Skyloft, 0 200 0).
 - `/function sakuflemon:admin/plateforme` : pose une dalle 9x9 sous soi pour commencer à construire.
 - `/function sakuflemon:aller/monde` : retour au monde principal.

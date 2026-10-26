@@ -1,9 +1,10 @@
 # Usage : /function sakuflemon:admin/biome_ile {biome:"minecraft:meadow"}
-# Change le biome de Skyloft (collée en 2 84 0 dans grand_incarnam), par quarts de 240 chunks max
+# Change le biome de Skyloft (collée en 2 84 0 dans grand_incarnam). Applique 5 s plus tard, le temps de charger les chunks.
+$data modify storage sakuflemon:admin biome set value "$(biome)"
+execute in sakuflemon:grand_incarnam run forceload add -256 -208 -1 31
+execute in sakuflemon:grand_incarnam run forceload add 0 -208 239 31
+execute in sakuflemon:grand_incarnam run forceload add -256 32 -1 271
+execute in sakuflemon:grand_incarnam run forceload add 0 32 239 271
 gamerule commandModificationBlockLimit 2000000
-$execute in sakuflemon:grand_incarnam run function sakuflemon:admin/biome_quart {x1:-256,z1:-208,x2:-1,z2:31,biome:"$(biome)"}
-$execute in sakuflemon:grand_incarnam run function sakuflemon:admin/biome_quart {x1:0,z1:-208,x2:239,z2:31,biome:"$(biome)"}
-$execute in sakuflemon:grand_incarnam run function sakuflemon:admin/biome_quart {x1:-256,z1:32,x2:-1,z2:271,biome:"$(biome)"}
-$execute in sakuflemon:grand_incarnam run function sakuflemon:admin/biome_quart {x1:0,z1:32,x2:239,z2:271,biome:"$(biome)"}
-gamerule commandModificationBlockLimit 32768
-tellraw @s {"text":"Biome de l'île changé. Reconnecte-toi pour le voir.","color":"green"}
+tellraw @a {"text":"Chargement de l'île, biome appliqué dans 5 secondes...","color":"yellow"}
+schedule function sakuflemon:admin/biome_appliquer 100t

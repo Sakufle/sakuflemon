@@ -22,16 +22,12 @@
       .then(function (r) { return r.json(); })
       .then(function (d) {
         if (d.online) {
-          statut.className = "statut en-ligne";
-          statut.textContent = "En ligne · " + d.players.online + "/" + d.players.max + " joueurs";
+          statut.innerHTML = "<b>" + d.players.online + "</b> joueurs en ligne";
         } else {
-          statut.className = "statut hors-ligne";
-          statut.textContent = "Hors ligne";
+          statut.textContent = "Serveur hors ligne";
         }
       })
       .catch(function () { statut.textContent = "Statut indisponible"; });
-  } else if (statut) {
-    statut.textContent = "Statut bientôt disponible";
   }
 
   var path = location.pathname.split("/").pop() || "index.html";
@@ -40,20 +36,3 @@
   });
 })();
 
-(function () {
-  var btn = document.getElementById("bascule");
-  if (!btn) return;
-  function courant() {
-    var t = document.documentElement.dataset.theme;
-    if (t) return t;
-    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-  }
-  function maj() { btn.textContent = courant() === "dark" ? "⚡ Zekrom" : "🔥 Reshiram"; }
-  btn.addEventListener("click", function () {
-    var t = courant() === "dark" ? "light" : "dark";
-    document.documentElement.dataset.theme = t;
-    try { localStorage.setItem("theme", t); } catch (e) {}
-    maj();
-  });
-  maj();
-})();

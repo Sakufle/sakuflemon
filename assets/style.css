@@ -172,3 +172,9 @@ main h2 { font-size: 1.6rem; margin: 40px 0 8px; }
 main ul { color: var(--muted); }
 main ul strong { color: var(--text); }
 footer { text-align: center; color: var(--muted); font-size: .9rem; padding: 28px 16px; border-top: 1px solid var(--border); background: var(--nuit-2); }
+.hero .poke img { transform: scaleX(-1); }
+.hero .poke.gauche { bottom: 90px; width: min(40vw, 560px); }
+.hero .poke.droite { bottom: 110px; width: min(32vw, 420px); }
+.hero .poke.gauche img { filter: drop-shadow(0 0 40px rgba(160,210,255,.45)) drop-shadow(0 20px 30px rgba(0,0,0,.5)); }
+.hero .poke.droite img { filter: drop-shadow(0 0 40px rgba(56,189,255,.55)) drop-shadow(0 20px 30px rgba(0,0,0,.35)); }
+@media (max-width: 640px) { .hero .poke { opacity: .9; } .hero .poke.gauche { width: 46vw; bottom: 110px; } .hero .poke.droite { width: 38vw; bottom: 120px; } }

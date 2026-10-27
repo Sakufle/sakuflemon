@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "incarnam"
-	icon: "cobblemon:poke_ball"
+	icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "sakuflemon:textures/quetes/incarnam.png" } }
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

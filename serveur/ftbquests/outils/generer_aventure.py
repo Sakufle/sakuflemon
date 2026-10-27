@@ -48,16 +48,22 @@ def block(lines, ind):
     t = "\t" * ind
     return t + "{\n" + "".join(t + "\t" + l + "\n" for l in lines) + t + "}"
 
+def icone(icon):
+    """tera:<type> = icône de type Mega Showdown ; sk:<nom> = icône maison du pack sakuflemon-interface."""
+    if icon.startswith("tera:"):
+        tex = f"mega_showdown:textures/gui/summary/tera_types/{icon[5:]}.png"
+    elif icon.startswith("sk:"):
+        tex = f"sakuflemon:textures/quetes/{icon[3:]}.png"
+    else:
+        return f'"{icon}"'
+    return '{ id: "ftbquests:custom_icon", components: { "ftbquests:icon": "%s" } }' % tex
+
 def quest(key, x, y, icon, title, sub, desc, tasks, rewards, deps=(), shape="circle", size=None):
     qid = nid(key)
     lang[f"quest.{qid}.title"] = title
     if sub: lang[f"quest.{qid}.quest_subtitle"] = sub
     if desc: lang[f"quest.{qid}.quest_desc"] = desc
-    if icon.startswith("tera:"):  # icône de type de Mega Showdown (comme sur l'autre serveur)
-        ic = ('{ id: "ftbquests:custom_icon", components: { "ftbquests:icon": '
-              f'"mega_showdown:textures/gui/summary/tera_types/{icon[5:]}.png" }} }}')
-    else:
-        ic = f'"{icon}"'
+    ic = icone(icon)
     out = [f'id: "{qid}"', f"icon: {ic}", f"x: {x:.1f}d", f"y: {y:.1f}d", f'shape: "{shape}"']
     if size: out.append(f"size: {size:.1f}d")
     out.append("dependencies: [" + " ".join(f'"{d}"' for d in deps) + "]")
@@ -80,7 +86,7 @@ def write_chapter(fname, key, order, icon, title, sub, quests):
         q += "\t\t\trewards: [\n" + "\n".join(rl) + "\n\t\t\t]\n\t\t}"
         parts.append(q)
     txt = ("{\n" f'\tid: "{cid}"\n\tgroup: ""\n\torder_index: {order}\n\tfilename: "{fname}"\n'
-           f'\ticon: "{icon}"\n\tdefault_quest_shape: ""\n\tdefault_hide_dependency_lines: false\n'
+           f'\ticon: {icone(icon)}\n\tdefault_quest_shape: ""\n\tdefault_hide_dependency_lines: false\n'
            "\tquests: [\n" + "\n".join(parts) + "\n\t]\n}\n")
     open(os.path.join(Q, "chapters", fname + ".snbt"), "w").write(txt)
 
@@ -120,7 +126,7 @@ for i, (n, cd, tb) in enumerate(paliers):
         [(k + "_t", f"Avoir capturé {n} espèces", ctask(k + "_t", "have_registered", n, dex_progress="caught"))],
         [r_cd(k + "_cd", cd), r_rand(k + "_r", tb)], deps=prev, size=1.5 if n >= 200 else None))
     prev = [nid(k)]
-write_chapter("pokedex", "chap_pokedex", 1, "cobblemon:pokedex_red", "Pokédex", "Deviens un vrai collectionneur", qs)
+write_chapter("pokedex", "chap_pokedex", 1, "sk:pokedex", "Pokédex", "Deviens un vrai collectionneur", qs)
 
 # ---------- Chapitre 18 types ----------
 TYPES = [("normal", "Normal", "cobblemon:silk_scarf"), ("fire", "Feu", "cobblemon:fire_stone"),
@@ -145,7 +151,7 @@ qs.append(quest("type_maitre", 3.75, 5.0, "cobblemon:master_ball", "Maître des 
     [("type_maitre_t", "Terminer les 18 types", ["id: \"%s\"" % nid("type_maitre_t"), 'type: "checkmark"'])],
     [r_cd("type_maitre_cd", 5000), r_key("type_maitre_k", "cle_legendaire", "Clé légendaire")],
     deps=ids, shape="hexagon", size=2.0))
-write_chapter("dix_huit_types", "chap_types", 2, "cobblemon:fire_stone", "Les 18 types", "Capture-les tous, type par type", qs)
+write_chapter("dix_huit_types", "chap_types", 2, "sk:types", "Les 18 types", "Capture-les tous, type par type", qs)
 
 # ---------- Chapitre Shiny ----------
 qs, prev = [], [FIN_INCARNAM]
@@ -161,7 +167,7 @@ for i, (n, rewards) in enumerate([
         [(k + "_t", f"Capturer {n} shiny", ctask(k + "_t", "catch", n, shiny=True))],
         rewards(k), deps=prev, size=1.5 if n >= 25 else None))
     prev = [nid(k)]
-write_chapter("shiny", "chap_shiny", 3, "minecraft:nether_star", "Chasseur de shiny", "Les Pokémon aux couleurs rares", qs)
+write_chapter("shiny", "chap_shiny", 3, "sk:shiny", "Chasseur de shiny", "Les Pokémon aux couleurs rares", qs)
 
 # ---------- Chapitre Dresseur ----------
 LIGNES = [
@@ -181,7 +187,7 @@ for row, (code, icon, nom, txt, action, steps) in enumerate(LIGNES):
             [(k + "_t", txt.format(n=n), ctask(k + "_t", action, n))],
             [r_cd(k + "_cd", cd), r_rand(k + "_r", tb)], deps=prev))
         prev = [nid(k)]
-write_chapter("dresseur", "chap_dresseur", 4, "cobblemon:black_belt", "Carrière de dresseur", "Combats, évolutions, pêche et fossiles", qs)
+write_chapter("dresseur", "chap_dresseur", 4, "sk:dresseur", "Carrière de dresseur", "Combats, évolutions, pêche et fossiles", qs)
 
 # ---------- Lang : remplace le bloc généré dans en_us.snbt ----------
 p = os.path.join(Q, "lang", "en_us.snbt")

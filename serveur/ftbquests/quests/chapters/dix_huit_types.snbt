@@ -9,7 +9,7 @@
 	quests: [
 		{
 			id: "27450714C4DF8B7B"
-			icon: "cobblemon:silk_scarf"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/normal.png" } }
 			x: 0.0d
 			y: 0.0d
 			shape: "circle"
@@ -58,7 +58,7 @@
 		}
 		{
 			id: "569AE83EA7F11EE8"
-			icon: "cobblemon:fire_stone"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/fire.png" } }
 			x: 1.5d
 			y: 0.0d
 			shape: "circle"
@@ -107,7 +107,7 @@
 		}
 		{
 			id: "5CF06AC38DC1BD90"
-			icon: "cobblemon:water_stone"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/water.png" } }
 			x: 3.0d
 			y: 0.0d
 			shape: "circle"
@@ -156,7 +156,7 @@
 		}
 		{
 			id: "2DB5AC9A57BBBFD0"
-			icon: "cobblemon:leaf_stone"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/grass.png" } }
 			x: 4.5d
 			y: 0.0d
 			shape: "circle"
@@ -205,7 +205,7 @@
 		}
 		{
 			id: "781DB44C42F0E13A"
-			icon: "cobblemon:thunder_stone"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/electric.png" } }
 			x: 6.0d
 			y: 0.0d
 			shape: "circle"
@@ -254,7 +254,7 @@
 		}
 		{
 			id: "7BF2CDB3E52BCE63"
-			icon: "cobblemon:ice_stone"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/ice.png" } }
 			x: 7.5d
 			y: 0.0d
 			shape: "circle"
@@ -303,7 +303,7 @@
 		}
 		{
 			id: "774D6B312428E00F"
-			icon: "cobblemon:muscle_band"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/fighting.png" } }
 			x: 0.0d
 			y: 1.5d
 			shape: "circle"
@@ -352,7 +352,7 @@
 		}
 		{
 			id: "4C013652C33B9E7B"
-			icon: "cobblemon:poison_barb"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/poison.png" } }
 			x: 1.5d
 			y: 1.5d
 			shape: "circle"
@@ -401,7 +401,7 @@
 		}
 		{
 			id: "2B9D681FFF8CEA9E"
-			icon: "cobblemon:soft_sand"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/ground.png" } }
 			x: 3.0d
 			y: 1.5d
 			shape: "circle"
@@ -450,7 +450,7 @@
 		}
 		{
 			id: "5114993326394F7A"
-			icon: "cobblemon:sharp_beak"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/flying.png" } }
 			x: 4.5d
 			y: 1.5d
 			shape: "circle"
@@ -499,7 +499,7 @@
 		}
 		{
 			id: "4748F4EE46EA5912"
-			icon: "cobblemon:twisted_spoon"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/psychic.png" } }
 			x: 6.0d
 			y: 1.5d
 			shape: "circle"
@@ -548,7 +548,7 @@
 		}
 		{
 			id: "01DEAFA816051F92"
-			icon: "cobblemon:silver_powder"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/bug.png" } }
 			x: 7.5d
 			y: 1.5d
 			shape: "circle"
@@ -597,7 +597,7 @@
 		}
 		{
 			id: "041B09A724295332"
-			icon: "cobblemon:hard_stone"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/rock.png" } }
 			x: 0.0d
 			y: 3.0d
 			shape: "circle"
@@ -646,7 +646,7 @@
 		}
 		{
 			id: "523B6071FEA7CD43"
-			icon: "cobblemon:spell_tag"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/ghost.png" } }
 			x: 1.5d
 			y: 3.0d
 			shape: "circle"
@@ -695,7 +695,7 @@
 		}
 		{
 			id: "63083D7DA3901C99"
-			icon: "cobblemon:dragon_fang"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/dragon.png" } }
 			x: 3.0d
 			y: 3.0d
 			shape: "circle"
@@ -744,7 +744,7 @@
 		}
 		{
 			id: "64A6AF5F0E45C65B"
-			icon: "cobblemon:black_glasses"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/dark.png" } }
 			x: 4.5d
 			y: 3.0d
 			shape: "circle"
@@ -793,7 +793,7 @@
 		}
 		{
 			id: "13AF57AB55F9B9C6"
-			icon: "cobblemon:metal_coat"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/steel.png" } }
 			x: 6.0d
 			y: 3.0d
 			shape: "circle"
@@ -842,7 +842,7 @@
 		}
 		{
 			id: "612C03DE30C590AE"
-			icon: "minecraft:pink_dye"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/fairy.png" } }
 			x: 7.5d
 			y: 3.0d
 			shape: "circle"

@@ -53,7 +53,12 @@ def quest(key, x, y, icon, title, sub, desc, tasks, rewards, deps=(), shape="cir
     lang[f"quest.{qid}.title"] = title
     if sub: lang[f"quest.{qid}.quest_subtitle"] = sub
     if desc: lang[f"quest.{qid}.quest_desc"] = desc
-    out = [f'id: "{qid}"', f'icon: "{icon}"', f"x: {x:.1f}d", f"y: {y:.1f}d", f'shape: "{shape}"']
+    if icon.startswith("tera:"):  # icône de type de Mega Showdown (comme sur l'autre serveur)
+        ic = ('{ id: "ftbquests:custom_icon", components: { "ftbquests:icon": '
+              f'"mega_showdown:textures/gui/summary/tera_types/{icon[5:]}.png" }} }}')
+    else:
+        ic = f'"{icon}"'
+    out = [f'id: "{qid}"', f"icon: {ic}", f"x: {x:.1f}d", f"y: {y:.1f}d", f'shape: "{shape}"']
     if size: out.append(f"size: {size:.1f}d")
     out.append("dependencies: [" + " ".join(f'"{d}"' for d in deps) + "]")
     body = "\n".join(out) + "\n"
@@ -109,7 +114,8 @@ paliers = [(10, 300, T_COM), (25, 600, T_COM), (50, 1000, T_RARE), (100, 2000, T
            (200, 4000, T_LEG), (400, 8000, T_LEG)]
 for i, (n, cd, tb) in enumerate(paliers):
     k = f"dex_{n}"
-    qs.append(quest(k, i * 2, 0, "cobblemon:pokedex_red", f"{n} espèces", "Complète ton Pokédex",
+    dex = ["red", "yellow", "green", "blue", "pink", "black"][i]
+    qs.append(quest(k, i * 2, 0, f"cobblemon:pokedex_{dex}", f"{n} espèces", "Complète ton Pokédex",
         [f"Capture {n} espèces différentes.", "Chaque espèce ne compte qu'une fois, peu importe sa forme."],
         [(k + "_t", f"Avoir capturé {n} espèces", ctask(k + "_t", "have_registered", n, dex_progress="caught"))],
         [r_cd(k + "_cd", cd), r_rand(k + "_r", tb)], deps=prev, size=1.5 if n >= 200 else None))
@@ -129,7 +135,7 @@ TYPES = [("normal", "Normal", "cobblemon:silk_scarf"), ("fire", "Feu", "cobblemo
 qs, ids = [], []
 for i, (t, fr, icon) in enumerate(TYPES):
     k = f"type_{t}"
-    qs.append(quest(k, (i % 6) * 1.5, (i // 6) * 1.5, icon, f"Type {fr}", None,
+    qs.append(quest(k, (i % 6) * 1.5, (i // 6) * 1.5, f"tera:{t}", f"Type {fr}", None,
         [f"Capture 5 Pokémon de type {fr}."],
         [(k + "_t", f"Capturer 5 Pokémon {fr}", ctask(k + "_t", "catch", 5, pokemon_type=t))],
         [r_cd(k + "_cd", 250)], deps=[FIN_INCARNAM]))

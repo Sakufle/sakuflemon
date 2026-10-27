@@ -63,7 +63,7 @@
 		}
 		{
 			id: "4F5C0F57F18F82BC"
-			icon: "cobblemon:pokedex_red"
+			icon: "cobblemon:pokedex_yellow"
 			x: 2.0d
 			y: 0.0d
 			shape: "circle"
@@ -117,7 +117,7 @@
 		}
 		{
 			id: "73C4884E37169DE1"
-			icon: "cobblemon:pokedex_red"
+			icon: "cobblemon:pokedex_green"
 			x: 4.0d
 			y: 0.0d
 			shape: "circle"
@@ -171,7 +171,7 @@
 		}
 		{
 			id: "68C35F19E8BD920F"
-			icon: "cobblemon:pokedex_red"
+			icon: "cobblemon:pokedex_blue"
 			x: 6.0d
 			y: 0.0d
 			shape: "circle"
@@ -225,7 +225,7 @@
 		}
 		{
 			id: "5185B148A8C9FC66"
-			icon: "cobblemon:pokedex_red"
+			icon: "cobblemon:pokedex_pink"
 			x: 8.0d
 			y: 0.0d
 			shape: "circle"
@@ -280,7 +280,7 @@
 		}
 		{
 			id: "23B3992F780CD11D"
-			icon: "cobblemon:pokedex_red"
+			icon: "cobblemon:pokedex_black"
 			x: 10.0d
 			y: 0.0d
 			shape: "circle"

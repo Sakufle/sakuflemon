@@ -88,13 +88,37 @@
 			]
 		}
 		{
+			id: "01502EAA929DEA48"
+			icon: "cobblemon:pokedex_red"
+			x: 4.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: [
+				"4159A7B742770B87"
+			]
+			tasks: [
+				{
+					id: "07F503519914F029"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "779955E092E9DD3E"
+					type: "item"
+					item: { count: 1, id: "cobblemon:pokedex_red" }
+					count: 1
+				}
+			]
+		}
+		{
 			id: "397BC115D0B7DC7B"
 			icon: "minecraft:chest"
 			x: 6.0d
 			y: 0.0d
 			shape: "circle"
 			dependencies: [
-				"4159A7B742770B87"
+				"01502EAA929DEA48"
 			]
 			tasks: [
 				{

@@ -21,6 +21,14 @@
 	]
 	"task.5FFECAEF4F77DCEF.title": "Obtenir un Pokémon"
 	"reward.229989D24AE778A3.title": "100 CobbleDollars"
+	"quest.01502EAA929DEA48.title": "Le Professeur"
+	"quest.01502EAA929DEA48.quest_subtitle": "Reçois ton Pokédex"
+	"quest.01502EAA929DEA48.quest_desc": [
+		"Un chercheur étudie les Pokémon d'Incarnam depuis le retour des humains."
+		"Va parler au Professeur sur la place : il a un Pokédex pour toi."
+	]
+	"task.07F503519914F029.title": "Parler au Professeur"
+	"reward.779955E092E9DD3E.title": "Pokédex"
 	"quest.397BC115D0B7DC7B.title": "Un coup de pouce"
 	"quest.397BC115D0B7DC7B.quest_subtitle": "Ton pack de bienvenue"
 	"quest.397BC115D0B7DC7B.quest_desc": [
@@ -155,4 +163,321 @@
 	"task.7630D193F40F1C08.title": "Je suis prêt à plonger"
 	"reward.4A19DA014BA3934E.title": "Le halo s'ouvre"
 	"reward.14B2782A022D3256.title": "1000 CobbleDollars"
+	"reward.5FD628B1AC8FFF42.title": "300 CobbleDollars"
+	"reward.5CBBD45A64353C65.title": "1 Clé commune"
+	"reward_table.781028D254782389.title": "Butin commun"
+	"reward.7B120ACD11334AA8.title": "2 Clés communes"
+	"reward.3387AA26D9A86EAA.title": "1 Clé rare"
+	"reward_table.39A62D62B73022DB.title": "Butin rare"
+	"reward.69B2E494C003F758.title": "2 Clés rares"
+	"reward.1CD2C4A45F5267A4.title": "1 Clé légendaire"
+	"reward_table.6E7D9BFFB3E912A9.title": "Butin légendaire"
+	"reward.2713682587DFD7D8.title": "300 CobbleDollars"
+	"quest.1E24A7569E59055F.title": "10 espèces"
+	"quest.1E24A7569E59055F.quest_subtitle": "Complète ton Pokédex"
+	"quest.1E24A7569E59055F.quest_desc": [
+		"Capture 10 espèces différentes."
+		"Chaque espèce ne compte qu'une fois, peu importe sa forme."
+	]
+	"task.4D032A91A68B6218.title": "Avoir capturé 10 espèces"
+	"reward.2032AAC9BFFBE58A.title": "600 CobbleDollars"
+	"quest.4F5C0F57F18F82BC.title": "25 espèces"
+	"quest.4F5C0F57F18F82BC.quest_subtitle": "Complète ton Pokédex"
+	"quest.4F5C0F57F18F82BC.quest_desc": [
+		"Capture 25 espèces différentes."
+		"Chaque espèce ne compte qu'une fois, peu importe sa forme."
+	]
+	"task.7E50BAB2EC44DB0D.title": "Avoir capturé 25 espèces"
+	"reward.52EDF81723093A64.title": "1000 CobbleDollars"
+	"quest.73C4884E37169DE1.title": "50 espèces"
+	"quest.73C4884E37169DE1.quest_subtitle": "Complète ton Pokédex"
+	"quest.73C4884E37169DE1.quest_desc": [
+		"Capture 50 espèces différentes."
+		"Chaque espèce ne compte qu'une fois, peu importe sa forme."
+	]
+	"task.01BBC86B82BA6CDA.title": "Avoir capturé 50 espèces"
+	"reward.38AC8A8BC67A4A19.title": "2000 CobbleDollars"
+	"quest.68C35F19E8BD920F.title": "100 espèces"
+	"quest.68C35F19E8BD920F.quest_subtitle": "Complète ton Pokédex"
+	"quest.68C35F19E8BD920F.quest_desc": [
+		"Capture 100 espèces différentes."
+		"Chaque espèce ne compte qu'une fois, peu importe sa forme."
+	]
+	"task.38B1531D877608EF.title": "Avoir capturé 100 espèces"
+	"reward.5FC25CC95AF778D2.title": "4000 CobbleDollars"
+	"quest.5185B148A8C9FC66.title": "200 espèces"
+	"quest.5185B148A8C9FC66.quest_subtitle": "Complète ton Pokédex"
+	"quest.5185B148A8C9FC66.quest_desc": [
+		"Capture 200 espèces différentes."
+		"Chaque espèce ne compte qu'une fois, peu importe sa forme."
+	]
+	"task.6EB28E3CA772BD58.title": "Avoir capturé 200 espèces"
+	"reward.27404910B5BFB970.title": "8000 CobbleDollars"
+	"quest.23B3992F780CD11D.title": "400 espèces"
+	"quest.23B3992F780CD11D.quest_subtitle": "Complète ton Pokédex"
+	"quest.23B3992F780CD11D.quest_desc": [
+		"Capture 400 espèces différentes."
+		"Chaque espèce ne compte qu'une fois, peu importe sa forme."
+	]
+	"task.31A7739878B60FCC.title": "Avoir capturé 400 espèces"
+	"chapter.480B526CCE8E2990.title": "Pokédex"
+	"chapter.480B526CCE8E2990.chapter_subtitle": [
+		"Deviens un vrai collectionneur"
+	]
+	"reward.2EE85D858F40B6DA.title": "250 CobbleDollars"
+	"quest.27450714C4DF8B7B.title": "Type Normal"
+	"quest.27450714C4DF8B7B.quest_desc": [
+		"Capture 5 Pokémon de type Normal."
+	]
+	"task.4B5FE0180DCF284E.title": "Capturer 5 Pokémon Normal"
+	"reward.752E0032D6292094.title": "250 CobbleDollars"
+	"quest.569AE83EA7F11EE8.title": "Type Feu"
+	"quest.569AE83EA7F11EE8.quest_desc": [
+		"Capture 5 Pokémon de type Feu."
+	]
+	"task.4383BACCFC78395F.title": "Capturer 5 Pokémon Feu"
+	"reward.647CC6229046C189.title": "250 CobbleDollars"
+	"quest.5CF06AC38DC1BD90.title": "Type Eau"
+	"quest.5CF06AC38DC1BD90.quest_desc": [
+		"Capture 5 Pokémon de type Eau."
+	]
+	"task.6B2E31588C8D6E51.title": "Capturer 5 Pokémon Eau"
+	"reward.74012405A085150E.title": "250 CobbleDollars"
+	"quest.2DB5AC9A57BBBFD0.title": "Type Plante"
+	"quest.2DB5AC9A57BBBFD0.quest_desc": [
+		"Capture 5 Pokémon de type Plante."
+	]
+	"task.656AE88ECAD0110A.title": "Capturer 5 Pokémon Plante"
+	"reward.15DF82F9581DADD1.title": "250 CobbleDollars"
+	"quest.781DB44C42F0E13A.title": "Type Électrik"
+	"quest.781DB44C42F0E13A.quest_desc": [
+		"Capture 5 Pokémon de type Électrik."
+	]
+	"task.39A7D49752998FE7.title": "Capturer 5 Pokémon Électrik"
+	"reward.07C65FC26CAD4C6D.title": "250 CobbleDollars"
+	"quest.7BF2CDB3E52BCE63.title": "Type Glace"
+	"quest.7BF2CDB3E52BCE63.quest_desc": [
+		"Capture 5 Pokémon de type Glace."
+	]
+	"task.3240FC98A11F77EE.title": "Capturer 5 Pokémon Glace"
+	"reward.58818FEA14A053E2.title": "250 CobbleDollars"
+	"quest.774D6B312428E00F.title": "Type Combat"
+	"quest.774D6B312428E00F.quest_desc": [
+		"Capture 5 Pokémon de type Combat."
+	]
+	"task.2637CCC53DBD5DE6.title": "Capturer 5 Pokémon Combat"
+	"reward.782F2556C5A8E18A.title": "250 CobbleDollars"
+	"quest.4C013652C33B9E7B.title": "Type Poison"
+	"quest.4C013652C33B9E7B.quest_desc": [
+		"Capture 5 Pokémon de type Poison."
+	]
+	"task.1F678408FBBBBA3E.title": "Capturer 5 Pokémon Poison"
+	"reward.50639B990906420B.title": "250 CobbleDollars"
+	"quest.2B9D681FFF8CEA9E.title": "Type Sol"
+	"quest.2B9D681FFF8CEA9E.quest_desc": [
+		"Capture 5 Pokémon de type Sol."
+	]
+	"task.38656449F0F1B174.title": "Capturer 5 Pokémon Sol"
+	"reward.7FB1F92479FFB93B.title": "250 CobbleDollars"
+	"quest.5114993326394F7A.title": "Type Vol"
+	"quest.5114993326394F7A.quest_desc": [
+		"Capture 5 Pokémon de type Vol."
+	]
+	"task.6CD98EEFBFD90A15.title": "Capturer 5 Pokémon Vol"
+	"reward.6FA5367FE33C87F4.title": "250 CobbleDollars"
+	"quest.4748F4EE46EA5912.title": "Type Psy"
+	"quest.4748F4EE46EA5912.quest_desc": [
+		"Capture 5 Pokémon de type Psy."
+	]
+	"task.753C6384652BB7A5.title": "Capturer 5 Pokémon Psy"
+	"reward.63D93E73E4F0E4FC.title": "250 CobbleDollars"
+	"quest.01DEAFA816051F92.title": "Type Insecte"
+	"quest.01DEAFA816051F92.quest_desc": [
+		"Capture 5 Pokémon de type Insecte."
+	]
+	"task.621143AF2D72EDFD.title": "Capturer 5 Pokémon Insecte"
+	"reward.4DA150315A91ECD5.title": "250 CobbleDollars"
+	"quest.041B09A724295332.title": "Type Roche"
+	"quest.041B09A724295332.quest_desc": [
+		"Capture 5 Pokémon de type Roche."
+	]
+	"task.16D4FCE4DE96E72E.title": "Capturer 5 Pokémon Roche"
+	"reward.4013494E3E023E0F.title": "250 CobbleDollars"
+	"quest.523B6071FEA7CD43.title": "Type Spectre"
+	"quest.523B6071FEA7CD43.quest_desc": [
+		"Capture 5 Pokémon de type Spectre."
+	]
+	"task.0FDE4A7A6935667D.title": "Capturer 5 Pokémon Spectre"
+	"reward.6D68E45987D9AD54.title": "250 CobbleDollars"
+	"quest.63083D7DA3901C99.title": "Type Dragon"
+	"quest.63083D7DA3901C99.quest_desc": [
+		"Capture 5 Pokémon de type Dragon."
+	]
+	"task.73F5B68FCF800E9D.title": "Capturer 5 Pokémon Dragon"
+	"reward.30708DCF57ADC86C.title": "250 CobbleDollars"
+	"quest.64A6AF5F0E45C65B.title": "Type Ténèbres"
+	"quest.64A6AF5F0E45C65B.quest_desc": [
+		"Capture 5 Pokémon de type Ténèbres."
+	]
+	"task.67852C36EE4C8E07.title": "Capturer 5 Pokémon Ténèbres"
+	"reward.150EF49BFCA3BC54.title": "250 CobbleDollars"
+	"quest.13AF57AB55F9B9C6.title": "Type Acier"
+	"quest.13AF57AB55F9B9C6.quest_desc": [
+		"Capture 5 Pokémon de type Acier."
+	]
+	"task.618A655B9C207F32.title": "Capturer 5 Pokémon Acier"
+	"reward.6C0EE9C59C527F15.title": "250 CobbleDollars"
+	"quest.612C03DE30C590AE.title": "Type Fée"
+	"quest.612C03DE30C590AE.quest_desc": [
+		"Capture 5 Pokémon de type Fée."
+	]
+	"task.1563DCDC7CD86E6C.title": "Capturer 5 Pokémon Fée"
+	"reward.58EC72E5682D8013.title": "5000 CobbleDollars"
+	"reward.2D79E0BE58D8EBF9.title": "1 Clé légendaire"
+	"quest.33D3A7DC13F2FE3E.title": "Maître des types"
+	"quest.33D3A7DC13F2FE3E.quest_subtitle": "Les 18 types"
+	"quest.33D3A7DC13F2FE3E.quest_desc": [
+		"Tu as dompté les 18 types. Arceus, le Pokémon aux mille plaques, te salue."
+	]
+	"task.4588C864BA351643.title": "Terminer les 18 types"
+	"chapter.1EAF8FD878174918.title": "Les 18 types"
+	"chapter.1EAF8FD878174918.chapter_subtitle": [
+		"Capture-les tous, type par type"
+	]
+	"reward.482337434595A0F8.title": "1000 CobbleDollars"
+	"reward.7F361FB277ABC650.title": "1 Clé commune"
+	"quest.57CAAE321280BC1D.title": "Premier shiny"
+	"quest.57CAAE321280BC1D.quest_subtitle": "Chasseur de chromatiques"
+	"quest.57CAAE321280BC1D.quest_desc": [
+		"Capture 1 Pokémon chromatique."
+	]
+	"task.5DCC256697D9A594.title": "Capturer 1 shiny"
+	"reward.0A411AA0387A14AB.title": "3000 CobbleDollars"
+	"reward.315DE553876292C3.title": "1 Clé rare"
+	"quest.4E41B6E89E22F8B5.title": "5 shiny"
+	"quest.4E41B6E89E22F8B5.quest_subtitle": "Chasseur de chromatiques"
+	"quest.4E41B6E89E22F8B5.quest_desc": [
+		"Capture 5 Pokémon chromatiques."
+	]
+	"task.3547028716E270FC.title": "Capturer 5 shiny"
+	"reward.2AA0964311CD5C97.title": "6000 CobbleDollars"
+	"quest.272D86CA26C6B58B.title": "10 shiny"
+	"quest.272D86CA26C6B58B.quest_subtitle": "Chasseur de chromatiques"
+	"quest.272D86CA26C6B58B.quest_desc": [
+		"Capture 10 Pokémon chromatiques."
+	]
+	"task.7FD19EF80F73FDD0.title": "Capturer 10 shiny"
+	"reward.2C0D7A9443EF27FE.title": "15000 CobbleDollars"
+	"reward.1964368A8D5B556F.title": "2 Clés légendaires"
+	"quest.5E005F20C2532190.title": "25 shiny"
+	"quest.5E005F20C2532190.quest_subtitle": "Chasseur de chromatiques"
+	"quest.5E005F20C2532190.quest_desc": [
+		"Capture 25 Pokémon chromatiques."
+	]
+	"task.3AF531A2568716A7.title": "Capturer 25 shiny"
+	"reward.2364C7A616C5A809.title": "30000 CobbleDollars"
+	"quest.501343CE414B51B6.title": "50 shiny"
+	"quest.501343CE414B51B6.quest_subtitle": "Chasseur de chromatiques"
+	"quest.501343CE414B51B6.quest_desc": [
+		"Capture 50 Pokémon chromatiques."
+	]
+	"task.25E8E00E04F01A64.title": "Capturer 50 shiny"
+	"chapter.2CEFC9A06BB45E7C.title": "Chasseur de shiny"
+	"chapter.2CEFC9A06BB45E7C.chapter_subtitle": [
+		"Les Pokémon aux couleurs rares"
+	]
+	"reward.150DBCBCA446AF4F.title": "300 CobbleDollars"
+	"quest.13F264C9D1798009.title": "Combats sauvages I"
+	"quest.13F264C9D1798009.quest_desc": [
+		"Mettre K.O. 25 Pokémon sauvages."
+	]
+	"task.668D39C12910A21A.title": "Mettre K.O. 25 Pokémon sauvages"
+	"reward.6E9DA5245C1B4227.title": "1000 CobbleDollars"
+	"quest.5F0496AD59DEB376.title": "Combats sauvages II"
+	"quest.5F0496AD59DEB376.quest_desc": [
+		"Mettre K.O. 100 Pokémon sauvages."
+	]
+	"task.4D5484A28493FF88.title": "Mettre K.O. 100 Pokémon sauvages"
+	"reward.7E626F6603B198F6.title": "4000 CobbleDollars"
+	"quest.0C7AB53780918F96.title": "Combats sauvages III"
+	"quest.0C7AB53780918F96.quest_desc": [
+		"Mettre K.O. 500 Pokémon sauvages."
+	]
+	"task.76AA1B2117C98D98.title": "Mettre K.O. 500 Pokémon sauvages"
+	"reward.7AC908475CE888A7.title": "500 CobbleDollars"
+	"quest.61A4BB0DD398813D.title": "Duels de dresseurs I"
+	"quest.61A4BB0DD398813D.quest_desc": [
+		"Battre 5 dresseurs PNJ."
+	]
+	"task.4E351129234DE7D6.title": "Battre 5 dresseurs PNJ"
+	"reward.1212733A20815B88.title": "2000 CobbleDollars"
+	"quest.5AA9C7FEC77FE486.title": "Duels de dresseurs II"
+	"quest.5AA9C7FEC77FE486.quest_desc": [
+		"Battre 20 dresseurs PNJ."
+	]
+	"task.69C905EE73E598D2.title": "Battre 20 dresseurs PNJ"
+	"reward.6C38D4863AB3A38E.title": "5000 CobbleDollars"
+	"quest.26B645A1ECF20833.title": "Duels de dresseurs III"
+	"quest.26B645A1ECF20833.quest_desc": [
+		"Battre 50 dresseurs PNJ."
+	]
+	"task.40BC376A72DAC257.title": "Battre 50 dresseurs PNJ"
+	"reward.2C1905C595F97C39.title": "400 CobbleDollars"
+	"quest.715008C09408EFB5.title": "Évolutions I"
+	"quest.715008C09408EFB5.quest_desc": [
+		"Faire évoluer 5 Pokémon."
+	]
+	"task.558202242AF1813B.title": "Faire évoluer 5 Pokémon"
+	"reward.6DDCFF1F7547DA12.title": "1500 CobbleDollars"
+	"quest.230D2E9C10272B6A.title": "Évolutions II"
+	"quest.230D2E9C10272B6A.quest_desc": [
+		"Faire évoluer 25 Pokémon."
+	]
+	"task.66FE41A2E1F609D3.title": "Faire évoluer 25 Pokémon"
+	"reward.66B5A88988C1EF4F.title": "5000 CobbleDollars"
+	"quest.5AC761529E0A05E3.title": "Évolutions III"
+	"quest.5AC761529E0A05E3.quest_desc": [
+		"Faire évoluer 100 Pokémon."
+	]
+	"task.3F070D8A99F0957B.title": "Faire évoluer 100 Pokémon"
+	"reward.51E3063E530AF055.title": "300 CobbleDollars"
+	"quest.4ECEB644936C6A4D.title": "Pêche I"
+	"quest.4ECEB644936C6A4D.quest_desc": [
+		"Pêcher 10 Pokémon."
+	]
+	"task.50C9598E50E3FEE2.title": "Pêcher 10 Pokémon"
+	"reward.568BDFF73FA4DAEB.title": "1500 CobbleDollars"
+	"quest.7371164EA61E838D.title": "Pêche II"
+	"quest.7371164EA61E838D.quest_desc": [
+		"Pêcher 50 Pokémon."
+	]
+	"task.5CA77D687A40C2B3.title": "Pêcher 50 Pokémon"
+	"reward.595A12EF790AFB20.title": "4000 CobbleDollars"
+	"quest.3809708E63A21335.title": "Pêche III"
+	"quest.3809708E63A21335.quest_desc": [
+		"Pêcher 200 Pokémon."
+	]
+	"task.2A22499AE7AE406B.title": "Pêcher 200 Pokémon"
+	"reward.13FD4CA065151902.title": "500 CobbleDollars"
+	"quest.38CEE6E1A002C0A8.title": "Paléontologue I"
+	"quest.38CEE6E1A002C0A8.quest_desc": [
+		"Ressusciter 1 fossiles."
+	]
+	"task.35C63305C86FD4E0.title": "Ressusciter 1 fossiles"
+	"reward.2E6216FE3134897C.title": "2000 CobbleDollars"
+	"quest.76CF9E9650D9DB5C.title": "Paléontologue II"
+	"quest.76CF9E9650D9DB5C.quest_desc": [
+		"Ressusciter 5 fossiles."
+	]
+	"task.1D41EA2584BF9A7D.title": "Ressusciter 5 fossiles"
+	"reward.17079C512BBCE7B8.title": "5000 CobbleDollars"
+	"quest.151481F37D46DE52.title": "Paléontologue III"
+	"quest.151481F37D46DE52.quest_desc": [
+		"Ressusciter 15 fossiles."
+	]
+	"task.2D8B08238DBE8464.title": "Ressusciter 15 fossiles"
+	"chapter.3B03C73E39911CC2.title": "Carrière de dresseur"
+	"chapter.3B03C73E39911CC2.chapter_subtitle": [
+		"Combats, évolutions, pêche et fossiles"
+	]
 }

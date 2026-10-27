@@ -132,6 +132,11 @@ hash = "8584c4ddc7b0815a4eca637dbce6d222294e4f55c31aabaff927fd963a37feba"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-quests-reloaded.pw.toml"
+hash = "94ed73d6a26600aa3a8ea540dc54729b47be5796bac30774dfc1f5d3d20a5870"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "a1e55f05ea42a011c3a638719d7feca416fe48a6812f360df87bc5416bb36400"
 metafile = true
@@ -204,6 +209,21 @@ metafile = true
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "238b3ceb4214a682480ce00eefae5d34efa299ff6ff667e4b2f2ed503c6e76ee"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library.pw.toml"
+hash = "8a40fd4ffa4b7e7b249df36c49c09e8e8bf128c2ee14f24d97f7e3d685601a54"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests.pw.toml"
+hash = "c107f97a57d59531084e5855f233d4565b3e2e60ee062b3aa5a90e4a24e8be34"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams.pw.toml"
+hash = "3b92e1eb345ef191497885193bebf695d4c8ee71702b5ffa3038348b00a1d9fe"
 metafile = true
 
 [[files]]

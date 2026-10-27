@@ -1,0 +1,23 @@
+# Halo 1 (15 33 190) : anneau de lumiere
+particle minecraft:end_rod 17.70 33.5 190.50 0 0 0 0 1 force
+particle minecraft:end_rod 17.59 33.5 191.18 0 0 0 0 1 force
+particle minecraft:end_rod 17.28 33.5 191.79 0 0 0 0 1 force
+particle minecraft:end_rod 16.79 33.5 192.28 0 0 0 0 1 force
+particle minecraft:end_rod 16.18 33.5 192.59 0 0 0 0 1 force
+particle minecraft:end_rod 15.50 33.5 192.70 0 0 0 0 1 force
+particle minecraft:end_rod 14.82 33.5 192.59 0 0 0 0 1 force
+particle minecraft:end_rod 14.21 33.5 192.28 0 0 0 0 1 force
+particle minecraft:end_rod 13.72 33.5 191.79 0 0 0 0 1 force
+particle minecraft:end_rod 13.41 33.5 191.18 0 0 0 0 1 force
+particle minecraft:end_rod 13.30 33.5 190.50 0 0 0 0 1 force
+particle minecraft:end_rod 13.41 33.5 189.82 0 0 0 0 1 force
+particle minecraft:end_rod 13.72 33.5 189.21 0 0 0 0 1 force
+particle minecraft:end_rod 14.21 33.5 188.72 0 0 0 0 1 force
+particle minecraft:end_rod 14.82 33.5 188.41 0 0 0 0 1 force
+particle minecraft:end_rod 15.50 33.5 188.30 0 0 0 0 1 force
+particle minecraft:end_rod 16.18 33.5 188.41 0 0 0 0 1 force
+particle minecraft:end_rod 16.79 33.5 188.72 0 0 0 0 1 force
+particle minecraft:end_rod 17.28 33.5 189.21 0 0 0 0 1 force
+particle minecraft:end_rod 17.59 33.5 189.82 0 0 0 0 1 force
+particle minecraft:glow 15.5 33.5 190.5 1 0.3 1 0 6 force
+particle minecraft:end_rod 15.5 32.5 190.5 0.3 2 0.3 0.02 3 force

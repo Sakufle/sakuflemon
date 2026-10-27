@@ -88,43 +88,13 @@
 			]
 		}
 		{
-			id: "8556ABD2A9333714"
-			icon: "minecraft:beacon"
-			x: 4.0d
-			y: 0.0d
-			shape: "circle"
-			dependencies: [
-				"4159A7B742770B87"
-			]
-			tasks: [
-				{
-					id: "96E9587A5CD81B6F"
-					type: "location"
-					dimension: "sakuflemon:grand_incarnam"
-					ignore_dimension: false
-					position: [I; 11, 29, 186]
-					size: [I; 9, 9, 9]
-				}
-			]
-			rewards: [
-				{
-					id: "EF2FD691B231007E"
-					type: "command"
-					command: "/cobbledollars give {p} 150"
-					player_command: false
-					silent: true
-					icon: "cobblemon:relic_coin"
-				}
-			]
-		}
-		{
 			id: "397BC115D0B7DC7B"
 			icon: "minecraft:chest"
 			x: 6.0d
 			y: 0.0d
 			shape: "circle"
 			dependencies: [
-				"8556ABD2A9333714"
+				"4159A7B742770B87"
 			]
 			tasks: [
 				{

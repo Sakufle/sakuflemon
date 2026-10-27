@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
-hash = "4dfbb869577d99d35bd2a31c6c45007faf778352dbf1a09da1160b2e4449a542"
+hash = "78246272f9ce344e45edcde3369f47987c816cd337f5424cd74ebab8d58d157f"
 
 [[files]]
 file = "config/paxi/resourcepacks/cobblemon-emissive-ores.pw.toml"
@@ -32,6 +32,10 @@ metafile = true
 [[files]]
 file = "config/paxi/resourcepacks/sakuflemon-badges.zip"
 hash = "9de3280d99895af8c23dc0e61ee5a273d610473095029fc1190c97e8eea34870"
+
+[[files]]
+file = "config/paxi/resourcepacks/sakuflemon-interface.zip"
+hash = "49d807c9bd912bb6a42f90e15f5147354db1c710a58d008604015e0f7c6cc682"
 
 [[files]]
 file = "config/paxi/resourcepacks/sakuflemon-musiques.zip"

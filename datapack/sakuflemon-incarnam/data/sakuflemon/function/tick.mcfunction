@@ -10,3 +10,4 @@ execute as @a[gamemode=survival,tag=!sakuflemon.builder] at @s if dimension saku
 execute as @a[gamemode=survival,tag=!sakuflemon.builder] at @s if dimension sakuflemon:petit_incarnam_b run gamemode adventure @s
 execute as @a[gamemode=survival,tag=!sakuflemon.builder] at @s if dimension sakuflemon:petit_incarnam_c run gamemode adventure @s
 execute as @a[gamemode=adventure,tag=!sakuflemon.builder] at @s unless dimension sakuflemon:grand_incarnam unless dimension sakuflemon:petit_incarnam_a unless dimension sakuflemon:petit_incarnam_b unless dimension sakuflemon:petit_incarnam_c run gamemode survival @s
+function sakuflemon:musique/tick

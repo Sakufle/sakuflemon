@@ -1,0 +1,8 @@
+{"name":"Champion Céleste","ai":{"type":"rct","data":{"maxSelectMargin":0.1}},"battleRules":{"maxItemUses":2},
+"bag":[{"item":"cobblemon:hyper_potion","quantity":2}],
+"team":[
+{"species":"skarmory","gender":"MALE","level":28,"nature":"impish","ability":"sturdy","moveset":["swordsdance","drillpeck","steelwing","roost"],"ivs":{"hp":31,"atk":31,"def":31,"spa":31,"spd":31,"spe":31},"evs":{"hp":252,"atk":4,"def":252},"heldItem":["rocky_helmet"]},
+{"species":"togetic","gender":"FEMALE","level":29,"nature":"modest","ability":"serenegrace","moveset":["airslash","dazzlinggleam","nastyplot","roost"],"ivs":{"hp":31,"atk":31,"def":31,"spa":31,"spd":31,"spe":31},"evs":{"hp":4,"spa":252,"spe":252},"heldItem":["life_orb"]},
+{"species":"altaria","gender":"FEMALE","level":29,"nature":"adamant","ability":"naturalcure","moveset":["dragondance","dragonclaw","bravebird","roost"],"ivs":{"hp":31,"atk":31,"def":31,"spa":31,"spd":31,"spe":31},"evs":{"hp":4,"atk":252,"spe":252},"heldItem":["leftovers"]},
+{"species":"gyarados","gender":"MALE","level":30,"nature":"adamant","ability":"intimidate","moveset":["dragondance","waterfall","bounce","icefang"],"ivs":{"hp":31,"atk":31,"def":31,"spa":31,"spd":31,"spe":31},"evs":{"hp":4,"atk":252,"spe":252},"heldItem":["sitrus_berry"]}
+]}

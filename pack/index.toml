@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
-hash = "67e0e64053f8c89f3966472c2b6b4ae9f81e029b6cbe674a14b3e0db7fa4d2b0"
+hash = "86e77ecdd170c971413cc1a95bb0f6b655ecbfb324046bfb21b765dd8ca30520"
 
 [[files]]
 file = "config/paxi/resourcepacks/cobblemon-emissive-ores.pw.toml"
@@ -32,10 +32,6 @@ metafile = true
 [[files]]
 file = "config/paxi/resourcepacks/sakuflemon-badges.zip"
 hash = "9de3280d99895af8c23dc0e61ee5a273d610473095029fc1190c97e8eea34870"
-
-[[files]]
-file = "config/paxi/resourcepacks/sakuflemon-caisses.zip"
-hash = "e173ec46bbcf316163a401dda0d862fbd8d4c21592b57c1e9a27176400d6238f"
 
 [[files]]
 file = "config/paxi/resourcepacks/shadow-lugia-addon.pw.toml"

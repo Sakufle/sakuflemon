@@ -1,4 +1,6 @@
 # Halos de Skyloft : plonger vers la terre ferme
+# Remise en selle apres un plongeon (1 tick apres la teleportation)
+execute as @a[tag=sakuflemon.remonter] at @s if dimension minecraft:overworld run function sakuflemon:halo/remonter
 # Ajouter un halo = une ligne particules + une ligne zone (et un fichier particules_N)
 scoreboard players add #horloge sakuflemon.halo 1
 execute if score #horloge sakuflemon.halo matches 4.. in sakuflemon:grand_incarnam run function sakuflemon:halo/particules_1

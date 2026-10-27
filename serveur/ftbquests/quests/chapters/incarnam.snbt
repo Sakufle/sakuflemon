@@ -21,6 +21,14 @@
 			]
 			rewards: [
 				{
+					id: "45D006FD48513B32"
+					type: "command"
+					command: "/scoreboard players set {p} sakuflemon.guide 2"
+					player_command: false
+					silent: true
+					auto: "invisible"
+				}
+				{
 					id: "6268E027E0D15BC8"
 					type: "command"
 					command: "/cobbledollars give {p} 100"
@@ -103,6 +111,14 @@
 				}
 			]
 			rewards: [
+				{
+					id: "3399E44BE0EF94CB"
+					type: "command"
+					command: "/scoreboard players set {p} sakuflemon.guide 0"
+					player_command: false
+					silent: true
+					auto: "invisible"
+				}
 				{
 					id: "779955E092E9DD3E"
 					type: "item"
@@ -312,6 +328,14 @@
 			]
 			rewards: [
 				{
+					id: "1836540E8A412946"
+					type: "command"
+					command: "/scoreboard players set {p} sakuflemon.guide 3"
+					player_command: false
+					silent: true
+					auto: "invisible"
+				}
+				{
 					id: "0533A697F294A4C5"
 					type: "item"
 					item: { count: 3, id: "cobblemon:potion" }
@@ -345,6 +369,14 @@
 				}
 			]
 			rewards: [
+				{
+					id: "5E6BA902A9FFC49E"
+					type: "command"
+					command: "/scoreboard players set {p} sakuflemon.guide 0"
+					player_command: false
+					silent: true
+					auto: "invisible"
+				}
 				{
 					id: "20C20053AC96EB26"
 					type: "command"
@@ -784,6 +816,14 @@
 				}
 			]
 			rewards: [
+				{
+					id: "4C6304F158C7F6A2"
+					type: "command"
+					command: "/scoreboard players set {p} sakuflemon.guide 4"
+					player_command: false
+					silent: true
+					auto: "invisible"
+				}
 				{
 					id: "45BF49B058D9D728"
 					type: "command"

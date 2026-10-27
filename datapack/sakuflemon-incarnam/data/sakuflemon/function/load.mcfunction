@@ -12,3 +12,4 @@ team modify dresseur prefix {"text":" ","color":"white"}
 team modify debutant prefix {"text":" ","color":"white"}
 scoreboard objectives add sakuflemon.musique dummy
 scoreboard objectives add sakuflemon.halo dummy
+scoreboard objectives add sakuflemon.guide dummy

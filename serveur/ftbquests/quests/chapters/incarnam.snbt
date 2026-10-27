@@ -106,10 +106,22 @@
 				{
 					id: "5E86F85CB0D08965"
 					type: "command"
-					command: "/cobbledollars give {p} 100"
+					command: "/cobbledollars give {p} 200"
 					player_command: false
 					silent: true
 					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "1A3C5E7092B4D6F8"
+					type: "item"
+					item: { count: 10, id: "cobblemon:poke_ball" }
+					count: 1
+				}
+				{
+					id: "2B4D6F81A3C5E709"
+					type: "item"
+					item: { count: 5, id: "cobblemon:potion" }
+					count: 1
 				}
 			]
 		}
@@ -126,7 +138,7 @@
 				{
 					id: "6B38E4F6CC71E04C"
 					type: "item"
-					item: { count: 1, id: "cobblemon:poke_ball" }
+					item: { count: 1, id: "cobblemon:red_apricorn" }
 					count: 5L
 					consume_items: false
 				}

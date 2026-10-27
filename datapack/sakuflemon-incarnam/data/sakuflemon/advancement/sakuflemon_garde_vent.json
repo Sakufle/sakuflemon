@@ -1,0 +1,1 @@
+{"criteria": {"victoire": {"trigger": "rctmod:defeat_count", "conditions": {"trainer_ids": ["sakuflemon_garde_vent"], "count": 1}}}}

@@ -1,0 +1,1050 @@
+{
+	id: "3A8EED1650FCCF98"
+	group: ""
+	order_index: 0
+	filename: "incarnam"
+	title: "Incarnam"
+	subtitle: [
+		"Le tutoriel d'Arceus"
+	]
+	icon: "cobblemon:poke_ball"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "80EBEFDB07F860D2"
+			title: "Réveil"
+			subtitle: "Arceus t'a rendu la vie"
+			icon: "cobblemon:poke_ball"
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"Tu ouvres les yeux sur une île perdue dans les nuages."
+				"Une voix immense résonne : « Je suis Arceus. Les humains avaient disparu, je t'ai recréé ici, à Incarnam. »"
+				"« Prouve que les humains et les Pokémon peuvent de nouveau vivre ensemble. »"
+				"Parle à Arceus sur la place, puis valide."
+			]
+			tasks: [
+				{
+					id: "0963F993AC781465"
+					type: "checkmark"
+					title: "J'ai écouté Arceus"
+				}
+			]
+			rewards: [
+				{
+					id: "6268E027E0D15BC8"
+					type: "command"
+					command: "/cobbledollars give {p} 100"
+					player_command: false
+					silent: true
+					title: "100 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "4159A7B742770B87"
+			title: "Ton premier compagnon"
+			subtitle: "Choisis ton starter"
+			icon: "cobblemon:great_ball"
+			x: 2.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"Arceus t'offre un compagnon pour commencer ton voyage."
+				"Ouvre l'écran des starters (la touche est indiquée en haut de l'écran) et choisis ton Pokémon."
+			]
+			dependencies: [
+				"80EBEFDB07F860D2"
+			]
+			tasks: [
+				{
+					id: "DFFECAEF4F77DCEF"
+					type: "cobblemon_quests:cobblemon_task"
+					action: "obtain"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 0L
+					title: "Obtenir un Pokémon"
+				}
+			]
+			rewards: [
+				{
+					id: "2952875EA0899CD5"
+					type: "item"
+					item: { count: 5, id: "cobblemon:poke_ball" }
+					count: 1
+				}
+				{
+					id: "A29989D24AE778A3"
+					type: "command"
+					command: "/cobbledollars give {p} 100"
+					player_command: false
+					silent: true
+					title: "100 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "8556ABD2A9333714"
+			title: "Le halo céleste"
+			subtitle: "Découvre Incarnam"
+			icon: "minecraft:beacon"
+			x: 4.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"Au centre de l'île flotte un halo de lumière."
+				"C'est le passage vers le monde d'en bas… mais il ne s'ouvrira que lorsque tu seras prêt."
+				"Va le voir de près."
+			]
+			dependencies: [
+				"4159A7B742770B87"
+			]
+			tasks: [
+				{
+					id: "96E9587A5CD81B6F"
+					type: "location"
+					dimension: "sakuflemon:grand_incarnam"
+					ignore_dimension: false
+					position: [I; 11, 29, 186]
+					size: [I; 9, 9, 9]
+					title: "Approcher le halo"
+				}
+			]
+			rewards: [
+				{
+					id: "EF2FD691B231007E"
+					type: "command"
+					command: "/cobbledollars give {p} 150"
+					player_command: false
+					silent: true
+					title: "150 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "397BC115D0B7DC7B"
+			title: "Un coup de pouce"
+			subtitle: "Récupère ton kit"
+			icon: "minecraft:chest"
+			x: 6.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"Chaque grade donne accès à un kit toutes les 3 heures."
+				"Tape /kit pour voir les tiens, puis valide."
+			]
+			dependencies: [
+				"8556ABD2A9333714"
+			]
+			tasks: [
+				{
+					id: "A271C088FDD6CC77"
+					type: "checkmark"
+					title: "J'ai regardé mes kits"
+				}
+			]
+			rewards: [
+				{
+					id: "5E86F85CB0D08965"
+					type: "command"
+					command: "/cobbledollars give {p} 100"
+					player_command: false
+					silent: true
+					title: "100 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "628655F08B22076B"
+			title: "Artisan"
+			subtitle: "Fabrique des Poké Balls"
+			icon: "cobblemon:red_apricorn"
+			x: 8.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"Les Poké Balls se fabriquent avec des Noigrumes (Apricorns) et du fer."
+				"Cueille des Noigrumes rouges dans les arbres et fabrique 5 Poké Balls."
+			]
+			dependencies: [
+				"397BC115D0B7DC7B"
+			]
+			tasks: [
+				{
+					id: "6B38E4F6CC71E04C"
+					type: "item"
+					item: { count: 1, id: "cobblemon:poke_ball" }
+					count: 5L
+					consume_items: false
+					title: "Avoir 5 Poké Balls"
+				}
+			]
+			rewards: [
+				{
+					id: "FA75043AF615F6A1"
+					type: "item"
+					item: { count: 3, id: "cobblemon:great_ball" }
+					count: 1
+				}
+				{
+					id: "327B193E60DD7894"
+					type: "command"
+					command: "/cobbledollars give {p} 150"
+					player_command: false
+					silent: true
+					title: "150 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "E96EE37416DDB400"
+			title: "Première chasse"
+			subtitle: "Capture 3 Pokémon"
+			icon: "cobblemon:poke_ball"
+			x: 0.0d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"Affaiblis un Pokémon sauvage, puis lance ta Poké Ball."
+			]
+			dependencies: [
+				"628655F08B22076B"
+			]
+			tasks: [
+				{
+					id: "0C58F13D4EFB31A0"
+					type: "cobblemon_quests:cobblemon_task"
+					action: "catch"
+					amount: 3L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 0L
+					title: "Capturer 3 Pokémon"
+				}
+			]
+			rewards: [
+				{
+					id: "F825A37D632F3E60"
+					type: "item"
+					item: { count: 5, id: "cobblemon:poke_ball" }
+					count: 1
+				}
+				{
+					id: "1DD2993F6C9387AA"
+					type: "command"
+					command: "/cobbledollars give {p} 200"
+					player_command: false
+					silent: true
+					title: "200 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "BD54FC0C19006174"
+			title: "Chercheur en herbe"
+			subtitle: "Enregistre 8 espèces"
+			icon: "cobblemon:pokedex_red"
+			x: 2.0d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"Chaque nouvelle espèce attrapée s'inscrit dans ton Pokédex."
+				"Atteins 8 espèces enregistrées."
+			]
+			dependencies: [
+				"E96EE37416DDB400"
+			]
+			tasks: [
+				{
+					id: "6C6EE64EA90A582B"
+					type: "cobblemon_quests:cobblemon_task"
+					action: "have_registered"
+					amount: 8L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 0L
+					title: "8 espèces au Pokédex"
+				}
+			]
+			rewards: [
+				{
+					id: "E1EF4DD3ADE9711B"
+					type: "command"
+					command: "/cobbledollars give {p} 300"
+					player_command: false
+					silent: true
+					title: "300 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "CF097CA259DC23A0"
+			title: "Prendre soin"
+			subtitle: "Obtiens une Potion"
+			icon: "cobblemon:potion"
+			x: 4.0d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"Tes Pokémon se fatiguent. Garde toujours de quoi les soigner."
+				"Obtiens une Potion (marchand ou fabrication)."
+			]
+			dependencies: [
+				"BD54FC0C19006174"
+			]
+			tasks: [
+				{
+					id: "57A24E83B353BDD6"
+					type: "item"
+					item: { count: 1, id: "cobblemon:potion" }
+					count: 1L
+					consume_items: false
+					title: "Avoir une Potion"
+				}
+			]
+			rewards: [
+				{
+					id: "8533A697F294A4C5"
+					type: "item"
+					item: { count: 3, id: "cobblemon:potion" }
+					count: 1
+				}
+				{
+					id: "AA9D18AE6B7D3B37"
+					type: "command"
+					command: "/cobbledollars give {p} 150"
+					player_command: false
+					silent: true
+					title: "150 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "9853C66EA20A4DB3"
+			title: "Premier duel"
+			subtitle: "Bats l'Apprenti Lumen"
+			icon: "minecraft:iron_sword"
+			x: 6.0d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"L'Apprenti Lumen s'entraîne sur l'île. Défie-le pour ton premier vrai combat de dresseur !"
+			]
+			dependencies: [
+				"CF097CA259DC23A0"
+			]
+			tasks: [
+				{
+					id: "7BC217F1BC897F1E"
+					type: "advancement"
+					advancement: "sakuflemon:sakuflemon_apprenti"
+					criterion: ""
+					title: "Battre l'Apprenti Lumen"
+				}
+			]
+			rewards: [
+				{
+					id: "20C20053AC96EB26"
+					type: "command"
+					command: "/cobbledollars give {p} 300"
+					player_command: false
+					silent: true
+					title: "300 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "81A905984188AF67"
+			title: "Le marchand"
+			subtitle: "Fais un achat"
+			icon: "cobblemon:relic_coin"
+			x: 8.0d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"Les CobbleDollars gagnés en combat servent à acheter des objets chez le marchand ou dans /boutique."
+				"Achète quelque chose, puis valide."
+			]
+			dependencies: [
+				"9853C66EA20A4DB3"
+			]
+			tasks: [
+				{
+					id: "685B772FFB66B2D8"
+					type: "checkmark"
+					title: "J'ai acheté un objet"
+				}
+			]
+			rewards: [
+				{
+					id: "0D3A4CC5270E4330"
+					type: "command"
+					command: "/cobbledollars give {p} 200"
+					player_command: false
+					silent: true
+					title: "200 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "0644440E617B2DF4"
+			title: "Coup de chance"
+			subtitle: "Ouvre une caisse commune"
+			icon: "minecraft:tripwire_hook"
+			x: 0.0d
+			y: 4.0d
+			shape: "circle"
+			description: [
+				"Les caisses Poké Ball de la place contiennent des récompenses."
+				"Voici une clé commune : ouvre la caisse commune avec, puis valide."
+			]
+			dependencies: [
+				"81A905984188AF67"
+			]
+			tasks: [
+				{
+					id: "394CFD785F3F60B8"
+					type: "checkmark"
+					title: "J'ai ouvert une caisse"
+				}
+			]
+			rewards: [
+				{
+					id: "336D7D0BDB169F89"
+					type: "command"
+					command: "CLE_COMMUNE_CMD"
+					player_command: false
+					silent: true
+					title: "Clé commune"
+				}
+			]
+		}
+		{
+			id: "061E5E6327B75C35"
+			title: "Pêche céleste"
+			subtitle: "Pêche un Pokémon Eau"
+			icon: "cobblemon:poke_rod"
+			x: 2.0d
+			y: 4.0d
+			shape: "circle"
+			description: [
+				"Fabrique une Poké Canne et lance-la dans l'eau."
+				"Remonte un Pokémon de type Eau."
+			]
+			dependencies: [
+				"0644440E617B2DF4"
+			]
+			tasks: [
+				{
+					id: "E35A31F4EE6BF970"
+					type: "cobblemon_quests:cobblemon_task"
+					action: "fishing"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "water"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 0L
+					title: "Pêcher un Pokémon Eau"
+				}
+			]
+			rewards: [
+				{
+					id: "DC6E390BB631C218"
+					type: "item"
+					item: { count: 3, id: "cobblemon:dive_ball" }
+					count: 1
+				}
+				{
+					id: "86EE37EFF707F39A"
+					type: "command"
+					command: "/cobbledollars give {p} 300"
+					player_command: false
+					silent: true
+					title: "300 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "EE0072E7094137AD"
+			title: "Variété"
+			subtitle: "Plante, Feu et Vol"
+			icon: "cobblemon:fire_stone"
+			x: 4.0d
+			y: 4.0d
+			shape: "circle"
+			description: [
+				"Une bonne équipe couvre plusieurs types."
+				"Capture un Pokémon Plante, un Feu et un Vol."
+			]
+			dependencies: [
+				"061E5E6327B75C35"
+			]
+			tasks: [
+				{
+					id: "615875DA34102217"
+					type: "cobblemon_quests:cobblemon_task"
+					action: "catch"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "grass"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 0L
+					title: "Un Pokémon Plante"
+				}
+				{
+					id: "7D919B9EA00CF251"
+					type: "cobblemon_quests:cobblemon_task"
+					action: "catch"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "fire"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 0L
+					title: "Un Pokémon Feu"
+				}
+				{
+					id: "CCB795CE1EAF5A7F"
+					type: "cobblemon_quests:cobblemon_task"
+					action: "catch"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "flying"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 0L
+					title: "Un Pokémon Vol"
+				}
+			]
+			rewards: [
+				{
+					id: "C312378623FF3BC1"
+					type: "item"
+					item: { count: 5, id: "cobblemon:great_ball" }
+					count: 1
+				}
+				{
+					id: "1F7484287CF1107D"
+					type: "command"
+					command: "/cobbledollars give {p} 400"
+					player_command: false
+					silent: true
+					title: "400 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "4318DD6A6AE16019"
+			title: "Une vraie équipe"
+			subtitle: "Obtiens 3 Pokémon"
+			icon: "cobblemon:ultra_ball"
+			x: 6.0d
+			y: 4.0d
+			shape: "circle"
+			description: [
+				"Un dresseur ne voyage jamais seul. Agrandis ton équipe."
+			]
+			dependencies: [
+				"EE0072E7094137AD"
+			]
+			tasks: [
+				{
+					id: "94CE7C662AD8424F"
+					type: "cobblemon_quests:cobblemon_task"
+					action: "obtain"
+					amount: 3L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 0L
+					title: "Obtenir 3 Pokémon"
+				}
+			]
+			rewards: [
+				{
+					id: "48F773036DF89E06"
+					type: "command"
+					command: "/cobbledollars give {p} 300"
+					player_command: false
+					silent: true
+					title: "300 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "DEC029317A9FFCDE"
+			title: "Combattant"
+			subtitle: "Gagne 3 combats sauvages"
+			icon: "cobblemon:muscle_band"
+			x: 8.0d
+			y: 4.0d
+			shape: "circle"
+			description: [
+				"Entraîne ton équipe contre les Pokémon sauvages de l'île."
+			]
+			dependencies: [
+				"4318DD6A6AE16019"
+			]
+			tasks: [
+				{
+					id: "CBEEBA5817D742A9"
+					type: "cobblemon_quests:cobblemon_task"
+					action: "defeat"
+					amount: 3L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 0L
+					title: "Vaincre 3 Pokémon sauvages"
+				}
+			]
+			rewards: [
+				{
+					id: "96A4729456F955CB"
+					type: "item"
+					item: { count: 2, id: "cobblemon:super_potion" }
+					count: 1
+				}
+				{
+					id: "F4699C611EB1F21A"
+					type: "command"
+					command: "/cobbledollars give {p} 300"
+					player_command: false
+					silent: true
+					title: "300 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "CF46B5C1B8039714"
+			title: "Montée en puissance"
+			subtitle: "Atteins le niveau 15"
+			icon: "cobblemon:rare_candy"
+			x: 0.0d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Fais monter un de tes Pokémon jusqu'au niveau 15."
+			]
+			dependencies: [
+				"DEC029317A9FFCDE"
+			]
+			tasks: [
+				{
+					id: "A6DAF03064DCC46E"
+					type: "cobblemon_quests:cobblemon_task"
+					action: "level_up"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 15
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 0L
+					title: "Un Pokémon niveau 15"
+				}
+			]
+			rewards: [
+				{
+					id: "AAB867375C6E8966"
+					type: "item"
+					item: { count: 1, id: "cobblemon:rare_candy" }
+					count: 1
+				}
+				{
+					id: "3A89B24DC7F34F3F"
+					type: "command"
+					command: "/cobbledollars give {p} 400"
+					player_command: false
+					silent: true
+					title: "400 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "B53EB08E21C58FD8"
+			title: "Métamorphose"
+			subtitle: "Fais évoluer un Pokémon"
+			icon: "cobblemon:everstone"
+			x: 2.0d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Avec assez d'expérience, certains Pokémon évoluent."
+			]
+			dependencies: [
+				"CF46B5C1B8039714"
+			]
+			tasks: [
+				{
+					id: "CC3B3B3FF4179059"
+					type: "cobblemon_quests:cobblemon_task"
+					action: "evolve_into"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 0L
+					title: "Faire évoluer un Pokémon"
+				}
+			]
+			rewards: [
+				{
+					id: "C5BF49B058D9D728"
+					type: "command"
+					command: "/cobbledollars give {p} 500"
+					player_command: false
+					silent: true
+					title: "500 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "493F35F7F666798C"
+			title: "Les Gardes du ciel"
+			subtitle: "Bats les deux Gardes"
+			icon: "minecraft:shield"
+			x: 4.0d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Deux Gardes protègent l'accès à l'Arène Céleste."
+				"Bats Aéro, Garde du Vent, et Stratus, Garde de la Nuée."
+			]
+			dependencies: [
+				"B53EB08E21C58FD8"
+			]
+			tasks: [
+				{
+					id: "2260BC876EBBCA9B"
+					type: "advancement"
+					advancement: "sakuflemon:sakuflemon_garde_vent"
+					criterion: ""
+					title: "Battre Aéro"
+				}
+				{
+					id: "E82A31B390E6B219"
+					type: "advancement"
+					advancement: "sakuflemon:sakuflemon_garde_nuee"
+					criterion: ""
+					title: "Battre Stratus"
+				}
+			]
+			rewards: [
+				{
+					id: "07D2B6D736F80C9A"
+					type: "item"
+					item: { count: 2, id: "cobblemon:hyper_potion" }
+					count: 1
+				}
+				{
+					id: "798D2BB18D83E8CE"
+					type: "command"
+					command: "/cobbledollars give {p} 800"
+					player_command: false
+					silent: true
+					title: "800 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "547B24916477DE3D"
+			title: "L'Arène Céleste"
+			subtitle: "Bats le Champion Céleste"
+			icon: "minecraft:feather"
+			x: 6.0d
+			y: 6.0d
+			shape: "rsquare"
+			description: [
+				"Le Champion Céleste attend sur l'île citrouille."
+				"Son équipe est redoutable : prépare-toi bien !"
+			]
+			size: 1.5d
+			dependencies: [
+				"493F35F7F666798C"
+			]
+			tasks: [
+				{
+					id: "E4B8D0D73B8D9B84"
+					type: "advancement"
+					advancement: "sakuflemon:arene_celeste"
+					criterion: ""
+					title: "Battre le Champion Céleste"
+				}
+			]
+			rewards: [ ]
+		}
+		{
+			id: "0305BC51DE70A11D"
+			title: "Les ailes"
+			subtitle: "Le grand plongeon"
+			icon: "minecraft:elytra"
+			x: 8.0d
+			y: 6.0d
+			shape: "rsquare"
+			description: [
+				"Arceus te juge digne. Le halo céleste s'ouvre à toi."
+				"Saute dans le halo pour plonger vers le monde d'en bas, et sors ton Pokémon volant !"
+			]
+			size: 1.5d
+			dependencies: [
+				"547B24916477DE3D"
+			]
+			tasks: [
+				{
+					id: "F630D193F40F1C08"
+					type: "checkmark"
+					title: "Je suis prêt à plonger"
+				}
+			]
+			rewards: [
+				{
+					id: "CA19DA014BA3934E"
+					type: "command"
+					command: "/tag {p} add sakuflemon.plongeon"
+					player_command: false
+					silent: true
+					title: "Le halo s'ouvre"
+				}
+				{
+					id: "14B2782A022D3256"
+					type: "command"
+					command: "/cobbledollars give {p} 1000"
+					player_command: false
+					silent: true
+					title: "1000 CobbleDollars"
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+	]
+}

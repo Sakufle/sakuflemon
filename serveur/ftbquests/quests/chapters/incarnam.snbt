@@ -8,7 +8,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "80EBEFDB07F860D2"
+			id: "00EBEFDB07F860D2"
 			icon: "cobblemon:poke_ball"
 			x: 0.0d
 			y: 0.0d
@@ -37,11 +37,11 @@
 			y: 0.0d
 			shape: "circle"
 			dependencies: [
-				"80EBEFDB07F860D2"
+				"00EBEFDB07F860D2"
 			]
 			tasks: [
 				{
-					id: "DFFECAEF4F77DCEF"
+					id: "5FFECAEF4F77DCEF"
 					type: "cobblemon_quests:cobblemon_task"
 					action: "obtain"
 					amount: 1L
@@ -78,7 +78,7 @@
 					count: 1
 				}
 				{
-					id: "A29989D24AE778A3"
+					id: "229989D24AE778A3"
 					type: "command"
 					command: "/cobbledollars give {p} 100"
 					player_command: false
@@ -98,7 +98,7 @@
 			]
 			tasks: [
 				{
-					id: "A271C088FDD6CC77"
+					id: "2271C088FDD6CC77"
 					type: "checkmark"
 				}
 			]
@@ -133,7 +133,7 @@
 			]
 			rewards: [
 				{
-					id: "FA75043AF615F6A1"
+					id: "7A75043AF615F6A1"
 					type: "item"
 					item: { count: 3, id: "cobblemon:great_ball" }
 					count: 1
@@ -149,7 +149,7 @@
 			]
 		}
 		{
-			id: "E96EE37416DDB400"
+			id: "696EE37416DDB400"
 			icon: "cobblemon:poke_ball"
 			x: 0.0d
 			y: 2.0d
@@ -190,7 +190,7 @@
 			]
 			rewards: [
 				{
-					id: "F825A37D632F3E60"
+					id: "7825A37D632F3E60"
 					type: "item"
 					item: { count: 5, id: "cobblemon:poke_ball" }
 					count: 1
@@ -206,13 +206,13 @@
 			]
 		}
 		{
-			id: "BD54FC0C19006174"
+			id: "3D54FC0C19006174"
 			icon: "cobblemon:pokedex_red"
 			x: 2.0d
 			y: 2.0d
 			shape: "circle"
 			dependencies: [
-				"E96EE37416DDB400"
+				"696EE37416DDB400"
 			]
 			tasks: [
 				{
@@ -247,7 +247,7 @@
 			]
 			rewards: [
 				{
-					id: "E1EF4DD3ADE9711B"
+					id: "61EF4DD3ADE9711B"
 					type: "command"
 					command: "/cobbledollars give {p} 300"
 					player_command: false
@@ -257,13 +257,13 @@
 			]
 		}
 		{
-			id: "CF097CA259DC23A0"
+			id: "4F097CA259DC23A0"
 			icon: "cobblemon:potion"
 			x: 4.0d
 			y: 2.0d
 			shape: "circle"
 			dependencies: [
-				"BD54FC0C19006174"
+				"3D54FC0C19006174"
 			]
 			tasks: [
 				{
@@ -276,13 +276,13 @@
 			]
 			rewards: [
 				{
-					id: "8533A697F294A4C5"
+					id: "0533A697F294A4C5"
 					type: "item"
 					item: { count: 3, id: "cobblemon:potion" }
 					count: 1
 				}
 				{
-					id: "AA9D18AE6B7D3B37"
+					id: "2A9D18AE6B7D3B37"
 					type: "command"
 					command: "/cobbledollars give {p} 150"
 					player_command: false
@@ -292,13 +292,13 @@
 			]
 		}
 		{
-			id: "9853C66EA20A4DB3"
+			id: "1853C66EA20A4DB3"
 			icon: "minecraft:iron_sword"
 			x: 6.0d
 			y: 2.0d
 			shape: "circle"
 			dependencies: [
-				"CF097CA259DC23A0"
+				"4F097CA259DC23A0"
 			]
 			tasks: [
 				{
@@ -320,13 +320,13 @@
 			]
 		}
 		{
-			id: "81A905984188AF67"
+			id: "01A905984188AF67"
 			icon: "cobblemon:relic_coin"
 			x: 8.0d
 			y: 2.0d
 			shape: "circle"
 			dependencies: [
-				"9853C66EA20A4DB3"
+				"1853C66EA20A4DB3"
 			]
 			tasks: [
 				{
@@ -352,7 +352,7 @@
 			y: 4.0d
 			shape: "circle"
 			dependencies: [
-				"81A905984188AF67"
+				"01A905984188AF67"
 			]
 			tasks: [
 				{
@@ -381,7 +381,7 @@
 			]
 			tasks: [
 				{
-					id: "E35A31F4EE6BF970"
+					id: "635A31F4EE6BF970"
 					type: "cobblemon_quests:cobblemon_task"
 					action: "fishing"
 					amount: 1L
@@ -412,13 +412,13 @@
 			]
 			rewards: [
 				{
-					id: "DC6E390BB631C218"
+					id: "5C6E390BB631C218"
 					type: "item"
 					item: { count: 3, id: "cobblemon:dive_ball" }
 					count: 1
 				}
 				{
-					id: "86EE37EFF707F39A"
+					id: "06EE37EFF707F39A"
 					type: "command"
 					command: "/cobbledollars give {p} 300"
 					player_command: false
@@ -428,7 +428,7 @@
 			]
 		}
 		{
-			id: "EE0072E7094137AD"
+			id: "6E0072E7094137AD"
 			icon: "cobblemon:fire_stone"
 			x: 4.0d
 			y: 4.0d
@@ -496,7 +496,7 @@
 					time_max: 0L
 				}
 				{
-					id: "CCB795CE1EAF5A7F"
+					id: "4CB795CE1EAF5A7F"
 					type: "cobblemon_quests:cobblemon_task"
 					action: "catch"
 					amount: 1L
@@ -527,7 +527,7 @@
 			]
 			rewards: [
 				{
-					id: "C312378623FF3BC1"
+					id: "4312378623FF3BC1"
 					type: "item"
 					item: { count: 5, id: "cobblemon:great_ball" }
 					count: 1
@@ -549,11 +549,11 @@
 			y: 4.0d
 			shape: "circle"
 			dependencies: [
-				"EE0072E7094137AD"
+				"6E0072E7094137AD"
 			]
 			tasks: [
 				{
-					id: "94CE7C662AD8424F"
+					id: "14CE7C662AD8424F"
 					type: "cobblemon_quests:cobblemon_task"
 					action: "obtain"
 					amount: 3L
@@ -594,7 +594,7 @@
 			]
 		}
 		{
-			id: "DEC029317A9FFCDE"
+			id: "5EC029317A9FFCDE"
 			icon: "cobblemon:muscle_band"
 			x: 8.0d
 			y: 4.0d
@@ -604,7 +604,7 @@
 			]
 			tasks: [
 				{
-					id: "CBEEBA5817D742A9"
+					id: "4BEEBA5817D742A9"
 					type: "cobblemon_quests:cobblemon_task"
 					action: "defeat"
 					amount: 3L
@@ -635,13 +635,13 @@
 			]
 			rewards: [
 				{
-					id: "96A4729456F955CB"
+					id: "16A4729456F955CB"
 					type: "item"
 					item: { count: 2, id: "cobblemon:super_potion" }
 					count: 1
 				}
 				{
-					id: "F4699C611EB1F21A"
+					id: "74699C611EB1F21A"
 					type: "command"
 					command: "/cobbledollars give {p} 300"
 					player_command: false
@@ -651,17 +651,17 @@
 			]
 		}
 		{
-			id: "CF46B5C1B8039714"
+			id: "4F46B5C1B8039714"
 			icon: "cobblemon:rare_candy"
 			x: 0.0d
 			y: 6.0d
 			shape: "circle"
 			dependencies: [
-				"DEC029317A9FFCDE"
+				"5EC029317A9FFCDE"
 			]
 			tasks: [
 				{
-					id: "A6DAF03064DCC46E"
+					id: "26DAF03064DCC46E"
 					type: "cobblemon_quests:cobblemon_task"
 					action: "level_up"
 					amount: 1L
@@ -692,7 +692,7 @@
 			]
 			rewards: [
 				{
-					id: "AAB867375C6E8966"
+					id: "2AB867375C6E8966"
 					type: "item"
 					item: { count: 1, id: "cobblemon:rare_candy" }
 					count: 1
@@ -708,17 +708,17 @@
 			]
 		}
 		{
-			id: "B53EB08E21C58FD8"
+			id: "353EB08E21C58FD8"
 			icon: "cobblemon:everstone"
 			x: 2.0d
 			y: 6.0d
 			shape: "circle"
 			dependencies: [
-				"CF46B5C1B8039714"
+				"4F46B5C1B8039714"
 			]
 			tasks: [
 				{
-					id: "CC3B3B3FF4179059"
+					id: "4C3B3B3FF4179059"
 					type: "cobblemon_quests:cobblemon_task"
 					action: "evolve_into"
 					amount: 1L
@@ -749,7 +749,7 @@
 			]
 			rewards: [
 				{
-					id: "C5BF49B058D9D728"
+					id: "45BF49B058D9D728"
 					type: "command"
 					command: "/cobbledollars give {p} 500"
 					player_command: false
@@ -765,7 +765,7 @@
 			y: 6.0d
 			shape: "circle"
 			dependencies: [
-				"B53EB08E21C58FD8"
+				"353EB08E21C58FD8"
 			]
 			tasks: [
 				{
@@ -775,7 +775,7 @@
 					criterion: ""
 				}
 				{
-					id: "E82A31B390E6B219"
+					id: "682A31B390E6B219"
 					type: "advancement"
 					advancement: "sakuflemon:sakuflemon_garde_nuee"
 					criterion: ""
@@ -810,7 +810,7 @@
 			]
 			tasks: [
 				{
-					id: "E4B8D0D73B8D9B84"
+					id: "64B8D0D73B8D9B84"
 					type: "advancement"
 					advancement: "sakuflemon:arene_celeste"
 					criterion: ""
@@ -830,13 +830,13 @@
 			]
 			tasks: [
 				{
-					id: "F630D193F40F1C08"
+					id: "7630D193F40F1C08"
 					type: "checkmark"
 				}
 			]
 			rewards: [
 				{
-					id: "CA19DA014BA3934E"
+					id: "4A19DA014BA3934E"
 					type: "command"
 					command: "/tag {p} add sakuflemon.plongeon"
 					player_command: false

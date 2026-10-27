@@ -3,9 +3,9 @@
 	"chapter.3A8EED1650FCCF98.chapter_subtitle": [
 		"Le tutoriel d'Arceus"
 	]
-	"quest.80EBEFDB07F860D2.title": "Réveil"
-	"quest.80EBEFDB07F860D2.quest_subtitle": "Arceus t'a rendu la vie"
-	"quest.80EBEFDB07F860D2.quest_desc": [
+	"quest.00EBEFDB07F860D2.title": "Réveil"
+	"quest.00EBEFDB07F860D2.quest_subtitle": "Arceus t'a rendu la vie"
+	"quest.00EBEFDB07F860D2.quest_desc": [
 		"Tu ouvres les yeux sur une île perdue dans les nuages."
 		"Une voix immense résonne : « Je suis Arceus. Les humains avaient disparu, je t'ai recréé ici, à Incarnam. »"
 		"« Prouve que les humains et les Pokémon peuvent de nouveau vivre ensemble. »"
@@ -19,15 +19,15 @@
 		"Arceus t'offre un compagnon pour commencer ton voyage."
 		"Ouvre l'écran des starters (la touche est indiquée en haut de l'écran) et choisis ton Pokémon."
 	]
-	"task.DFFECAEF4F77DCEF.title": "Obtenir un Pokémon"
-	"reward.A29989D24AE778A3.title": "100 CobbleDollars"
+	"task.5FFECAEF4F77DCEF.title": "Obtenir un Pokémon"
+	"reward.229989D24AE778A3.title": "100 CobbleDollars"
 	"quest.397BC115D0B7DC7B.title": "Un coup de pouce"
 	"quest.397BC115D0B7DC7B.quest_subtitle": "Récupère ton kit"
 	"quest.397BC115D0B7DC7B.quest_desc": [
 		"Chaque grade donne accès à un kit toutes les 3 heures."
 		"Tape /kit pour voir les tiens, puis valide."
 	]
-	"task.A271C088FDD6CC77.title": "J'ai regardé mes kits"
+	"task.2271C088FDD6CC77.title": "J'ai regardé mes kits"
 	"reward.5E86F85CB0D08965.title": "100 CobbleDollars"
 	"quest.628655F08B22076B.title": "Artisan"
 	"quest.628655F08B22076B.quest_subtitle": "Fabrique des Poké Balls"
@@ -37,39 +37,39 @@
 	]
 	"task.6B38E4F6CC71E04C.title": "Avoir 5 Poké Balls"
 	"reward.327B193E60DD7894.title": "150 CobbleDollars"
-	"quest.E96EE37416DDB400.title": "Première chasse"
-	"quest.E96EE37416DDB400.quest_subtitle": "Capture 3 Pokémon"
-	"quest.E96EE37416DDB400.quest_desc": [
+	"quest.696EE37416DDB400.title": "Première chasse"
+	"quest.696EE37416DDB400.quest_subtitle": "Capture 3 Pokémon"
+	"quest.696EE37416DDB400.quest_desc": [
 		"Affaiblis un Pokémon sauvage, puis lance ta Poké Ball."
 	]
 	"task.0C58F13D4EFB31A0.title": "Capturer 3 Pokémon"
 	"reward.1DD2993F6C9387AA.title": "200 CobbleDollars"
-	"quest.BD54FC0C19006174.title": "Chercheur en herbe"
-	"quest.BD54FC0C19006174.quest_subtitle": "Enregistre 8 espèces"
-	"quest.BD54FC0C19006174.quest_desc": [
+	"quest.3D54FC0C19006174.title": "Chercheur en herbe"
+	"quest.3D54FC0C19006174.quest_subtitle": "Enregistre 8 espèces"
+	"quest.3D54FC0C19006174.quest_desc": [
 		"Chaque nouvelle espèce attrapée s'inscrit dans ton Pokédex."
 		"Atteins 8 espèces enregistrées."
 	]
 	"task.6C6EE64EA90A582B.title": "8 espèces au Pokédex"
-	"reward.E1EF4DD3ADE9711B.title": "300 CobbleDollars"
-	"quest.CF097CA259DC23A0.title": "Prendre soin"
-	"quest.CF097CA259DC23A0.quest_subtitle": "Obtiens une Potion"
-	"quest.CF097CA259DC23A0.quest_desc": [
+	"reward.61EF4DD3ADE9711B.title": "300 CobbleDollars"
+	"quest.4F097CA259DC23A0.title": "Prendre soin"
+	"quest.4F097CA259DC23A0.quest_subtitle": "Obtiens une Potion"
+	"quest.4F097CA259DC23A0.quest_desc": [
 		"Tes Pokémon se fatiguent. Garde toujours de quoi les soigner."
 		"Obtiens une Potion (marchand ou fabrication)."
 	]
 	"task.57A24E83B353BDD6.title": "Avoir une Potion"
-	"reward.AA9D18AE6B7D3B37.title": "150 CobbleDollars"
-	"quest.9853C66EA20A4DB3.title": "Premier duel"
-	"quest.9853C66EA20A4DB3.quest_subtitle": "Bats l'Apprenti Lumen"
-	"quest.9853C66EA20A4DB3.quest_desc": [
+	"reward.2A9D18AE6B7D3B37.title": "150 CobbleDollars"
+	"quest.1853C66EA20A4DB3.title": "Premier duel"
+	"quest.1853C66EA20A4DB3.quest_subtitle": "Bats l'Apprenti Lumen"
+	"quest.1853C66EA20A4DB3.quest_desc": [
 		"L'Apprenti Lumen s'entraîne sur l'île. Défie-le pour ton premier vrai combat de dresseur !"
 	]
 	"task.7BC217F1BC897F1E.title": "Battre l'Apprenti Lumen"
 	"reward.20C20053AC96EB26.title": "300 CobbleDollars"
-	"quest.81A905984188AF67.title": "Le marchand"
-	"quest.81A905984188AF67.quest_subtitle": "Fais un achat"
-	"quest.81A905984188AF67.quest_desc": [
+	"quest.01A905984188AF67.title": "Le marchand"
+	"quest.01A905984188AF67.quest_subtitle": "Fais un achat"
+	"quest.01A905984188AF67.quest_desc": [
 		"Les CobbleDollars gagnés en combat servent à acheter des objets chez le marchand ou dans /boutique."
 		"Achète quelque chose, puis valide."
 	]
@@ -89,46 +89,46 @@
 		"Fabrique une Poké Canne et lance-la dans l'eau."
 		"Remonte un Pokémon de type Eau."
 	]
-	"task.E35A31F4EE6BF970.title": "Pêcher un Pokémon Eau"
-	"reward.86EE37EFF707F39A.title": "300 CobbleDollars"
-	"quest.EE0072E7094137AD.title": "Variété"
-	"quest.EE0072E7094137AD.quest_subtitle": "Plante, Feu et Vol"
-	"quest.EE0072E7094137AD.quest_desc": [
+	"task.635A31F4EE6BF970.title": "Pêcher un Pokémon Eau"
+	"reward.06EE37EFF707F39A.title": "300 CobbleDollars"
+	"quest.6E0072E7094137AD.title": "Variété"
+	"quest.6E0072E7094137AD.quest_subtitle": "Plante, Feu et Vol"
+	"quest.6E0072E7094137AD.quest_desc": [
 		"Une bonne équipe couvre plusieurs types."
 		"Capture un Pokémon Plante, un Feu et un Vol."
 	]
 	"task.615875DA34102217.title": "Un Pokémon Plante"
 	"task.7D919B9EA00CF251.title": "Un Pokémon Feu"
-	"task.CCB795CE1EAF5A7F.title": "Un Pokémon Vol"
+	"task.4CB795CE1EAF5A7F.title": "Un Pokémon Vol"
 	"reward.1F7484287CF1107D.title": "400 CobbleDollars"
 	"quest.4318DD6A6AE16019.title": "Une vraie équipe"
 	"quest.4318DD6A6AE16019.quest_subtitle": "Obtiens 3 Pokémon"
 	"quest.4318DD6A6AE16019.quest_desc": [
 		"Un dresseur ne voyage jamais seul. Agrandis ton équipe."
 	]
-	"task.94CE7C662AD8424F.title": "Obtenir 3 Pokémon"
+	"task.14CE7C662AD8424F.title": "Obtenir 3 Pokémon"
 	"reward.48F773036DF89E06.title": "300 CobbleDollars"
-	"quest.DEC029317A9FFCDE.title": "Combattant"
-	"quest.DEC029317A9FFCDE.quest_subtitle": "Gagne 3 combats sauvages"
-	"quest.DEC029317A9FFCDE.quest_desc": [
+	"quest.5EC029317A9FFCDE.title": "Combattant"
+	"quest.5EC029317A9FFCDE.quest_subtitle": "Gagne 3 combats sauvages"
+	"quest.5EC029317A9FFCDE.quest_desc": [
 		"Entraîne ton équipe contre les Pokémon sauvages de l'île."
 	]
-	"task.CBEEBA5817D742A9.title": "Vaincre 3 Pokémon sauvages"
-	"reward.F4699C611EB1F21A.title": "300 CobbleDollars"
-	"quest.CF46B5C1B8039714.title": "Montée en puissance"
-	"quest.CF46B5C1B8039714.quest_subtitle": "Atteins le niveau 15"
-	"quest.CF46B5C1B8039714.quest_desc": [
+	"task.4BEEBA5817D742A9.title": "Vaincre 3 Pokémon sauvages"
+	"reward.74699C611EB1F21A.title": "300 CobbleDollars"
+	"quest.4F46B5C1B8039714.title": "Montée en puissance"
+	"quest.4F46B5C1B8039714.quest_subtitle": "Atteins le niveau 15"
+	"quest.4F46B5C1B8039714.quest_desc": [
 		"Fais monter un de tes Pokémon jusqu'au niveau 15."
 	]
-	"task.A6DAF03064DCC46E.title": "Un Pokémon niveau 15"
+	"task.26DAF03064DCC46E.title": "Un Pokémon niveau 15"
 	"reward.3A89B24DC7F34F3F.title": "400 CobbleDollars"
-	"quest.B53EB08E21C58FD8.title": "Métamorphose"
-	"quest.B53EB08E21C58FD8.quest_subtitle": "Fais évoluer un Pokémon"
-	"quest.B53EB08E21C58FD8.quest_desc": [
+	"quest.353EB08E21C58FD8.title": "Métamorphose"
+	"quest.353EB08E21C58FD8.quest_subtitle": "Fais évoluer un Pokémon"
+	"quest.353EB08E21C58FD8.quest_desc": [
 		"Avec assez d'expérience, certains Pokémon évoluent."
 	]
-	"task.CC3B3B3FF4179059.title": "Faire évoluer un Pokémon"
-	"reward.C5BF49B058D9D728.title": "500 CobbleDollars"
+	"task.4C3B3B3FF4179059.title": "Faire évoluer un Pokémon"
+	"reward.45BF49B058D9D728.title": "500 CobbleDollars"
 	"quest.493F35F7F666798C.title": "Les Gardes du ciel"
 	"quest.493F35F7F666798C.quest_subtitle": "Bats les deux Gardes"
 	"quest.493F35F7F666798C.quest_desc": [
@@ -136,7 +136,7 @@
 		"Bats Aéro, Garde du Vent, et Stratus, Garde de la Nuée."
 	]
 	"task.2260BC876EBBCA9B.title": "Battre Aéro"
-	"task.E82A31B390E6B219.title": "Battre Stratus"
+	"task.682A31B390E6B219.title": "Battre Stratus"
 	"reward.798D2BB18D83E8CE.title": "800 CobbleDollars"
 	"quest.547B24916477DE3D.title": "L'Arène Céleste"
 	"quest.547B24916477DE3D.quest_subtitle": "Bats le Champion Céleste"
@@ -144,14 +144,14 @@
 		"Le Champion Céleste attend sur l'île citrouille."
 		"Son équipe est redoutable : prépare-toi bien !"
 	]
-	"task.E4B8D0D73B8D9B84.title": "Battre le Champion Céleste"
+	"task.64B8D0D73B8D9B84.title": "Battre le Champion Céleste"
 	"quest.0305BC51DE70A11D.title": "Les ailes"
 	"quest.0305BC51DE70A11D.quest_subtitle": "Le grand plongeon"
 	"quest.0305BC51DE70A11D.quest_desc": [
 		"Arceus te juge digne. Le halo céleste s'ouvre à toi."
 		"Saute dans le halo pour plonger vers le monde d'en bas, et sors ton Pokémon volant !"
 	]
-	"task.F630D193F40F1C08.title": "Je suis prêt à plonger"
-	"reward.CA19DA014BA3934E.title": "Le halo s'ouvre"
+	"task.7630D193F40F1C08.title": "Je suis prêt à plonger"
+	"reward.4A19DA014BA3934E.title": "Le halo s'ouvre"
 	"reward.14B2782A022D3256.title": "1000 CobbleDollars"
 }

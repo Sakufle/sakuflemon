@@ -1005,7 +1005,7 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
         46,
@@ -1061,7 +1061,7 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
         49,
@@ -1109,7 +1109,7 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
         52,

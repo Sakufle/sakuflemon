@@ -21,7 +21,7 @@
     "boutique": {
       "item": "minecraft:gold_ingot",
       "slots": [
-        9
+        0
       ],
       "name": "<gold><b>Boutique",
       "lore": [
@@ -63,13 +63,13 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
-        0,
         1,
         2,
         3,
+        9,
         10,
         11,
         12
@@ -78,7 +78,7 @@
     "cosmetiques": {
       "item": "minecraft:amethyst_shard",
       "slots": [
-        14
+        5
       ],
       "name": "<light_purple><b>Cosmétiques",
       "lore": [
@@ -120,13 +120,13 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
-        5,
         6,
         7,
         8,
+        14,
         15,
         16,
         17
@@ -135,7 +135,7 @@
     "teleportation": {
       "item": "minecraft:ender_pearl",
       "slots": [
-        27
+        18
       ],
       "name": "<aqua><b>Téléportation",
       "lore": [
@@ -177,13 +177,13 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
-        18,
         19,
         20,
         21,
+        27,
         28,
         29,
         30
@@ -192,7 +192,7 @@
     "recompenses": {
       "item": "minecraft:chest",
       "slots": [
-        32
+        23
       ],
       "name": "<green><b>Récompenses",
       "lore": [
@@ -238,13 +238,13 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
-        23,
         24,
         25,
         26,
+        32,
         33,
         34,
         35

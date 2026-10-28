@@ -75,7 +75,7 @@
           "sound": "minecraft:block.note_block.bass"
         }
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
         10,
@@ -222,7 +222,7 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
         10,
@@ -287,7 +287,7 @@
           "sound": "minecraft:block.note_block.bass"
         }
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
         19,
@@ -434,7 +434,7 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
         19,
@@ -499,7 +499,7 @@
           "sound": "minecraft:block.note_block.bass"
         }
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
         28,
@@ -646,7 +646,7 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
         28,
@@ -909,7 +909,7 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "slots": [
         15,
         16,
@@ -1171,7 +1171,7 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "slots": [
         24,
         25,
@@ -1433,7 +1433,7 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "slots": [
         33,
         34,
@@ -1481,7 +1481,7 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
         46,
@@ -1545,7 +1545,7 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
         52,

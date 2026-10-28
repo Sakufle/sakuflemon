@@ -22,7 +22,7 @@
     "skyloft": {
       "item": "minecraft:white_wool",
       "slots": [
-        9
+        0
       ],
       "name": "<aqua><b>Skyloft",
       "lore": [
@@ -66,13 +66,13 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
-        0,
         1,
         2,
         3,
+        9,
         10,
         11,
         12
@@ -81,7 +81,7 @@
     "arene": {
       "item": "minecraft:bell",
       "slots": [
-        14
+        5
       ],
       "name": "<gold><b>Arène Céleste",
       "lore": [
@@ -125,13 +125,13 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
-        5,
         6,
         7,
         8,
+        14,
         15,
         16,
         17
@@ -140,7 +140,7 @@
     "monde": {
       "item": "minecraft:grass_block",
       "slots": [
-        27
+        18
       ],
       "name": "<green><b>Terre ferme",
       "lore": [
@@ -186,13 +186,13 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
-        18,
         19,
         20,
         21,
+        27,
         28,
         29,
         30
@@ -201,7 +201,7 @@
     "aleatoire": {
       "item": "minecraft:compass",
       "slots": [
-        32
+        23
       ],
       "name": "<blue><b>Exploration",
       "lore": [
@@ -247,13 +247,13 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
-        23,
         24,
         25,
         26,
+        32,
         33,
         34,
         35
@@ -300,7 +300,7 @@
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "item": "minecraft:paper",
+      "item": "minecraft:structure_void",
       "custom_model_data": 7020,
       "slots": [
         37,

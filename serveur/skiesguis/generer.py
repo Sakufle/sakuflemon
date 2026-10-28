@@ -178,7 +178,8 @@ SON_OK = "minecraft:ui.toast.challenge_complete"
 SON_ACHAT = "minecraft:entity.experience_orb.pickup"
 SON_NON = "minecraft:block.note_block.bass"
 SON_CLIC = "minecraft:ui.button.click"
-VIDE = {"item": "minecraft:paper", "custom_model_data": 7020}
+# structure_void : objet que ni Polymer ni Dex Cosmetics ne surchargent (paper = chapeaux Dex)
+VIDE = {"item": "minecraft:structure_void", "custom_model_data": 7020}
 CACHE = {"minecraft:hide_additional_tooltip": {}}
 BRILLE = {"minecraft:hide_additional_tooltip": {}, "minecraft:enchantment_glint_override": True}
 
@@ -206,10 +207,7 @@ def slots(c0, c1, r0, r1):
 def poser(gui, nom, item, zone, **champs):
     """Icone sur la 1re case de la zone, objet invisible (memes actions) sur le reste."""
     cases = slots(*zone) if isinstance(zone, tuple) else [zone]
-    if isinstance(zone, tuple) and zone[3] > zone[2]:  # carte sur 2 rangees : icone au milieu a gauche
-        icone = zone[2] * 9 + zone[0] + 9
-    else:
-        icone = cases[0]
+    icone = cases[0]  # en haut a gauche, sur la pastille sombre
     champs.setdefault("nbt", CACHE)
     gui["items"][nom] = dict({"item": item, "slots": [icone]}, **champs)
     reste = [s for s in cases if s != icone]
@@ -407,9 +405,9 @@ if __name__ == "__main__":
               open(os.path.join(s, "models/item/vide.json"), "w"))
     m = os.path.join(assets, "minecraft/models/item")
     os.makedirs(m, exist_ok=True)
-    json.dump({"parent": "minecraft:item/generated", "textures": {"layer0": "minecraft:item/paper"},
+    json.dump({"parent": "minecraft:item/generated", "textures": {"layer0": "minecraft:item/structure_void"},
                "overrides": [{"predicate": {"custom_model_data": 7020}, "model": "sakuflemon:item/vide"}]},
-              open(os.path.join(m, "paper.json"), "w"))
+              open(os.path.join(m, "structure_void.json"), "w"))
     json.dump({"parent": "minecraft:item/handheld_rod", "textures": {"layer0": "minecraft:item/carrot_on_a_stick"},
                "overrides": [{"predicate": {"custom_model_data": 7010}, "model": "sakuflemon:item/menu"}]},
               open(os.path.join(m, "carrot_on_a_stick.json"), "w"))

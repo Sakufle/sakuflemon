@@ -1,5 +1,5 @@
 # Guide du tutoriel : flèche de particules au sol vers le PNJ de la quête en cours.
-# sakuflemon.guide : 1 Arceus, 2 Professeur, 3 Apprenti, 4 Gardes du ciel, 6 Arène Céleste, 0 rien.
+# sakuflemon.guide : 1 Arceus, 2 Professeur, 3 Apprenti, 4 Gardes du ciel, 6 Arène Céleste, 7 Pêcheur, 8 Marchand (cibles posées avec admin/cible), 0 rien.
 # Les quêtes FTB changent ce score (récompenses invisibles), les gardes et l'arène via leurs advancements.
 execute as @a[scores={sakuflemon.guide=4..5},advancements={sakuflemon:sakuflemon_garde_vent=true,sakuflemon:sakuflemon_garde_nuee=true}] run scoreboard players set @s sakuflemon.guide 6
 execute as @a[scores={sakuflemon.guide=6},advancements={sakuflemon:arene_celeste=true}] run scoreboard players set @s sakuflemon.guide 0

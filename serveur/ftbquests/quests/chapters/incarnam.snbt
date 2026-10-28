@@ -372,7 +372,7 @@
 				{
 					id: "5E6BA902A9FFC49E"
 					type: "command"
-					command: "/scoreboard players set {p} sakuflemon.guide 0"
+					command: "/scoreboard players set {p} sakuflemon.guide 8"
 					player_command: false
 					silent: true
 					auto: "invisible"
@@ -404,6 +404,14 @@
 			]
 			rewards: [
 				{
+					id: "74DD0AD03519D7F0"
+					type: "command"
+					command: "/scoreboard players set {p} sakuflemon.guide 0"
+					player_command: false
+					silent: true
+					auto: "invisible"
+				}
+				{
 					id: "0D3A4CC5270E4330"
 					type: "command"
 					command: "/cobbledollars give {p} 200"
@@ -429,6 +437,14 @@
 				}
 			]
 			rewards: [
+				{
+					id: "0316C7EB35A051DB"
+					type: "command"
+					command: "/scoreboard players set {p} sakuflemon.guide 7"
+					player_command: false
+					silent: true
+					auto: "invisible"
+				}
 				{
 					id: "336D7D0BDB169F89"
 					type: "command"
@@ -479,6 +495,14 @@
 				}
 			]
 			rewards: [
+				{
+					id: "61C3D4A457B8AEEF"
+					type: "command"
+					command: "/scoreboard players set {p} sakuflemon.guide 0"
+					player_command: false
+					silent: true
+					auto: "invisible"
+				}
 				{
 					id: "5C6E390BB631C218"
 					type: "item"

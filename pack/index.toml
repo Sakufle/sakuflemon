@@ -77,6 +77,11 @@ hash = "16f4aa64663e05ba013f9a38c69695e4086a6403575adb29b1379b417d28e519"
 metafile = true
 
 [[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "77de086ec30de37202b221cc737ffd7f7115f0316f315544857195a1faa597a6"
+metafile = true
+
+[[files]]
 file = "mods/better-third-person.pw.toml"
 hash = "dd18db1413980ef467ac2e86c7e5f3cef26d366119f43121204a442583e7c0bd"
 metafile = true
@@ -197,6 +202,11 @@ hash = "95286601fd0a77431b6521de52cef98396e466b7f88513e58f8c3588a0e2ca41"
 metafile = true
 
 [[files]]
+file = "mods/eating-animation.pw.toml"
+hash = "9099b858e94f6f81db890c7d46f85601dee71ba33fb7ae19773b8da2ce8c3834"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "af3bff6184091c1a7113e63edbfe0354695ddf2a26d8409cafa3411b959e5a29"
 metafile = true
@@ -237,6 +247,16 @@ hash = "87c989ac8ec56920741e98bb6f6811ef7533e5c6d50628d2143076542bc3e388"
 metafile = true
 
 [[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "382eb7a01c3768fd339f0f1cdb44d47cf95f4338d681dd841dd78fde8f7127b3"
+metafile = true
+
+[[files]]
+file = "mods/first-person-model.pw.toml"
+hash = "2d8917a1091bb904cf6fa932a775c6412e7888c9e68cc70cd1f51f8c3636773e"
+metafile = true
+
+[[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "238b3ceb4214a682480ce00eefae5d34efa299ff6ff667e4b2f2ed503c6e76ee"
 metafile = true
@@ -272,6 +292,11 @@ hash = "c104293981bbfbf0b194c9428e8ec71fd980e80d80050204a83835a01deeecf3"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "308a5af554af04f2ecefddadead5e69fbe6267e428b4e60c60998753dc919918"
+metafile = true
+
+[[files]]
 file = "mods/interactive-foliage.pw.toml"
 hash = "1fd4bb72456024614881f551bb5fa3e88af4fcd71e777fa322b5130df62f99d8"
 metafile = true
@@ -302,6 +327,11 @@ hash = "f6b0c56c18768988d654ffb444562b526553a3437bd85aae2df73d1831d6eeba"
 metafile = true
 
 [[files]]
+file = "mods/lithium.pw.toml"
+hash = "c6dbde3d5e463a267779de8e8feaab129632d984116851ce54c2b40a83b5abab"
+metafile = true
+
+[[files]]
 file = "mods/melody.pw.toml"
 hash = "2e26dd4ebd07b97d68a9775b84fae707d8824c926e086bb3bcad11687b3fb204"
 metafile = true
@@ -312,6 +342,11 @@ hash = "3dcc61fd29b6b1e682e41d9de27dd40331eabcc4f507fc489f3547e8b221dd1f"
 metafile = true
 
 [[files]]
+file = "mods/modernfix.pw.toml"
+hash = "2a075f99e7b2c8f55c5de69096e40e073c1dc8a043b35b1519b1c889ebb3fa1b"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "62f164a7b7c8731436389dc1855862d1eb1fa73fd76407b0fb8d129b7b6f00a9"
 metafile = true
@@ -319,6 +354,11 @@ metafile = true
 [[files]]
 file = "mods/more-cobblemon-tweaks.pw.toml"
 hash = "198274db49aedbf973dcd8121aeb80de866342e2fc2fd63ebffbaa8e378ca6f9"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "66b2d283e9f588f4d1d1bef9e93f591f500e491cdb7171f37c41ed03bd1e7cb7"
 metafile = true
 
 [[files]]

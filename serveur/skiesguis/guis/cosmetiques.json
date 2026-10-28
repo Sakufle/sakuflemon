@@ -38,7 +38,7 @@
       }
     },
     "pikachu_hat_possede": {
-      "item": "minecraft:yellow_dye",
+      "item": "minecraft:leather",
       "slots": [
         12
       ],
@@ -47,6 +47,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2020,
       "name": "<light_purple><b>Chapeau Pikachu",
       "lore": [
         "<gray>Pika pika !",
@@ -76,11 +77,12 @@
       }
     },
     "pikachu_hat": {
-      "item": "minecraft:yellow_dye",
+      "item": "minecraft:leather",
       "slots": [
         12
       ],
       "priority": 2,
+      "custom_model_data": 2020,
       "name": "<light_purple><b>Chapeau Pikachu",
       "lore": [
         "<gray>Pika pika !",
@@ -218,7 +220,7 @@
       }
     },
     "giratina_arms_possede": {
-      "item": "minecraft:obsidian",
+      "item": "minecraft:leather",
       "slots": [
         29
       ],
@@ -227,6 +229,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2018,
       "name": "<light_purple><b>Bras de Giratina",
       "lore": [
         "<gray>La forme Originelle dans ton dos",
@@ -256,11 +259,12 @@
       }
     },
     "giratina_arms": {
-      "item": "minecraft:obsidian",
+      "item": "minecraft:leather",
       "slots": [
         29
       ],
       "priority": 2,
+      "custom_model_data": 2018,
       "name": "<light_purple><b>Bras de Giratina",
       "lore": [
         "<gray>La forme Originelle dans ton dos",

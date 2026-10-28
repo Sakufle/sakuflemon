@@ -311,12 +311,12 @@ IMAGES["boutique_v2"], GUIS["boutique"] = im, g
 im, g = fond(6, "COSMETIQUES"), base("", 6, ["cosmetiques", "cosmetique"])
 COSMETIQUES = [  # id Dex Cosmetics (None = pas encore dessine), slot, icone, nom, description, prix, couleur
     (None, 11, "minecraft:red_dye", "Casquette de Dresseur", "", 0, "violet"),
-    ("pikachu_hat", 12, "minecraft:yellow_dye", "Chapeau Pikachu", "Pika pika !", 4000, "violet"),
+    ("pikachu_hat", 12, "minecraft:leather", "Chapeau Pikachu", "Pika pika !", 4000, "violet"),
     (None, 13, "minecraft:carved_pumpkin", "Chapeau Citrouille", "", 0, "violet"),
     (None, 14, "minecraft:gold_ingot", "Couronne Céleste", "", 0, "violet"),
     (None, 15, "minecraft:black_dye", "Bandeau Team Rocket", "", 0, "violet"),
     (None, 28, "minecraft:red_banner", "Cape Sakuflemon", "", 0, "bleu"),
-    ("giratina_arms", 29, "minecraft:obsidian", "Bras de Giratina", "La forme Originelle dans ton dos", 25000, "bleu"),
+    ("giratina_arms", 29, "minecraft:leather", "Bras de Giratina", "La forme Originelle dans ton dos", 25000, "bleu"),
     (None, 30, "minecraft:feather", "Ailes Célestes", "", 0, "bleu"),
     ("effet_coeurs", 32, "minecraft:pink_dye", "Traînée de cœurs", "Des cœurs autour de toi", 5000, "rose"),
     ("effet_flammes", 33, "minecraft:blaze_powder", "Traînée de flammes", "Digne d'un Dracaufeu", 5000, "rose"),
@@ -328,19 +328,24 @@ COSMETIQUES = [  # id Dex Cosmetics (None = pas encore dessine), slot, icone, no
 etiquette(im, 0, 8, 0, "CHAPEAUX", "violet")
 etiquette(im, 0, 3, 2, "DOS", "bleu")
 etiquette(im, 5, 8, 2, "EFFETS", "rose")
+# Modeles 3D Dex Cosmetics sur minecraft:leather (pack Polymer genere au demarrage).
+# ATTENTION : Dex recalcule ces numeros a chaque demarrage (ordre non alphabetique) :
+# a reverifier dans polymer/resource_pack.zip (models/item/leather.json) apres tout ajout de cosmetique.
+CMD_DEX = {"pikachu_hat": 2020, "giratina_arms": 2018}
 for cid, slot, icone, nom, desc, montant, coul in COSMETIQUES:
+    extra = {"custom_model_data": CMD_DEX[cid]} if cid in CMD_DEX else {}
     tuile(im, slot % 9, slot // 9, coul)
     if cid is None:
         poser(g, f"bientot_{slot}", icone, slot, name=f"<dark_gray><b>{nom}", lore=["<gray>Bientôt…"],
               click_actions={"son": {"type": "PLAYSOUND", "sound": SON_NON}})
         continue
     perm = f"sakuflemon.cosmetique.{cid}"
-    poser(g, f"{cid}_possede", icone, slot, priority=1, nbt=BRILLE, name=f"<light_purple><b>{nom}",
+    poser(g, f"{cid}_possede", icone, slot, priority=1, nbt=BRILLE, **extra, name=f"<light_purple><b>{nom}",
           lore=[f"<gray>{desc}", "", "<green>✔ Possédé", "<yellow>▶ Clic pour l'équiper"],
           view_requirements={"requirements": {"possede": {"type": "PERMISSION", "permission": perm}}},
           click_actions={"son": {"type": "PLAYSOUND", "sound": SON_CLIC},
                          "equiper": {"type": "COMMAND_PLAYER", "commands": ["cosmetics"]}})
-    poser(g, cid, icone, slot, priority=2, name=f"<light_purple><b>{nom}",
+    poser(g, cid, icone, slot, priority=2, **extra, name=f"<light_purple><b>{nom}",
           lore=[f"<gray>{desc}", "", f"<gray>Prix : <gold>{prix(montant)} CobbleDollars", "<yellow>▶ Clic pour acheter"],
           **achat(montant, [f"cosmetics give %player% {cid}", f"lp user %player% permission set {perm} true"],
                   f"<green>Tu as débloqué <light_purple><b>{nom}</b><green> ! Équipe-le avec /cosmetics.", SON_OK))

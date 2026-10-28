@@ -16,7 +16,7 @@
   },
   "items": {
     "casquette_dresseur_possede": {
-      "item": "minecraft:red_dye",
+      "item": "minecraft:leather",
       "slots": [
         10
       ],
@@ -25,6 +25,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2008,
       "name": "<light_purple><b>Casquette de Dresseur",
       "lore": [
         "<gray>La casquette des futurs Maîtres",
@@ -54,11 +55,12 @@
       }
     },
     "casquette_dresseur": {
-      "item": "minecraft:red_dye",
+      "item": "minecraft:leather",
       "slots": [
         10
       ],
       "priority": 2,
+      "custom_model_data": 2008,
       "name": "<light_purple><b>Casquette de Dresseur",
       "lore": [
         "<gray>La casquette des futurs Maîtres",
@@ -120,7 +122,7 @@
       }
     },
     "pikachu_hat_possede": {
-      "item": "minecraft:yellow_dye",
+      "item": "minecraft:leather",
       "slots": [
         11
       ],
@@ -129,6 +131,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2032,
       "name": "<light_purple><b>Chapeau Pikachu",
       "lore": [
         "<gray>Pika pika !",
@@ -158,11 +161,12 @@
       }
     },
     "pikachu_hat": {
-      "item": "minecraft:yellow_dye",
+      "item": "minecraft:leather",
       "slots": [
         11
       ],
       "priority": 2,
+      "custom_model_data": 2032,
       "name": "<light_purple><b>Chapeau Pikachu",
       "lore": [
         "<gray>Pika pika !",
@@ -224,7 +228,7 @@
       }
     },
     "oreilles_evoli_possede": {
-      "item": "minecraft:brown_dye",
+      "item": "minecraft:leather",
       "slots": [
         12
       ],
@@ -233,6 +237,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2039,
       "name": "<light_purple><b>Oreilles d'Évoli",
       "lore": [
         "<gray>L'évolution à portée de tête",
@@ -262,11 +267,12 @@
       }
     },
     "oreilles_evoli": {
-      "item": "minecraft:brown_dye",
+      "item": "minecraft:leather",
       "slots": [
         12
       ],
       "priority": 2,
+      "custom_model_data": 2039,
       "name": "<light_purple><b>Oreilles d'Évoli",
       "lore": [
         "<gray>L'évolution à portée de tête",
@@ -328,7 +334,7 @@
       }
     },
     "chapeau_paille_possede": {
-      "item": "minecraft:hay_block",
+      "item": "minecraft:leather",
       "slots": [
         13
       ],
@@ -337,6 +343,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2005,
       "name": "<light_purple><b>Chapeau de paille",
       "lore": [
         "<gray>Le futur Roi des Dresseurs",
@@ -366,11 +373,12 @@
       }
     },
     "chapeau_paille": {
-      "item": "minecraft:hay_block",
+      "item": "minecraft:leather",
       "slots": [
         13
       ],
       "priority": 2,
+      "custom_model_data": 2005,
       "name": "<light_purple><b>Chapeau de paille",
       "lore": [
         "<gray>Le futur Roi des Dresseurs",
@@ -432,7 +440,7 @@
       }
     },
     "couronne_fleurs_possede": {
-      "item": "minecraft:poppy",
+      "item": "minecraft:leather",
       "slots": [
         14
       ],
@@ -441,6 +449,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2017,
       "name": "<light_purple><b>Couronne de fleurs",
       "lore": [
         "<gray>Le printemps toute l'année",
@@ -470,11 +479,12 @@
       }
     },
     "couronne_fleurs": {
-      "item": "minecraft:poppy",
+      "item": "minecraft:leather",
       "slots": [
         14
       ],
       "priority": 2,
+      "custom_model_data": 2017,
       "name": "<light_purple><b>Couronne de fleurs",
       "lore": [
         "<gray>Le printemps toute l'année",
@@ -536,7 +546,7 @@
       }
     },
     "lunettes_aviateur_possede": {
-      "item": "minecraft:glass_pane",
+      "item": "minecraft:leather",
       "slots": [
         15
       ],
@@ -545,6 +555,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2018,
       "name": "<light_purple><b>Lunettes d'aviateur",
       "lore": [
         "<gray>Prêt pour le décollage",
@@ -574,11 +585,12 @@
       }
     },
     "lunettes_aviateur": {
-      "item": "minecraft:glass_pane",
+      "item": "minecraft:leather",
       "slots": [
         15
       ],
       "priority": 2,
+      "custom_model_data": 2018,
       "name": "<light_purple><b>Lunettes d'aviateur",
       "lore": [
         "<gray>Prêt pour le décollage",
@@ -640,7 +652,7 @@
       }
     },
     "bandeau_rocket_possede": {
-      "item": "minecraft:black_dye",
+      "item": "minecraft:leather",
       "slots": [
         16
       ],
@@ -649,6 +661,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2031,
       "name": "<light_purple><b>Bandeau Team Rocket",
       "lore": [
         "<gray>Prépare-toi à des ennuis…",
@@ -678,11 +691,12 @@
       }
     },
     "bandeau_rocket": {
-      "item": "minecraft:black_dye",
+      "item": "minecraft:leather",
       "slots": [
         16
       ],
       "priority": 2,
+      "custom_model_data": 2031,
       "name": "<light_purple><b>Bandeau Team Rocket",
       "lore": [
         "<gray>Prépare-toi à des ennuis…",
@@ -744,7 +758,7 @@
       }
     },
     "chapeau_citrouille_possede": {
-      "item": "minecraft:jack_o_lantern",
+      "item": "minecraft:leather",
       "slots": [
         19
       ],
@@ -753,6 +767,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2022,
       "name": "<light_purple><b>Chapeau Citrouille ✦",
       "lore": [
         "<gray>Animé : son visage vacille",
@@ -782,11 +797,12 @@
       }
     },
     "chapeau_citrouille": {
-      "item": "minecraft:jack_o_lantern",
+      "item": "minecraft:leather",
       "slots": [
         19
       ],
       "priority": 2,
+      "custom_model_data": 2022,
       "name": "<light_purple><b>Chapeau Citrouille ✦",
       "lore": [
         "<gray>Animé : son visage vacille",
@@ -848,7 +864,7 @@
       }
     },
     "chapeau_sorciere_possede": {
-      "item": "minecraft:purple_dye",
+      "item": "minecraft:leather",
       "slots": [
         20
       ],
@@ -857,6 +873,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2019,
       "name": "<light_purple><b>Chapeau de Sorcière ✦",
       "lore": [
         "<gray>Animé : ruban qui luit",
@@ -886,11 +903,12 @@
       }
     },
     "chapeau_sorciere": {
-      "item": "minecraft:purple_dye",
+      "item": "minecraft:leather",
       "slots": [
         20
       ],
       "priority": 2,
+      "custom_model_data": 2019,
       "name": "<light_purple><b>Chapeau de Sorcière ✦",
       "lore": [
         "<gray>Animé : ruban qui luit",
@@ -952,7 +970,7 @@
       }
     },
     "aureole_possede": {
-      "item": "minecraft:glowstone_dust",
+      "item": "minecraft:leather",
       "slots": [
         21
       ],
@@ -961,6 +979,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2040,
       "name": "<light_purple><b>Auréole ✦",
       "lore": [
         "<gray>Animée : lueur dorée",
@@ -990,11 +1009,12 @@
       }
     },
     "aureole": {
-      "item": "minecraft:glowstone_dust",
+      "item": "minecraft:leather",
       "slots": [
         21
       ],
       "priority": 2,
+      "custom_model_data": 2040,
       "name": "<light_purple><b>Auréole ✦",
       "lore": [
         "<gray>Animée : lueur dorée",
@@ -1056,7 +1076,7 @@
       }
     },
     "couronne_celeste_possede": {
-      "item": "minecraft:gold_ingot",
+      "item": "minecraft:leather",
       "slots": [
         22
       ],
@@ -1065,6 +1085,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2033,
       "name": "<light_purple><b>Couronne Céleste ✦",
       "lore": [
         "<gray>Animée : gemmes scintillantes",
@@ -1094,11 +1115,12 @@
       }
     },
     "couronne_celeste": {
-      "item": "minecraft:gold_ingot",
+      "item": "minecraft:leather",
       "slots": [
         22
       ],
       "priority": 2,
+      "custom_model_data": 2033,
       "name": "<light_purple><b>Couronne Céleste ✦",
       "lore": [
         "<gray>Animée : gemmes scintillantes",

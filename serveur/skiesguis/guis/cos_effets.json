@@ -16,7 +16,7 @@
   },
   "items": {
     "effet_coeurs_possede": {
-      "item": "minecraft:pink_dye",
+      "item": "minecraft:leather",
       "slots": [
         10
       ],
@@ -25,6 +25,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2007,
       "name": "<light_purple><b>Traînée de cœurs",
       "lore": [
         "<gray>Des cœurs autour de toi",
@@ -54,11 +55,12 @@
       }
     },
     "effet_coeurs": {
-      "item": "minecraft:pink_dye",
+      "item": "minecraft:leather",
       "slots": [
         10
       ],
       "priority": 2,
+      "custom_model_data": 2007,
       "name": "<light_purple><b>Traînée de cœurs",
       "lore": [
         "<gray>Des cœurs autour de toi",
@@ -120,7 +122,7 @@
       }
     },
     "effet_notes_possede": {
-      "item": "minecraft:note_block",
+      "item": "minecraft:leather",
       "slots": [
         11
       ],
@@ -129,6 +131,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2025,
       "name": "<light_purple><b>Notes de musique",
       "lore": [
         "<gray>Ton thème de combat",
@@ -158,11 +161,12 @@
       }
     },
     "effet_notes": {
-      "item": "minecraft:note_block",
+      "item": "minecraft:leather",
       "slots": [
         11
       ],
       "priority": 2,
+      "custom_model_data": 2025,
       "name": "<light_purple><b>Notes de musique",
       "lore": [
         "<gray>Ton thème de combat",
@@ -224,7 +228,7 @@
       }
     },
     "effet_cerisier_possede": {
-      "item": "minecraft:cherry_leaves",
+      "item": "minecraft:leather",
       "slots": [
         12
       ],
@@ -233,6 +237,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2037,
       "name": "<light_purple><b>Pétales de cerisier",
       "lore": [
         "<gray>Les pétales dansent",
@@ -262,11 +267,12 @@
       }
     },
     "effet_cerisier": {
-      "item": "minecraft:cherry_leaves",
+      "item": "minecraft:leather",
       "slots": [
         12
       ],
       "priority": 2,
+      "custom_model_data": 2037,
       "name": "<light_purple><b>Pétales de cerisier",
       "lore": [
         "<gray>Les pétales dansent",
@@ -328,7 +334,7 @@
       }
     },
     "effet_neige_possede": {
-      "item": "minecraft:snowball",
+      "item": "minecraft:leather",
       "slots": [
         13
       ],
@@ -337,6 +343,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2000,
       "name": "<light_purple><b>Flocons",
       "lore": [
         "<gray>Un petit air de Givrali",
@@ -366,11 +373,12 @@
       }
     },
     "effet_neige": {
-      "item": "minecraft:snowball",
+      "item": "minecraft:leather",
       "slots": [
         13
       ],
       "priority": 2,
+      "custom_model_data": 2000,
       "name": "<light_purple><b>Flocons",
       "lore": [
         "<gray>Un petit air de Givrali",
@@ -432,7 +440,7 @@
       }
     },
     "effet_bulles_possede": {
-      "item": "minecraft:water_bucket",
+      "item": "minecraft:leather",
       "slots": [
         14
       ],
@@ -441,6 +449,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2006,
       "name": "<light_purple><b>Bulles",
       "lore": [
         "<gray>Comme sous l'eau",
@@ -470,11 +479,12 @@
       }
     },
     "effet_bulles": {
-      "item": "minecraft:water_bucket",
+      "item": "minecraft:leather",
       "slots": [
         14
       ],
       "priority": 2,
+      "custom_model_data": 2006,
       "name": "<light_purple><b>Bulles",
       "lore": [
         "<gray>Comme sous l'eau",
@@ -536,7 +546,7 @@
       }
     },
     "effet_flammes_possede": {
-      "item": "minecraft:blaze_powder",
+      "item": "minecraft:leather",
       "slots": [
         15
       ],
@@ -545,6 +555,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2015,
       "name": "<light_purple><b>Traînée de flammes",
       "lore": [
         "<gray>Digne d'un Dracaufeu",
@@ -574,11 +585,12 @@
       }
     },
     "effet_flammes": {
-      "item": "minecraft:blaze_powder",
+      "item": "minecraft:leather",
       "slots": [
         15
       ],
       "priority": 2,
+      "custom_model_data": 2015,
       "name": "<light_purple><b>Traînée de flammes",
       "lore": [
         "<gray>Digne d'un Dracaufeu",
@@ -640,7 +652,7 @@
       }
     },
     "effet_eclairs_possede": {
-      "item": "minecraft:lightning_rod",
+      "item": "minecraft:leather",
       "slots": [
         16
       ],
@@ -649,6 +661,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2009,
       "name": "<light_purple><b>Étincelles",
       "lore": [
         "<gray>Électrique !",
@@ -678,11 +691,12 @@
       }
     },
     "effet_eclairs": {
-      "item": "minecraft:lightning_rod",
+      "item": "minecraft:leather",
       "slots": [
         16
       ],
       "priority": 2,
+      "custom_model_data": 2009,
       "name": "<light_purple><b>Étincelles",
       "lore": [
         "<gray>Électrique !",
@@ -744,7 +758,7 @@
       }
     },
     "effet_ames_possede": {
-      "item": "minecraft:soul_lantern",
+      "item": "minecraft:leather",
       "slots": [
         19
       ],
@@ -753,6 +767,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2001,
       "name": "<light_purple><b>Âmes errantes",
       "lore": [
         "<gray>Pour les fans de Spectrum",
@@ -782,11 +797,12 @@
       }
     },
     "effet_ames": {
-      "item": "minecraft:soul_lantern",
+      "item": "minecraft:leather",
       "slots": [
         19
       ],
       "priority": 2,
+      "custom_model_data": 2001,
       "name": "<light_purple><b>Âmes errantes",
       "lore": [
         "<gray>Pour les fans de Spectrum",
@@ -848,7 +864,7 @@
       }
     },
     "effet_etoiles_possede": {
-      "item": "minecraft:nether_star",
+      "item": "minecraft:leather",
       "slots": [
         20
       ],
@@ -857,6 +873,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2044,
       "name": "<light_purple><b>Poussière d'étoiles",
       "lore": [
         "<gray>Brille comme un shiny",
@@ -886,11 +903,12 @@
       }
     },
     "effet_etoiles": {
-      "item": "minecraft:nether_star",
+      "item": "minecraft:leather",
       "slots": [
         20
       ],
       "priority": 2,
+      "custom_model_data": 2044,
       "name": "<light_purple><b>Poussière d'étoiles",
       "lore": [
         "<gray>Brille comme un shiny",
@@ -952,7 +970,7 @@
       }
     },
     "effet_enchant_possede": {
-      "item": "minecraft:enchanted_book",
+      "item": "minecraft:leather",
       "slots": [
         21
       ],
@@ -961,6 +979,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2042,
       "name": "<light_purple><b>Runes mystiques",
       "lore": [
         "<gray>Des runes tournoient",
@@ -990,11 +1009,12 @@
       }
     },
     "effet_enchant": {
-      "item": "minecraft:enchanted_book",
+      "item": "minecraft:leather",
       "slots": [
         21
       ],
       "priority": 2,
+      "custom_model_data": 2042,
       "name": "<light_purple><b>Runes mystiques",
       "lore": [
         "<gray>Des runes tournoient",
@@ -1056,7 +1076,7 @@
       }
     },
     "effet_arcenciel_possede": {
-      "item": "minecraft:prismarine_crystals",
+      "item": "minecraft:leather",
       "slots": [
         22
       ],
@@ -1065,6 +1085,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2036,
       "name": "<light_purple><b>Arc-en-ciel",
       "lore": [
         "<gray>Toutes les couleurs",
@@ -1094,11 +1115,12 @@
       }
     },
     "effet_arcenciel": {
-      "item": "minecraft:prismarine_crystals",
+      "item": "minecraft:leather",
       "slots": [
         22
       ],
       "priority": 2,
+      "custom_model_data": 2036,
       "name": "<light_purple><b>Arc-en-ciel",
       "lore": [
         "<gray>Toutes les couleurs",
@@ -1160,7 +1182,7 @@
       }
     },
     "effet_dragon_possede": {
-      "item": "minecraft:dragon_breath",
+      "item": "minecraft:leather",
       "slots": [
         23
       ],
@@ -1169,6 +1191,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2020,
       "name": "<light_purple><b>Souffle draconique",
       "lore": [
         "<gray>Le souffle de Rayquaza",
@@ -1198,11 +1221,12 @@
       }
     },
     "effet_dragon": {
-      "item": "minecraft:dragon_breath",
+      "item": "minecraft:leather",
       "slots": [
         23
       ],
       "priority": 2,
+      "custom_model_data": 2020,
       "name": "<light_purple><b>Souffle draconique",
       "lore": [
         "<gray>Le souffle de Rayquaza",
@@ -1264,7 +1288,7 @@
       }
     },
     "effet_totem_possede": {
-      "item": "minecraft:totem_of_undying",
+      "item": "minecraft:leather",
       "slots": [
         24
       ],
@@ -1273,6 +1297,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
+      "custom_model_data": 2013,
       "name": "<light_purple><b>Aura du Totem",
       "lore": [
         "<gray>Tu as l'air invincible",
@@ -1302,11 +1327,12 @@
       }
     },
     "effet_totem": {
-      "item": "minecraft:totem_of_undying",
+      "item": "minecraft:leather",
       "slots": [
         24
       ],
       "priority": 2,
+      "custom_model_data": 2013,
       "name": "<light_purple><b>Aura du Totem",
       "lore": [
         "<gray>Tu as l'air invincible",

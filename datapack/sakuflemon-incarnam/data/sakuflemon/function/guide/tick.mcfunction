@@ -6,3 +6,6 @@ execute as @a[scores={sakuflemon.guide=6},advancements={sakuflemon:arene_celeste
 # Toutes les 10 ticks seulement
 scoreboard players add #horloge sakuflemon.guide 1
 execute if score #horloge sakuflemon.guide matches 10.. run function sakuflemon:guide/afficher
+# Les « ! » tournent : un tiers de tour toutes les 2 s, lissé par teleport_duration
+scoreboard players add #rotation sakuflemon.guide 1
+execute if score #rotation sakuflemon.guide matches 40.. run function sakuflemon:guide/tourner

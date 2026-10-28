@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sakuflemon en beau</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito+Sans:wght@400;700&display=swap">
+<style>
+/* Layout : catalogue en grille de cartes avec capture officielle, groupé par famille d'effet */
+:root{--bg:#f3f6f4;--card:#ffffff;--fg:#17241f;--muted:#5b6b64;--accent:#1f8a63;--line:#d6e0db;
+--ok:#1f8a63;--mid:#b7791f;--high:#c0392b;
+--display:"Fraunces",Georgia,serif;--body:"Nunito Sans",system-ui,sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1714;--card:#17221e;--fg:#e6efe9;--muted:#9aaba3;--accent:#4fd1a0;--line:#2a3933;--ok:#4fd1a0;--mid:#f0b45a;--high:#ff7a6b;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 var(--body);padding:32px max(16px,env(safe-area-inset-right,0px)) 64px max(16px,env(safe-area-inset-left,0px))}
+.wrap{max-width:1150px;margin:0 auto;display:flex;flex-direction:column;gap:36px}
+h1{font:800 clamp(2rem,5vw,3.2rem)/1.05 var(--display);margin:0;text-wrap:balance}
+h2{font:600 1.6rem/1.2 var(--display);margin:0 0 4px}
+.lead{max-width:68ch;color:var(--muted);margin:10px 0 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:var(--line)}
+.c{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.c h3{margin:0;font:700 1.1rem var(--body)}
+.c p{margin:0;color:var(--muted);font-size:.95rem}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto}
+.t{font-size:.75rem;font-weight:700;letter-spacing:.03em;padding:3px 8px;border-radius:99px;border:1px solid currentColor}
+.ok{color:var(--ok)}.mid{color:var(--mid)}.high{color:var(--high)}
+a{color:var(--accent)}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+.box ul{margin:8px 0 0;padding-left:20px}
+.have{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.have span{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 8px;font-size:.85rem}
+</style></head><body><div class="wrap">
+
+<header>
+<h1>Rendre Sakuflemon magnifique</h1>
+<p class="lead">Les mods et shaders qui tournent en ce moment sur TikTok et Instagram, triés pour le pack (Fabric 1.21.1, Sodium + Iris, Distant Horizons). Tout est côté client : rien à installer sur le serveur. Les images sont les captures officielles des pages Modrinth ; clique sur un titre pour voir la galerie complète.</p>
+</header>
+
+<section class="box">
+<strong>Déjà dans le pack</strong>
+<div class="have"><span>Sodium</span><span>Iris</span><span>Sodium Extra</span><span>Distant Horizons</span><span>Continuity (verre connecté)</span><span>Athena CTM</span><span>Ambient Environment</span><span>Presence Footsteps</span><span>3D Skin Layers</span><span>Entity Culling</span></div>
+</section>
+
+<section>
+<h2>Shaders</h2>
+<p class="lead">C'est ce qui fait 90 % de l'effet « vidéo TikTok ». On ne peut en activer qu'un à la fois. Tous marchent avec Iris et gèrent Distant Horizons (les chunks lointains reçoivent aussi l'éclairage).</p>
+<div class="grid">
+<article class="card"><img src="https://cdn.modrinth.com/data/HVnmMxH1/images/111e76bfa966c68b3581a93f7322588e642ce4db_350.webp" alt="Complementary Reimagined" loading="lazy"><div class="c">
+<h3><a href="https://modrinth.com/shader/complementary-reimagined" target="_blank">Complementary Reimagined</a></h3>
+<p>Le plus populaire. Garde le style Minecraft mais avec de belles ombres, de l'eau réfléchissante et des couchers de soleil. Mon choix par défaut pour le serveur.</p>
+<div class="tags"><span class="t ok">Compatible</span><span class="t mid">Perf : moyenne</span></div></div></article>
+
+<article class="card"><img src="https://cdn.modrinth.com/data/4H6sumDB/images/d5cd6227389cd2b483957c8f1f9142996bf126e6_350.webp" alt="Euphoria Patches" loading="lazy"><div class="c">
+<h3><a href="https://modrinth.com/mod/euphoria-patches" target="_blank">Euphoria Patches</a></h3>
+<p>Extension de Complementary : nuages volumétriques, aurores, lumières colorées, brouillard. C'est le look qu'on voit le plus sur TikTok.</p>
+<div class="tags"><span class="t ok">Compatible (mod Fabric)</span><span class="t mid">Perf : moyenne à élevée</span></div></div></article>
+
+<article class="card"><img src="https://cdn.modrinth.com/data/lLqFfGNs/images/8a49aee290d514af8936e3afb456838573d75fea_350.webp" alt="Photon" loading="lazy"><div class="c">
+<h3><a href="https://modrinth.com/shader/photon-shader" target="_blank">Photon</a></h3>
+<p>Rendu très cinéma, ciel et nuages superbes, couleurs douces. Idéal pour les captures d'écran.</p>
+<div class="tags"><span class="t ok">Compatible</span><span class="t mid">Perf : moyenne à élevée</span></div></div></article>
+
+<article class="card"><img src="https://cdn.modrinth.com/data/ZvMtQlho/images/7ceb3b0fcd9ccdbd5fc4bdc80ba7ee766509c69f_350.webp" alt="Bliss" loading="lazy"><div class="c">
+<h3><a href="https://modrinth.com/shader/bliss-shader" target="_blank">Bliss</a></h3>
+<p>Le plus réaliste : brouillard volumétrique, rayons de lumière. Magnifique mais réservé aux bons PC.</p>
+<div class="tags"><span class="t ok">Compatible</span><span class="t high">Perf : élevée</span></div></div></article>
+
+<article class="card"><img src="https://cdn.modrinth.com/data/EpQFjzrQ/images/b87a4f77d7858c6b8fb9ecc40301f9d189a52c44_350.webp" alt="Solas" loading="lazy"><div class="c">
+<h3><a href="https://modrinth.com/shader/solas-shader" target="_blank">Solas</a></h3>
+<p>Style féerique et coloré, lumières douces. Colle bien à l'ambiance Pokémon et aux îles d'Incarnam.</p>
+<div class="tags"><span class="t ok">Compatible</span><span class="t mid">Perf : moyenne</span></div></div></article>
+</div></section>
+
+<section>
+<h2>Nature, eau et météo</h2>
+<div class="grid">
+<article class="card"><img src="https://i.imgur.com/Y6zGq33.gif" alt="Falling Leaves" loading="lazy"><div class="c">
+<h3><a href="https://modrinth.com/mod/fallingleaves" target="_blank">Falling Leaves</a></h3>
+<p>Des feuilles tombent doucement des arbres. Marche aussi avec les arbres d'Oh The Trees You'll Grow.</p>
+<div class="tags"><span class="t ok">Compatible</span><span class="t ok">Perf : faible</span></div></div></article>
+
+<article class="card"><img src="https://cdn.modrinth.com/data/nrikgvxm/images/7ddca947bed2ebc9761da54ad1e70bbf11e04389.webp" alt="Particle Rain" loading="lazy"><div class="c">
+<h3><a href="https://modrinth.com/mod/particle-rain" target="_blank">Particle Rain</a></h3>
+<p>Pluie et neige en vraies particules, éclaboussures au sol, tempêtes de sable dans le désert. Très vu en vidéo.</p>
+<div class="tags"><span class="t ok">Compatible</span><span class="t mid">Perf : faible à moyenne</span></div></div></article>
+
+<article class="card"><img src="https://github.com/Goby56/wakes/assets/60710855/c4a153ca-ec98-449a-a73d-68ec80934c56" alt="Wakes" loading="lazy"><div class="c">
+<h3><a href="https://modrinth.com/mod/wakes" target="_blank">Wakes</a></h3>
+<p>Sillages dans l'eau derrière les bateaux, les joueurs et les créatures qui nagent.</p>
+<div class="tags"><span class="t ok">Compatible (1.21–1.21.4)</span><span class="t mid">Perf : moyenne</span></div></div></article>
+
+<article class="card"><img src="https://i.imgur.com/b36gkYh.gif" alt="Visuality" loading="lazy"><div class="c">
+<h3><a href="https://modrinth.com/mod/visuality" target="_blank">Visuality</a></h3>
+<p>Petites particules en plus : étincelles sur les minerais, gouttes d'eau, éclats quand on frappe.</p>
+<div class="tags"><span class="t ok">Compatible</span><span class="t ok">Perf : faible</span></div></div></article>
+
+<article class="card"><img src="https://cdn.modrinth.com/data/4q8UOK1d/images/e1c7495140bc8254b2909d75b22c7251c8d49c4f_350.webp" alt="Subtle Effects" loading="lazy"><div class="c">
+<h3><a href="https://modrinth.com/mod/subtle-effects" target="_blank">Subtle Effects</a></h3>
+<p>Lucioles la nuit, souffle visible dans le froid, poussière, vapeur. Donne beaucoup de vie au monde.</p>
+<div class="tags"><span class="t ok">Compatible</span><span class="t ok">Perf : faible</span></div></div></article>
+</div></section>
+
+<section>
+<h2>Lumière et animations</h2>
+<div class="grid">
+<article class="card"><img src="https://raw.githubusercontent.com/LambdAurora/LambDynamicLights/26.1/assets/torch.png" alt="LambDynamicLights" loading="lazy"><div class="c">
+<h3><a href="https://modrinth.com/mod/lambdynamiclights" target="_blank">LambDynamicLights</a></h3>
+<p>Une torche tenue en main éclaire autour de toi. Utile sans shader, la plupart des shaders le font déjà eux-mêmes.</p>
+<div class="tags"><span class="t ok">Compatible</span><span class="t ok">Perf : faible</span></div></div></article>
+
+<article class="card"><img src="https://cdn.modrinth.com/data/50dA9Sha/images/c6a5bc8c69dea40a3d6f343390d04f2fc01fb0d6_350.webp" alt="Fresh Animations" loading="lazy"><div class="c">
+<h3><a href="https://modrinth.com/resourcepack/fresh-animations" target="_blank">Fresh Animations</a></h3>
+<p>Pack de textures qui anime les mobs vanilla (villageois, animaux...). Ne touche pas aux Pokémon. Demande les mods EMF et ETF.</p>
+<div class="tags"><span class="t ok">Compatible</span><span class="t ok">Perf : faible</span></div></div></article>
+
+<article class="card"><img src="https://cdn.modrinth.com/data/MPCX6s5C/images/3b9ca72d7e6099ef67496a4b210d887d85254d80.gif" alt="Not Enough Animations" loading="lazy"><div class="c">
+<h3><a href="https://modrinth.com/mod/not-enough-animations" target="_blank">Not Enough Animations</a></h3>
+<p>Animations du joueur : manger, lire une carte, grimper à une échelle. Va bien avec Better Third Person déjà dans le pack.</p>
+<div class="tags"><span class="t ok">Compatible</span><span class="t ok">Perf : faible</span></div></div></article>
+
+<article class="card"><img src="https://cdn.modrinth.com/data/OSQ8mw2r/images/e3fba0360d9e4e210db4d474375f73dda567ddc9.gif" alt="Physics Mod" loading="lazy"><div class="c">
+<h3><a href="https://modrinth.com/mod/physicsmod" target="_blank">Physics Mod</a></h3>
+<p>Les blocs cassés et les mobs tombent avec de la vraie physique. Très viral, mais lourd et certaines options sont payantes. Je le garde en option.</p>
+<div class="tags"><span class="t mid">À tester</span><span class="t high">Perf : élevée</span></div></div></article>
+</div></section>
+
+<section class="box">
+<strong>Ma recommandation</strong>
+<ul>
+<li><b>À ajouter au pack pour tout le monde</b> (léger) : Falling Leaves, Subtle Effects, Visuality, Particle Rain, Not Enough Animations, Fresh Animations (+ EMF/ETF).</li>
+<li><b>Shaders livrés mais désactivés par défaut</b> : Complementary Reimagined + Euphoria Patches, Photon et Solas. Chacun l'active dans Options &gt; Vidéo &gt; Packs de shaders selon son PC.</li>
+<li><b>Optionnel</b> : Wakes, LambDynamicLights. <b>Pas pour l'instant</b> : Physics Mod (trop lourd avec Cobblemon + Distant Horizons), Bliss (seulement pour les gros PC).</li>
+<li>Rien n'est installé tant que tu n'as pas dit « installe ». J'ajouterais tout ça sur la branche de test du pack 1.2.0, avec vérification des versions exactes pour 1.21.1 au moment de l'installation.</li>
+</ul>
+</section>
+</div></body></html>

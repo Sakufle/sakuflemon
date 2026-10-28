@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
-hash = "78246272f9ce344e45edcde3369f47987c816cd337f5424cd74ebab8d58d157f"
+hash = "f6051529565ec742bd0c09b2f91377a354ce5d58994ce484c3004b3c689504b2"
 
 [[files]]
 file = "config/paxi/resourcepacks/cobblemon-emissive-ores.pw.toml"
@@ -22,6 +22,11 @@ metafile = true
 [[files]]
 file = "config/paxi/resourcepacks/e19-cobblemon-minimap-icons.pw.toml"
 hash = "ccd098693c4af5129c89d96b2cdff05f73f98210e622a91c55216391cd906320"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/fresh-animations.pw.toml"
+hash = "1d638539453c2860cd8d011e53376b87cfaef11b1d02bc13eb899f10ff7a532e"
 metafile = true
 
 [[files]]
@@ -147,6 +152,11 @@ hash = "b4314d30b3711b0b1b4be04de1a2c0dae824228da7dd8c74a8c9260b41fc0e79"
 metafile = true
 
 [[files]]
+file = "mods/cobblesafari.pw.toml"
+hash = "5a3b933cc7c4cb1b60e33779f2cff7583475e7c7b1eba023bf43739ab336cdd1"
+metafile = true
+
+[[files]]
 file = "mods/continuity.pw.toml"
 hash = "4f97764f3cb4c74f84afbe32cf8a1d2cefecda129c0f1441906562dcb8f2b8cb"
 metafile = true
@@ -187,8 +197,23 @@ hash = "95286601fd0a77431b6521de52cef98396e466b7f88513e58f8c3588a0e2ca41"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "af3bff6184091c1a7113e63edbfe0354695ddf2a26d8409cafa3411b959e5a29"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "9097ec87434086c9a6ec3bdec9a25f65a4a6baefd7d37ab2a90a96e279550698"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "9247f07992bf1584707244346bf091450b1c5b0a03be7401283ffba2512e1dad"
+metafile = true
+
+[[files]]
+file = "mods/euphoria-patches.pw.toml"
+hash = "eb2a20a6d8e88395d037b0f3f085ff97144ddcb93079073bbabca6c26b9b18d5"
 metafile = true
 
 [[files]]
@@ -199,6 +224,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "1811d49906aa7a1e7f1230535c6fec91be45129d028f7900cf35571a497e42b3"
+metafile = true
+
+[[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "0ebbc65f57aa1df730cadac3767f9fce1dd66e66079654296a5f97b1323806a2"
 metafile = true
 
 [[files]]
@@ -227,6 +257,11 @@ hash = "3b92e1eb345ef191497885193bebf695d4c8ee71702b5ffa3038348b00a1d9fe"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "4549c30341f8fe49c738a0e042cd3b6fde96421e75627511415f90adb8aff5fd"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "5f62f54e16fdc97a0fb21b63a563583f85d141772f6aa99f68d40cd654b7dc35"
 metafile = true
@@ -234,6 +269,11 @@ metafile = true
 [[files]]
 file = "mods/iceberg.pw.toml"
 hash = "c104293981bbfbf0b194c9428e8ec71fd980e80d80050204a83835a01deeecf3"
+metafile = true
+
+[[files]]
+file = "mods/interactive-foliage.pw.toml"
+hash = "1fd4bb72456024614881f551bb5fa3e88af4fcd71e777fa322b5130df62f99d8"
 metafile = true
 
 [[files]]
@@ -254,6 +294,11 @@ metafile = true
 [[files]]
 file = "mods/konkrete.pw.toml"
 hash = "c7179ae7024b7315c6ba5d02b632d99717db1185abab41b73dda556581ff3022"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "f6b0c56c18768988d654ffb444562b526553a3437bd85aae2df73d1831d6eeba"
 metafile = true
 
 [[files]]
@@ -282,6 +327,11 @@ hash = "c36ae82410eca471423dc0b23d423820ae342e1f73e86d4b7f14cb4b5db5e9bf"
 metafile = true
 
 [[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "af1d383599c8d3d3bbd8f57a7f8703161902c58df37878d840a0efaf2c208f1a"
+metafile = true
+
+[[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
 hash = "2c706bc0d11f9158d0684796f48999b272032371bdbf7c9a6d7925ffc487f45f"
 metafile = true
@@ -299,6 +349,11 @@ metafile = true
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "60a3d23eb73106ecb6ba5a391d4539e3557cbd9b1f3611a2de08052155d78b3a"
+metafile = true
+
+[[files]]
+file = "mods/particle-rain.pw.toml"
+hash = "4f41228f53c8da59dc82f9b1d8267c7a1597f949bc0dece2297f7bef331d0d0f"
 metafile = true
 
 [[files]]
@@ -357,8 +412,18 @@ hash = "869af67848bf3b9ba4384bc9fb0cbe303d35263bd8de75eeabcba796edf4d7c6"
 metafile = true
 
 [[files]]
+file = "mods/subtle-effects.pw.toml"
+hash = "0989697c24b37e6b4a9eb1bf42be84dd0e9d8d2c7e72b171edddb066ac73dda4"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "8e009ac87710fbd8f5990285d36ab2b4755e932664ca1bcb9cdfac116d6e3b6d"
+metafile = true
+
+[[files]]
+file = "mods/sway.pw.toml"
+hash = "e1e1f61283e7900a035794592b5d50c4272e94cebbcfd8acd0c857b1e39e5428"
 metafile = true
 
 [[files]]
@@ -387,8 +452,18 @@ hash = "76c319b18147464969222ce63823f32ea49d87e337d6c82b20568efe0ef2f331"
 metafile = true
 
 [[files]]
+file = "mods/visuality.pw.toml"
+hash = "6cb2a4cd4eb40eaf19bbb54a6d8fa23643470147e86e19fe04b820e170998ed3"
+metafile = true
+
+[[files]]
 file = "mods/vmp-fabric.pw.toml"
 hash = "99cc4bdfa44196b887c0b6ea48622f89a6a004866a9af47b929dabe5331e2605"
+metafile = true
+
+[[files]]
+file = "mods/wakes.pw.toml"
+hash = "a32e3ceef2af3a90ced4d9481acaa16c8e7aec17451e4c543f23d49069a1f6e6"
 metafile = true
 
 [[files]]
@@ -414,4 +489,24 @@ metafile = true
 [[files]]
 file = "mods/zoomify.pw.toml"
 hash = "96f866de9f3ebaa42dfcb92392684c241ff189f82ce24c3e7a32c1d0b8f37db8"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bliss-shader.pw.toml"
+hash = "6a15bfe2d9f514f9f0b5ce0bfba486abd70a586de72044218ba4cc89dcb9c07a"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "6dd97a6787a17ec8e4f87caa02d9634e50516b353079b63b4a8f661a6192d3a7"
+metafile = true
+
+[[files]]
+file = "shaderpacks/photon-shader.pw.toml"
+hash = "b0a21fa46a9a7dc1318c459914dfc412570ececfe85a76322d4c8e5e4cfdc7d4"
+metafile = true
+
+[[files]]
+file = "shaderpacks/solas-shader.pw.toml"
+hash = "11cc2dd32700ec51aa6c422dca8278456a30f62bd9dd9f822f8568504cfcc775"
 metafile = true

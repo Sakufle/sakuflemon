@@ -1,6 +1,6 @@
 {
   "title": "<white><font:sakuflemon:gui></font>",
-  "size": 4,
+  "size": 5,
   "alias_commands": [
     "tp",
     "teleportation",
@@ -22,18 +22,14 @@
     "skyloft": {
       "item": "minecraft:white_wool",
       "slots": [
-        10
+        9
       ],
       "name": "<aqua><b>Skyloft",
       "lore": [
         "<gray>La capitale d'Incarnam",
-        "<gray>(Grande Place)",
         "",
         "<yellow>▶ Clic pour y aller"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_actions": {
         "tp": {
           "type": "COMMAND_CONSOLE",
@@ -44,12 +40,48 @@
         "fermer": {
           "type": "CLOSE_GUI"
         }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
       }
+    },
+    "skyloft_carte": {
+      "name": "<aqua><b>Skyloft",
+      "lore": [
+        "<gray>La capitale d'Incarnam",
+        "",
+        "<yellow>▶ Clic pour y aller"
+      ],
+      "click_actions": {
+        "tp": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "execute as %player% run function sakuflemon:tp/skyloft"
+          ]
+        },
+        "fermer": {
+          "type": "CLOSE_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        0,
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ]
     },
     "arene": {
       "item": "minecraft:bell",
       "slots": [
-        12
+        14
       ],
       "name": "<gold><b>Arène Céleste",
       "lore": [
@@ -57,9 +89,6 @@
         "",
         "<yellow>▶ Clic pour y aller"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_actions": {
         "tp": {
           "type": "COMMAND_CONSOLE",
@@ -70,12 +99,48 @@
         "fermer": {
           "type": "CLOSE_GUI"
         }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
       }
     },
-    "overworld": {
+    "arene_carte": {
+      "name": "<gold><b>Arène Céleste",
+      "lore": [
+        "<gray>Défie le Champion Céleste",
+        "",
+        "<yellow>▶ Clic pour y aller"
+      ],
+      "click_actions": {
+        "tp": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "execute as %player% run function sakuflemon:tp/arene"
+          ]
+        },
+        "fermer": {
+          "type": "CLOSE_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        5,
+        6,
+        7,
+        8,
+        15,
+        16,
+        17
+      ]
+    },
+    "monde": {
       "item": "minecraft:grass_block",
       "slots": [
-        14
+        27
       ],
       "name": "<green><b>Terre ferme",
       "lore": [
@@ -84,9 +149,6 @@
         "",
         "<yellow>▶ Clic pour y aller"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_actions": {
         "tp": {
           "type": "COMMAND_CONSOLE",
@@ -97,24 +159,57 @@
         "fermer": {
           "type": "CLOSE_GUI"
         }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
       }
     },
-    "aleatoire": {
-      "item": "minecraft:compass",
-      "slots": [
-        16
-      ],
-      "name": "<blue><b>Exploration",
+    "monde_carte": {
+      "name": "<green><b>Terre ferme",
       "lore": [
-        "<gray>Un endroit au hasard",
-        "<gray>dans l'overworld",
+        "<gray>Plonge vers l'overworld",
         "<dark_gray>Débloqué par la quête des ailes",
         "",
         "<yellow>▶ Clic pour y aller"
       ],
+      "click_actions": {
+        "tp": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "execute as %player% run function sakuflemon:tp/monde"
+          ]
+        },
+        "fermer": {
+          "type": "CLOSE_GUI"
+        }
+      },
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        18,
+        19,
+        20,
+        21,
+        28,
+        29,
+        30
+      ]
+    },
+    "aleatoire": {
+      "item": "minecraft:compass",
+      "slots": [
+        32
+      ],
+      "name": "<blue><b>Exploration",
+      "lore": [
+        "<gray>Un endroit au hasard dans l'overworld",
+        "<dark_gray>Débloqué par la quête des ailes",
+        "",
+        "<yellow>▶ Clic pour y aller"
+      ],
       "click_actions": {
         "tp": {
           "type": "COMMAND_CONSOLE",
@@ -125,77 +220,54 @@
         "fermer": {
           "type": "CLOSE_GUI"
         }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
       }
     },
-    "nether": {
-      "item": "minecraft:netherrack",
-      "slots": [
-        20
-      ],
-      "name": "<dark_gray><b>Nether",
+    "aleatoire_carte": {
+      "name": "<blue><b>Exploration",
       "lore": [
-        "<gray>Bientôt…"
+        "<gray>Un endroit au hasard dans l'overworld",
+        "<dark_gray>Débloqué par la quête des ailes",
+        "",
+        "<yellow>▶ Clic pour y aller"
       ],
+      "click_actions": {
+        "tp": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "execute as %player% run function sakuflemon:tp/aleatoire"
+          ]
+        },
+        "fermer": {
+          "type": "CLOSE_GUI"
+        }
+      },
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       },
-      "click_actions": {
-        "son": {
-          "type": "PLAYSOUND",
-          "sound": "minecraft:block.note_block.bass"
-        }
-      }
-    },
-    "end": {
-      "item": "minecraft:end_stone",
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
       "slots": [
-        22
-      ],
-      "name": "<dark_gray><b>End",
-      "lore": [
-        "<gray>Bientôt…"
-      ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
-      "click_actions": {
-        "son": {
-          "type": "PLAYSOUND",
-          "sound": "minecraft:block.note_block.bass"
-        }
-      }
-    },
-    "zone_safari": {
-      "item": "minecraft:tall_grass",
-      "slots": [
-        24
-      ],
-      "name": "<dark_gray><b>Zone Safari",
-      "lore": [
-        "<gray>Bientôt…"
-      ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
-      "click_actions": {
-        "son": {
-          "type": "PLAYSOUND",
-          "sound": "minecraft:block.note_block.bass"
-        }
-      }
+        23,
+        24,
+        25,
+        26,
+        33,
+        34,
+        35
+      ]
     },
     "retour": {
       "item": "minecraft:arrow",
       "slots": [
-        27
+        36
       ],
       "name": "<gray><b>◀ Retour",
       "lore": [
         "<dark_gray>Revenir au menu"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_actions": {
         "son": {
           "type": "PLAYSOUND",
@@ -205,6 +277,91 @@
           "type": "OPEN_GUI",
           "id": "menu"
         }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "retour_carte": {
+      "name": "<gray><b>◀ Retour",
+      "lore": [
+        "<dark_gray>Revenir au menu"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "menu"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        37,
+        38
+      ]
+    },
+    "nether": {
+      "item": "minecraft:netherrack",
+      "slots": [
+        41
+      ],
+      "name": "<dark_gray><b>Nether",
+      "lore": [
+        "<gray>Bientôt…"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:block.note_block.bass"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "end": {
+      "item": "minecraft:end_stone",
+      "slots": [
+        42
+      ],
+      "name": "<dark_gray><b>End",
+      "lore": [
+        "<gray>Bientôt…"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:block.note_block.bass"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "zone_safari": {
+      "item": "minecraft:tall_grass",
+      "slots": [
+        43
+      ],
+      "name": "<dark_gray><b>Zone Safari",
+      "lore": [
+        "<gray>Bientôt…"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:block.note_block.bass"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
       }
     }
   }

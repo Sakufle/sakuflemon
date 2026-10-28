@@ -21,25 +21,19 @@
     "grade_dresseur_possede": {
       "item": "cobblemon:great_ball",
       "slots": [
-        11
+        9
       ],
+      "priority": 1,
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:enchantment_glint_override": true
+      },
       "name": "<green><b>Grade Dresseur",
       "lore": [
         "<gray>Débloque le kit Dresseur",
         "",
         "<green>✔ Tu as ce grade"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {},
-        "minecraft:enchantment_glint_override": true
-      },
-      "click_actions": {
-        "son": {
-          "type": "PLAYSOUND",
-          "sound": "minecraft:block.note_block.bass"
-        }
-      },
-      "priority": 1,
       "view_requirements": {
         "requirements": {
           "grade": {
@@ -47,13 +41,54 @@
             "permission": "group.dresseur"
           }
         }
+      },
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:block.note_block.bass"
+        }
       }
+    },
+    "grade_dresseur_possede_carte": {
+      "priority": 1,
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:enchantment_glint_override": true
+      },
+      "name": "<green><b>Grade Dresseur",
+      "lore": [
+        "<gray>Débloque le kit Dresseur",
+        "",
+        "<green>✔ Tu as ce grade"
+      ],
+      "view_requirements": {
+        "requirements": {
+          "grade": {
+            "type": "PERMISSION",
+            "permission": "group.dresseur"
+          }
+        }
+      },
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:block.note_block.bass"
+        }
+      },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        10,
+        11,
+        12
+      ]
     },
     "grade_dresseur": {
       "item": "cobblemon:great_ball",
       "slots": [
-        11
+        9
       ],
+      "priority": 2,
       "name": "<green><b>Grade Dresseur",
       "lore": [
         "<gray>Débloque le kit Dresseur",
@@ -62,9 +97,6 @@
         "<gray>Prix : <gold>5 000 CobbleDollars",
         "<yellow>▶ Clic pour acheter"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_requirements": {
         "requirements": {
           "argent": {
@@ -119,30 +151,101 @@
           "type": "CLOSE_GUI"
         }
       },
-      "priority": 2
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "grade_dresseur_carte": {
+      "priority": 2,
+      "name": "<green><b>Grade Dresseur",
+      "lore": [
+        "<gray>Débloque le kit Dresseur",
+        "<gray>Badge devant ton pseudo",
+        "",
+        "<gray>Prix : <gold>5 000 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 5000,
+            "comparison": ">="
+          },
+          "pas_deja": {
+            "type": "PERMISSION",
+            "permission": "group.dresseur",
+            "comparison": "!="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 5 000 CobbleDollars et ne pas déjà avoir ce grade (ou un grade supérieur)."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 5000
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "lp user %player% parent set dresseur",
+            "team join dresseur %player%"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Tu es maintenant <green><b>Dresseur</b><green> !"
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.toast.challenge_complete"
+        },
+        "fermer": {
+          "type": "CLOSE_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        10,
+        11,
+        12
+      ]
     },
     "grade_conseil4_possede": {
       "item": "cobblemon:ultra_ball",
       "slots": [
-        13
+        18
       ],
+      "priority": 1,
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:enchantment_glint_override": true
+      },
       "name": "<light_purple><b>Grade Conseil 4",
       "lore": [
         "<gray>Débloque le kit Conseil 4",
         "",
         "<green>✔ Tu as ce grade"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {},
-        "minecraft:enchantment_glint_override": true
-      },
-      "click_actions": {
-        "son": {
-          "type": "PLAYSOUND",
-          "sound": "minecraft:block.note_block.bass"
-        }
-      },
-      "priority": 1,
       "view_requirements": {
         "requirements": {
           "grade": {
@@ -150,13 +253,54 @@
             "permission": "group.conseil4"
           }
         }
+      },
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:block.note_block.bass"
+        }
       }
+    },
+    "grade_conseil4_possede_carte": {
+      "priority": 1,
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:enchantment_glint_override": true
+      },
+      "name": "<light_purple><b>Grade Conseil 4",
+      "lore": [
+        "<gray>Débloque le kit Conseil 4",
+        "",
+        "<green>✔ Tu as ce grade"
+      ],
+      "view_requirements": {
+        "requirements": {
+          "grade": {
+            "type": "PERMISSION",
+            "permission": "group.conseil4"
+          }
+        }
+      },
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:block.note_block.bass"
+        }
+      },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        19,
+        20,
+        21
+      ]
     },
     "grade_conseil4": {
       "item": "cobblemon:ultra_ball",
       "slots": [
-        13
+        18
       ],
+      "priority": 2,
       "name": "<light_purple><b>Grade Conseil 4",
       "lore": [
         "<gray>Débloque le kit Conseil 4",
@@ -165,9 +309,6 @@
         "<gray>Prix : <gold>50 000 CobbleDollars",
         "<yellow>▶ Clic pour acheter"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_requirements": {
         "requirements": {
           "argent": {
@@ -222,30 +363,101 @@
           "type": "CLOSE_GUI"
         }
       },
-      "priority": 2
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "grade_conseil4_carte": {
+      "priority": 2,
+      "name": "<light_purple><b>Grade Conseil 4",
+      "lore": [
+        "<gray>Débloque le kit Conseil 4",
+        "<gray>Badge devant ton pseudo",
+        "",
+        "<gray>Prix : <gold>50 000 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 50000,
+            "comparison": ">="
+          },
+          "pas_deja": {
+            "type": "PERMISSION",
+            "permission": "group.conseil4",
+            "comparison": "!="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 50 000 CobbleDollars et ne pas déjà avoir ce grade (ou un grade supérieur)."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 50000
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "lp user %player% parent set conseil4",
+            "team join conseil4 %player%"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Tu es maintenant <light_purple><b>Conseil 4</b><green> !"
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.toast.challenge_complete"
+        },
+        "fermer": {
+          "type": "CLOSE_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        19,
+        20,
+        21
+      ]
     },
     "grade_champion_possede": {
       "item": "cobblemon:master_ball",
       "slots": [
-        15
+        27
       ],
+      "priority": 1,
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:enchantment_glint_override": true
+      },
       "name": "<gold><b>Grade Champion",
       "lore": [
         "<gray>Débloque le kit Champion",
         "",
         "<green>✔ Tu as ce grade"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {},
-        "minecraft:enchantment_glint_override": true
-      },
-      "click_actions": {
-        "son": {
-          "type": "PLAYSOUND",
-          "sound": "minecraft:block.note_block.bass"
-        }
-      },
-      "priority": 1,
       "view_requirements": {
         "requirements": {
           "grade": {
@@ -253,13 +465,54 @@
             "permission": "group.champion"
           }
         }
+      },
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:block.note_block.bass"
+        }
       }
+    },
+    "grade_champion_possede_carte": {
+      "priority": 1,
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:enchantment_glint_override": true
+      },
+      "name": "<gold><b>Grade Champion",
+      "lore": [
+        "<gray>Débloque le kit Champion",
+        "",
+        "<green>✔ Tu as ce grade"
+      ],
+      "view_requirements": {
+        "requirements": {
+          "grade": {
+            "type": "PERMISSION",
+            "permission": "group.champion"
+          }
+        }
+      },
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:block.note_block.bass"
+        }
+      },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        28,
+        29,
+        30
+      ]
     },
     "grade_champion": {
       "item": "cobblemon:master_ball",
       "slots": [
-        15
+        27
       ],
+      "priority": 2,
       "name": "<gold><b>Grade Champion",
       "lore": [
         "<gray>Débloque le kit Champion",
@@ -268,9 +521,6 @@
         "<gray>Prix : <gold>250 000 CobbleDollars",
         "<yellow>▶ Clic pour acheter"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_requirements": {
         "requirements": {
           "argent": {
@@ -325,24 +575,99 @@
           "type": "CLOSE_GUI"
         }
       },
-      "priority": 2
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
     },
-    "cle_commune_x1": {
+    "grade_champion_carte": {
+      "priority": 2,
+      "name": "<gold><b>Grade Champion",
+      "lore": [
+        "<gray>Débloque le kit Champion",
+        "<gray>Badge devant ton pseudo",
+        "",
+        "<gray>Prix : <gold>250 000 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 250000,
+            "comparison": ">="
+          },
+          "pas_deja": {
+            "type": "PERMISSION",
+            "permission": "group.champion",
+            "comparison": "!="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 250 000 CobbleDollars et ne pas déjà avoir ce grade (ou un grade supérieur)."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 250000
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "lp user %player% parent set champion",
+            "team join champion %player%"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Tu es maintenant <gold><b>Champion</b><green> !"
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.toast.challenge_complete"
+        },
+        "fermer": {
+          "type": "CLOSE_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        28,
+        29,
+        30
+      ]
+    },
+    "cle_commune": {
       "item": "minecraft:tripwire_hook",
       "slots": [
-        29
+        14
       ],
+      "custom_model_data": 7001,
       "name": "<green><b>Clé Commune",
       "lore": [
         "<gray>Ouvre la Caisse Commune",
         "<gray>Tu en as : <white>%skiescrates:keys cle_commune%",
         "",
-        "<gray>Prix : <gold>500 CobbleDollars",
-        "<yellow>▶ Clic pour acheter"
+        "<yellow>Clic gauche : <white>1 clé <gray>(500 CD)",
+        "<yellow>Clic droit : <white>5 clés <gray>(2 250 CD, <green>-10 %<gray>)"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_requirements": {
         "requirements": {
           "argent": {
@@ -369,54 +694,112 @@
         "payer": {
           "type": "CURRENCY_WITHDRAW",
           "currency": "",
-          "amount": 500
+          "amount": 500,
+          "click": "LEFT_CLICK"
         },
         "donner": {
           "type": "COMMAND_CONSOLE",
           "commands": [
             "crates key give %player% cle_commune 1"
-          ]
+          ],
+          "click": "LEFT_CLICK"
         },
         "msg": {
           "type": "MESSAGE",
           "message": [
             "<green>+1 Clé Commune !"
-          ]
+          ],
+          "click": "LEFT_CLICK"
         },
         "son": {
           "type": "PLAYSOUND",
-          "sound": "minecraft:entity.experience_orb.pickup"
+          "sound": "minecraft:entity.experience_orb.pickup",
+          "click": "LEFT_CLICK"
         },
         "refresh": {
-          "type": "REFRESH_GUI"
+          "type": "REFRESH_GUI",
+          "click": "LEFT_CLICK"
+        },
+        "payer5": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 2250,
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 2250,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "donner5": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "crates key give %player% cle_commune 5"
+          ],
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 2250,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "msg5": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>+5 Clé Commune !"
+          ],
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 2250,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "son5": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:entity.experience_orb.pickup",
+          "click": "RIGHT_CLICK"
+        },
+        "refresh5": {
+          "type": "REFRESH_GUI",
+          "click": "RIGHT_CLICK"
         }
       },
-      "custom_model_data": 7001,
-      "amount": 1
-    },
-    "cle_commune_x5": {
-      "item": "minecraft:tripwire_hook",
-      "slots": [
-        38
-      ],
-      "name": "<green><b>Clé Commune x5",
-      "lore": [
-        "<gray>Ouvre la Caisse Commune",
-        "<green>Lot de 5 : -10 %",
-        "<gray>Tu en as : <white>%skiescrates:keys cle_commune%",
-        "",
-        "<gray>Prix : <gold>2 250 CobbleDollars",
-        "<yellow>▶ Clic pour acheter"
-      ],
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
-      },
+      }
+    },
+    "cle_commune_carte": {
+      "custom_model_data": 7020,
+      "name": "<green><b>Clé Commune",
+      "lore": [
+        "<gray>Ouvre la Caisse Commune",
+        "<gray>Tu en as : <white>%skiescrates:keys cle_commune%",
+        "",
+        "<yellow>Clic gauche : <white>1 clé <gray>(500 CD)",
+        "<yellow>Clic droit : <white>5 clés <gray>(2 250 CD, <green>-10 %<gray>)"
+      ],
       "click_requirements": {
         "requirements": {
           "argent": {
             "type": "CURRENCY",
             "currency": "",
-            "amount": 2250,
+            "amount": 500,
             "comparison": ">="
           }
         },
@@ -424,7 +807,7 @@
           "msg": {
             "type": "MESSAGE",
             "message": [
-              "<red>Il te faut 2 250 CobbleDollars."
+              "<red>Il te faut 500 CobbleDollars."
             ]
           },
           "son": {
@@ -437,47 +820,116 @@
         "payer": {
           "type": "CURRENCY_WITHDRAW",
           "currency": "",
-          "amount": 2250
+          "amount": 500,
+          "click": "LEFT_CLICK"
         },
         "donner": {
           "type": "COMMAND_CONSOLE",
           "commands": [
-            "crates key give %player% cle_commune 5"
-          ]
+            "crates key give %player% cle_commune 1"
+          ],
+          "click": "LEFT_CLICK"
         },
         "msg": {
           "type": "MESSAGE",
           "message": [
-            "<green>+5 Clé Commune !"
-          ]
+            "<green>+1 Clé Commune !"
+          ],
+          "click": "LEFT_CLICK"
         },
         "son": {
           "type": "PLAYSOUND",
-          "sound": "minecraft:entity.experience_orb.pickup"
+          "sound": "minecraft:entity.experience_orb.pickup",
+          "click": "LEFT_CLICK"
         },
         "refresh": {
-          "type": "REFRESH_GUI"
+          "type": "REFRESH_GUI",
+          "click": "LEFT_CLICK"
+        },
+        "payer5": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 2250,
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 2250,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "donner5": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "crates key give %player% cle_commune 5"
+          ],
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 2250,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "msg5": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>+5 Clé Commune !"
+          ],
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 2250,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "son5": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:entity.experience_orb.pickup",
+          "click": "RIGHT_CLICK"
+        },
+        "refresh5": {
+          "type": "REFRESH_GUI",
+          "click": "RIGHT_CLICK"
         }
       },
-      "custom_model_data": 7001,
-      "amount": 5
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:paper",
+      "slots": [
+        15,
+        16,
+        17
+      ]
     },
-    "cle_rare_x1": {
+    "cle_rare": {
       "item": "minecraft:tripwire_hook",
       "slots": [
-        31
+        23
       ],
+      "custom_model_data": 7002,
       "name": "<aqua><b>Clé Rare",
       "lore": [
         "<gray>Ouvre la Caisse Rare",
         "<gray>Tu en as : <white>%skiescrates:keys cle_rare%",
         "",
-        "<gray>Prix : <gold>2 500 CobbleDollars",
-        "<yellow>▶ Clic pour acheter"
+        "<yellow>Clic gauche : <white>1 clé <gray>(2 500 CD)",
+        "<yellow>Clic droit : <white>5 clés <gray>(11 250 CD, <green>-10 %<gray>)"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_requirements": {
         "requirements": {
           "argent": {
@@ -504,54 +956,112 @@
         "payer": {
           "type": "CURRENCY_WITHDRAW",
           "currency": "",
-          "amount": 2500
+          "amount": 2500,
+          "click": "LEFT_CLICK"
         },
         "donner": {
           "type": "COMMAND_CONSOLE",
           "commands": [
             "crates key give %player% cle_rare 1"
-          ]
+          ],
+          "click": "LEFT_CLICK"
         },
         "msg": {
           "type": "MESSAGE",
           "message": [
             "<green>+1 Clé Rare !"
-          ]
+          ],
+          "click": "LEFT_CLICK"
         },
         "son": {
           "type": "PLAYSOUND",
-          "sound": "minecraft:entity.experience_orb.pickup"
+          "sound": "minecraft:entity.experience_orb.pickup",
+          "click": "LEFT_CLICK"
         },
         "refresh": {
-          "type": "REFRESH_GUI"
+          "type": "REFRESH_GUI",
+          "click": "LEFT_CLICK"
+        },
+        "payer5": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 11250,
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 11250,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "donner5": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "crates key give %player% cle_rare 5"
+          ],
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 11250,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "msg5": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>+5 Clé Rare !"
+          ],
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 11250,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "son5": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:entity.experience_orb.pickup",
+          "click": "RIGHT_CLICK"
+        },
+        "refresh5": {
+          "type": "REFRESH_GUI",
+          "click": "RIGHT_CLICK"
         }
       },
-      "custom_model_data": 7002,
-      "amount": 1
-    },
-    "cle_rare_x5": {
-      "item": "minecraft:tripwire_hook",
-      "slots": [
-        40
-      ],
-      "name": "<aqua><b>Clé Rare x5",
-      "lore": [
-        "<gray>Ouvre la Caisse Rare",
-        "<green>Lot de 5 : -10 %",
-        "<gray>Tu en as : <white>%skiescrates:keys cle_rare%",
-        "",
-        "<gray>Prix : <gold>11 250 CobbleDollars",
-        "<yellow>▶ Clic pour acheter"
-      ],
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
-      },
+      }
+    },
+    "cle_rare_carte": {
+      "custom_model_data": 7020,
+      "name": "<aqua><b>Clé Rare",
+      "lore": [
+        "<gray>Ouvre la Caisse Rare",
+        "<gray>Tu en as : <white>%skiescrates:keys cle_rare%",
+        "",
+        "<yellow>Clic gauche : <white>1 clé <gray>(2 500 CD)",
+        "<yellow>Clic droit : <white>5 clés <gray>(11 250 CD, <green>-10 %<gray>)"
+      ],
       "click_requirements": {
         "requirements": {
           "argent": {
             "type": "CURRENCY",
             "currency": "",
-            "amount": 11250,
+            "amount": 2500,
             "comparison": ">="
           }
         },
@@ -559,7 +1069,7 @@
           "msg": {
             "type": "MESSAGE",
             "message": [
-              "<red>Il te faut 11 250 CobbleDollars."
+              "<red>Il te faut 2 500 CobbleDollars."
             ]
           },
           "son": {
@@ -572,47 +1082,116 @@
         "payer": {
           "type": "CURRENCY_WITHDRAW",
           "currency": "",
-          "amount": 11250
+          "amount": 2500,
+          "click": "LEFT_CLICK"
         },
         "donner": {
           "type": "COMMAND_CONSOLE",
           "commands": [
-            "crates key give %player% cle_rare 5"
-          ]
+            "crates key give %player% cle_rare 1"
+          ],
+          "click": "LEFT_CLICK"
         },
         "msg": {
           "type": "MESSAGE",
           "message": [
-            "<green>+5 Clé Rare !"
-          ]
+            "<green>+1 Clé Rare !"
+          ],
+          "click": "LEFT_CLICK"
         },
         "son": {
           "type": "PLAYSOUND",
-          "sound": "minecraft:entity.experience_orb.pickup"
+          "sound": "minecraft:entity.experience_orb.pickup",
+          "click": "LEFT_CLICK"
         },
         "refresh": {
-          "type": "REFRESH_GUI"
+          "type": "REFRESH_GUI",
+          "click": "LEFT_CLICK"
+        },
+        "payer5": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 11250,
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 11250,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "donner5": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "crates key give %player% cle_rare 5"
+          ],
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 11250,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "msg5": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>+5 Clé Rare !"
+          ],
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 11250,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "son5": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:entity.experience_orb.pickup",
+          "click": "RIGHT_CLICK"
+        },
+        "refresh5": {
+          "type": "REFRESH_GUI",
+          "click": "RIGHT_CLICK"
         }
       },
-      "custom_model_data": 7002,
-      "amount": 5
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:paper",
+      "slots": [
+        24,
+        25,
+        26
+      ]
     },
-    "cle_legendaire_x1": {
+    "cle_legendaire": {
       "item": "minecraft:tripwire_hook",
       "slots": [
-        33
+        32
       ],
+      "custom_model_data": 7003,
       "name": "<gold><b>Clé Légendaire",
       "lore": [
         "<gray>Ouvre la Caisse Légendaire",
         "<gray>Tu en as : <white>%skiescrates:keys cle_legendaire%",
         "",
-        "<gray>Prix : <gold>10 000 CobbleDollars",
-        "<yellow>▶ Clic pour acheter"
+        "<yellow>Clic gauche : <white>1 clé <gray>(10 000 CD)",
+        "<yellow>Clic droit : <white>5 clés <gray>(45 000 CD, <green>-10 %<gray>)"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_requirements": {
         "requirements": {
           "argent": {
@@ -639,54 +1218,112 @@
         "payer": {
           "type": "CURRENCY_WITHDRAW",
           "currency": "",
-          "amount": 10000
+          "amount": 10000,
+          "click": "LEFT_CLICK"
         },
         "donner": {
           "type": "COMMAND_CONSOLE",
           "commands": [
             "crates key give %player% cle_legendaire 1"
-          ]
+          ],
+          "click": "LEFT_CLICK"
         },
         "msg": {
           "type": "MESSAGE",
           "message": [
             "<green>+1 Clé Légendaire !"
-          ]
+          ],
+          "click": "LEFT_CLICK"
         },
         "son": {
           "type": "PLAYSOUND",
-          "sound": "minecraft:entity.experience_orb.pickup"
+          "sound": "minecraft:entity.experience_orb.pickup",
+          "click": "LEFT_CLICK"
         },
         "refresh": {
-          "type": "REFRESH_GUI"
+          "type": "REFRESH_GUI",
+          "click": "LEFT_CLICK"
+        },
+        "payer5": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 45000,
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 45000,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "donner5": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "crates key give %player% cle_legendaire 5"
+          ],
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 45000,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "msg5": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>+5 Clé Légendaire !"
+          ],
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 45000,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "son5": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:entity.experience_orb.pickup",
+          "click": "RIGHT_CLICK"
+        },
+        "refresh5": {
+          "type": "REFRESH_GUI",
+          "click": "RIGHT_CLICK"
         }
       },
-      "custom_model_data": 7003,
-      "amount": 1
-    },
-    "cle_legendaire_x5": {
-      "item": "minecraft:tripwire_hook",
-      "slots": [
-        42
-      ],
-      "name": "<gold><b>Clé Légendaire x5",
-      "lore": [
-        "<gray>Ouvre la Caisse Légendaire",
-        "<green>Lot de 5 : -10 %",
-        "<gray>Tu en as : <white>%skiescrates:keys cle_legendaire%",
-        "",
-        "<gray>Prix : <gold>45 000 CobbleDollars",
-        "<yellow>▶ Clic pour acheter"
-      ],
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
-      },
+      }
+    },
+    "cle_legendaire_carte": {
+      "custom_model_data": 7020,
+      "name": "<gold><b>Clé Légendaire",
+      "lore": [
+        "<gray>Ouvre la Caisse Légendaire",
+        "<gray>Tu en as : <white>%skiescrates:keys cle_legendaire%",
+        "",
+        "<yellow>Clic gauche : <white>1 clé <gray>(10 000 CD)",
+        "<yellow>Clic droit : <white>5 clés <gray>(45 000 CD, <green>-10 %<gray>)"
+      ],
       "click_requirements": {
         "requirements": {
           "argent": {
             "type": "CURRENCY",
             "currency": "",
-            "amount": 45000,
+            "amount": 10000,
             "comparison": ">="
           }
         },
@@ -694,7 +1331,7 @@
           "msg": {
             "type": "MESSAGE",
             "message": [
-              "<red>Il te faut 45 000 CobbleDollars."
+              "<red>Il te faut 10 000 CobbleDollars."
             ]
           },
           "son": {
@@ -707,30 +1344,101 @@
         "payer": {
           "type": "CURRENCY_WITHDRAW",
           "currency": "",
-          "amount": 45000
+          "amount": 10000,
+          "click": "LEFT_CLICK"
         },
         "donner": {
           "type": "COMMAND_CONSOLE",
           "commands": [
-            "crates key give %player% cle_legendaire 5"
-          ]
+            "crates key give %player% cle_legendaire 1"
+          ],
+          "click": "LEFT_CLICK"
         },
         "msg": {
           "type": "MESSAGE",
           "message": [
-            "<green>+5 Clé Légendaire !"
-          ]
+            "<green>+1 Clé Légendaire !"
+          ],
+          "click": "LEFT_CLICK"
         },
         "son": {
           "type": "PLAYSOUND",
-          "sound": "minecraft:entity.experience_orb.pickup"
+          "sound": "minecraft:entity.experience_orb.pickup",
+          "click": "LEFT_CLICK"
         },
         "refresh": {
-          "type": "REFRESH_GUI"
+          "type": "REFRESH_GUI",
+          "click": "LEFT_CLICK"
+        },
+        "payer5": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 45000,
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 45000,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "donner5": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "crates key give %player% cle_legendaire 5"
+          ],
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 45000,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "msg5": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>+5 Clé Légendaire !"
+          ],
+          "click": "RIGHT_CLICK",
+          "requirements": {
+            "requirements": {
+              "argent": {
+                "type": "CURRENCY",
+                "currency": "",
+                "amount": 45000,
+                "comparison": ">="
+              }
+            }
+          }
+        },
+        "son5": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:entity.experience_orb.pickup",
+          "click": "RIGHT_CLICK"
+        },
+        "refresh5": {
+          "type": "REFRESH_GUI",
+          "click": "RIGHT_CLICK"
         }
       },
-      "custom_model_data": 7003,
-      "amount": 5
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:paper",
+      "slots": [
+        33,
+        34,
+        35
+      ]
     },
     "retour": {
       "item": "minecraft:arrow",
@@ -741,9 +1449,6 @@
       "lore": [
         "<dark_gray>Revenir au menu"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_actions": {
         "son": {
           "type": "PLAYSOUND",
@@ -753,7 +1458,35 @@
           "type": "OPEN_GUI",
           "id": "menu"
         }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
       }
+    },
+    "retour_carte": {
+      "name": "<gray><b>◀ Retour",
+      "lore": [
+        "<dark_gray>Revenir au menu"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "menu"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        46,
+        47
+      ]
     },
     "fermer": {
       "item": "minecraft:barrier",
@@ -762,27 +1495,24 @@
       ],
       "name": "<red><b>Fermer",
       "lore": [],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_actions": {
-        "fermer": {
+        "f": {
           "type": "CLOSE_GUI"
         }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
       }
     },
     "vers_cosmetiques": {
       "item": "minecraft:amethyst_shard",
       "slots": [
-        53
+        51
       ],
       "name": "<light_purple><b>Cosmétiques ▶",
       "lore": [
         "<gray>Voir les cosmétiques"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_actions": {
         "son": {
           "type": "PLAYSOUND",
@@ -792,7 +1522,35 @@
           "type": "OPEN_GUI",
           "id": "cosmetiques"
         }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
       }
+    },
+    "vers_cosmetiques_carte": {
+      "name": "<light_purple><b>Cosmétiques ▶",
+      "lore": [
+        "<gray>Voir les cosmétiques"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "cosmetiques"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        52,
+        53
+      ]
     }
   }
 }

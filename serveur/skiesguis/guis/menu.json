@@ -1,6 +1,6 @@
 {
   "title": "<white><font:sakuflemon:gui></font>",
-  "size": 3,
+  "size": 4,
   "alias_commands": [
     "menu",
     "m"
@@ -21,17 +21,14 @@
     "boutique": {
       "item": "minecraft:gold_ingot",
       "slots": [
-        10
+        9
       ],
       "name": "<gold><b>Boutique",
       "lore": [
         "<gray>Grades et clés de caisses",
         "",
-        "<yellow>▶ Ouvrir"
+        "<yellow>▶ Clic pour ouvrir"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_actions": {
         "son": {
           "type": "PLAYSOUND",
@@ -41,22 +38,54 @@
           "type": "OPEN_GUI",
           "id": "boutique"
         }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
       }
+    },
+    "boutique_carte": {
+      "name": "<gold><b>Boutique",
+      "lore": [
+        "<gray>Grades et clés de caisses",
+        "",
+        "<yellow>▶ Clic pour ouvrir"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "boutique"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        0,
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ]
     },
     "cosmetiques": {
       "item": "minecraft:amethyst_shard",
       "slots": [
-        12
+        14
       ],
       "name": "<light_purple><b>Cosmétiques",
       "lore": [
         "<gray>Chapeaux, ailes, capes, effets",
         "",
-        "<yellow>▶ Ouvrir"
+        "<yellow>▶ Clic pour ouvrir"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_actions": {
         "son": {
           "type": "PLAYSOUND",
@@ -66,22 +95,54 @@
           "type": "OPEN_GUI",
           "id": "cosmetiques"
         }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
       }
+    },
+    "cosmetiques_carte": {
+      "name": "<light_purple><b>Cosmétiques",
+      "lore": [
+        "<gray>Chapeaux, ailes, capes, effets",
+        "",
+        "<yellow>▶ Clic pour ouvrir"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "cosmetiques"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        5,
+        6,
+        7,
+        8,
+        15,
+        16,
+        17
+      ]
     },
     "teleportation": {
       "item": "minecraft:ender_pearl",
       "slots": [
-        14
+        27
       ],
       "name": "<aqua><b>Téléportation",
       "lore": [
         "<gray>Skyloft, arène, overworld…",
         "",
-        "<yellow>▶ Ouvrir"
+        "<yellow>▶ Clic pour ouvrir"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_actions": {
         "son": {
           "type": "PLAYSOUND",
@@ -91,22 +152,54 @@
           "type": "OPEN_GUI",
           "id": "teleportation"
         }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
       }
+    },
+    "teleportation_carte": {
+      "name": "<aqua><b>Téléportation",
+      "lore": [
+        "<gray>Skyloft, arène, overworld…",
+        "",
+        "<yellow>▶ Clic pour ouvrir"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "teleportation"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        18,
+        19,
+        20,
+        21,
+        28,
+        29,
+        30
+      ]
     },
     "recompenses": {
       "item": "minecraft:chest",
       "slots": [
-        16
+        32
       ],
       "name": "<green><b>Récompenses",
       "lore": [
-        "<gray>Tes kits toutes les 3 h",
+        "<gray>Tes kits toutes les 3 heures",
         "",
-        "<yellow>▶ Ouvrir"
+        "<yellow>▶ Clic pour ouvrir"
       ],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_actions": {
         "son": {
           "type": "PLAYSOUND",
@@ -118,22 +211,59 @@
             "kit"
           ]
         }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
       }
+    },
+    "recompenses_carte": {
+      "name": "<green><b>Récompenses",
+      "lore": [
+        "<gray>Tes kits toutes les 3 heures",
+        "",
+        "<yellow>▶ Clic pour ouvrir"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "kits": {
+          "type": "COMMAND_PLAYER",
+          "commands": [
+            "kit"
+          ]
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:paper",
+      "custom_model_data": 7020,
+      "slots": [
+        23,
+        24,
+        25,
+        26,
+        33,
+        34,
+        35
+      ]
     },
     "fermer": {
       "item": "minecraft:barrier",
       "slots": [
-        22
+        31
       ],
       "name": "<red><b>Fermer",
       "lore": [],
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      },
       "click_actions": {
-        "fermer": {
+        "f": {
           "type": "CLOSE_GUI"
         }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
       }
     }
   }

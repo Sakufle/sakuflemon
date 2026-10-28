@@ -18,111 +18,26 @@
     }
   },
   "items": {
-    "casquette_dresseur_possede": {
+    "bientot_11": {
       "item": "minecraft:red_dye",
       "slots": [
         11
       ],
-      "priority": 1,
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {},
-        "minecraft:enchantment_glint_override": true
-      },
-      "name": "<light_purple><b>Casquette de Dresseur",
+      "name": "<dark_gray><b>Casquette de Dresseur",
       "lore": [
-        "<gray>La casquette rouge et blanche",
-        "",
-        "<green>✔ Possédé",
-        "<yellow>▶ Clic pour l'équiper"
+        "<gray>Bientôt…"
       ],
-      "view_requirements": {
-        "requirements": {
-          "possede": {
-            "type": "PERMISSION",
-            "permission": "sakuflemon.cosmetique.casquette_dresseur"
-          }
-        }
-      },
       "click_actions": {
         "son": {
           "type": "PLAYSOUND",
-          "sound": "minecraft:ui.button.click"
-        },
-        "equiper": {
-          "type": "COMMAND_PLAYER",
-          "commands": [
-            "cosmetics"
-          ]
-        }
-      }
-    },
-    "casquette_dresseur": {
-      "item": "minecraft:red_dye",
-      "slots": [
-        11
-      ],
-      "priority": 2,
-      "name": "<light_purple><b>Casquette de Dresseur",
-      "lore": [
-        "<gray>La casquette rouge et blanche",
-        "",
-        "<gray>Prix : <gold>3 000 CobbleDollars",
-        "<yellow>▶ Clic pour acheter"
-      ],
-      "click_requirements": {
-        "requirements": {
-          "argent": {
-            "type": "CURRENCY",
-            "currency": "",
-            "amount": 3000,
-            "comparison": ">="
-          }
-        },
-        "deny_actions": {
-          "msg": {
-            "type": "MESSAGE",
-            "message": [
-              "<red>Il te faut 3 000 CobbleDollars."
-            ]
-          },
-          "son": {
-            "type": "PLAYSOUND",
-            "sound": "minecraft:block.note_block.bass"
-          }
-        }
-      },
-      "click_actions": {
-        "payer": {
-          "type": "CURRENCY_WITHDRAW",
-          "currency": "",
-          "amount": 3000
-        },
-        "donner": {
-          "type": "COMMAND_CONSOLE",
-          "commands": [
-            "cosmetics give %player% casquette_dresseur",
-            "lp user %player% permission set sakuflemon.cosmetique.casquette_dresseur true"
-          ]
-        },
-        "msg": {
-          "type": "MESSAGE",
-          "message": [
-            "<green>Tu as débloqué <light_purple><b>Casquette de Dresseur</b><green> ! Équipe-le avec /cosmetics."
-          ]
-        },
-        "son": {
-          "type": "PLAYSOUND",
-          "sound": "minecraft:ui.toast.challenge_complete"
-        },
-        "refresh": {
-          "type": "REFRESH_GUI"
+          "sound": "minecraft:block.note_block.bass"
         }
       },
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       }
     },
-    "oreilles_pikachu_possede": {
+    "pikachu_hat_possede": {
       "item": "minecraft:yellow_dye",
       "slots": [
         12
@@ -132,7 +47,7 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
-      "name": "<light_purple><b>Oreilles de Pikachu",
+      "name": "<light_purple><b>Chapeau Pikachu",
       "lore": [
         "<gray>Pika pika !",
         "",
@@ -143,7 +58,7 @@
         "requirements": {
           "possede": {
             "type": "PERMISSION",
-            "permission": "sakuflemon.cosmetique.oreilles_pikachu"
+            "permission": "sakuflemon.cosmetique.pikachu_hat"
           }
         }
       },
@@ -160,13 +75,13 @@
         }
       }
     },
-    "oreilles_pikachu": {
+    "pikachu_hat": {
       "item": "minecraft:yellow_dye",
       "slots": [
         12
       ],
       "priority": 2,
-      "name": "<light_purple><b>Oreilles de Pikachu",
+      "name": "<light_purple><b>Chapeau Pikachu",
       "lore": [
         "<gray>Pika pika !",
         "",
@@ -204,14 +119,14 @@
         "donner": {
           "type": "COMMAND_CONSOLE",
           "commands": [
-            "cosmetics give %player% oreilles_pikachu",
-            "lp user %player% permission set sakuflemon.cosmetique.oreilles_pikachu true"
+            "cosmetics give %player% pikachu_hat",
+            "lp user %player% permission set sakuflemon.cosmetique.pikachu_hat true"
           ]
         },
         "msg": {
           "type": "MESSAGE",
           "message": [
-            "<green>Tu as débloqué <light_purple><b>Oreilles de Pikachu</b><green> ! Équipe-le avec /cosmetics."
+            "<green>Tu as débloqué <light_purple><b>Chapeau Pikachu</b><green> ! Équipe-le avec /cosmetics."
           ]
         },
         "son": {
@@ -226,424 +141,84 @@
         "minecraft:hide_additional_tooltip": {}
       }
     },
-    "chapeau_citrouille_possede": {
+    "bientot_13": {
       "item": "minecraft:carved_pumpkin",
       "slots": [
         13
       ],
-      "priority": 1,
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {},
-        "minecraft:enchantment_glint_override": true
-      },
-      "name": "<light_purple><b>Chapeau Citrouille",
+      "name": "<dark_gray><b>Chapeau Citrouille",
       "lore": [
-        "<gray>Souvenir de l'île Citrouille",
-        "",
-        "<green>✔ Possédé",
-        "<yellow>▶ Clic pour l'équiper"
+        "<gray>Bientôt…"
       ],
-      "view_requirements": {
-        "requirements": {
-          "possede": {
-            "type": "PERMISSION",
-            "permission": "sakuflemon.cosmetique.chapeau_citrouille"
-          }
-        }
-      },
       "click_actions": {
         "son": {
           "type": "PLAYSOUND",
-          "sound": "minecraft:ui.button.click"
-        },
-        "equiper": {
-          "type": "COMMAND_PLAYER",
-          "commands": [
-            "cosmetics"
-          ]
-        }
-      }
-    },
-    "chapeau_citrouille": {
-      "item": "minecraft:carved_pumpkin",
-      "slots": [
-        13
-      ],
-      "priority": 2,
-      "name": "<light_purple><b>Chapeau Citrouille",
-      "lore": [
-        "<gray>Souvenir de l'île Citrouille",
-        "",
-        "<gray>Prix : <gold>4 000 CobbleDollars",
-        "<yellow>▶ Clic pour acheter"
-      ],
-      "click_requirements": {
-        "requirements": {
-          "argent": {
-            "type": "CURRENCY",
-            "currency": "",
-            "amount": 4000,
-            "comparison": ">="
-          }
-        },
-        "deny_actions": {
-          "msg": {
-            "type": "MESSAGE",
-            "message": [
-              "<red>Il te faut 4 000 CobbleDollars."
-            ]
-          },
-          "son": {
-            "type": "PLAYSOUND",
-            "sound": "minecraft:block.note_block.bass"
-          }
-        }
-      },
-      "click_actions": {
-        "payer": {
-          "type": "CURRENCY_WITHDRAW",
-          "currency": "",
-          "amount": 4000
-        },
-        "donner": {
-          "type": "COMMAND_CONSOLE",
-          "commands": [
-            "cosmetics give %player% chapeau_citrouille",
-            "lp user %player% permission set sakuflemon.cosmetique.chapeau_citrouille true"
-          ]
-        },
-        "msg": {
-          "type": "MESSAGE",
-          "message": [
-            "<green>Tu as débloqué <light_purple><b>Chapeau Citrouille</b><green> ! Équipe-le avec /cosmetics."
-          ]
-        },
-        "son": {
-          "type": "PLAYSOUND",
-          "sound": "minecraft:ui.toast.challenge_complete"
-        },
-        "refresh": {
-          "type": "REFRESH_GUI"
+          "sound": "minecraft:block.note_block.bass"
         }
       },
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       }
     },
-    "couronne_celeste_possede": {
+    "bientot_14": {
       "item": "minecraft:gold_ingot",
       "slots": [
         14
       ],
-      "priority": 1,
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {},
-        "minecraft:enchantment_glint_override": true
-      },
-      "name": "<light_purple><b>Couronne Céleste",
+      "name": "<dark_gray><b>Couronne Céleste",
       "lore": [
-        "<gray>Pour les rois du ciel",
-        "",
-        "<green>✔ Possédé",
-        "<yellow>▶ Clic pour l'équiper"
+        "<gray>Bientôt…"
       ],
-      "view_requirements": {
-        "requirements": {
-          "possede": {
-            "type": "PERMISSION",
-            "permission": "sakuflemon.cosmetique.couronne_celeste"
-          }
-        }
-      },
       "click_actions": {
         "son": {
           "type": "PLAYSOUND",
-          "sound": "minecraft:ui.button.click"
-        },
-        "equiper": {
-          "type": "COMMAND_PLAYER",
-          "commands": [
-            "cosmetics"
-          ]
-        }
-      }
-    },
-    "couronne_celeste": {
-      "item": "minecraft:gold_ingot",
-      "slots": [
-        14
-      ],
-      "priority": 2,
-      "name": "<light_purple><b>Couronne Céleste",
-      "lore": [
-        "<gray>Pour les rois du ciel",
-        "",
-        "<gray>Prix : <gold>15 000 CobbleDollars",
-        "<yellow>▶ Clic pour acheter"
-      ],
-      "click_requirements": {
-        "requirements": {
-          "argent": {
-            "type": "CURRENCY",
-            "currency": "",
-            "amount": 15000,
-            "comparison": ">="
-          }
-        },
-        "deny_actions": {
-          "msg": {
-            "type": "MESSAGE",
-            "message": [
-              "<red>Il te faut 15 000 CobbleDollars."
-            ]
-          },
-          "son": {
-            "type": "PLAYSOUND",
-            "sound": "minecraft:block.note_block.bass"
-          }
-        }
-      },
-      "click_actions": {
-        "payer": {
-          "type": "CURRENCY_WITHDRAW",
-          "currency": "",
-          "amount": 15000
-        },
-        "donner": {
-          "type": "COMMAND_CONSOLE",
-          "commands": [
-            "cosmetics give %player% couronne_celeste",
-            "lp user %player% permission set sakuflemon.cosmetique.couronne_celeste true"
-          ]
-        },
-        "msg": {
-          "type": "MESSAGE",
-          "message": [
-            "<green>Tu as débloqué <light_purple><b>Couronne Céleste</b><green> ! Équipe-le avec /cosmetics."
-          ]
-        },
-        "son": {
-          "type": "PLAYSOUND",
-          "sound": "minecraft:ui.toast.challenge_complete"
-        },
-        "refresh": {
-          "type": "REFRESH_GUI"
+          "sound": "minecraft:block.note_block.bass"
         }
       },
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       }
     },
-    "bandeau_rocket_possede": {
+    "bientot_15": {
       "item": "minecraft:black_dye",
       "slots": [
         15
       ],
-      "priority": 1,
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {},
-        "minecraft:enchantment_glint_override": true
-      },
-      "name": "<light_purple><b>Bandeau Team Rocket",
+      "name": "<dark_gray><b>Bandeau Team Rocket",
       "lore": [
-        "<gray>Prépare-toi à des ennuis…",
-        "",
-        "<green>✔ Possédé",
-        "<yellow>▶ Clic pour l'équiper"
+        "<gray>Bientôt…"
       ],
-      "view_requirements": {
-        "requirements": {
-          "possede": {
-            "type": "PERMISSION",
-            "permission": "sakuflemon.cosmetique.bandeau_rocket"
-          }
-        }
-      },
       "click_actions": {
         "son": {
           "type": "PLAYSOUND",
-          "sound": "minecraft:ui.button.click"
-        },
-        "equiper": {
-          "type": "COMMAND_PLAYER",
-          "commands": [
-            "cosmetics"
-          ]
-        }
-      }
-    },
-    "bandeau_rocket": {
-      "item": "minecraft:black_dye",
-      "slots": [
-        15
-      ],
-      "priority": 2,
-      "name": "<light_purple><b>Bandeau Team Rocket",
-      "lore": [
-        "<gray>Prépare-toi à des ennuis…",
-        "",
-        "<gray>Prix : <gold>6 000 CobbleDollars",
-        "<yellow>▶ Clic pour acheter"
-      ],
-      "click_requirements": {
-        "requirements": {
-          "argent": {
-            "type": "CURRENCY",
-            "currency": "",
-            "amount": 6000,
-            "comparison": ">="
-          }
-        },
-        "deny_actions": {
-          "msg": {
-            "type": "MESSAGE",
-            "message": [
-              "<red>Il te faut 6 000 CobbleDollars."
-            ]
-          },
-          "son": {
-            "type": "PLAYSOUND",
-            "sound": "minecraft:block.note_block.bass"
-          }
-        }
-      },
-      "click_actions": {
-        "payer": {
-          "type": "CURRENCY_WITHDRAW",
-          "currency": "",
-          "amount": 6000
-        },
-        "donner": {
-          "type": "COMMAND_CONSOLE",
-          "commands": [
-            "cosmetics give %player% bandeau_rocket",
-            "lp user %player% permission set sakuflemon.cosmetique.bandeau_rocket true"
-          ]
-        },
-        "msg": {
-          "type": "MESSAGE",
-          "message": [
-            "<green>Tu as débloqué <light_purple><b>Bandeau Team Rocket</b><green> ! Équipe-le avec /cosmetics."
-          ]
-        },
-        "son": {
-          "type": "PLAYSOUND",
-          "sound": "minecraft:ui.toast.challenge_complete"
-        },
-        "refresh": {
-          "type": "REFRESH_GUI"
+          "sound": "minecraft:block.note_block.bass"
         }
       },
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       }
     },
-    "cape_sakuflemon_possede": {
+    "bientot_28": {
       "item": "minecraft:red_banner",
       "slots": [
         28
       ],
-      "priority": 1,
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {},
-        "minecraft:enchantment_glint_override": true
-      },
-      "name": "<light_purple><b>Cape Sakuflemon",
+      "name": "<dark_gray><b>Cape Sakuflemon",
       "lore": [
-        "<gray>La cape officielle du serveur",
-        "",
-        "<green>✔ Possédé",
-        "<yellow>▶ Clic pour l'équiper"
+        "<gray>Bientôt…"
       ],
-      "view_requirements": {
-        "requirements": {
-          "possede": {
-            "type": "PERMISSION",
-            "permission": "sakuflemon.cosmetique.cape_sakuflemon"
-          }
-        }
-      },
       "click_actions": {
         "son": {
           "type": "PLAYSOUND",
-          "sound": "minecraft:ui.button.click"
-        },
-        "equiper": {
-          "type": "COMMAND_PLAYER",
-          "commands": [
-            "cosmetics"
-          ]
-        }
-      }
-    },
-    "cape_sakuflemon": {
-      "item": "minecraft:red_banner",
-      "slots": [
-        28
-      ],
-      "priority": 2,
-      "name": "<light_purple><b>Cape Sakuflemon",
-      "lore": [
-        "<gray>La cape officielle du serveur",
-        "",
-        "<gray>Prix : <gold>7 500 CobbleDollars",
-        "<yellow>▶ Clic pour acheter"
-      ],
-      "click_requirements": {
-        "requirements": {
-          "argent": {
-            "type": "CURRENCY",
-            "currency": "",
-            "amount": 7500,
-            "comparison": ">="
-          }
-        },
-        "deny_actions": {
-          "msg": {
-            "type": "MESSAGE",
-            "message": [
-              "<red>Il te faut 7 500 CobbleDollars."
-            ]
-          },
-          "son": {
-            "type": "PLAYSOUND",
-            "sound": "minecraft:block.note_block.bass"
-          }
-        }
-      },
-      "click_actions": {
-        "payer": {
-          "type": "CURRENCY_WITHDRAW",
-          "currency": "",
-          "amount": 7500
-        },
-        "donner": {
-          "type": "COMMAND_CONSOLE",
-          "commands": [
-            "cosmetics give %player% cape_sakuflemon",
-            "lp user %player% permission set sakuflemon.cosmetique.cape_sakuflemon true"
-          ]
-        },
-        "msg": {
-          "type": "MESSAGE",
-          "message": [
-            "<green>Tu as débloqué <light_purple><b>Cape Sakuflemon</b><green> ! Équipe-le avec /cosmetics."
-          ]
-        },
-        "son": {
-          "type": "PLAYSOUND",
-          "sound": "minecraft:ui.toast.challenge_complete"
-        },
-        "refresh": {
-          "type": "REFRESH_GUI"
+          "sound": "minecraft:block.note_block.bass"
         }
       },
       "nbt": {
         "minecraft:hide_additional_tooltip": {}
       }
     },
-    "sac_pokeball_possede": {
-      "item": "cobblemon:poke_ball",
+    "giratina_arms_possede": {
+      "item": "minecraft:obsidian",
       "slots": [
         29
       ],
@@ -652,9 +227,9 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:enchantment_glint_override": true
       },
-      "name": "<light_purple><b>Sac Poké Ball",
+      "name": "<light_purple><b>Bras de Giratina",
       "lore": [
-        "<gray>Un sac en forme de Poké Ball",
+        "<gray>La forme Originelle dans ton dos",
         "",
         "<green>✔ Possédé",
         "<yellow>▶ Clic pour l'équiper"
@@ -663,7 +238,7 @@
         "requirements": {
           "possede": {
             "type": "PERMISSION",
-            "permission": "sakuflemon.cosmetique.sac_pokeball"
+            "permission": "sakuflemon.cosmetique.giratina_arms"
           }
         }
       },
@@ -680,119 +255,15 @@
         }
       }
     },
-    "sac_pokeball": {
-      "item": "cobblemon:poke_ball",
+    "giratina_arms": {
+      "item": "minecraft:obsidian",
       "slots": [
         29
       ],
       "priority": 2,
-      "name": "<light_purple><b>Sac Poké Ball",
+      "name": "<light_purple><b>Bras de Giratina",
       "lore": [
-        "<gray>Un sac en forme de Poké Ball",
-        "",
-        "<gray>Prix : <gold>7 500 CobbleDollars",
-        "<yellow>▶ Clic pour acheter"
-      ],
-      "click_requirements": {
-        "requirements": {
-          "argent": {
-            "type": "CURRENCY",
-            "currency": "",
-            "amount": 7500,
-            "comparison": ">="
-          }
-        },
-        "deny_actions": {
-          "msg": {
-            "type": "MESSAGE",
-            "message": [
-              "<red>Il te faut 7 500 CobbleDollars."
-            ]
-          },
-          "son": {
-            "type": "PLAYSOUND",
-            "sound": "minecraft:block.note_block.bass"
-          }
-        }
-      },
-      "click_actions": {
-        "payer": {
-          "type": "CURRENCY_WITHDRAW",
-          "currency": "",
-          "amount": 7500
-        },
-        "donner": {
-          "type": "COMMAND_CONSOLE",
-          "commands": [
-            "cosmetics give %player% sac_pokeball",
-            "lp user %player% permission set sakuflemon.cosmetique.sac_pokeball true"
-          ]
-        },
-        "msg": {
-          "type": "MESSAGE",
-          "message": [
-            "<green>Tu as débloqué <light_purple><b>Sac Poké Ball</b><green> ! Équipe-le avec /cosmetics."
-          ]
-        },
-        "son": {
-          "type": "PLAYSOUND",
-          "sound": "minecraft:ui.toast.challenge_complete"
-        },
-        "refresh": {
-          "type": "REFRESH_GUI"
-        }
-      },
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {}
-      }
-    },
-    "ailes_celestes_possede": {
-      "item": "minecraft:feather",
-      "slots": [
-        30
-      ],
-      "priority": 1,
-      "nbt": {
-        "minecraft:hide_additional_tooltip": {},
-        "minecraft:enchantment_glint_override": true
-      },
-      "name": "<light_purple><b>Ailes Célestes",
-      "lore": [
-        "<gray>Les ailes des habitants d'Incarnam",
-        "",
-        "<green>✔ Possédé",
-        "<yellow>▶ Clic pour l'équiper"
-      ],
-      "view_requirements": {
-        "requirements": {
-          "possede": {
-            "type": "PERMISSION",
-            "permission": "sakuflemon.cosmetique.ailes_celestes"
-          }
-        }
-      },
-      "click_actions": {
-        "son": {
-          "type": "PLAYSOUND",
-          "sound": "minecraft:ui.button.click"
-        },
-        "equiper": {
-          "type": "COMMAND_PLAYER",
-          "commands": [
-            "cosmetics"
-          ]
-        }
-      }
-    },
-    "ailes_celestes": {
-      "item": "minecraft:feather",
-      "slots": [
-        30
-      ],
-      "priority": 2,
-      "name": "<light_purple><b>Ailes Célestes",
-      "lore": [
-        "<gray>Les ailes des habitants d'Incarnam",
+        "<gray>La forme Originelle dans ton dos",
         "",
         "<gray>Prix : <gold>25 000 CobbleDollars",
         "<yellow>▶ Clic pour acheter"
@@ -828,14 +299,14 @@
         "donner": {
           "type": "COMMAND_CONSOLE",
           "commands": [
-            "cosmetics give %player% ailes_celestes",
-            "lp user %player% permission set sakuflemon.cosmetique.ailes_celestes true"
+            "cosmetics give %player% giratina_arms",
+            "lp user %player% permission set sakuflemon.cosmetique.giratina_arms true"
           ]
         },
         "msg": {
           "type": "MESSAGE",
           "message": [
-            "<green>Tu as débloqué <light_purple><b>Ailes Célestes</b><green> ! Équipe-le avec /cosmetics."
+            "<green>Tu as débloqué <light_purple><b>Bras de Giratina</b><green> ! Équipe-le avec /cosmetics."
           ]
         },
         "son": {
@@ -844,6 +315,25 @@
         },
         "refresh": {
           "type": "REFRESH_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "bientot_30": {
+      "item": "minecraft:feather",
+      "slots": [
+        30
+      ],
+      "name": "<dark_gray><b>Ailes Célestes",
+      "lore": [
+        "<gray>Bientôt…"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:block.note_block.bass"
         }
       },
       "nbt": {
@@ -1370,7 +860,7 @@
         "minecraft:hide_additional_tooltip": {}
       }
     },
-    "aura_doree_possede": {
+    "glow_gold_possede": {
       "item": "minecraft:glowstone_dust",
       "slots": [
         43
@@ -1391,7 +881,7 @@
         "requirements": {
           "possede": {
             "type": "PERMISSION",
-            "permission": "sakuflemon.cosmetique.aura_doree"
+            "permission": "sakuflemon.cosmetique.glow_gold"
           }
         }
       },
@@ -1408,7 +898,7 @@
         }
       }
     },
-    "aura_doree": {
+    "glow_gold": {
       "item": "minecraft:glowstone_dust",
       "slots": [
         43
@@ -1452,8 +942,8 @@
         "donner": {
           "type": "COMMAND_CONSOLE",
           "commands": [
-            "cosmetics give %player% aura_doree",
-            "lp user %player% permission set sakuflemon.cosmetique.aura_doree true"
+            "cosmetics give %player% glow_gold",
+            "lp user %player% permission set sakuflemon.cosmetique.glow_gold true"
           ]
         },
         "msg": {

@@ -1,0 +1,21 @@
+{
+  "id": "effet_flammes",
+  "type": "EFFECT",
+  "display_name": "<b><gradient:#FFD36B:#FF4A1C>Traînée de flammes</gradient></b>",
+  "description": [
+    "<gray>Digne d'un Dracaufeu.</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:item/effet_flammes",
+  "texture": "dex_cosmetics:item/effet_flammes",
+  "effect": {
+    "kind": "particle",
+    "particle": {
+      "interval_ticks": 3,
+      "commands": [
+        "particle flame ~ ~0.1 ~ 0.25 0.05 0.25 0.01 3",
+        "particle small_flame ~ ~0.5 ~ 0.3 0.3 0.3 0.01 1"
+      ]
+    }
+  }
+}

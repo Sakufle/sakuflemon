@@ -311,27 +311,31 @@ IMAGES["boutique_v2"], GUIS["boutique"] = im, g
 
 # ---- Cosmetiques (6 rangees) : tuiles, achat puis /cosmetics pour equiper
 im, g = fond(6, "COSMETIQUES"), base("", 6, ["cosmetiques", "cosmetique"])
-COSMETIQUES = [  # id Dex Cosmetics, slot, icone, nom, description, prix, couleur
-    ("casquette_dresseur", 11, "minecraft:red_dye", "Casquette de Dresseur", "La casquette rouge et blanche", 3000, "violet"),
-    ("oreilles_pikachu", 12, "minecraft:yellow_dye", "Oreilles de Pikachu", "Pika pika !", 4000, "violet"),
-    ("chapeau_citrouille", 13, "minecraft:carved_pumpkin", "Chapeau Citrouille", "Souvenir de l'île Citrouille", 4000, "violet"),
-    ("couronne_celeste", 14, "minecraft:gold_ingot", "Couronne Céleste", "Pour les rois du ciel", 15000, "violet"),
-    ("bandeau_rocket", 15, "minecraft:black_dye", "Bandeau Team Rocket", "Prépare-toi à des ennuis…", 6000, "violet"),
-    ("cape_sakuflemon", 28, "minecraft:red_banner", "Cape Sakuflemon", "La cape officielle du serveur", 7500, "bleu"),
-    ("sac_pokeball", 29, "cobblemon:poke_ball", "Sac Poké Ball", "Un sac en forme de Poké Ball", 7500, "bleu"),
-    ("ailes_celestes", 30, "minecraft:feather", "Ailes Célestes", "Les ailes des habitants d'Incarnam", 25000, "bleu"),
+COSMETIQUES = [  # id Dex Cosmetics (None = pas encore dessine), slot, icone, nom, description, prix, couleur
+    (None, 11, "minecraft:red_dye", "Casquette de Dresseur", "", 0, "violet"),
+    ("pikachu_hat", 12, "minecraft:yellow_dye", "Chapeau Pikachu", "Pika pika !", 4000, "violet"),
+    (None, 13, "minecraft:carved_pumpkin", "Chapeau Citrouille", "", 0, "violet"),
+    (None, 14, "minecraft:gold_ingot", "Couronne Céleste", "", 0, "violet"),
+    (None, 15, "minecraft:black_dye", "Bandeau Team Rocket", "", 0, "violet"),
+    (None, 28, "minecraft:red_banner", "Cape Sakuflemon", "", 0, "bleu"),
+    ("giratina_arms", 29, "minecraft:obsidian", "Bras de Giratina", "La forme Originelle dans ton dos", 25000, "bleu"),
+    (None, 30, "minecraft:feather", "Ailes Célestes", "", 0, "bleu"),
     ("effet_coeurs", 32, "minecraft:pink_dye", "Traînée de cœurs", "Des cœurs autour de toi", 5000, "rose"),
     ("effet_flammes", 33, "minecraft:blaze_powder", "Traînée de flammes", "Digne d'un Dracaufeu", 5000, "rose"),
     ("effet_notes", 34, "minecraft:note_block", "Notes de musique", "Ton thème de combat", 5000, "rose"),
     ("effet_etoiles", 41, "minecraft:nether_star", "Poussière d'étoiles", "Brille comme un shiny", 8000, "rose"),
     ("effet_eclairs", 42, "minecraft:lightning_rod", "Étincelles", "Électrique !", 8000, "rose"),
-    ("aura_doree", 43, "minecraft:glowstone_dust", "Aura dorée", "Contour lumineux doré", 20000, "rose"),
+    ("glow_gold", 43, "minecraft:glowstone_dust", "Aura dorée", "Contour lumineux doré", 20000, "rose"),
 ]
 etiquette(im, 0, 8, 0, "CHAPEAUX", "violet")
 etiquette(im, 0, 3, 2, "DOS", "bleu")
 etiquette(im, 5, 8, 2, "EFFETS", "rose")
 for cid, slot, icone, nom, desc, montant, coul in COSMETIQUES:
     tuile(im, slot % 9, slot // 9, coul)
+    if cid is None:
+        poser(g, f"bientot_{slot}", icone, slot, name=f"<dark_gray><b>{nom}", lore=["<gray>Bientôt…"],
+              click_actions={"son": {"type": "PLAYSOUND", "sound": SON_NON}})
+        continue
     perm = f"sakuflemon.cosmetique.{cid}"
     poser(g, f"{cid}_possede", icone, slot, priority=1, nbt=BRILLE, name=f"<light_purple><b>{nom}",
           lore=[f"<gray>{desc}", "", "<green>✔ Possédé", "<yellow>▶ Clic pour l'équiper"],

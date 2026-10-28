@@ -95,7 +95,8 @@
 	"quest.061E5E6327B75C35.title": "Pêche céleste"
 	"quest.061E5E6327B75C35.quest_subtitle": "Pêche un Pokémon Eau"
 	"quest.061E5E6327B75C35.quest_desc": [
-		"Fabrique une Poké Canne et lance-la dans l'eau."
+		"Va voir le Pêcheur : il te prêtera une Poké Canne."
+		"Lance-la dans l'eau (clic droit) et attends que ça morde."
 		"Remonte un Pokémon de type Eau."
 	]
 	"task.635A31F4EE6BF970.title": "Pêcher un Pokémon Eau"

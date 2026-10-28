@@ -1,0 +1,140 @@
+{
+  "title": "<white><font:sakuflemon:gui></font>",
+  "size": 3,
+  "alias_commands": [
+    "menu",
+    "m"
+  ],
+  "open_actions": {
+    "son": {
+      "type": "PLAYSOUND",
+      "sound": "cobblemon:pc.on"
+    }
+  },
+  "close_actions": {
+    "son": {
+      "type": "PLAYSOUND",
+      "sound": "cobblemon:pc.off"
+    }
+  },
+  "items": {
+    "boutique": {
+      "item": "minecraft:gold_ingot",
+      "slots": [
+        10
+      ],
+      "name": "<gold><b>Boutique",
+      "lore": [
+        "<gray>Grades et clés de caisses",
+        "",
+        "<yellow>▶ Ouvrir"
+      ],
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "boutique"
+        }
+      }
+    },
+    "cosmetiques": {
+      "item": "minecraft:amethyst_shard",
+      "slots": [
+        12
+      ],
+      "name": "<light_purple><b>Cosmétiques",
+      "lore": [
+        "<gray>Chapeaux, ailes, capes, effets",
+        "",
+        "<yellow>▶ Ouvrir"
+      ],
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "cosmetiques"
+        }
+      }
+    },
+    "teleportation": {
+      "item": "minecraft:ender_pearl",
+      "slots": [
+        14
+      ],
+      "name": "<aqua><b>Téléportation",
+      "lore": [
+        "<gray>Skyloft, arène, overworld…",
+        "",
+        "<yellow>▶ Ouvrir"
+      ],
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "teleportation"
+        }
+      }
+    },
+    "recompenses": {
+      "item": "minecraft:chest",
+      "slots": [
+        16
+      ],
+      "name": "<green><b>Récompenses",
+      "lore": [
+        "<gray>Tes kits toutes les 3 h",
+        "",
+        "<yellow>▶ Ouvrir"
+      ],
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "kits": {
+          "type": "COMMAND_PLAYER",
+          "commands": [
+            "kit"
+          ]
+        }
+      }
+    },
+    "fermer": {
+      "item": "minecraft:barrier",
+      "slots": [
+        22
+      ],
+      "name": "<red><b>Fermer",
+      "lore": [],
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "click_actions": {
+        "fermer": {
+          "type": "CLOSE_GUI"
+        }
+      }
+    }
+  }
+}

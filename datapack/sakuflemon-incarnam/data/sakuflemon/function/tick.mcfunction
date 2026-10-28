@@ -13,3 +13,4 @@ execute as @a[gamemode=adventure,tag=!sakuflemon.builder] at @s unless dimension
 function sakuflemon:musique/tick
 function sakuflemon:halo/tick
 function sakuflemon:guide/tick
+function sakuflemon:menu/tick

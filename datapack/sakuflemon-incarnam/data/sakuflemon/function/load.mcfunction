@@ -15,3 +15,6 @@ scoreboard objectives add sakuflemon.zone dummy
 scoreboard objectives add sakuflemon.zone_v dummy
 scoreboard objectives add sakuflemon.halo dummy
 scoreboard objectives add sakuflemon.guide dummy
+# Menu (objet clic droit) et delai de la teleportation aleatoire
+scoreboard objectives add sakuflemon.menu minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add sakuflemon.tp_cd dummy

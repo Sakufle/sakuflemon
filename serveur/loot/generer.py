@@ -2,6 +2,7 @@
 import json, os, shutil, sys
 
 VANILLA, IDS, OUT = sys.argv[1], sys.argv[2], sys.argv[3]
+MODS = sys.argv[4] if len(sys.argv) > 4 else None  # dossier des jars de structures dézippés (data/*/loot_table)
 ids = set(open(IDS).read().split())
 
 def e(item, w, lo=1, hi=1):
@@ -77,3 +78,49 @@ for root, _, files in os.walk(VANILLA):
         table["pools"].append({"rolls": 1, "entries": [{"type": "minecraft:loot_table", "value": f"sakuflemon:coffres/{tier}"}]})
         write(f"{OUT}/data/minecraft/loot_table/chests/{rel}.json", table)
         print(tier, rel)
+
+# --- Coffres des mods de structures ---
+import glob, re
+SKIP = re.compile(r"maps/|pots/|spawner|keys/|special_items|tavern_quest|artifact/|entity/|entities/|archaelogy|archeology|/mob/|castle/base/|castle/blacksmith/|castle/stand/|pipeline/base/|ghastling|hovering_inferno|banners|head_self|random_blocks")
+UNTYPED_OK = re.compile(r"^(ctov:chests/|kaisyn:village/|nova_structures:chests/|incendium:(castle/barrel/|castle/treasure/|cvill/(low|medium|blacksmith|butcher|farmer|lumberjack)$|lab/|pipeline/|reactor/|sanctum/(common_loot|lower_loot|tax_collector|coffin|brewery|potions)$|quartz_flats/kitchen))")
+LEG = re.compile(r"treasure|tresure|vault|boss|pharaoh|heart_loot|king_statue|greater_loot|grand_library")
+RARE = re.compile(r"library|lab|temple|crypt|tomb|grave|fortress|betterfortresses|mansion|castle|sanctum|reactor|citadel|shrine|end_|outstation|donjon|keep|armou?ry|hideout|stray_fort|trident|toxic|witch|incendium|nether|monument|beacon|obsidian|worship|statue|secret|evoker")
+
+LOW = re.compile(r"junk|food|kitchen|lumber|nuggets|waste|wardrobe|/pot$|storage|supply|barracks|farmer|butcher|low$")
+
+def tier_of(rid):
+    if LEG.search(rid):
+        return "legendaire"
+    return "rare" if RARE.search(rid) and not LOW.search(rid) else "commun"
+
+if MODS:
+    tables = {}
+    for f in glob.glob(f"{MODS}/*/data/*/loot_table*/**/*.json", recursive=True):
+        m = re.match(r".*/data/([^/]+)/(loot_tables?)/(.+)\.json$", f)
+        ns, folder, path = m.groups()
+        rid = f"{ns}:{path}"
+        try:
+            d = json.load(open(f))
+        except ValueError:
+            continue
+        typ = d.get("type")
+        if "cobblemon:" in json.dumps(d) or SKIP.search(rid):
+            continue  # déjà du loot Pokémon, ou pas un coffre
+        if typ in ("minecraft:chest", "chest") or (typ is None and UNTYPED_OK.search(rid)):
+            tables[rid] = (ns, folder, path, d)
+    # une table qui en appelle une autre déjà enrichie ne reçoit pas de pool en plus (pas de double loot)
+    def refs(d):
+        return set(re.findall(r'"(?:value|name)": "([a-z0-9_.-]+:[a-z0-9_/.-]+)"', json.dumps(d)))
+    chosen = set(tables)
+    changed = True
+    while changed:
+        changed = False
+        for rid in list(chosen):
+            if refs(tables[rid][3]) & (chosen - {rid}):
+                chosen.discard(rid); changed = True
+    for rid in sorted(chosen):
+        ns, folder, path, d = tables[rid]
+        tier = tier_of(rid)
+        d.setdefault("pools", []).append({"rolls": 1, "entries": [{"type": "minecraft:loot_table", "value": f"sakuflemon:coffres/{tier}"}]})
+        write(f"{OUT}/data/{ns}/{folder}/{path}.json", d)
+        print(tier, rid)

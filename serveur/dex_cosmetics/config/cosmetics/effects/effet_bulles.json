@@ -1,0 +1,21 @@
+{
+  "id": "effet_bulles",
+  "type": "EFFECT",
+  "display_name": "<b><gradient:#BFF3FF:#3BA7FF>Bulles</gradient></b>",
+  "description": [
+    "<gray>Comme un Tarsal sous l'eau.</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:effects/effet_bulles",
+  "texture": "dex_cosmetics:effects/effet_bulles/gui/effet_bulles",
+  "effect": {
+    "kind": "particle",
+    "particle": {
+      "interval_ticks": 4,
+      "commands": [
+        "particle bubble_pop ~ ~1.2 ~ 0.4 0.5 0.4 0.02 2",
+        "particle dripping_water ~ ~2.1 ~ 0.3 0.1 0.3 0 1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "effet_enchant",
+  "type": "EFFECT",
+  "display_name": "<b><gradient:#C8A2FF:#6B4BFF>Runes mystiques</gradient></b>",
+  "description": [
+    "<gray>Des runes d'Arceus tournoient.</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:effects/effet_enchant",
+  "texture": "dex_cosmetics:effects/effet_enchant/gui/effet_enchant",
+  "effect": {
+    "kind": "particle",
+    "particle": {
+      "interval_ticks": 3,
+      "commands": [
+        "particle enchant ~ ~1.6 ~ 0.5 0.5 0.5 0.6 6"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "couronne_celeste",
+  "type": "HAT",
+  "display_name": "<b><gradient:#FFE680:#4FD8FF>Couronne Céleste</gradient></b>",
+  "description": [
+    "<gray>Pour les rois du ciel d'Incarnam.</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:hats/couronne_celeste",
+  "texture": "dex_cosmetics:hats/couronne_celeste",
+  "transform": {
+    "offset_x": 0.0,
+    "offset_y": 0.0,
+    "offset_z": 0.0,
+    "scale_x": 1.0,
+    "scale_y": 1.0,
+    "scale_z": 1.0
+  }
+}

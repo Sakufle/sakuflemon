@@ -1,0 +1,21 @@
+{
+  "id": "effet_ames",
+  "type": "EFFECT",
+  "display_name": "<b><gradient:#6BCBFF:#2B3A67>Âmes errantes</gradient></b>",
+  "description": [
+    "<gray>Pour les fans de Spectrum.</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:effects/effet_ames",
+  "texture": "dex_cosmetics:effects/effet_ames/gui/effet_ames",
+  "effect": {
+    "kind": "particle",
+    "particle": {
+      "interval_ticks": 4,
+      "commands": [
+        "particle soul ~ ~0.6 ~ 0.3 0.4 0.3 0.02 1",
+        "particle sculk_soul ~ ~0.2 ~ 0.4 0.05 0.4 0.01 1"
+      ]
+    }
+  }
+}

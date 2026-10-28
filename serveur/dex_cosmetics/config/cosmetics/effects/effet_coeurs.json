@@ -6,8 +6,8 @@
     "<gray>Des cœurs autour de toi.</gray>",
     "<dark_gray>Sakuflemon</dark_gray>"
   ],
-  "model": "dex_cosmetics:item/effet_coeurs",
-  "texture": "dex_cosmetics:item/effet_coeurs",
+  "model": "dex_cosmetics:effects/effet_coeurs",
+  "texture": "dex_cosmetics:effects/effet_coeurs/gui/effet_coeurs",
   "effect": {
     "kind": "particle",
     "particle": {

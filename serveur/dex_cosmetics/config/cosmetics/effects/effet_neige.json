@@ -1,0 +1,20 @@
+{
+  "id": "effet_neige",
+  "type": "EFFECT",
+  "display_name": "<b><gradient:#FFFFFF:#9BE7FF>Flocons</gradient></b>",
+  "description": [
+    "<gray>Un petit air de Givrali.</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:effects/effet_neige",
+  "texture": "dex_cosmetics:effects/effet_neige/gui/effet_neige",
+  "effect": {
+    "kind": "particle",
+    "particle": {
+      "interval_ticks": 4,
+      "commands": [
+        "particle snowflake ~ ~2.4 ~ 0.6 0.1 0.6 0.01 2"
+      ]
+    }
+  }
+}

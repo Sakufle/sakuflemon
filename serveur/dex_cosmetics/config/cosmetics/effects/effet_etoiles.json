@@ -6,8 +6,8 @@
     "<gray>Brille comme un shiny.</gray>",
     "<dark_gray>Sakuflemon</dark_gray>"
   ],
-  "model": "dex_cosmetics:item/effet_etoiles",
-  "texture": "dex_cosmetics:item/effet_etoiles",
+  "model": "dex_cosmetics:effects/effet_etoiles",
+  "texture": "dex_cosmetics:effects/effet_etoiles/gui/effet_etoiles",
   "effect": {
     "kind": "particle",
     "particle": {

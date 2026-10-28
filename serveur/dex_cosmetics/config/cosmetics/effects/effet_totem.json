@@ -1,0 +1,20 @@
+{
+  "id": "effet_totem",
+  "type": "EFFECT",
+  "display_name": "<b><gradient:#FFE066:#4BFF7A>Aura du Totem</gradient></b>",
+  "description": [
+    "<gray>Tu as l'air invincible.</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:effects/effet_totem",
+  "texture": "dex_cosmetics:effects/effet_totem/gui/effet_totem",
+  "effect": {
+    "kind": "particle",
+    "particle": {
+      "interval_ticks": 4,
+      "commands": [
+        "particle totem_of_undying ~ ~1 ~ 0.3 0.5 0.3 0.1 2"
+      ]
+    }
+  }
+}

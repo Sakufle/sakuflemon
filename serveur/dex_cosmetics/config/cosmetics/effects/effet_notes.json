@@ -6,8 +6,8 @@
     "<gray>Ton thème de combat.</gray>",
     "<dark_gray>Sakuflemon</dark_gray>"
   ],
-  "model": "dex_cosmetics:item/effet_notes",
-  "texture": "dex_cosmetics:item/effet_notes",
+  "model": "dex_cosmetics:effects/effet_notes",
+  "texture": "dex_cosmetics:effects/effet_notes/gui/effet_notes",
   "effect": {
     "kind": "particle",
     "particle": {

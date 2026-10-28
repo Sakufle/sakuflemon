@@ -307,56 +307,103 @@ poser(g, "vers_cosmetiques", "minecraft:amethyst_shard", (6, 8, 5, 5), name="<li
       lore=["<gray>Voir les cosmétiques"], click_actions=ouvrir("cosmetiques"))
 IMAGES["boutique_v2"], GUIS["boutique"] = im, g
 
-# ---- Cosmetiques (6 rangees) : tuiles, achat puis /cosmetics pour equiper
+# ---- Cosmetiques : accueil (4 rayons) puis une page par rayon ; achat puis /cosmetics pour equiper
+# Icones 3D : modeles Dex sur minecraft:leather. Dex recalcule ces numeros a CHAQUE demarrage (ordre non
+# alphabetique) : les relever dans polymer/resource_pack.zip (models/item/leather.json) et les mettre dans
+# ../dex_cosmetics/cmd.json apres tout ajout ou retrait de cosmetique, puis regenerer.
+_cmd = os.path.join(ICI, "..", "dex_cosmetics", "cmd.json")
+CMD_DEX = json.load(open(_cmd)) if os.path.exists(_cmd) else {}
+RAYONS = {  # page : (glyphe, titre image, couleur, titre MiniMessage, icone, [(id ou None, icone, nom, description, prix)])
+    "cos_chapeaux": ("", "CHAPEAUX", "violet", "<light_purple><b>Chapeaux", "minecraft:leather_helmet", [
+        ("casquette_dresseur", "minecraft:red_dye", "Casquette de Dresseur", "La casquette des futurs Maîtres", 3000),
+        ("pikachu_hat", "minecraft:yellow_dye", "Chapeau Pikachu", "Pika pika !", 4000),
+        ("oreilles_evoli", "minecraft:brown_dye", "Oreilles d'Évoli", "L'évolution à portée de tête", 4000),
+        ("chapeau_paille", "minecraft:hay_block", "Chapeau de paille", "Le futur Roi des Dresseurs", 4000),
+        ("couronne_fleurs", "minecraft:poppy", "Couronne de fleurs", "Le printemps toute l'année", 5000),
+        ("lunettes_aviateur", "minecraft:glass_pane", "Lunettes d'aviateur", "Prêt pour le décollage", 6000),
+        ("bandeau_rocket", "minecraft:black_dye", "Bandeau Team Rocket", "Prépare-toi à des ennuis…", 6000),
+        ("chapeau_citrouille", "minecraft:jack_o_lantern", "Chapeau Citrouille ✦", "Animé : son visage vacille", 7500),
+        ("chapeau_sorciere", "minecraft:purple_dye", "Chapeau de Sorcière ✦", "Animé : ruban qui luit", 7500),
+        ("aureole", "minecraft:glowstone_dust", "Auréole ✦", "Animée : lueur dorée", 15000),
+        ("couronne_celeste", "minecraft:gold_ingot", "Couronne Céleste ✦", "Animée : gemmes scintillantes", 20000),
+    ]),
+    "cos_dos": ("", "DOS", "bleu", "<blue><b>Dos", "minecraft:elytra", [
+        ("giratina_arms", "minecraft:obsidian", "Bras de Giratina", "La forme Originelle dans ton dos", 25000),
+        (None, "minecraft:red_banner", "Cape Sakuflemon", "", 0),
+        (None, "minecraft:feather", "Ailes Célestes", "", 0),
+        (None, "cobblemon:poke_ball", "Sac Poké Ball", "", 0),
+    ]),
+    "cos_effets": ("", "EFFETS", "rose", "<light_purple><b>Effets", "minecraft:blaze_powder", [
+        ("effet_coeurs", "minecraft:pink_dye", "Traînée de cœurs", "Des cœurs autour de toi", 5000),
+        ("effet_notes", "minecraft:note_block", "Notes de musique", "Ton thème de combat", 5000),
+        ("effet_cerisier", "minecraft:cherry_leaves", "Pétales de cerisier", "Les pétales dansent", 5000),
+        ("effet_neige", "minecraft:snowball", "Flocons", "Un petit air de Givrali", 5000),
+        ("effet_bulles", "minecraft:water_bucket", "Bulles", "Comme sous l'eau", 5000),
+        ("effet_flammes", "minecraft:blaze_powder", "Traînée de flammes", "Digne d'un Dracaufeu", 6000),
+        ("effet_eclairs", "minecraft:lightning_rod", "Étincelles", "Électrique !", 6000),
+        ("effet_ames", "minecraft:soul_lantern", "Âmes errantes", "Pour les fans de Spectrum", 8000),
+        ("effet_etoiles", "minecraft:nether_star", "Poussière d'étoiles", "Brille comme un shiny", 8000),
+        ("effet_enchant", "minecraft:enchanted_book", "Runes mystiques", "Des runes tournoient", 8000),
+        ("effet_arcenciel", "minecraft:prismarine_crystals", "Arc-en-ciel", "Toutes les couleurs", 10000),
+        ("effet_dragon", "minecraft:dragon_breath", "Souffle draconique", "Le souffle de Rayquaza", 12000),
+        ("effet_totem", "minecraft:totem_of_undying", "Aura du Totem", "Tu as l'air invincible", 15000),
+    ]),
+    "cos_auras": ("", "AURAS", "or", "<gold><b>Auras", "minecraft:glowstone_dust", [
+        (f"glow_{c}", f"minecraft:{d}_dye", f"Aura {n}", f"Contour lumineux {n.lower()}", p) for c, d, n, p in [
+            ("white", "white", "Blanche", 10000), ("yellow", "yellow", "Jaune", 10000), ("green", "lime", "Verte", 10000),
+            ("aqua", "light_blue", "Turquoise", 10000), ("blue", "blue", "Bleue", 10000), ("light_purple", "magenta", "Rose", 10000),
+            ("red", "red", "Rouge", 10000), ("dark_purple", "purple", "Violette", 12000), ("black", "black", "Noire", 15000),
+            ("gold", "orange", "Dorée", 20000)]
+    ]),
+}
+CASES = [r * 9 + c for r in range(1, 5) for c in range(1, 8)]  # 28 tuiles
+
+
+def nav_cosmetiques(im, g, retour):
+    carte(im, 0, 2, 5, 5, "gris", "MENU" if retour == "menu" else "RAYON")
+    poser(g, "retour", "minecraft:arrow", (0, 2, 5, 5), name="<gray><b>◀ Retour", lore=["<dark_gray>Page précédente"], click_actions=ouvrir(retour))
+    carte(im, 3, 5, 5, 5, "vert", "TENUE")
+    poser(g, "equiper", "minecraft:armor_stand", (3, 5, 5, 5), name="<green><b>Mes cosmétiques",
+          lore=["<gray>Équiper ou retirer ce que tu possèdes", "", "<yellow>▶ Clic pour ouvrir"],
+          click_actions={"son": {"type": "PLAYSOUND", "sound": SON_CLIC}, "o": {"type": "COMMAND_PLAYER", "commands": ["cosmetics"]}})
+    carte(im, 6, 8, 5, 5, "or", "SHOP")
+    poser(g, "vers_boutique", "minecraft:gold_ingot", (6, 8, 5, 5), name="<gold><b>Boutique ▶", lore=["<gray>Grades et clés"], click_actions=ouvrir("boutique"))
+
+
+GLYPHES_COS = {}
+for page, (glyphe, titre, coul, mm, _, liste) in RAYONS.items():
+    im, g = fond(6, "COSMETIQUES"), base(glyphe, 6, [])
+    etiquette(im, 0, 8, 0, titre, coul)
+    for slot, (cid, icone, nom, desc, montant) in zip(CASES, liste):
+        tuile(im, slot % 9, slot // 9, coul)
+        objet = "minecraft:leather" if cid in CMD_DEX else icone
+        extra = {"custom_model_data": CMD_DEX[cid]} if cid in CMD_DEX else {}
+        if cid is None:
+            poser(g, f"bientot_{slot}", icone, slot, name=f"<dark_gray><b>{nom}", lore=["<gray>Bientôt…"],
+                  click_actions={"son": {"type": "PLAYSOUND", "sound": SON_NON}})
+            continue
+        perm = f"sakuflemon.cosmetique.{cid}"
+        poser(g, f"{cid}_possede", objet, slot, priority=1, nbt=BRILLE, **extra, name=f"<light_purple><b>{nom}",
+              lore=[f"<gray>{desc}", "", "<green>✔ Possédé", "<yellow>▶ Clic pour l'équiper"],
+              view_requirements={"requirements": {"possede": {"type": "PERMISSION", "permission": perm}}},
+              click_actions={"son": {"type": "PLAYSOUND", "sound": SON_CLIC},
+                             "equiper": {"type": "COMMAND_PLAYER", "commands": ["cosmetics"]}})
+        poser(g, cid, objet, slot, priority=2, **extra, name=f"<light_purple><b>{nom}",
+              lore=[f"<gray>{desc}", "", f"<gray>Prix : <gold>{prix(montant)} CobbleDollars", "<yellow>▶ Clic pour acheter"],
+              **achat(montant, [f"cosmetics give %player% {cid}", f"lp user %player% permission set {perm} true"],
+                      f"<green>Tu as débloqué <light_purple><b>{nom}</b><green> ! Équipe-le avec /cosmetics.", SON_OK))
+    nav_cosmetiques(im, g, "cosmetiques")
+    IMAGES[page], GUIS[page] = im, g
+    GLYPHES_COS[page] = glyphe
+
+# accueil des cosmetiques : 4 grandes cartes, comme le menu
 im, g = fond(6, "COSMETIQUES"), base("", 6, ["cosmetiques", "cosmetique"])
-COSMETIQUES = [  # id Dex Cosmetics (None = pas encore dessine), slot, icone, nom, description, prix, couleur
-    (None, 11, "minecraft:red_dye", "Casquette de Dresseur", "", 0, "violet"),
-    ("pikachu_hat", 12, "minecraft:leather", "Chapeau Pikachu", "Pika pika !", 4000, "violet"),
-    (None, 13, "minecraft:carved_pumpkin", "Chapeau Citrouille", "", 0, "violet"),
-    (None, 14, "minecraft:gold_ingot", "Couronne Céleste", "", 0, "violet"),
-    (None, 15, "minecraft:black_dye", "Bandeau Team Rocket", "", 0, "violet"),
-    (None, 28, "minecraft:red_banner", "Cape Sakuflemon", "", 0, "bleu"),
-    ("giratina_arms", 29, "minecraft:leather", "Bras de Giratina", "La forme Originelle dans ton dos", 25000, "bleu"),
-    (None, 30, "minecraft:feather", "Ailes Célestes", "", 0, "bleu"),
-    ("effet_coeurs", 32, "minecraft:pink_dye", "Traînée de cœurs", "Des cœurs autour de toi", 5000, "rose"),
-    ("effet_flammes", 33, "minecraft:blaze_powder", "Traînée de flammes", "Digne d'un Dracaufeu", 5000, "rose"),
-    ("effet_notes", 34, "minecraft:note_block", "Notes de musique", "Ton thème de combat", 5000, "rose"),
-    ("effet_etoiles", 41, "minecraft:nether_star", "Poussière d'étoiles", "Brille comme un shiny", 8000, "rose"),
-    ("effet_eclairs", 42, "minecraft:lightning_rod", "Étincelles", "Électrique !", 8000, "rose"),
-    ("glow_gold", 43, "minecraft:glowstone_dust", "Aura dorée", "Contour lumineux doré", 20000, "rose"),
-]
-etiquette(im, 0, 8, 0, "CHAPEAUX", "violet")
-etiquette(im, 0, 3, 2, "DOS", "bleu")
-etiquette(im, 5, 8, 2, "EFFETS", "rose")
-# Modeles 3D Dex Cosmetics sur minecraft:leather (pack Polymer genere au demarrage).
-# ATTENTION : Dex recalcule ces numeros a chaque demarrage (ordre non alphabetique) :
-# a reverifier dans polymer/resource_pack.zip (models/item/leather.json) apres tout ajout de cosmetique.
-CMD_DEX = {"pikachu_hat": 2020, "giratina_arms": 2018}
-for cid, slot, icone, nom, desc, montant, coul in COSMETIQUES:
-    extra = {"custom_model_data": CMD_DEX[cid]} if cid in CMD_DEX else {}
-    tuile(im, slot % 9, slot // 9, coul)
-    if cid is None:
-        poser(g, f"bientot_{slot}", icone, slot, name=f"<dark_gray><b>{nom}", lore=["<gray>Bientôt…"],
-              click_actions={"son": {"type": "PLAYSOUND", "sound": SON_NON}})
-        continue
-    perm = f"sakuflemon.cosmetique.{cid}"
-    poser(g, f"{cid}_possede", icone, slot, priority=1, nbt=BRILLE, **extra, name=f"<light_purple><b>{nom}",
-          lore=[f"<gray>{desc}", "", "<green>✔ Possédé", "<yellow>▶ Clic pour l'équiper"],
-          view_requirements={"requirements": {"possede": {"type": "PERMISSION", "permission": perm}}},
-          click_actions={"son": {"type": "PLAYSOUND", "sound": SON_CLIC},
-                         "equiper": {"type": "COMMAND_PLAYER", "commands": ["cosmetics"]}})
-    poser(g, cid, icone, slot, priority=2, **extra, name=f"<light_purple><b>{nom}",
-          lore=[f"<gray>{desc}", "", f"<gray>Prix : <gold>{prix(montant)} CobbleDollars", "<yellow>▶ Clic pour acheter"],
-          **achat(montant, [f"cosmetics give %player% {cid}", f"lp user %player% permission set {perm} true"],
-                  f"<green>Tu as débloqué <light_purple><b>{nom}</b><green> ! Équipe-le avec /cosmetics.", SON_OK))
-carte(im, 0, 2, 5, 5, "gris", "MENU")
-poser(g, "retour", "minecraft:arrow", (0, 2, 5, 5), name="<gray><b>◀ Retour", lore=["<dark_gray>Revenir au menu"], click_actions=ouvrir("menu"))
-carte(im, 3, 5, 5, 5, "vert", "TENUE")
-poser(g, "equiper", "minecraft:armor_stand", (3, 5, 5, 5), name="<green><b>Mes cosmétiques",
-      lore=["<gray>Équiper ou retirer ce que tu possèdes", "", "<yellow>▶ Clic pour ouvrir"],
-      click_actions={"son": {"type": "PLAYSOUND", "sound": SON_CLIC}, "o": {"type": "COMMAND_PLAYER", "commands": ["cosmetics"]}})
-carte(im, 6, 8, 5, 5, "or", "SHOP")
-poser(g, "vers_boutique", "minecraft:gold_ingot", (6, 8, 5, 5), name="<gold><b>Boutique ▶", lore=["<gray>Grades et clés"], click_actions=ouvrir("boutique"))
+etiquette(im, 0, 8, 0, "CHOISIS UN RAYON", "violet")
+for (page, (_, titre, coul, mm, icone, liste)), z in zip(RAYONS.items(), [(0, 3, 1, 2), (5, 8, 1, 2), (0, 3, 3, 4), (5, 8, 3, 4)]):
+    n = sum(1 for c in liste if c[0])
+    carte(im, *z, coul, titre, f"{n} MODELES")
+    poser(g, page, icone, z, name=mm, lore=[f"<gray>{n} cosmétiques", "", "<yellow>▶ Clic pour ouvrir"], click_actions=ouvrir(page))
+nav_cosmetiques(im, g, "menu")
 IMAGES["cosmetiques"], GUIS["cosmetiques"] = im, g
 
 # ---- Teleportation (5 rangees)
@@ -387,7 +434,7 @@ for c, item, nom in [(5, "minecraft:netherrack", "Nether"), (6, "minecraft:end_s
           click_actions={"son": {"type": "PLAYSOUND", "sound": SON_NON}})
 IMAGES["teleportation"], GUIS["teleportation"] = im, g
 
-GLYPHES = {"menu": "", "boutique_v2": "", "cosmetiques": "", "teleportation": ""}
+GLYPHES = {"menu": "", "boutique_v2": "", "cosmetiques": "", "teleportation": "", **GLYPHES_COS}
 
 if __name__ == "__main__":
     assets = sys.argv[1]

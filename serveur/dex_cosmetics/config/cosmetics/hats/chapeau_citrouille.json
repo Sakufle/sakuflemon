@@ -1,0 +1,19 @@
+{
+  "id": "chapeau_citrouille",
+  "type": "HAT",
+  "display_name": "<b><gradient:#FFB347:#FF6A00>Chapeau Citrouille</gradient></b>",
+  "description": [
+    "<gray>Souvenir de l'île Citrouille.</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:hats/chapeau_citrouille",
+  "texture": "dex_cosmetics:hats/chapeau_citrouille",
+  "transform": {
+    "offset_x": 0.0,
+    "offset_y": 0.0,
+    "offset_z": 0.0,
+    "scale_x": 1.0,
+    "scale_y": 1.0,
+    "scale_z": 1.0
+  }
+}

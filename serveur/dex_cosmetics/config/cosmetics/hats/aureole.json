@@ -1,0 +1,19 @@
+{
+  "id": "aureole",
+  "type": "HAT",
+  "display_name": "<b><gradient:#FFFFFF:#FFE066>Auréole</gradient></b>",
+  "description": [
+    "<gray>Un ange passe...</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:hats/aureole",
+  "texture": "dex_cosmetics:hats/aureole",
+  "transform": {
+    "offset_x": 0.0,
+    "offset_y": 0.0,
+    "offset_z": 0.0,
+    "scale_x": 1.0,
+    "scale_y": 1.0,
+    "scale_z": 1.0
+  }
+}

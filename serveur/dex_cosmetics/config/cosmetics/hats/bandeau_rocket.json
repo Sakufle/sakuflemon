@@ -1,0 +1,19 @@
+{
+  "id": "bandeau_rocket",
+  "type": "HAT",
+  "display_name": "<b><gradient:#E0242B:#26262C>Bandeau Team Rocket</gradient></b>",
+  "description": [
+    "<gray>Prépare-toi à des ennuis...</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:hats/bandeau_rocket",
+  "texture": "dex_cosmetics:hats/bandeau_rocket",
+  "transform": {
+    "offset_x": 0.0,
+    "offset_y": 0.0,
+    "offset_z": 0.0,
+    "scale_x": 1.0,
+    "scale_y": 1.0,
+    "scale_z": 1.0
+  }
+}

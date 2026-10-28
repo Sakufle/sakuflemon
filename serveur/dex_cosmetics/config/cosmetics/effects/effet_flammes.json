@@ -6,8 +6,8 @@
     "<gray>Digne d'un Dracaufeu.</gray>",
     "<dark_gray>Sakuflemon</dark_gray>"
   ],
-  "model": "dex_cosmetics:item/effet_flammes",
-  "texture": "dex_cosmetics:item/effet_flammes",
+  "model": "dex_cosmetics:effects/effet_flammes",
+  "texture": "dex_cosmetics:effects/effet_flammes/gui/effet_flammes",
   "effect": {
     "kind": "particle",
     "particle": {

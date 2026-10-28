@@ -1,0 +1,19 @@
+{
+  "id": "chapeau_paille",
+  "type": "HAT",
+  "display_name": "<b><gradient:#E9C46A:#C1272D>Chapeau de paille</gradient></b>",
+  "description": [
+    "<gray>Le futur Roi des Dresseurs !</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:hats/chapeau_paille",
+  "texture": "dex_cosmetics:hats/chapeau_paille",
+  "transform": {
+    "offset_x": 0.0,
+    "offset_y": 0.0,
+    "offset_z": 0.0,
+    "scale_x": 1.0,
+    "scale_y": 1.0,
+    "scale_z": 1.0
+  }
+}

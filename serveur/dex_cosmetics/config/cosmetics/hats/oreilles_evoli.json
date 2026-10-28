@@ -1,0 +1,19 @@
+{
+  "id": "oreilles_evoli",
+  "type": "HAT",
+  "display_name": "<b><gradient:#C98A4B:#F3DFB0>Oreilles d'Évoli</gradient></b>",
+  "description": [
+    "<gray>Évoli, l'évolution à portée de tête.</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:hats/oreilles_evoli",
+  "texture": "dex_cosmetics:hats/oreilles_evoli",
+  "transform": {
+    "offset_x": 0.0,
+    "offset_y": 0.0,
+    "offset_z": 0.0,
+    "scale_x": 1.0,
+    "scale_y": 1.0,
+    "scale_z": 1.0
+  }
+}

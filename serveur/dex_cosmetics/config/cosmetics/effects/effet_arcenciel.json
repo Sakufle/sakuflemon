@@ -1,0 +1,24 @@
+{
+  "id": "effet_arcenciel",
+  "type": "EFFECT",
+  "display_name": "<b><gradient:#FF4B4B:#FFD84A:#4BFF7A:#4BB8FF:#B44BFF>Arc-en-ciel</gradient></b>",
+  "description": [
+    "<gray>Toutes les couleurs à tes pieds.</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:effects/effet_arcenciel",
+  "texture": "dex_cosmetics:effects/effet_arcenciel/gui/effet_arcenciel",
+  "effect": {
+    "kind": "particle",
+    "particle": {
+      "interval_ticks": 3,
+      "commands": [
+        "particle dust{color:[1.0,0.3,0.3],scale:1} ~ ~0.2 ~ 0.4 0.05 0.4 0 1",
+        "particle dust{color:[1.0,0.85,0.3],scale:1} ~ ~0.2 ~ 0.4 0.05 0.4 0 1",
+        "particle dust{color:[0.3,1.0,0.5],scale:1} ~ ~0.2 ~ 0.4 0.05 0.4 0 1",
+        "particle dust{color:[0.3,0.7,1.0],scale:1} ~ ~0.2 ~ 0.4 0.05 0.4 0 1",
+        "particle dust{color:[0.7,0.3,1.0],scale:1} ~ ~0.2 ~ 0.4 0.05 0.4 0 1"
+      ]
+    }
+  }
+}

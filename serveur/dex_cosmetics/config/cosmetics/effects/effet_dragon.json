@@ -1,0 +1,20 @@
+{
+  "id": "effet_dragon",
+  "type": "EFFECT",
+  "display_name": "<b><gradient:#E05BFF:#5B1A7A>Souffle draconique</gradient></b>",
+  "description": [
+    "<gray>Le souffle de Rayquaza.</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:effects/effet_dragon",
+  "texture": "dex_cosmetics:effects/effet_dragon/gui/effet_dragon",
+  "effect": {
+    "kind": "particle",
+    "particle": {
+      "interval_ticks": 4,
+      "commands": [
+        "particle dragon_breath ~ ~0.2 ~ 0.35 0.05 0.35 0.01 2"
+      ]
+    }
+  }
+}

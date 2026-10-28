@@ -1,0 +1,19 @@
+{
+  "id": "lunettes_aviateur",
+  "type": "HAT",
+  "display_name": "<b><gradient:#7FD6FF:#B8860B>Lunettes d'aviateur</gradient></b>",
+  "description": [
+    "<gray>Prêt pour le décollage sur Dracaufeu.</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:hats/lunettes_aviateur",
+  "texture": "dex_cosmetics:hats/lunettes_aviateur",
+  "transform": {
+    "offset_x": 0.0,
+    "offset_y": 0.0,
+    "offset_z": 0.0,
+    "scale_x": 1.0,
+    "scale_y": 1.0,
+    "scale_z": 1.0
+  }
+}

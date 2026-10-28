@@ -1,0 +1,19 @@
+{
+  "id": "couronne_fleurs",
+  "type": "HAT",
+  "display_name": "<b><gradient:#FF7EB6:#FFD84A>Couronne de fleurs</gradient></b>",
+  "description": [
+    "<gray>Le printemps toute l'année.</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:hats/couronne_fleurs",
+  "texture": "dex_cosmetics:hats/couronne_fleurs",
+  "transform": {
+    "offset_x": 0.0,
+    "offset_y": 0.0,
+    "offset_z": 0.0,
+    "scale_x": 1.0,
+    "scale_y": 1.0,
+    "scale_z": 1.0
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "title": "<white><font:sakuflemon:gui></font>",
+  "size": 6,
+  "alias_commands": [],
+  "open_actions": {
+    "son": {
+      "type": "PLAYSOUND",
+      "sound": "cobblemon:pc.on"
+    }
+  },
+  "close_actions": {
+    "son": {
+      "type": "PLAYSOUND",
+      "sound": "cobblemon:pc.off"
+    }
+  },
+  "items": {
+    "giratina_arms_possede": {
+      "item": "minecraft:obsidian",
+      "slots": [
+        10
+      ],
+      "priority": 1,
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:enchantment_glint_override": true
+      },
+      "name": "<light_purple><b>Bras de Giratina",
+      "lore": [
+        "<gray>La forme Originelle dans ton dos",
+        "",
+        "<green>✔ Possédé",
+        "<yellow>▶ Clic pour l'équiper"
+      ],
+      "view_requirements": {
+        "requirements": {
+          "possede": {
+            "type": "PERMISSION",
+            "permission": "sakuflemon.cosmetique.giratina_arms"
+          }
+        }
+      },
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "equiper": {
+          "type": "COMMAND_PLAYER",
+          "commands": [
+            "cosmetics"
+          ]
+        }
+      }
+    },
+    "giratina_arms": {
+      "item": "minecraft:obsidian",
+      "slots": [
+        10
+      ],
+      "priority": 2,
+      "name": "<light_purple><b>Bras de Giratina",
+      "lore": [
+        "<gray>La forme Originelle dans ton dos",
+        "",
+        "<gray>Prix : <gold>25 000 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 25000,
+            "comparison": ">="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 25 000 CobbleDollars."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 25000
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "cosmetics give %player% giratina_arms",
+            "lp user %player% permission set sakuflemon.cosmetique.giratina_arms true"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Tu as débloqué <light_purple><b>Bras de Giratina</b><green> ! Équipe-le avec /cosmetics."
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.toast.challenge_complete"
+        },
+        "refresh": {
+          "type": "REFRESH_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "bientot_11": {
+      "item": "minecraft:red_banner",
+      "slots": [
+        11
+      ],
+      "name": "<dark_gray><b>Cape Sakuflemon",
+      "lore": [
+        "<gray>Bientôt…"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:block.note_block.bass"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "bientot_12": {
+      "item": "minecraft:feather",
+      "slots": [
+        12
+      ],
+      "name": "<dark_gray><b>Ailes Célestes",
+      "lore": [
+        "<gray>Bientôt…"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:block.note_block.bass"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "bientot_13": {
+      "item": "cobblemon:poke_ball",
+      "slots": [
+        13
+      ],
+      "name": "<dark_gray><b>Sac Poké Ball",
+      "lore": [
+        "<gray>Bientôt…"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:block.note_block.bass"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "retour": {
+      "item": "minecraft:arrow",
+      "slots": [
+        45
+      ],
+      "name": "<gray><b>◀ Retour",
+      "lore": [
+        "<dark_gray>Page précédente"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "cosmetiques"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "retour_carte": {
+      "name": "<gray><b>◀ Retour",
+      "lore": [
+        "<dark_gray>Page précédente"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "cosmetiques"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:structure_void",
+      "custom_model_data": 7020,
+      "slots": [
+        46,
+        47
+      ]
+    },
+    "equiper": {
+      "item": "minecraft:armor_stand",
+      "slots": [
+        48
+      ],
+      "name": "<green><b>Mes cosmétiques",
+      "lore": [
+        "<gray>Équiper ou retirer ce que tu possèdes",
+        "",
+        "<yellow>▶ Clic pour ouvrir"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "o": {
+          "type": "COMMAND_PLAYER",
+          "commands": [
+            "cosmetics"
+          ]
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "equiper_carte": {
+      "name": "<green><b>Mes cosmétiques",
+      "lore": [
+        "<gray>Équiper ou retirer ce que tu possèdes",
+        "",
+        "<yellow>▶ Clic pour ouvrir"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "o": {
+          "type": "COMMAND_PLAYER",
+          "commands": [
+            "cosmetics"
+          ]
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:structure_void",
+      "custom_model_data": 7020,
+      "slots": [
+        49,
+        50
+      ]
+    },
+    "vers_boutique": {
+      "item": "minecraft:gold_ingot",
+      "slots": [
+        51
+      ],
+      "name": "<gold><b>Boutique ▶",
+      "lore": [
+        "<gray>Grades et clés"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "boutique"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "vers_boutique_carte": {
+      "name": "<gold><b>Boutique ▶",
+      "lore": [
+        "<gray>Grades et clés"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "boutique"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:structure_void",
+      "custom_model_data": 7020,
+      "slots": [
+        52,
+        53
+      ]
+    }
+  }
+}

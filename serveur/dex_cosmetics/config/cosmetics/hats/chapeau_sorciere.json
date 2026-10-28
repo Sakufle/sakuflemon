@@ -1,0 +1,19 @@
+{
+  "id": "chapeau_sorciere",
+  "type": "HAT",
+  "display_name": "<b><gradient:#9B5DE5:#FF8C1A>Chapeau de Sorcière</gradient></b>",
+  "description": [
+    "<gray>Abracadabra... Citrouille !</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:hats/chapeau_sorciere",
+  "texture": "dex_cosmetics:hats/chapeau_sorciere",
+  "transform": {
+    "offset_x": 0.0,
+    "offset_y": 0.0,
+    "offset_z": 0.0,
+    "scale_x": 1.0,
+    "scale_y": 1.0,
+    "scale_z": 1.0
+  }
+}

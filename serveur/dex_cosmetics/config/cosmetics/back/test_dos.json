@@ -1,0 +1,16 @@
+{
+  "id": "test_dos",
+  "type": "BACK",
+  "display_name": "<red><b>Test dos (admin)</b></red>",
+  "description": [
+    "<gray>Flèches : rouge +x, verte +y, bleue +z.</gray>",
+    "<dark_gray>Sakuflemon</dark_gray>"
+  ],
+  "model": "dex_cosmetics:back/test_dos",
+  "texture": "dex_cosmetics:back/test_dos",
+  "transform": {
+    "scale_x": 1.0,
+    "scale_y": 1.0,
+    "scale_z": 1.0
+  }
+}

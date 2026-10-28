@@ -75,7 +75,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 			]
 			rewards: [
@@ -237,7 +237,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 			]
 			rewards: [
@@ -294,7 +294,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 			]
 			rewards: [
@@ -491,7 +491,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 			]
 			rewards: [
@@ -556,7 +556,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 				{
 					id: "7D919B9EA00CF251"
@@ -585,7 +585,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 				{
 					id: "4CB795CE1EAF5A7F"
@@ -614,7 +614,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 			]
 			rewards: [
@@ -671,7 +671,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 			]
 			rewards: [
@@ -722,7 +722,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 			]
 			rewards: [
@@ -779,7 +779,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 			]
 			rewards: [
@@ -836,7 +836,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 			]
 			rewards: [

@@ -24,7 +24,7 @@ def ctask(key, action, amount, **kw):
     lines = [f'id: "{nid(key)}"', 'type: "cobblemon_quests:cobblemon_task"', f'action: "{action}"',
              f"amount: {amount}L", f"shiny: {'true' if shiny else 'false'}"]
     lines += [f"{k}: {s(v)}" for k, v in f.items()]
-    lines += ["min_level: 0", "max_level: 0", "max_turns: 0", "time_min: 0L", "time_max: 0L"]
+    lines += ["min_level: 0", "max_level: 0", "max_turns: 0", "time_min: 0L", "time_max: 24000L"]
     return lines
 
 def r_cmd(key, cmd, title, icon="cobblemon:relic_coin"):

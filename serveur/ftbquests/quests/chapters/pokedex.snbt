@@ -42,7 +42,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 			]
 			rewards: [
@@ -96,7 +96,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 			]
 			rewards: [
@@ -150,7 +150,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 			]
 			rewards: [
@@ -204,7 +204,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 			]
 			rewards: [
@@ -259,7 +259,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 			]
 			rewards: [
@@ -314,7 +314,7 @@
 					max_level: 0
 					max_turns: 0
 					time_min: 0L
-					time_max: 0L
+					time_max: 24000L
 				}
 			]
 			rewards: [

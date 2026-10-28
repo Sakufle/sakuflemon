@@ -50,7 +50,7 @@
 			tasks: [
 				{
 					id: "5FFECAEF4F77DCEF"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "obtain"
 					amount: 1L
 					shiny: false
@@ -212,7 +212,7 @@
 			tasks: [
 				{
 					id: "0C58F13D4EFB31A0"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 3L
 					shiny: false
@@ -269,7 +269,7 @@
 			tasks: [
 				{
 					id: "6C6EE64EA90A582B"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "have_registered"
 					amount: 8L
 					shiny: false
@@ -466,7 +466,7 @@
 			tasks: [
 				{
 					id: "635A31F4EE6BF970"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "fishing"
 					amount: 1L
 					shiny: false
@@ -531,7 +531,7 @@
 			tasks: [
 				{
 					id: "615875DA34102217"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 1L
 					shiny: false
@@ -560,7 +560,7 @@
 				}
 				{
 					id: "7D919B9EA00CF251"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 1L
 					shiny: false
@@ -589,7 +589,7 @@
 				}
 				{
 					id: "4CB795CE1EAF5A7F"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 1L
 					shiny: false
@@ -646,7 +646,7 @@
 			tasks: [
 				{
 					id: "14CE7C662AD8424F"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "obtain"
 					amount: 3L
 					shiny: false
@@ -697,7 +697,7 @@
 			tasks: [
 				{
 					id: "4BEEBA5817D742A9"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "defeat"
 					amount: 3L
 					shiny: false
@@ -754,7 +754,7 @@
 			tasks: [
 				{
 					id: "26DAF03064DCC46E"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "level_up"
 					amount: 1L
 					shiny: false
@@ -811,7 +811,7 @@
 			tasks: [
 				{
 					id: "4C3B3B3FF4179059"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "evolve_into"
 					amount: 1L
 					shiny: false

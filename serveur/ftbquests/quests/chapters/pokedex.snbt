@@ -17,7 +17,7 @@
 			tasks: [
 				{
 					id: "4D032A91A68B6218"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "have_registered"
 					amount: 10L
 					shiny: false
@@ -71,7 +71,7 @@
 			tasks: [
 				{
 					id: "7E50BAB2EC44DB0D"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "have_registered"
 					amount: 25L
 					shiny: false
@@ -125,7 +125,7 @@
 			tasks: [
 				{
 					id: "01BBC86B82BA6CDA"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "have_registered"
 					amount: 50L
 					shiny: false
@@ -179,7 +179,7 @@
 			tasks: [
 				{
 					id: "38B1531D877608EF"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "have_registered"
 					amount: 100L
 					shiny: false
@@ -234,7 +234,7 @@
 			tasks: [
 				{
 					id: "6EB28E3CA772BD58"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "have_registered"
 					amount: 200L
 					shiny: false
@@ -289,7 +289,7 @@
 			tasks: [
 				{
 					id: "31A7739878B60FCC"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "have_registered"
 					amount: 400L
 					shiny: false

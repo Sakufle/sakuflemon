@@ -17,7 +17,7 @@
 			tasks: [
 				{
 					id: "5DCC256697D9A594"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 1L
 					shiny: true
@@ -74,7 +74,7 @@
 			tasks: [
 				{
 					id: "3547028716E270FC"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: true
@@ -131,7 +131,7 @@
 			tasks: [
 				{
 					id: "7FD19EF80F73FDD0"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 10L
 					shiny: true
@@ -186,7 +186,7 @@
 			tasks: [
 				{
 					id: "3AF531A2568716A7"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 25L
 					shiny: true
@@ -244,7 +244,7 @@
 			tasks: [
 				{
 					id: "25E8E00E04F01A64"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 50L
 					shiny: true

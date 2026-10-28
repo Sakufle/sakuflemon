@@ -17,7 +17,7 @@
 			tasks: [
 				{
 					id: "668D39C12910A21A"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "defeat"
 					amount: 25L
 					shiny: false
@@ -71,7 +71,7 @@
 			tasks: [
 				{
 					id: "4D5484A28493FF88"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "defeat"
 					amount: 100L
 					shiny: false
@@ -125,7 +125,7 @@
 			tasks: [
 				{
 					id: "76AA1B2117C98D98"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "defeat"
 					amount: 500L
 					shiny: false
@@ -179,7 +179,7 @@
 			tasks: [
 				{
 					id: "4E351129234DE7D6"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "defeat_npc"
 					amount: 5L
 					shiny: false
@@ -233,7 +233,7 @@
 			tasks: [
 				{
 					id: "69C905EE73E598D2"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "defeat_npc"
 					amount: 20L
 					shiny: false
@@ -287,7 +287,7 @@
 			tasks: [
 				{
 					id: "40BC376A72DAC257"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "defeat_npc"
 					amount: 50L
 					shiny: false
@@ -341,7 +341,7 @@
 			tasks: [
 				{
 					id: "558202242AF1813B"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "evolve"
 					amount: 5L
 					shiny: false
@@ -395,7 +395,7 @@
 			tasks: [
 				{
 					id: "66FE41A2E1F609D3"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "evolve"
 					amount: 25L
 					shiny: false
@@ -449,7 +449,7 @@
 			tasks: [
 				{
 					id: "3F070D8A99F0957B"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "evolve"
 					amount: 100L
 					shiny: false
@@ -503,7 +503,7 @@
 			tasks: [
 				{
 					id: "50C9598E50E3FEE2"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "reel"
 					amount: 10L
 					shiny: false
@@ -557,7 +557,7 @@
 			tasks: [
 				{
 					id: "5CA77D687A40C2B3"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "reel"
 					amount: 50L
 					shiny: false
@@ -611,7 +611,7 @@
 			tasks: [
 				{
 					id: "2A22499AE7AE406B"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "reel"
 					amount: 200L
 					shiny: false
@@ -665,7 +665,7 @@
 			tasks: [
 				{
 					id: "35C63305C86FD4E0"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "revive_fossil"
 					amount: 1L
 					shiny: false
@@ -719,7 +719,7 @@
 			tasks: [
 				{
 					id: "1D41EA2584BF9A7D"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "revive_fossil"
 					amount: 5L
 					shiny: false
@@ -773,7 +773,7 @@
 			tasks: [
 				{
 					id: "2D8B08238DBE8464"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "revive_fossil"
 					amount: 15L
 					shiny: false

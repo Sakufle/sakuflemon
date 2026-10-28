@@ -21,7 +21,7 @@ def ctask(key, action, amount, **kw):
              raid_tiers="", abilities="", dex_progress="", targetPlayer="")
     f.update({k: v for k, v in kw.items() if k in f})
     shiny = kw.get("shiny", False)
-    lines = [f'id: "{nid(key)}"', 'type: "cobblemon_quests:cobblemon_task"', f'action: "{action}"',
+    lines = [f'id: "{nid(key)}"', 'type: "cobblemon_tasks:cobblemon_task"', f'action: "{action}"',
              f"amount: {amount}L", f"shiny: {'true' if shiny else 'false'}"]
     lines += [f"{k}: {s(v)}" for k, v in f.items()]
     lines += ["min_level: 0", "max_level: 0", "max_turns: 0", "time_min: 0L", "time_max: 24000L"]

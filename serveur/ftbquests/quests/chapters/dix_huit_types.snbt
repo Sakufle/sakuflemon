@@ -17,7 +17,7 @@
 			tasks: [
 				{
 					id: "4B5FE0180DCF284E"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -66,7 +66,7 @@
 			tasks: [
 				{
 					id: "4383BACCFC78395F"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -115,7 +115,7 @@
 			tasks: [
 				{
 					id: "6B2E31588C8D6E51"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -164,7 +164,7 @@
 			tasks: [
 				{
 					id: "656AE88ECAD0110A"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -213,7 +213,7 @@
 			tasks: [
 				{
 					id: "39A7D49752998FE7"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -262,7 +262,7 @@
 			tasks: [
 				{
 					id: "3240FC98A11F77EE"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -311,7 +311,7 @@
 			tasks: [
 				{
 					id: "2637CCC53DBD5DE6"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -360,7 +360,7 @@
 			tasks: [
 				{
 					id: "1F678408FBBBBA3E"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -409,7 +409,7 @@
 			tasks: [
 				{
 					id: "38656449F0F1B174"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -458,7 +458,7 @@
 			tasks: [
 				{
 					id: "6CD98EEFBFD90A15"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -507,7 +507,7 @@
 			tasks: [
 				{
 					id: "753C6384652BB7A5"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -556,7 +556,7 @@
 			tasks: [
 				{
 					id: "621143AF2D72EDFD"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -605,7 +605,7 @@
 			tasks: [
 				{
 					id: "16D4FCE4DE96E72E"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -654,7 +654,7 @@
 			tasks: [
 				{
 					id: "0FDE4A7A6935667D"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -703,7 +703,7 @@
 			tasks: [
 				{
 					id: "73F5B68FCF800E9D"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -752,7 +752,7 @@
 			tasks: [
 				{
 					id: "67852C36EE4C8E07"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -801,7 +801,7 @@
 			tasks: [
 				{
 					id: "618A655B9C207F32"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false
@@ -850,7 +850,7 @@
 			tasks: [
 				{
 					id: "1563DCDC7CD86E6C"
-					type: "cobblemon_quests:cobblemon_task"
+					type: "cobblemon_tasks:cobblemon_task"
 					action: "catch"
 					amount: 5L
 					shiny: false

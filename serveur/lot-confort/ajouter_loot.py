@@ -4,7 +4,7 @@ Mêmes règles de rang que serveur/loot/generer.py (branche claude/project-threa
 import json, re, sys, zipfile
 
 BASE, OUT, JARS = sys.argv[1], sys.argv[2], sys.argv[3:]
-SKIP = re.compile(r"maps/|pots/|spawner|keys/|special_items|artifact/|entity/|entities/|archaelogy|archeology|/mob/|banners|head_self|random_blocks|gameplay/|blocks/|dispenser|brushable|suspicious|equipment|barter|fishing")
+SKIP = re.compile(r"maps/|pots/|spawner|keys/|special_items|artifact/|entity/|entities/|archaelogy|archeology|/mob/|banners|head_self|random_blocks|gameplay/|blocks/|dispenser|brushable|suspicious|equipment|barter|fishing|lucky_pool")
 LEG = re.compile(r"treasure|tresure|vault|boss|pharaoh|heart_loot|king_statue|greater_loot|grand_library|bounty|throne|elytra")
 RARE = re.compile(r"library|lab|temple|crypt|tomb|grave|fortress|mansion|castle|sanctum|reactor|citadel|shrine|end_|outstation|donjon|keep|armou?ry|hideout|fort|trident|toxic|witch|nether|monument|beacon|obsidian|worship|statue|secret|evoker|pyramid|bastion|stronghold|aviary|ceryneian|illager|mechanical|scorched|heavenly|kisegi|lighthouse|monastery|plague|thornborn|typhon|foundry|giant|aerial|airship|carrack|bandit")
 LOW = re.compile(r"junk|food|kitchen|lumber|nuggets|waste|wardrobe|/pot$|storage|supply|barracks|farmer|butcher|low$|village|small|well")

@@ -1,0 +1,13 @@
+name = "Cobblemon: CobbleStats"
+filename = "cobblestats-fabric-2.0.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jlXFcQk4/versions/HB5OJgne/cobblestats-fabric-2.0.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "35190c2b440c1510c4bbd6c48b62dad04311c6a79d38c7bf90a298fc47f1f4aaebaa3a747c33c105b1f08391dc7423488c664f3723e69c7e06ced86fce28e0f0"
+
+[update]
+[update.modrinth]
+mod-id = "jlXFcQk4"
+version = "HB5OJgne"

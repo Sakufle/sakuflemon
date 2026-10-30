@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
-hash = "f6051529565ec742bd0c09b2f91377a354ce5d58994ce484c3004b3c689504b2"
+hash = "817ecd9146128346f7f8d3ceb9ba49e41d80c4cacc5b4998348c60be1d0e6d9e"
 
 [[files]]
 file = "config/paxi/resourcepacks/cobblemon-emissive-ores.pw.toml"
@@ -549,4 +549,101 @@ metafile = true
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"
 hash = "11cc2dd32700ec51aa6c422dca8278456a30f62bd9dd9f822f8568504cfcc775"
+metafile = true
+
+[[files]]
+file = "mods/axiom.pw.toml"
+hash = "374be990d73e205d11ae53e51bffa50ce3e386678132fbc510c3d4c77c54f51a"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "de7bb9eecb68ac760a184374d6c59f24fa905ab11983a0f92b65113ad9d54c9a"
+metafile = true
+
+[[files]]
+file = "mods/catch-indicator.pw.toml"
+hash = "2910303d6310d75a569f1bc39558c8139a2c30d86a47c766b9683fdd5c7313a7"
+metafile = true
+
+
+[[files]]
+file = "mods/cobblemon-smartphone.pw.toml"
+hash = "00b0795050ef28b3a66f29cfa93425df3d3e1335bce14568fa6c0b35b82e381a"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-tim-core.pw.toml"
+hash = "563abb326a6742915852d969fd3cd3d63b7f754eb958c8b0878b708d7872d2b5"
+metafile = true
+
+[[files]]
+file = "mods/cobbreeding.pw.toml"
+hash = "3854c4dfa29acdbd3377a28cd35d3f4408bf2730d42f4f937b2ddeaaff0a1c00"
+metafile = true
+
+[[files]]
+file = "mods/handcrafted.pw.toml"
+hash = "2600fb5f2efa6dffd1bcc04eea4c2646c101da4320da0c88d5616d5c2f41a439"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "d3f633dd12cd039a4e58dd398d1c80a324b0d78b9da5b3972b69640bfed211ed"
+metafile = true
+
+[[files]]
+file = "mods/wanteditems.pw.toml"
+hash = "e3b9efff719d5a925d125a1fe36fe4d986724cc12d8bd539915fd48344b4cec2"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "442c13fe3b1f0462adf895bbab49388967cafc294f56c57d2d4b1db6b0b24d53"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/alphabetsoup.pw.toml"
+hash = "3a9745a478b328d231b3bc38dc546526a242a3baa7afe5a34379826747a9684b"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/cobblemon-legendary.pw.toml"
+hash = "568c94a6e0f5716eb73b4dd5c3e1ca069ab4257a91955fd571c6dfd3cf80d8cd"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/hydro-reanimodel-pack.pw.toml"
+hash = "68ad324fb7838a2c7363002b99cf086281af212db1ef5751f68e791cd4a84270"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/liberty-garden.pw.toml"
+hash = "098bdec5577905fed477aef4a4cd50b492286e4d47e735299e37337629380a59"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/pokopia.pw.toml"
+hash = "57e0b9d1058f79f3496ac26759541cd1515aa516741fa323f71ebccd9c187c2d"
+metafile = true
+
+
+[[files]]
+file = "mods/cobble-caf-forms.pw.toml"
+hash = "00ba94864c4823cc542c6006b0cb14762ebbe872a9aed5d072d5dca5364dc46c"
+metafile = true
+
+[[files]]
+file = "mods/cobblemarks-plus.pw.toml"
+hash = "e959a8be5052797a9a8e28a1ddb8d3117c2e39d5db2c15e3138240d975ee7143"
+metafile = true
+
+[[files]]
+file = "mods/true-ending.pw.toml"
+hash = "873ac521a23fc4ae83d0480575eeacb73b1b061b2b2969c0a36295238142cebc"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-counter.pw.toml"
+hash = "a7ee088ccfc3a6702725bbf488ae217eb3552115f6b42a8b20f896df961c88b0"
 metafile = true

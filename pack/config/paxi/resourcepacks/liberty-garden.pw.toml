@@ -1,0 +1,13 @@
+name = "Liberty Garden"
+filename = "Liberty Garden [v1.2].zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/dFvHIKTY/versions/AcPcuL31/Liberty%20Garden%20%5Bv1.2%5D.zip"
+hash-format = "sha512"
+hash = "bfe2aa1e7460c034e863932387a608460ae3c6b3f2e267ea75a4a6e581591e5809f574da9832880627fdf5e3947f7cfd55cb5249ce645b3ca2e7461ad9a56053"
+
+[update]
+[update.modrinth]
+mod-id = "dFvHIKTY"
+version = "AcPcuL31"

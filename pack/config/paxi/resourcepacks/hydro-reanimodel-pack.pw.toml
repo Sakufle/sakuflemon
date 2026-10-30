@@ -1,0 +1,13 @@
+name = "Hydro Reanimodel Pack"
+filename = "Hydro Reanimodel Pack 0.1.9a - 1.8.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/lYp6oiT3/versions/l9757oVH/Hydro%20Reanimodel%20Pack%200.1.9a%20-%201.8.zip"
+hash-format = "sha512"
+hash = "6318e088ed20e5ef84721f10cce07158c4718f5bb13456a65e40e521c25e6d87137a7fb90c23511d9765b1f63c83c5c5aacd9e516492daadfdb4a44faa119ef5"
+
+[update]
+[update.modrinth]
+mod-id = "lYp6oiT3"
+version = "l9757oVH"

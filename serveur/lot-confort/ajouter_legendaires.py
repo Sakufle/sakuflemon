@@ -33,9 +33,9 @@ for e in cell:
     e["functions"] = [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1, "max": 3}}]
 AJOUTS = {
     # Rare : 1 chance sur 4 d'avoir une méga-gemme classique ou un cristal Z
-    "rare": {"rolls": 1, "entries": [{"type": "minecraft:empty", "weight": 75}] + entries(MEGA, 1) + entries(Z, 1)},
+    "rare": {"rolls": 1, "entries": [{"type": "minecraft:empty", "weight": 180}] + entries(MEGA, 1) + entries(Z, 1)},
     # Légendaire : 1 chance sur 3 d'avoir un objet de légendaire (plaques, mémoires et cellules plus fréquentes)
-    "legendaire": {"rolls": 1, "entries": [{"type": "minecraft:empty", "weight": 140}] + entries(LEGENDE, 1)
+    "legendaire": {"rolls": 1, "entries": [{"type": "minecraft:empty", "weight": 224}] + entries(LEGENDE, 1)
                    + entries(COLLECTION, 2) + entries(["legend_plate"], 1) + [dict(e, weight=6) for e in cell]},
 }
 base = zipfile.ZipFile(BASE)

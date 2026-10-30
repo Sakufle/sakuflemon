@@ -566,10 +566,6 @@ file = "mods/catch-indicator.pw.toml"
 hash = "2910303d6310d75a569f1bc39558c8139a2c30d86a47c766b9683fdd5c7313a7"
 metafile = true
 
-[[files]]
-file = "mods/cobblemon-counter.pw.toml"
-hash = "f17cd5fa7df5aa2c2e17db7356e8bc06d69dfc0d1a4e62863f317950455484e9"
-metafile = true
 
 [[files]]
 file = "mods/cobblemon-smartphone.pw.toml"
@@ -631,10 +627,6 @@ file = "config/paxi/resourcepacks/pokopia.pw.toml"
 hash = "57e0b9d1058f79f3496ac26759541cd1515aa516741fa323f71ebccd9c187c2d"
 metafile = true
 
-[[files]]
-file = "mods/allthemons.pw.toml"
-hash = "4d19a158b865ec441e29323f18bd9105e8d9f4ee889c609fa54886c62bd942fe"
-metafile = true
 
 [[files]]
 file = "mods/cobble-caf-forms.pw.toml"

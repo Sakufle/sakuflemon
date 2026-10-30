@@ -4,7 +4,6 @@ Serveur ARRÊTÉ, sauvegarde avant. sha512 à vérifier.
 
 | Type | Nom | Où sur le serveur | Fichier | Lien | sha512 |
 |---|---|---|---|---|---|
-| mods | AllTheMons | `mods/` | `AllTheMons [R5.0].jar` | https://cdn.modrinth.com/data/JV5dvqVX/versions/zBvjSFAA/AllTheMons%20%5BR5.0%5D.jar | `05afc8f93faa4dce2753b2854b60e3bf97341b00df50f8c188f43b8555f26d3938462314f1760e4a69fae49471f93fa38071bebf0eb090f7a705ddb9e77a934c` |
 | mods | Cobblemon cafe | `mods/` | `cobble-caf-forms-5.1.jar` | https://cdn.modrinth.com/data/469QXqgC/versions/1R3Fvu7O/cobble-caf-forms-5.1.jar | `0ccb319576e5d4d5957dabf58611625e5d4913c8bdc895174691b94e76eb6e632e7bb33d036920d0e2bb2d7361735e1987d00d8c77631e050c1448338be6a05a` |
 | mods | Cobblemarks+ | `mods/` | `cobblemarks+-1.2.2-release.jar` | https://cdn.modrinth.com/data/7WGFjJcv/versions/WQMoEj9M/cobblemarks%2B-1.2.2-release.jar | `20d04053f720e43388f0a7c8ecdea787e5f4ff62d43b2192e8e9b17cfb9d5ddb2c7350c92a3d371e646ed70aafb3b5e46fdc10844be2df4454202e951c810cba` |
 | mods | True Ending | `mods/` | `true-ending-v1.1.2d.jar` | https://cdn.modrinth.com/data/MCnBYP0b/versions/FBAAEUsA/true-ending-v1.1.2d.jar | `7b8206182d794e743746fdec4c4deb5c6a3b5021229eb61480a6a91c97c19292e0bab7807851436313989516e83b05a1218311a2e32e440d7d87e75ee5c5722c` |

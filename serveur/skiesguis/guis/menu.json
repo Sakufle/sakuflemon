@@ -194,9 +194,10 @@
       "slots": [
         23
       ],
-      "name": "<green><b>Récompenses",
+      "name": "<green><b>Kits",
       "lore": [
-        "<gray>Tes kits toutes les 3 heures",
+        "<gray>Kits en CobbleDollars",
+        "<gray>et kits gratuits toutes les 3 h",
         "",
         "<yellow>▶ Clic pour ouvrir"
       ],
@@ -205,11 +206,9 @@
           "type": "PLAYSOUND",
           "sound": "minecraft:ui.button.click"
         },
-        "kits": {
-          "type": "COMMAND_PLAYER",
-          "commands": [
-            "kit"
-          ]
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "kits"
         }
       },
       "nbt": {
@@ -217,9 +216,10 @@
       }
     },
     "recompenses_carte": {
-      "name": "<green><b>Récompenses",
+      "name": "<green><b>Kits",
       "lore": [
-        "<gray>Tes kits toutes les 3 heures",
+        "<gray>Kits en CobbleDollars",
+        "<gray>et kits gratuits toutes les 3 h",
         "",
         "<yellow>▶ Clic pour ouvrir"
       ],
@@ -228,11 +228,9 @@
           "type": "PLAYSOUND",
           "sound": "minecraft:ui.button.click"
         },
-        "kits": {
-          "type": "COMMAND_PLAYER",
-          "commands": [
-            "kit"
-          ]
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "kits"
         }
       },
       "nbt": {

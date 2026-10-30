@@ -1440,6 +1440,60 @@
         35
       ]
     },
+    "vers_kits": {
+      "item": "minecraft:chest",
+      "slots": [
+        36
+      ],
+      "name": "<green><b>Kits ▶",
+      "lore": [
+        "<gray>Poké Balls, soins, bonbons, boost shiny…"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "kits"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "vers_kits_carte": {
+      "name": "<green><b>Kits ▶",
+      "lore": [
+        "<gray>Poké Balls, soins, bonbons, boost shiny…"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "kits"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:structure_void",
+      "custom_model_data": 7020,
+      "slots": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
     "retour": {
       "item": "minecraft:arrow",
       "slots": [

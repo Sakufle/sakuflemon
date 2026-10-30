@@ -1,0 +1,1104 @@
+{
+  "title": "<white><font:sakuflemon:gui></font>",
+  "size": 6,
+  "alias_commands": [],
+  "open_actions": {
+    "son": {
+      "type": "PLAYSOUND",
+      "sound": "cobblemon:pc.on"
+    }
+  },
+  "close_actions": {
+    "son": {
+      "type": "PLAYSOUND",
+      "sound": "cobblemon:pc.off"
+    }
+  },
+  "items": {
+    "kit_debutant": {
+      "item": "cobblemon:poke_ball",
+      "slots": [
+        9
+      ],
+      "priority": 2,
+      "name": "<red><b>Kit Débutant",
+      "lore": [
+        "<gray>• <white>16 Poké Balls",
+        "<gray>• <white>8 Potions",
+        "<gray>• <white>4 Antidotes",
+        "",
+        "<gray>Prix : <gold>400 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 400,
+            "comparison": ">="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 400 CobbleDollars."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 400
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "give %player% cobblemon:poke_ball 16",
+            "give %player% cobblemon:potion 8",
+            "give %player% cobblemon:antidote 4"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Kit Débutant reçu !"
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:entity.experience_orb.pickup"
+        },
+        "refresh": {
+          "type": "REFRESH_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "kit_debutant_carte": {
+      "priority": 2,
+      "name": "<red><b>Kit Débutant",
+      "lore": [
+        "<gray>• <white>16 Poké Balls",
+        "<gray>• <white>8 Potions",
+        "<gray>• <white>4 Antidotes",
+        "",
+        "<gray>Prix : <gold>400 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 400,
+            "comparison": ">="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 400 CobbleDollars."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 400
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "give %player% cobblemon:poke_ball 16",
+            "give %player% cobblemon:potion 8",
+            "give %player% cobblemon:antidote 4"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Kit Débutant reçu !"
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:entity.experience_orb.pickup"
+        },
+        "refresh": {
+          "type": "REFRESH_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:structure_void",
+      "custom_model_data": 7020,
+      "slots": [
+        10,
+        11,
+        12
+      ]
+    },
+    "kit_capture": {
+      "item": "cobblemon:quick_ball",
+      "slots": [
+        14
+      ],
+      "priority": 2,
+      "name": "<blue><b>Kit Capture",
+      "lore": [
+        "<gray>• <white>16 Super Balls",
+        "<gray>• <white>8 Hyper Balls",
+        "<gray>• <white>4 Rapide Balls",
+        "",
+        "<gray>Prix : <gold>1 500 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 1500,
+            "comparison": ">="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 1 500 CobbleDollars."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 1500
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "give %player% cobblemon:great_ball 16",
+            "give %player% cobblemon:ultra_ball 8",
+            "give %player% cobblemon:quick_ball 4"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Kit Capture reçu !"
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:entity.experience_orb.pickup"
+        },
+        "refresh": {
+          "type": "REFRESH_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "kit_capture_carte": {
+      "priority": 2,
+      "name": "<blue><b>Kit Capture",
+      "lore": [
+        "<gray>• <white>16 Super Balls",
+        "<gray>• <white>8 Hyper Balls",
+        "<gray>• <white>4 Rapide Balls",
+        "",
+        "<gray>Prix : <gold>1 500 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 1500,
+            "comparison": ">="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 1 500 CobbleDollars."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 1500
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "give %player% cobblemon:great_ball 16",
+            "give %player% cobblemon:ultra_ball 8",
+            "give %player% cobblemon:quick_ball 4"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Kit Capture reçu !"
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:entity.experience_orb.pickup"
+        },
+        "refresh": {
+          "type": "REFRESH_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:structure_void",
+      "custom_model_data": 7020,
+      "slots": [
+        15,
+        16,
+        17
+      ]
+    },
+    "kit_soin": {
+      "item": "cobblemon:super_potion",
+      "slots": [
+        18
+      ],
+      "priority": 2,
+      "name": "<light_purple><b>Kit Soin",
+      "lore": [
+        "<gray>• <white>8 Super Potions",
+        "<gray>• <white>4 Hyper Potions",
+        "<gray>• <white>4 Rappels",
+        "",
+        "<gray>Prix : <gold>1 200 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 1200,
+            "comparison": ">="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 1 200 CobbleDollars."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 1200
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "give %player% cobblemon:super_potion 8",
+            "give %player% cobblemon:hyper_potion 4",
+            "give %player% cobblemon:revive 4"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Kit Soin reçu !"
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:entity.experience_orb.pickup"
+        },
+        "refresh": {
+          "type": "REFRESH_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "kit_soin_carte": {
+      "priority": 2,
+      "name": "<light_purple><b>Kit Soin",
+      "lore": [
+        "<gray>• <white>8 Super Potions",
+        "<gray>• <white>4 Hyper Potions",
+        "<gray>• <white>4 Rappels",
+        "",
+        "<gray>Prix : <gold>1 200 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 1200,
+            "comparison": ">="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 1 200 CobbleDollars."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 1200
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "give %player% cobblemon:super_potion 8",
+            "give %player% cobblemon:hyper_potion 4",
+            "give %player% cobblemon:revive 4"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Kit Soin reçu !"
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:entity.experience_orb.pickup"
+        },
+        "refresh": {
+          "type": "REFRESH_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:structure_void",
+      "custom_model_data": 7020,
+      "slots": [
+        19,
+        20,
+        21
+      ]
+    },
+    "kit_bonbons": {
+      "item": "cobblemon:rare_candy",
+      "slots": [
+        23
+      ],
+      "priority": 2,
+      "name": "<aqua><b>Kit Entraînement",
+      "lore": [
+        "<gray>• <white>5 Super Bonbons",
+        "<gray>• <white>8 Bonbons Exp. M",
+        "",
+        "<gray>Prix : <gold>3 000 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 3000,
+            "comparison": ">="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 3 000 CobbleDollars."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 3000
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "give %player% cobblemon:rare_candy 5",
+            "give %player% cobblemon:exp_candy_m 8"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Kit Entraînement reçu !"
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:entity.experience_orb.pickup"
+        },
+        "refresh": {
+          "type": "REFRESH_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "kit_bonbons_carte": {
+      "priority": 2,
+      "name": "<aqua><b>Kit Entraînement",
+      "lore": [
+        "<gray>• <white>5 Super Bonbons",
+        "<gray>• <white>8 Bonbons Exp. M",
+        "",
+        "<gray>Prix : <gold>3 000 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 3000,
+            "comparison": ">="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 3 000 CobbleDollars."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 3000
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "give %player% cobblemon:rare_candy 5",
+            "give %player% cobblemon:exp_candy_m 8"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Kit Entraînement reçu !"
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:entity.experience_orb.pickup"
+        },
+        "refresh": {
+          "type": "REFRESH_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:structure_void",
+      "custom_model_data": 7020,
+      "slots": [
+        24,
+        25,
+        26
+      ]
+    },
+    "kit_shiny": {
+      "item": "minecraft:nether_star",
+      "slots": [
+        27
+      ],
+      "priority": 2,
+      "name": "<yellow><b>Kit Chance Shiny",
+      "lore": [
+        "<gray>Chances de shiny <yellow>x2 <gray>pendant <white>1 h",
+        "",
+        "<gray>Prix : <gold>5 000 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 5000,
+            "comparison": ">="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 5 000 CobbleDollars."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 5000
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "sparkles boost start SHINY 2 1 hours %player%"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Kit Chance Shiny reçu !"
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.toast.challenge_complete"
+        },
+        "refresh": {
+          "type": "REFRESH_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "kit_shiny_carte": {
+      "priority": 2,
+      "name": "<yellow><b>Kit Chance Shiny",
+      "lore": [
+        "<gray>Chances de shiny <yellow>x2 <gray>pendant <white>1 h",
+        "",
+        "<gray>Prix : <gold>5 000 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 5000,
+            "comparison": ">="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 5 000 CobbleDollars."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 5000
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "sparkles boost start SHINY 2 1 hours %player%"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Kit Chance Shiny reçu !"
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.toast.challenge_complete"
+        },
+        "refresh": {
+          "type": "REFRESH_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:structure_void",
+      "custom_model_data": 7020,
+      "slots": [
+        28,
+        29,
+        30
+      ]
+    },
+    "kit_legende_pris": {
+      "item": "cobblemon:master_ball",
+      "slots": [
+        32
+      ],
+      "priority": 1,
+      "name": "<light_purple><b>Kit Légende",
+      "lore": [
+        "<gray>• <white>1 Master Ball",
+        "<gray>• <white>5 Hyper Balls",
+        "<dark_gray>1 fois par 24 h",
+        "",
+        "<red>✖ Déjà pris, reviens demain"
+      ],
+      "view_requirements": {
+        "requirements": {
+          "pris": {
+            "type": "PERMISSION",
+            "permission": "sakuflemon.kit.legende"
+          }
+        }
+      },
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:block.note_block.bass"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "kit_legende_pris_carte": {
+      "priority": 1,
+      "name": "<light_purple><b>Kit Légende",
+      "lore": [
+        "<gray>• <white>1 Master Ball",
+        "<gray>• <white>5 Hyper Balls",
+        "<dark_gray>1 fois par 24 h",
+        "",
+        "<red>✖ Déjà pris, reviens demain"
+      ],
+      "view_requirements": {
+        "requirements": {
+          "pris": {
+            "type": "PERMISSION",
+            "permission": "sakuflemon.kit.legende"
+          }
+        }
+      },
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:block.note_block.bass"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:structure_void",
+      "custom_model_data": 7020,
+      "slots": [
+        33,
+        34,
+        35
+      ]
+    },
+    "kit_legende": {
+      "item": "cobblemon:master_ball",
+      "slots": [
+        32
+      ],
+      "priority": 2,
+      "name": "<light_purple><b>Kit Légende",
+      "lore": [
+        "<gray>• <white>1 Master Ball",
+        "<gray>• <white>5 Hyper Balls",
+        "<dark_gray>1 fois par 24 h",
+        "",
+        "<gray>Prix : <gold>50 000 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 50000,
+            "comparison": ">="
+          },
+          "pas_pris": {
+            "type": "PERMISSION",
+            "permission": "sakuflemon.kit.legende",
+            "comparison": "!="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 50 000 CobbleDollars (et 1 seul Kit Légende par 24 h)."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 50000
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "give %player% cobblemon:master_ball 1",
+            "give %player% cobblemon:ultra_ball 5",
+            "lp user %player% permission settemp sakuflemon.kit.legende true 24h"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Kit Légende reçu !"
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.toast.challenge_complete"
+        },
+        "refresh": {
+          "type": "REFRESH_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "kit_legende_carte": {
+      "priority": 2,
+      "name": "<light_purple><b>Kit Légende",
+      "lore": [
+        "<gray>• <white>1 Master Ball",
+        "<gray>• <white>5 Hyper Balls",
+        "<dark_gray>1 fois par 24 h",
+        "",
+        "<gray>Prix : <gold>50 000 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 50000,
+            "comparison": ">="
+          },
+          "pas_pris": {
+            "type": "PERMISSION",
+            "permission": "sakuflemon.kit.legende",
+            "comparison": "!="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 50 000 CobbleDollars (et 1 seul Kit Légende par 24 h)."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 50000
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "give %player% cobblemon:master_ball 1",
+            "give %player% cobblemon:ultra_ball 5",
+            "lp user %player% permission settemp sakuflemon.kit.legende true 24h"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Kit Légende reçu !"
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.toast.challenge_complete"
+        },
+        "refresh": {
+          "type": "REFRESH_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:structure_void",
+      "custom_model_data": 7020,
+      "slots": [
+        33,
+        34,
+        35
+      ]
+    },
+    "gratuits": {
+      "item": "minecraft:chest",
+      "slots": [
+        36
+      ],
+      "name": "<green><b>Kits gratuits",
+      "lore": [
+        "<gray>Les kits de ton grade, toutes les 3 heures",
+        "",
+        "<yellow>▶ Clic pour ouvrir"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "kits": {
+          "type": "COMMAND_PLAYER",
+          "commands": [
+            "kit"
+          ]
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "gratuits_carte": {
+      "name": "<green><b>Kits gratuits",
+      "lore": [
+        "<gray>Les kits de ton grade, toutes les 3 heures",
+        "",
+        "<yellow>▶ Clic pour ouvrir"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "kits": {
+          "type": "COMMAND_PLAYER",
+          "commands": [
+            "kit"
+          ]
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:structure_void",
+      "custom_model_data": 7020,
+      "slots": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    "retour": {
+      "item": "minecraft:arrow",
+      "slots": [
+        45
+      ],
+      "name": "<gray><b>◀ Boutique",
+      "lore": [
+        "<dark_gray>Revenir à la boutique"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "boutique"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "retour_carte": {
+      "name": "<gray><b>◀ Boutique",
+      "lore": [
+        "<dark_gray>Revenir à la boutique"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "boutique"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:structure_void",
+      "custom_model_data": 7020,
+      "slots": [
+        46,
+        47
+      ]
+    },
+    "fermer": {
+      "item": "minecraft:barrier",
+      "slots": [
+        49
+      ],
+      "name": "<red><b>Fermer",
+      "lore": [],
+      "click_actions": {
+        "f": {
+          "type": "CLOSE_GUI"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "menu": {
+      "item": "minecraft:compass",
+      "slots": [
+        51
+      ],
+      "name": "<gray><b>Menu ▶",
+      "lore": [
+        "<dark_gray>Revenir au menu"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "menu"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "menu_carte": {
+      "name": "<gray><b>Menu ▶",
+      "lore": [
+        "<dark_gray>Revenir au menu"
+      ],
+      "click_actions": {
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:ui.button.click"
+        },
+        "ouvrir": {
+          "type": "OPEN_GUI",
+          "id": "menu"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      },
+      "item": "minecraft:structure_void",
+      "custom_model_data": 7020,
+      "slots": [
+        52,
+        53
+      ]
+    }
+  }
+}

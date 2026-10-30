@@ -3,7 +3,7 @@
 Genere en une fois :
   - les fonds (glyphes de la police sakuflemon:gui, ..) et l'objet
     invisible (paper, custom_model_data 7020) pour le resource pack sakuflemon-interface ;
-  - les menus config/skiesguis/guis/{menu,boutique,cosmetiques,teleportation}.json.
+  - les menus config/skiesguis/guis/{menu,boutique,kits,cosmetiques,teleportation,cos_*}.json.
 
 Chaque carte est cliquable sur toutes ses cases : l'icone sur la premiere, l'objet
 invisible sur les autres, avec les memes actions. Les achats reprennent les commandes
@@ -243,9 +243,8 @@ MENU = [  # nom, item, zone (c0,c1,r0,r1), couleur, titre image, sous-titre, nom
      "<light_purple><b>Cosmétiques", ["<gray>Chapeaux, ailes, capes, effets"], ouvrir("cosmetiques")),
     ("teleportation", "minecraft:ender_pearl", (0, 3, 2, 3), "cyan", "VOYAGE", "TELEPORTS",
      "<aqua><b>Téléportation", ["<gray>Skyloft, arène, overworld…"], ouvrir("teleportation")),
-    ("recompenses", "minecraft:chest", (5, 8, 2, 3), "vert", "KITS", "TOUTES 3H",
-     "<green><b>Récompenses", ["<gray>Tes kits toutes les 3 heures"],
-     {"son": {"type": "PLAYSOUND", "sound": SON_CLIC}, "kits": {"type": "COMMAND_PLAYER", "commands": ["kit"]}}),
+    ("recompenses", "minecraft:chest", (5, 8, 2, 3), "vert", "KITS", "RECOMPENSES",
+     "<green><b>Kits", ["<gray>Kits en CobbleDollars", "<gray>et kits gratuits toutes les 3 h"], ouvrir("kits")),
 ]
 for nom, item, z, coul, t, s, mm, lore, act in MENU:
     carte(im, z[0], z[1], z[2], z[3], coul, t, s)
@@ -297,7 +296,9 @@ for i, (cid, coul, mm, nom, court_nom, montant, cmd) in enumerate(CLES):
           lore=[f"<gray>Ouvre la {nom.replace('Clé', 'Caisse')}", f"<gray>Tu en as : <white>%skiescrates:keys {cid}%", "",
                 f"<yellow>Clic gauche : <white>1 clé <gray>({prix(montant)} CD)",
                 f"<yellow>Clic droit : <white>5 clés <gray>({prix(lot)} CD, <green>-10 %<gray>)"], **act)
-etiquette(im, 0, 8, 4, "CLIC DROIT : 5 CLES -10%", "gris")
+carte(im, 0, 8, 4, 4, "vert", "KITS", "BALLS SOINS SHINY")
+poser(g, "vers_kits", "minecraft:chest", (0, 8, 4, 4), name="<green><b>Kits ▶",
+      lore=["<gray>Poké Balls, soins, bonbons, boost shiny…"], click_actions=ouvrir("kits"))
 carte(im, 0, 2, 5, 5, "gris", "MENU")
 poser(g, "retour", "minecraft:arrow", (0, 2, 5, 5), name="<gray><b>◀ Retour", lore=["<dark_gray>Revenir au menu"], click_actions=ouvrir("menu"))
 tuile(im, 4, 5, "rouge")
@@ -306,6 +307,58 @@ carte(im, 6, 8, 5, 5, "violet", "STYLE")
 poser(g, "vers_cosmetiques", "minecraft:amethyst_shard", (6, 8, 5, 5), name="<light_purple><b>Cosmétiques ▶",
       lore=["<gray>Voir les cosmétiques"], click_actions=ouvrir("cosmetiques"))
 IMAGES["boutique_v2"], GUIS["boutique"] = im, g
+
+# ---- Kits (6 rangees) : rachetables a volonte, sauf Legende (1 fois par 24 h, permission temporaire LuckPerms)
+SHINY = "sparkles boost start SHINY 2 1 hours %player%"  # meme syntaxe que les kits de grade (SkiesKits)
+im, g = fond(6, "KITS"), base("\ue109", 6, [])
+etiquette(im, 0, 8, 0, "KITS EN COBBLEDOLLARS", "vert")
+KITS = [  # id, icone, couleur, couleur MiniMessage, titre image, nom, [(objet, quantite, nom)] ou commande, prix
+    ("debutant", "cobblemon:poke_ball", "rouge", "red", "DEBUTANT", "Kit Débutant",
+     [("poke_ball", 16, "Poké Balls"), ("potion", 8, "Potions"), ("antidote", 4, "Antidotes")], 400),
+    ("capture", "cobblemon:quick_ball", "bleu", "blue", "CAPTURE", "Kit Capture",
+     [("great_ball", 16, "Super Balls"), ("ultra_ball", 8, "Hyper Balls"), ("quick_ball", 4, "Rapide Balls")], 1500),
+    ("soin", "cobblemon:super_potion", "rose", "light_purple", "SOIN", "Kit Soin",
+     [("super_potion", 8, "Super Potions"), ("hyper_potion", 4, "Hyper Potions"), ("revive", 4, "Rappels")], 1200),
+    ("bonbons", "cobblemon:rare_candy", "cyan", "aqua", "BONBONS", "Kit Entraînement",
+     [("rare_candy", 5, "Super Bonbons"), ("exp_candy_m", 8, "Bonbons Exp. M")], 3000),
+    ("shiny", "minecraft:nether_star", "or", "yellow", "SHINY", "Kit Chance Shiny", SHINY, 5000),
+    ("legende", "cobblemon:master_ball", "violet", "light_purple", "LEGENDE", "Kit Légende",
+     [("master_ball", 1, "Master Ball"), ("ultra_ball", 5, "Hyper Balls")], 50000),
+]
+for i, (kid, item, coul, mm, titre, nom, contenu, montant) in enumerate(KITS):
+    z = (0, 3, 1 + i // 2, 1 + i // 2) if i % 2 == 0 else (5, 8, 1 + i // 2, 1 + i // 2)
+    carte(im, *z, coul, titre, court(montant))
+    if isinstance(contenu, str):
+        cmds, lore = [contenu], ["<gray>Chances de shiny <yellow>x2 <gray>pendant <white>1 h"]
+    else:
+        cmds = [f"give %player% cobblemon:{o} {n}" for o, n, _ in contenu]
+        lore = [f"<gray>• <white>{n} {t}" for _, n, t in contenu]
+    cond = fin = refus = None
+    if kid == "legende":
+        perm = "sakuflemon.kit.legende"
+        cmds.append(f"lp user %player% permission settemp {perm} true 24h")
+        lore.append("<dark_gray>1 fois par 24 h")
+        cond = {"pas_pris": {"type": "PERMISSION", "permission": perm, "comparison": "!="}}
+        refus = f"<red>Il te faut {prix(montant)} CobbleDollars (et 1 seul Kit Légende par 24 h)."
+        poser(g, f"kit_{kid}_pris", item, z, priority=1, name=f"<{mm}><b>{nom}",
+              lore=lore + ["", "<red>✖ Déjà pris, reviens demain"],
+              view_requirements={"requirements": {"pris": {"type": "PERMISSION", "permission": perm}}},
+              click_actions={"son": {"type": "PLAYSOUND", "sound": SON_NON}})
+    poser(g, f"kit_{kid}", item, z, priority=2, name=f"<{mm}><b>{nom}",
+          lore=lore + ["", f"<gray>Prix : <gold>{prix(montant)} CobbleDollars", "<yellow>▶ Clic pour acheter"],
+          **achat(montant, cmds, f"<green>{nom} reçu !", SON_OK if kid in ("shiny", "legende") else SON_ACHAT,
+                  cond, refus))
+carte(im, 0, 8, 4, 4, "vert", "KITS GRATUITS", "TOUTES LES 3 H")
+poser(g, "gratuits", "minecraft:chest", (0, 8, 4, 4), name="<green><b>Kits gratuits",
+      lore=["<gray>Les kits de ton grade, toutes les 3 heures", "", "<yellow>▶ Clic pour ouvrir"],
+      click_actions={"son": {"type": "PLAYSOUND", "sound": SON_CLIC}, "kits": {"type": "COMMAND_PLAYER", "commands": ["kit"]}})
+carte(im, 0, 2, 5, 5, "or", "SHOP")
+poser(g, "retour", "minecraft:arrow", (0, 2, 5, 5), name="<gray><b>◀ Boutique", lore=["<dark_gray>Revenir à la boutique"], click_actions=ouvrir("boutique"))
+tuile(im, 4, 5, "rouge")
+poser(g, "fermer", "minecraft:barrier", 49, name="<red><b>Fermer", lore=[], click_actions={"f": {"type": "CLOSE_GUI"}})
+carte(im, 6, 8, 5, 5, "gris", "MENU")
+poser(g, "menu", "minecraft:compass", (6, 8, 5, 5), name="<gray><b>Menu ▶", lore=["<dark_gray>Revenir au menu"], click_actions=ouvrir("menu"))
+IMAGES["kits"], GUIS["kits"] = im, g
 
 # ---- Cosmetiques : accueil (4 rayons) puis une page par rayon ; achat puis /cosmetics pour equiper
 # Icones 3D : modeles Dex sur minecraft:leather. Dex recalcule ces numeros a CHAQUE demarrage (ordre non
@@ -434,7 +487,7 @@ for c, item, nom in [(5, "minecraft:netherrack", "Nether"), (6, "minecraft:end_s
           click_actions={"son": {"type": "PLAYSOUND", "sound": SON_NON}})
 IMAGES["teleportation"], GUIS["teleportation"] = im, g
 
-GLYPHES = {"menu": "", "boutique_v2": "", "cosmetiques": "", "teleportation": "", **GLYPHES_COS}
+GLYPHES = {"menu": "", "boutique_v2": "", "cosmetiques": "", "teleportation": "", "kits": "", **GLYPHES_COS}
 
 if __name__ == "__main__":
     assets = sys.argv[1]

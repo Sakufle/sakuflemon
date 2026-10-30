@@ -952,5 +952,106 @@
 				}
 			]
 		}
+		{
+			id: "704A2E22E36C1743"
+			icon: "minecraft:blaze_powder"
+			x: 10.0d
+			y: 6.0d
+			shape: "hexagon"
+			dependencies: [
+				"0305BC51DE70A11D"
+			]
+			tasks: [
+				{
+					id: "2158BC500F77FB38"
+					type: "advancement"
+					advancement: "sakuflemon:victoire_10"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "7CF3AB6BE78E7058"
+					type: "command"
+					command: "/tag {p} add sakuflemon.flamme"
+					player_command: false
+					silent: true
+				}
+				{
+					id: "362D30121A2CD7A7"
+					type: "command"
+					command: "/cobbledollars give {p} 1500"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+			]
+		}
+		{
+			id: "6E29DEAED8B5E35B"
+			icon: "minecraft:campfire"
+			x: 12.0d
+			y: 6.0d
+			shape: "hexagon"
+			size: 1.5d
+			dependencies: [
+				"704A2E22E36C1743"
+			]
+			tasks: [
+				{
+					id: "7D5EB512D23583CA"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 1L
+					shiny: false
+					pokemon: "cobblemon:victini"
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "3A272B21F22F8407"
+					type: "command"
+					command: "/tag {p} add sakuflemon.victini"
+					player_command: false
+					silent: true
+				}
+				{
+					id: "7ED985D7F80C27AE"
+					type: "command"
+					command: "/cobbledollars give {p} 3000"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "28314D7F56EEBBB0"
+					type: "command"
+					command: "/crates key give {p} cle_rare 1"
+					player_command: false
+					silent: true
+				}
+			]
+		}
 	]
 }

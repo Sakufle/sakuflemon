@@ -481,4 +481,23 @@
 	"chapter.3B03C73E39911CC2.chapter_subtitle": [
 		"Combats, évolutions, pêche et fossiles"
 	]
+	"quest.704A2E22E36C1743.title": "La Flamme de la Victoire"
+	"quest.704A2E22E36C1743.quest_subtitle": "Prouve ta valeur"
+	"quest.704A2E22E36C1743.quest_desc": [
+		"Une vieille légende parle d'un autel où brûlait jadis la flamme de la Victoire."
+		"Seul un dresseur aguerri peut la rallumer : bats 10 dresseurs différents, sur Incarnam ou dans le monde d'en bas."
+	]
+	"task.2158BC500F77FB38.title": "Battre 10 dresseurs différents"
+	"reward.7CF3AB6BE78E7058.title": "L'autel te reconnaît"
+	"reward.362D30121A2CD7A7.title": "1500 CobbleDollars"
+	"quest.6E29DEAED8B5E35B.title": "Le Pokémon de la Victoire"
+	"quest.6E29DEAED8B5E35B.quest_subtitle": "Rallume l'autel"
+	"quest.6E29DEAED8B5E35B.quest_desc": [
+		"Va à l'Autel de la Victoire et fais un clic droit dessus pour rallumer la flamme."
+		"Victini apparaîtra : capture-le ! S'il t'échappe, tu pourras rallumer l'autel une minute plus tard."
+	]
+	"task.7D5EB512D23583CA.title": "Capturer Victini"
+	"reward.3A272B21F22F8407.title": "La flamme brûle pour toi"
+	"reward.7ED985D7F80C27AE.title": "3000 CobbleDollars"
+	"reward.28314D7F56EEBBB0.title": "1 Clé rare"
 }

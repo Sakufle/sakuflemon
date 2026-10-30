@@ -15,3 +15,4 @@ scoreboard objectives add sakuflemon.zone dummy
 scoreboard objectives add sakuflemon.zone_v dummy
 scoreboard objectives add sakuflemon.halo dummy
 scoreboard objectives add sakuflemon.guide dummy
+scoreboard objectives add sakuflemon.autel_cd dummy

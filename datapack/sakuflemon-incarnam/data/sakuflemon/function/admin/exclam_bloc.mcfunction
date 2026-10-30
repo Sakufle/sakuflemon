@@ -1,0 +1,4 @@
+summon minecraft:block_display ~ ~ ~ {Tags:["sakuflemon.exclam"],block_state:{Name:"minecraft:gold_block"},brightness:{block:15,sky:15},Glowing:1b,glow_color_override:16766720,teleport_duration:40,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.2f,0.55f,-0.2f],scale:[0.4f,1.3f,0.4f]}}
+summon minecraft:block_display ~ ~ ~ {Tags:["sakuflemon.exclam"],block_state:{Name:"minecraft:gold_block"},brightness:{block:15,sky:15},Glowing:1b,glow_color_override:16766720,teleport_duration:40,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.2f,0f,-0.2f],scale:[0.4f,0.4f,0.4f]}}
+execute positioned ~ ~-0.5 ~ if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:light[level=15]
+tellraw @a[distance=..8] {"text":"« ! » posé.","color":"gold"}

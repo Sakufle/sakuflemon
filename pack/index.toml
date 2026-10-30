@@ -662,3 +662,13 @@ metafile = true
 file = "mods/cobblemon-trainer-structures.pw.toml"
 hash = "33ee6f1d39c83f1eb96104b2a7cfdbfaa670eb71fc30f7c028321a3e5ab98150"
 metafile = true
+
+[[files]]
+file = "mods/cobblemon-cities-structures.pw.toml"
+hash = "d6e1eb8fdb5e61207e9fa4ad3d690fff6ae9ba313b2c83b3de195192ded026ce"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "86cb2a58dafc2bdf131e0f433af454f5da5e456ba04070f702fdcd3f527cd60d"
+metafile = true

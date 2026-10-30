@@ -15,11 +15,11 @@ gyaradosite heracronite houndoominite kangaskhanite lopunnite lucarionite manect
 pidgeotite pinsirite sablenite salamencite sceptilite scizorite sharpedonite slowbronite steelixite swampertite
 tyranitarite venusaurite""".split()
 Z = """buginium_z darkinium_z dragonium_z electrium_z fairium_z fightinium_z firium_z flyinium_z ghostium_z grassium_z
-groundium_z icium_z normalium_z poisonium_z psychium_z rockium_z steelium_z waterium_z""".split()
+groundium_z icium_z normalium_z poisonium_z psychium_z rockium_z steelium_z waterium_z blank_z""".split()
 LEGENDE = """adamant_orb lustrous_orb griseous_orb red_orb blue_orb rusted_sword rusted_shield dna_splicer n_solarizer
 n_lunarizer reins_of_unity reveal_glass prison_bottle soul_dew zygarde_core cornerstone_mask hearthflame_mask
 wellspring_mask latiasite latiosite mewtwonite_x mewtwonite_y diancite lunalium_z solganium_z ultranecrozium_z
-marshadium_z mewnium_z tapunium_z""".split()
+marshadium_z mewnium_z tapunium_z adamant_crystal griseous_core lustrous_globe star_core dormant_crystal""".split()
 COLLECTION = [f"{t}_plate" for t in "draco dread earth fist flame icicle insect iron meadow mind pixie sky splash spooky stone toxic zap".split()] \
     + [f"{t}_memory" for t in "bug dark dragon electric fairy fighting fire flying ghost grass ground ice poison psychic rock steel water".split()] \
     + [f"{t}_drive" for t in "burn chill douse shock".split()]

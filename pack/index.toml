@@ -550,3 +550,58 @@ metafile = true
 file = "shaderpacks/solas-shader.pw.toml"
 hash = "11cc2dd32700ec51aa6c422dca8278456a30f62bd9dd9f822f8568504cfcc775"
 metafile = true
+
+[[files]]
+file = "mods/axiom.pw.toml"
+hash = "374be990d73e205d11ae53e51bffa50ce3e386678132fbc510c3d4c77c54f51a"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "de7bb9eecb68ac760a184374d6c59f24fa905ab11983a0f92b65113ad9d54c9a"
+metafile = true
+
+[[files]]
+file = "mods/catch-indicator.pw.toml"
+hash = "2910303d6310d75a569f1bc39558c8139a2c30d86a47c766b9683fdd5c7313a7"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-counter.pw.toml"
+hash = "f17cd5fa7df5aa2c2e17db7356e8bc06d69dfc0d1a4e62863f317950455484e9"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-smartphone.pw.toml"
+hash = "00b0795050ef28b3a66f29cfa93425df3d3e1335bce14568fa6c0b35b82e381a"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-tim-core.pw.toml"
+hash = "563abb326a6742915852d969fd3cd3d63b7f754eb958c8b0878b708d7872d2b5"
+metafile = true
+
+[[files]]
+file = "mods/cobbreeding.pw.toml"
+hash = "3854c4dfa29acdbd3377a28cd35d3f4408bf2730d42f4f937b2ddeaaff0a1c00"
+metafile = true
+
+[[files]]
+file = "mods/handcrafted.pw.toml"
+hash = "2600fb5f2efa6dffd1bcc04eea4c2646c101da4320da0c88d5616d5c2f41a439"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "d3f633dd12cd039a4e58dd398d1c80a324b0d78b9da5b3972b69640bfed211ed"
+metafile = true
+
+[[files]]
+file = "mods/wanteditems.pw.toml"
+hash = "e3b9efff719d5a925d125a1fe36fe4d986724cc12d8bd539915fd48344b4cec2"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "442c13fe3b1f0462adf895bbab49388967cafc294f56c57d2d4b1db6b0b24d53"
+metafile = true

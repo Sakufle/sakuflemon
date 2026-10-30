@@ -1,0 +1,13 @@
+name = "Cobblemon Legendary"
+filename = "Legendary 1.4.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/1F6zfYqY/versions/Z9w5OyMZ/Legendary%201.4.zip"
+hash-format = "sha512"
+hash = "60d9a28409fe33eb791ae5be838a21327280424b96081da8681f5f29a2586832b615f9090c94ee2bc6157570aa9c3523711e738d7324caa01ad1f6ec7d83a570"
+
+[update]
+[update.modrinth]
+mod-id = "1F6zfYqY"
+version = "Z9w5OyMZ"

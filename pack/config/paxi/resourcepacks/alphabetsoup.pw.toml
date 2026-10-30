@@ -1,0 +1,13 @@
+name = "Alphabet Soup"
+filename = "AlphabetSoup-v3.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IJRcfnAh/versions/WefpyKxa/AlphabetSoup-v3.0.zip"
+hash-format = "sha512"
+hash = "b42f5684d5fdadcf5bbf585a78ee14818bff32da32eec8d912c706133071f0555735a4686196b600266ec58e2d1ee0357d78b622dbe789feef0ea26f7c5f7cbc"
+
+[update]
+[update.modrinth]
+mod-id = "IJRcfnAh"
+version = "WefpyKxa"

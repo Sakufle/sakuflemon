@@ -1,0 +1,13 @@
+name = "Shadow & SoulSilver Lugia Addon"
+filename = "Shadow & SoulSilver Lugia Addon 1.5.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/QykcHNDo/versions/omsIQFfG/Shadow%20%26%20SoulSilver%20Lugia%20Addon%201.5.1.zip"
+hash-format = "sha512"
+hash = "850ae7c6c0484f144263cd8600975bb709b8ecfc6f09dbde6da3eda6ad62272cc431408b9ba47d22c4fcd093fd319a5fc14c81b8c1c8a7b5800eced1a3607dbf"
+
+[update]
+[update.modrinth]
+mod-id = "QykcHNDo"
+version = "omsIQFfG"

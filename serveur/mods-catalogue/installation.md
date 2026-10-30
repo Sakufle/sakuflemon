@@ -27,4 +27,4 @@ Vérifier chaque fichier avec son sha512 avant de le copier. Les mods marqués `
 
 Non installés pour l'instant (pas encore à jour pour Cobblemon 1.8, risque de crash) : Research Tasks, Alpha Project, Rad Gyms, CobbleBoss, Myths and Legends, Box Link, Catch Rate Display, Size Variations, Minimons.
 
-Retirés le 30/10 après le premier démarrage (versions faites pour Cobblemon 1.8.1, pas de version 1.8.3 sur Modrinth) : Capture XP, Counter, Spawn Notification, Unchained (dépend de Counter 1.9.2). AllTheMons retiré : conflit déclaré avec Mega Showdown.
+Corrigé le 30/10 après le premier démarrage : Capture XP, Counter et Spawn Notification remplacés par leurs versions 1.8.3 (capturexp-fabric-1.8.3-1.3.0, counter-fabric-1.8.3-1.9.2, spawnnotification-fabric-1.8.3-2.3.0). AllTheMons retiré : conflit déclaré avec Mega Showdown.

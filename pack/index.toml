@@ -642,3 +642,8 @@ metafile = true
 file = "mods/true-ending.pw.toml"
 hash = "873ac521a23fc4ae83d0480575eeacb73b1b061b2b2969c0a36295238142cebc"
 metafile = true
+
+[[files]]
+file = "mods/cobblemon-counter.pw.toml"
+hash = "a7ee088ccfc3a6702725bbf488ae217eb3552115f6b42a8b20f896df961c88b0"
+metafile = true

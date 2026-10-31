@@ -136,10 +136,20 @@ d.rectangle([11, 5, 20, 22], fill=(120, 200, 235, 255)); d.rectangle([12, 6, 14,
 d.ellipse([14, 24, 17, 27], fill=(250, 250, 250, 255))
 save(im, "gadgets")
 
+# Journalières : calendrier
+im, d = new()
+d.rectangle([4, 6, 27, 28], fill=(245, 245, 240, 255)); d.rectangle([4, 6, 27, 11], fill=(220, 60, 60, 255))
+d.rectangle([9, 3, 10, 8], fill=(90, 90, 100, 255)); d.rectangle([21, 3, 22, 8], fill=(90, 90, 100, 255))
+for yy in (14, 19, 24):
+    for xx in (7, 12, 17, 22):
+        d.rectangle([xx, yy, xx + 2, yy + 2], fill=(200, 200, 205, 255))
+d.rectangle([17, 19, 19, 21], fill=(240, 180, 40, 255))
+save(im, "journalieres")
+
 # planche d'aperçu (x4)
-names = ["mega", "raids", "eleveur", "safari", "montures", "explorateur", "arenes", "legendes", "artisan", "economie", "nether_end", "gadgets"]
-sheet = Image.new("RGBA", (6 * 136, 2 * 136), (60, 60, 60, 255))
+names = ["mega", "raids", "eleveur", "safari", "montures", "explorateur", "arenes", "legendes", "artisan", "economie", "nether_end", "gadgets", "journalieres"]
+sheet = Image.new("RGBA", (7 * 136, 2 * 136), (60, 60, 60, 255))
 for i, n in enumerate(names):
     ic = Image.open(os.path.join(OUT, n + ".png")).resize((128, 128), Image.NEAREST)
-    sheet.paste(ic, ((i % 6) * 136 + 4, (i // 6) * 136 + 4), ic)
+    sheet.paste(ic, ((i % 7) * 136 + 4, (i // 7) * 136 + 4), ic)
 sheet.save(os.path.join(OUT, "_apercu.png"))

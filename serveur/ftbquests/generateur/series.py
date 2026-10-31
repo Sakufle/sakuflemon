@@ -41,7 +41,7 @@ def D(serie, key, nom, role, lvl, ids, lieu, icon, kind="dresseur"):
 
 def debut(serie, nom):
     return Q(f"{serie}_debut", f"Série {nom}", "S'inscrire à l'Association des Dresseurs",
-             f"Trouve l'Association des Dresseurs (près des villages) et choisis la série {nom}.|Récupère ta Carte de Dresseur.|Attention : commencer une autre série remet la tienne à zéro.",
+             f"Procure-toi une Carte de Dresseur : achète-la au guide de l'Association à Incarnam, ou fabrique-la (papier, étiquette, vitre, redstone).|Donne-la ensuite à l'Association des Dresseurs (près des villages) pour choisir la série {nom}.|Attention : commencer une autre série remet la tienne à zéro.",
              "rctmod:trainer_card", [item("rctmod:trainer_card")], R(300, "c"), size=1.5, deps=[])
 
 def rangées(qs, n=8):

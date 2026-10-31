@@ -976,7 +976,7 @@
 	"reward.762AF9829DE1D869.title": "300 CobbleDollars"
 	"quest.6BC56FDDF0A9E161.title": "Série Kanto (Radical Red)"
 	"quest.6BC56FDDF0A9E161.quest_subtitle": "S'inscrire à l'Association des Dresseurs"
-	"quest.6BC56FDDF0A9E161.quest_desc": ["Trouve l'Association des Dresseurs (près des villages) et choisis la série Kanto (Radical Red).", "Récupère ta Carte de Dresseur.", "Attention : commencer une autre série remet la tienne à zéro."]
+	"quest.6BC56FDDF0A9E161.quest_desc": ["Procure-toi une Carte de Dresseur : achète-la au guide de l'Association à Incarnam, ou fabrique-la (papier, étiquette, vitre, redstone).", "Donne-la ensuite à l'Association des Dresseurs (près des villages) pour choisir la série Kanto (Radical Red).", "Attention : commencer une autre série remet la tienne à zéro."]
 	"reward.58692B475013433F.title": "760 CobbleDollars"
 	"reward.1036F02E3D254C67.title": "1 clé rare"
 	"quest.337F4325908CDC37.title": "Pierre"
@@ -1109,7 +1109,7 @@
 	"reward.571659FC279428B4.title": "300 CobbleDollars"
 	"quest.296975CE40AAEB54.title": "Série Sinnoh (BDSP)"
 	"quest.296975CE40AAEB54.quest_subtitle": "S'inscrire à l'Association des Dresseurs"
-	"quest.296975CE40AAEB54.quest_desc": ["Trouve l'Association des Dresseurs (près des villages) et choisis la série Sinnoh (BDSP).", "Récupère ta Carte de Dresseur.", "Attention : commencer une autre série remet la tienne à zéro."]
+	"quest.296975CE40AAEB54.quest_desc": ["Procure-toi une Carte de Dresseur : achète-la au guide de l'Association à Incarnam, ou fabrique-la (papier, étiquette, vitre, redstone).", "Donne-la ensuite à l'Association des Dresseurs (près des villages) pour choisir la série Sinnoh (BDSP).", "Attention : commencer une autre série remet la tienne à zéro."]
 	"reward.430EF87AF4BC6D2E.title": "760 CobbleDollars"
 	"reward.7E2BC8DE04681769.title": "1 clé rare"
 	"quest.67E59BCCED17FF71.title": "Pierrick"
@@ -1228,7 +1228,7 @@
 	"reward.299106BCFD19F292.title": "300 CobbleDollars"
 	"quest.42386D4C3825569F.title": "Série Unbound"
 	"quest.42386D4C3825569F.quest_subtitle": "S'inscrire à l'Association des Dresseurs"
-	"quest.42386D4C3825569F.quest_desc": ["Trouve l'Association des Dresseurs (près des villages) et choisis la série Unbound.", "Récupère ta Carte de Dresseur.", "Attention : commencer une autre série remet la tienne à zéro."]
+	"quest.42386D4C3825569F.quest_desc": ["Procure-toi une Carte de Dresseur : achète-la au guide de l'Association à Incarnam, ou fabrique-la (papier, étiquette, vitre, redstone).", "Donne-la ensuite à l'Association des Dresseurs (près des villages) pour choisir la série Unbound.", "Attention : commencer une autre série remet la tienne à zéro."]
 	"reward.18F6577841049B61.title": "960 CobbleDollars"
 	"quest.78435B294E624DB9.title": "Le rival"
 	"quest.78435B294E624DB9.quest_subtitle": "Premier vrai duel"

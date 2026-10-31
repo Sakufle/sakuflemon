@@ -40,7 +40,7 @@
 		}
 		{
 			id: "138AA586D6AF57CB"
-			icon: { id: "cobblenav:pokenav_item" }
+			icon: { id: "cobblenav:pokenav_item_base" }
 			x: 1.5d
 			y: 0.0d
 			dependencies: ["4DBAAB61A4F11DFF"]
@@ -48,7 +48,7 @@
 				{
 					id: "5E54ACC596D86AB4"
 					type: "item"
-					item: { count: 1, id: "cobblenav:pokenav_item" }
+					item: { count: 1, id: "cobblenav:pokenav_item_base" }
 					count: 1L
 					consume_items: false
 				}

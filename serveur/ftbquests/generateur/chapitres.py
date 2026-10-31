@@ -246,7 +246,7 @@ nether_end = dict(file="nether_end", title="Nether & End", sub="Au-delà des hal
 # ============================================================ 12. Gadgets
 gadgets = dict(file="gadgets", title="Gadgets", sub="Les outils du dresseur moderne", icon=T("gadgets"), rows=[
     [Q("smartphone", "Smartphone", "Le PC dans la poche", "Fabrique un Smartphone : il ouvre ton PC et soigne ton équipe à distance.", "cobblemon_smartphone:red_smartphone", [item("cobblemon_smartphone:red_smartphone")], R(800, "r"), size=1.5),
-     Q("pokenav", "PokéNav", "Ne jamais se perdre", "Fabrique un PokéNav.", "cobblenav:pokenav_item", [item("cobblenav:pokenav_item")], R(500, "c")),
+     Q("pokenav", "PokéNav", "Ne jamais se perdre", "Fabrique un PokéNav.", "cobblenav:pokenav_item_base", [item("cobblenav:pokenav_item_base")], R(500, "c")),
      Q("sac", "Sac de voyage", "Traveler's Backpack", "Fabrique un sac à dos de voyageur.", "travelersbackpack:standard", [item("travelersbackpack:standard")], R(500, "c")),
      Q("compteur", "Compteur de captures", "Le combo shiny", "Attrape 20 fois la même espèce : le compteur augmente tes chances de chromatique. Tape /counter pour voir ton combo.", "cobblemon:poke_ball", [check()], R(600, "c")),
      Q("canne", "Canne à pêche Poké", "Pêcher des Pokémon", "Fabrique une Canne Poké et pêche un Pokémon.", "cobblemon:poke_rod", [cob("reel", 1)], R(400, "c")),

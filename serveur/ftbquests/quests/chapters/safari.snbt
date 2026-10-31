@@ -9,7 +9,7 @@
 	quests: [
 		{
 			id: "185463EDE782D457"
-			icon: "cobblemon:safari_ball"
+			icon: { id: "cobblemon:safari_ball" }
 			x: 0.0d
 			y: 0.0d
 			size: 1.5d
@@ -27,7 +27,7 @@
 					command: "/cobbledollars give {p} 200"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "4B71BF4DAF92FE31"
@@ -38,7 +38,7 @@
 		}
 		{
 			id: "409CEDE05F528B9A"
-			icon: "cobblemon:safari_ball"
+			icon: { id: "cobblemon:safari_ball" }
 			x: 1.5d
 			y: 0.0d
 			dependencies: ["185463EDE782D457"]
@@ -58,7 +58,7 @@
 					command: "/cobbledollars give {p} 200"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "42A74EAE596609AF"
@@ -69,7 +69,7 @@
 		}
 		{
 			id: "215B3E5CEA5EE938"
-			icon: "cobblemon:safari_ball"
+			icon: { id: "cobblemon:safari_ball" }
 			x: 3.0d
 			y: 0.0d
 			dependencies: ["409CEDE05F528B9A"]
@@ -111,7 +111,7 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "3C7F7602D53BB40E"
@@ -122,7 +122,7 @@
 		}
 		{
 			id: "33AD1D972A0D9EA2"
-			icon: "cobblemon:safari_ball"
+			icon: { id: "cobblemon:safari_ball" }
 			x: 4.5d
 			y: 0.0d
 			dependencies: ["215B3E5CEA5EE938"]
@@ -164,7 +164,7 @@
 					command: "/cobbledollars give {p} 1000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "4C90C317E2B9090A"
@@ -175,7 +175,7 @@
 		}
 		{
 			id: "2996C3ADFDCD1C7F"
-			icon: "cobblemon:safari_ball"
+			icon: { id: "cobblemon:safari_ball" }
 			x: 6.0d
 			y: 0.0d
 			dependencies: ["33AD1D972A0D9EA2"]
@@ -275,7 +275,7 @@
 					command: "/cobbledollars give {p} 2000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "2087413D676AE468"
@@ -286,7 +286,7 @@
 		}
 		{
 			id: "13911CB0C94696CC"
-			icon: "cobblemon:shiny_stone"
+			icon: { id: "cobblemon:shiny_stone" }
 			x: 7.5d
 			y: 0.0d
 			shape: "gear"
@@ -329,7 +329,7 @@
 					command: "/cobbledollars give {p} 4000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "35D8A85509063BC7"
@@ -340,7 +340,7 @@
 		}
 		{
 			id: "2D2C0341A53FB418"
-			icon: "cobblesafari:safari_egg_nest"
+			icon: { id: "cobblesafari:safari_egg_nest" }
 			x: 0.0d
 			y: 1.5d
 			dependencies: ["185463EDE782D457"]
@@ -382,7 +382,7 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "7AB4DE1BDD5C4223"
@@ -393,7 +393,7 @@
 		}
 		{
 			id: "63C7054CBBC3EC83"
-			icon: "cobblesafari:incubator"
+			icon: { id: "cobblesafari:incubator" }
 			x: 1.5d
 			y: 1.5d
 			dependencies: ["2D2C0341A53FB418"]
@@ -413,7 +413,7 @@
 					command: "/cobbledollars give {p} 600"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "38A453B0648E2661"
@@ -424,7 +424,7 @@
 		}
 		{
 			id: "4C19FA68BF3D3F5A"
-			icon: "cobblesafari:shinyincense"
+			icon: { id: "cobblesafari:shinyincense" }
 			x: 3.0d
 			y: 1.5d
 			dependencies: ["63C7054CBBC3EC83"]
@@ -432,7 +432,7 @@
 				{
 					id: "1FA850497948A430"
 					type: "item"
-					item: { count: 1, id: "cobblesafari:perfume" }
+					item: { count: 1, id: "cobblesafari:perfume_uncommon" }
 					count: 1L
 					consume_items: false
 				}
@@ -444,7 +444,7 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "1F2F8ECCDDBD6528"
@@ -455,7 +455,7 @@
 		}
 		{
 			id: "6B290C15C761E1FC"
-			icon: "minecraft:red_wool"
+			icon: { id: "minecraft:red_wool" }
 			x: 4.5d
 			y: 1.5d
 			dependencies: ["4C19FA68BF3D3F5A"]
@@ -472,7 +472,7 @@
 					command: "/cobbledollars give {p} 500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "5681AA5BD0828569"
@@ -483,7 +483,7 @@
 		}
 		{
 			id: "2C0BA77010346E89"
-			icon: "cobblesafari:hoopa_ring_portal"
+			icon: { id: "cobblesafari:hoopa_ring_portal" }
 			x: 0.0d
 			y: 3.0d
 			dependencies: ["185463EDE782D457"]
@@ -500,7 +500,7 @@
 					command: "/cobbledollars give {p} 500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "16316ACB62771005"
@@ -511,7 +511,7 @@
 		}
 		{
 			id: "79487C74FC130439"
-			icon: "minecraft:iron_pickaxe"
+			icon: { id: "minecraft:iron_pickaxe" }
 			x: 1.5d
 			y: 3.0d
 			dependencies: ["2C0BA77010346E89"]
@@ -529,7 +529,7 @@
 					command: "/cobbledollars give {p} 600"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "51C2984B5C854F2A"
@@ -540,7 +540,7 @@
 		}
 		{
 			id: "2D5B1D6A916F51DC"
-			icon: "cobblesafari:sphere_red_s"
+			icon: { id: "cobblesafari:sphere_red_s" }
 			x: 3.0d
 			y: 3.0d
 			dependencies: ["79487C74FC130439"]
@@ -560,7 +560,7 @@
 					command: "/cobbledollars give {p} 800"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "1551DE3520141941"
@@ -571,7 +571,7 @@
 		}
 		{
 			id: "4180B1B66585825F"
-			icon: "cobblesafari:underground_flag_regular"
+			icon: { id: "cobblesafari:underground_flag_regular" }
 			x: 4.5d
 			y: 3.0d
 			dependencies: ["2D5B1D6A916F51DC"]
@@ -591,7 +591,7 @@
 					command: "/cobbledollars give {p} 1000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "4AD681EC819C42AB"
@@ -602,7 +602,7 @@
 		}
 		{
 			id: "6483347A6AC1FB9C"
-			icon: "minecraft:crying_obsidian"
+			icon: { id: "minecraft:crying_obsidian" }
 			x: 6.0d
 			y: 3.0d
 			dependencies: ["4180B1B66585825F"]
@@ -620,7 +620,7 @@
 					command: "/cobbledollars give {p} 1500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "2B43779EE285FB98"
@@ -631,7 +631,7 @@
 		}
 		{
 			id: "2C0156B9FDDA65C0"
-			icon: "cobblesafari:redchain_fragment"
+			icon: { id: "cobblesafari:redchain_fragment" }
 			x: 7.5d
 			y: 3.0d
 			shape: "gear"
@@ -652,7 +652,7 @@
 					command: "/cobbledollars give {p} 2500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "25FA900D2BEA7071"

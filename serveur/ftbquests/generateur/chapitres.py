@@ -84,7 +84,7 @@ safari = dict(file="safari", title="Zone Safari", sub="La réserve des Pokémon 
      Q("safari_shiny", "Safari chromatique", "Le Graal du Safari", "Attrape un Pokémon chromatique dans la Zone Safari.", "cobblemon:shiny_stone", [catch(1, shiny=True, poke_ball_used="cobblemon:safari_ball")], R(4000, "l"), shape="gear")],
     [Q("nid", "Les nids", "Un œuf sauvage", "Fais un clic droit sur un nid sauvage pour récupérer un œuf.", SAF + "safari_egg_nest", [cob("collect_egg", 1, dimension=SAF + "domedimension")], R(300, "c"), deps=["garde_safari"]),
      Q("incubateur", "L'Incubateur", "Pour faire éclore les œufs sauvages", "Fabrique un Incubateur. Il accélère aussi les œufs de pension.", SAF + "incubator", [item(SAF + "incubator")], R(600, "r")),
-     Q("parfum", "Parfums et encens", "Attirer certains Pokémon", "Fabrique ou trouve un parfum ou un encens.", SAF + "shinyincense", [item(SAF + "perfume")], R(400, "c")),
+     Q("parfum", "Parfums et encens", "Attirer certains Pokémon", "Fabrique ou trouve un parfum (le plus simple : parfum peu commun).", SAF + "shinyincense", [item(SAF + "perfume_uncommon")], R(400, "c")),
      Q("ballon", "Ballon à récompenses", "Il flotte là-haut…", "Trouve un ballon à récompenses et fais un clic droit dessus.", "minecraft:red_wool", [check()], R(500, "r"))],
     [Q("hoopa", "Portail de Hoopa", "Un anneau dans les airs", "Des portails de Hoopa apparaissent parfois. Traverses-en un avant qu'il se referme.", SAF + "hoopa_ring_portal", [check()], R(500, "c"), deps=["garde_safari"]),
      Q("souterrain", "Le Souterrain", "Creuser les murs", "Va dans le Souterrain de Sinnoh par un portail de Hoopa.", "minecraft:iron_pickaxe", [dim(SAF + "dungeon_underground")], R(600, "r")),
@@ -133,10 +133,7 @@ explorateur = dict(file="explorateur", title="Explorateur", sub="Le monde d'en b
      Q("explorateur_fin", "Grand explorateur", "Le monde n'a plus de secret", "Visite un village, une ville, une taverne, une crypte et une Cité antique. Valide quand tu as tout.", "minecraft:filled_map", [struct("#minecraft:village"), struct("#towns_and_towers:town"), struct("#nova_structures:taverns"), struct("#nova_structures:undead_crypt"), struct("#minecraft:ancient_city")], R(5000, "l", cmds=[cle("legendaire")]), shape="gear", size=1.5)],
 ])
 
-# ============================================================ 7. Arènes & Dresseurs
-def champion(key, nom, ville, trainer, struct_id, icon, cd):
-    return Q(key, f"Champion {nom}", f"Arène de {ville}", f"Trouve la ville de {ville} et bats le champion {nom}.", icon,
-             [struct(struct_id), cob("defeat_trainer", 1, trainers=trainer)], R(cd, "r"))
+# ============================================================ 7. Arènes & Dresseurs (les dresseurs clés sont dans les chapitres Série)
 arenes = dict(file="arenes", title="Arènes & Dresseurs", sub="La route vers la Ligue", icon=T("arenes"), rows=[
     [Q("centre", "Le Centre Pokémon", "Soigner ses Pokémon", "Trouve un Centre Pokémon dans le monde et soigne ton équipe.", "cobblemon:healing_machine", [struct("cobblestructures:pokecenter")], R(200, "c"), size=1.5),
      Q("boutique", "La Boutique Pokémon", "Faire ses courses", "Trouve une Boutique Pokémon.", "cobblemon:poke_ball", [struct("cobblestructures:pokemart")], R(200, "c")),
@@ -144,18 +141,7 @@ arenes = dict(file="arenes", title="Arènes & Dresseurs", sub="La route vers la 
      Q("dresseurs_10", "Duels de route", "10 dresseurs battus", "Bats 10 dresseurs dans le monde.", "cobblemon:muscle_band", [cob("defeat_npc", 10)], R(800, "c")),
      Q("dresseurs_50", "Vétéran des routes", "50 dresseurs battus", "Bats 50 dresseurs.", "cobblemon:black_belt", [cob("defeat_npc", 50)], R(2500, "r")),
      Q("dresseurs_200", "Légende des routes", "200 dresseurs battus", "Bats 200 dresseurs.", "cobblemon:expert_belt", [cob("defeat_npc", 200)], R(6000, "l"), shape="gear")],
-    [champion("pierre", "Pierre", "Argenta", "leader_brock_019e", "ccs:pewter", "minecraft:cobblestone", 1000),
-     champion("ondine", "Ondine", "Azuria", "leader_misty_019f", "ccs:cerulean", "minecraft:water_bucket", 1200),
-     champion("major_bob", "Major Bob", "Carmin-sur-Mer", "leader_lt_surge_01a0", "ccs:vermilion", "cobblemon:thunder_stone", 1400),
-     champion("erika", "Érika", "Céladopole", "leader_erika_01a1", "ccs:celadon", "cobblemon:leaf_stone", 1600),
-     champion("koga", "Koga", "Parmanie", "leader_koga_01a2", "ccs:fuchsia", "cobblemon:poison_barb", 1800),
-     champion("morgane", "Morgane", "Safrania", "leader_sabrina_01a4", "ccs:saffron", "cobblemon:twisted_spoon", 2000),
-     champion("auguste", "Auguste", "Cramois'Île", "leader_blaine_01a3", "ccs:cinnabar", "cobblemon:fire_stone", 2200),
-     Q("giovanni", "Giovanni", "L'arène de Jadielle", "Le dernier champion de Kanto est aussi le chef de la Team Rocket. Trouve Jadielle et bats-le.", "minecraft:netherite_ingot", [struct("ccs:viridian"), cob("defeat_trainer", 1, trainers="boss_giovanni_0045,boss_giovanni_015c")], R(3000, "l"), shape="gear"),
-     Q("huit_badges", "Les huit badges", "Prêt pour la Ligue", "Tu as battu les huit champions de Kanto !", "minecraft:gold_block", [check()], R(5000, "l", cmds=[cle("legendaire", 2)]), shape="gear", size=1.5, deps=["pierre", "ondine", "major_bob", "erika", "koga", "morgane", "auguste", "giovanni"])],
-    [Q("rocket", "La Team Rocket", "Ils sont de retour", "Bats Archer et Ariane, les admins de la Team Rocket.", "minecraft:red_banner", [cob("defeat_trainer", 1, trainers="rocket_admin_archer_0043"), cob("defeat_trainer", 1, trainers="rocket_admin_ariana_0044")], R(2000, "r"), deps=["centre"]),
-     Q("rival", "Le rival", "Terry te défie", "Bats ton rival Terry.", "cobblemon:poke_ball", [cob("defeat_trainer", 1, trainers="rival_terry_014c")], R(1500, "r")),
-     Q("stade", "Les stades de légende", "Cynthia, Peter, Pierre Rochard…", "Trouve un des grands stades Pokémon.", "minecraft:gold_ingot", [struct("cobblemonopponents:pokemon_stadium_cynthia")], R(1500, "r")),
+    [Q("stade", "Les stades de légende", "Cynthia, Peter, Pierre Rochard…", "Trouve un des grands stades Pokémon.", "minecraft:gold_ingot", [struct("cobblemonopponents:pokemon_stadium_cynthia")], R(1500, "r"), deps=["centre"]),
      Q("cynthia", "Cynthia", "La championne de Sinnoh", "Bats Cynthia dans son stade.", "cobblemon:spell_tag", [cob("defeat_npc", 1, trainers="Cynthia")], R(4000, "l")),
      Q("n_stade", "Le stade de N", "Celui qui a tout changé", "Trouve le stade de N… et affronte-le.", "minecraft:golden_helmet", [struct("cobblemonopponents:pokemon_stadium_n"), cob("defeat_npc", 1, trainers="N")], R(5000, "l"), shape="gear"),
      Q("temples", "Les quatre temples", "Sable, Neige, Orage, Soleil", "Trouve les quatre temples gardés.", "minecraft:sand", [struct("cobblemonopponents:sand_temple"), struct("cobblemonopponents:snow_temple"), struct("cobblemonopponents:storm_temple"), struct("cobblemonopponents:sun_temple")], R(4000, "l")),
@@ -260,7 +246,7 @@ nether_end = dict(file="nether_end", title="Nether & End", sub="Au-delà des hal
 # ============================================================ 12. Gadgets
 gadgets = dict(file="gadgets", title="Gadgets", sub="Les outils du dresseur moderne", icon=T("gadgets"), rows=[
     [Q("smartphone", "Smartphone", "Le PC dans la poche", "Fabrique un Smartphone : il ouvre ton PC et soigne ton équipe à distance.", "cobblemon_smartphone:red_smartphone", [item("cobblemon_smartphone:red_smartphone")], R(800, "r"), size=1.5),
-     Q("pokenav", "PokéNav", "Ne jamais se perdre", "Fabrique un PokéNav.", "cobblenav:pokenav_item", [item("cobblenav:pokenav_item")], R(500, "c")),
+     Q("pokenav", "PokéNav", "Ne jamais se perdre", "Fabrique un PokéNav.", "cobblenav:pokenav_item_base", [item("cobblenav:pokenav_item_base")], R(500, "c")),
      Q("sac", "Sac de voyage", "Traveler's Backpack", "Fabrique un sac à dos de voyageur.", "travelersbackpack:standard", [item("travelersbackpack:standard")], R(500, "c")),
      Q("compteur", "Compteur de captures", "Le combo shiny", "Attrape 20 fois la même espèce : le compteur augmente tes chances de chromatique. Tape /counter pour voir ton combo.", "cobblemon:poke_ball", [check()], R(600, "c")),
      Q("canne", "Canne à pêche Poké", "Pêcher des Pokémon", "Fabrique une Canne Poké et pêche un Pokémon.", "cobblemon:poke_rod", [cob("reel", 1)], R(400, "c")),
@@ -297,4 +283,5 @@ journalieres = dict(file="journalieres", title="Journalières", sub="De quoi fai
      jour("h_safari", "Safari de la semaine", "10 captures au Safari", "Attrape 10 Pokémon avec des Safari Balls.", "cobblemon:safari_ball", [catch(10, poke_ball_used="cobblemon:safari_ball")], R(2000, "r"), rep=H, shape="hexagon", size=1.25)],
 ])
 
-CHAPITRES = [mega, raids, eleveur, safari, montures, explorateur, arenes, legendes, artisan, economie, nether_end, gadgets, journalieres]
+from series import SERIES
+CHAPITRES = [mega, raids, eleveur, safari, montures, explorateur, arenes, *SERIES, legendes, artisan, economie, nether_end, gadgets, journalieres]

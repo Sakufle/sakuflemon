@@ -1,0 +1,115 @@
+{
+  "title": "<dark_aqua>Association des Dresseurs",
+  "size": 3,
+  "alias_commands": [
+    "cartedresseur"
+  ],
+  "open_actions": {
+    "son": {
+      "type": "PLAYSOUND",
+      "sound": "cobblemon:pc.on"
+    }
+  },
+  "close_actions": {
+    "son": {
+      "type": "PLAYSOUND",
+      "sound": "cobblemon:pc.off"
+    }
+  },
+  "items": {
+    "info": {
+      "item": "minecraft:book",
+      "slots": [
+        11
+      ],
+      "name": "<yellow><b>Comment ça marche ?",
+      "lore": [
+        "<white>1. <gray>Achète une Carte de Dresseur.",
+        "<white>2. <gray>Trouve l'Association des Dresseurs",
+        "<gray>   (près des villages) et donne-lui ta carte.",
+        "<white>3. <gray>Choisis ta série : la carte te montre",
+        "<gray>   les dresseurs clés à battre, dans l'ordre.",
+        "",
+        "<red>Changer de série remet ta progression à zéro."
+      ]
+    },
+    "carte": {
+      "item": "rctmod:trainer_card",
+      "slots": [
+        13
+      ],
+      "name": "<aqua><b>Carte de Dresseur",
+      "lore": [
+        "<gray>Ton passeport de dresseur.",
+        "<gray>Donne-la à l'<white>Association des Dresseurs",
+        "<gray>pour choisir ta série (Kanto, Sinnoh…).",
+        "<gray>Elle affiche ensuite ta progression,",
+        "<gray>ton plafond de niveau et les dresseurs",
+        "<gray>qu'il te reste à battre.",
+        "",
+        "<gray>Prix : <gold>500 CobbleDollars",
+        "<yellow>▶ Clic pour acheter"
+      ],
+      "click_requirements": {
+        "requirements": {
+          "argent": {
+            "type": "CURRENCY",
+            "currency": "",
+            "amount": 500,
+            "comparison": ">="
+          }
+        },
+        "deny_actions": {
+          "msg": {
+            "type": "MESSAGE",
+            "message": [
+              "<red>Il te faut 500 CobbleDollars."
+            ]
+          },
+          "son": {
+            "type": "PLAYSOUND",
+            "sound": "minecraft:block.note_block.bass"
+          }
+        }
+      },
+      "click_actions": {
+        "payer": {
+          "type": "CURRENCY_WITHDRAW",
+          "currency": "",
+          "amount": 500
+        },
+        "donner": {
+          "type": "COMMAND_CONSOLE",
+          "commands": [
+            "give %player% rctmod:trainer_card 1"
+          ]
+        },
+        "msg": {
+          "type": "MESSAGE",
+          "message": [
+            "<green>Carte de Dresseur reçue ! Va voir l'Association des Dresseurs pour choisir ta série."
+          ]
+        },
+        "son": {
+          "type": "PLAYSOUND",
+          "sound": "minecraft:entity.experience_orb.pickup"
+        }
+      },
+      "nbt": {
+        "minecraft:hide_additional_tooltip": {}
+      }
+    },
+    "craft": {
+      "item": "minecraft:crafting_table",
+      "slots": [
+        15
+      ],
+      "name": "<green><b>La fabriquer soi-même",
+      "lore": [
+        "<gray>Papier  Papier  Papier",
+        "<gray>Étiquette  Vitre  Redstone",
+        "<gray>Papier  Papier  Papier"
+      ]
+    }
+  }
+}

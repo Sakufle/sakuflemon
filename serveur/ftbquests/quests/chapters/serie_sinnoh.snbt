@@ -1,0 +1,1493 @@
+{
+	id: "6D251C0738C2BEC6"
+	group: ""
+	order_index: 13
+	filename: "serie_sinnoh"
+	icon: { id: "cobblemon:dawn_stone" }
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "296975CE40AAEB54"
+			icon: { id: "rctmod:trainer_card" }
+			x: 0.0d
+			y: 0.0d
+			size: 1.5d
+			tasks: [
+				{
+					id: "21C8E2A93CCBD8FB"
+					type: "item"
+					item: { count: 1, id: "rctmod:trainer_card" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "571659FC279428B4"
+					type: "command"
+					command: "/cobbledollars give {p} 300"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "46FC3D90D71EC8C3"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "67E59BCCED17FF71"
+			icon: { id: "minecraft:coal" }
+			x: 1.5d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["296975CE40AAEB54"]
+			tasks: [
+				{
+					id: "5532E02906009E33"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "gym_leader_roark_0395"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "430EF87AF4BC6D2E"
+					type: "command"
+					command: "/cobbledollars give {p} 760"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "7E2BC8DE04681769"
+					type: "command"
+					command: "/crates key give {p} cle_rare 1"
+					player_command: false
+					silent: true
+					icon: { id: "minecraft:tripwire_hook" }
+				}
+				{
+					id: "4A3BC5BE5709031A"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "6B6FA010D26C976F"
+			icon: { id: "minecraft:light_blue_banner" }
+			x: 3.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["67E59BCCED17FF71"]
+			tasks: [
+				{
+					id: "5B8554ACBA708E8C"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "commander_mars_03c2"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "5485399CDE835940"
+					type: "command"
+					command: "/cobbledollars give {p} 840"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "687CAFC4C290E23E"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "7567395B39075D3B"
+			icon: { id: "minecraft:light_blue_banner" }
+			x: 4.5d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["6B6FA010D26C976F"]
+			tasks: [
+				{
+					id: "72715DCDD0CBE6D7"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "commander_jupiter_041d"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "45666376453443F2"
+					type: "command"
+					command: "/cobbledollars give {p} 1000"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "570BF2002BB8F9A2"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "12E44FD04C3842F1"
+			icon: { id: "cobblemon:leaf_stone" }
+			x: 6.0d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["7567395B39075D3B"]
+			tasks: [
+				{
+					id: "216F9C2088380EBB"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "gym_leader_gardenia_03d6"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "5D7648868E5AB00B"
+					type: "command"
+					command: "/cobbledollars give {p} 1080"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "62123F1E00093905"
+					type: "command"
+					command: "/crates key give {p} cle_rare 1"
+					player_command: false
+					silent: true
+					icon: { id: "minecraft:tripwire_hook" }
+				}
+				{
+					id: "4E9270F4C2B88E03"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "175A18BAE3A7F657"
+			icon: { id: "cobblemon:poke_ball" }
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["12E44FD04C3842F1"]
+			tasks: [
+				{
+					id: "6BEE2D9D3E98F5A1"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "pokemon_trainer_cedric_0445,pokemon_trainer_cedric_0446,pokemon_trainer_cedric_0447"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "16A021B8ADFE3827"
+					type: "command"
+					command: "/cobbledollars give {p} 1040"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "68E35A38CC4651D1"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "28F4EC4C459077D1"
+			icon: { id: "cobblemon:black_belt" }
+			x: 9.0d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["175A18BAE3A7F657"]
+			tasks: [
+				{
+					id: "27BD76AC5E79550C"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "gym_leader_maylene_03d8"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "16D45D3272818133"
+					type: "command"
+					command: "/cobbledollars give {p} 1400"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "73327E8FC5733537"
+					type: "command"
+					command: "/crates key give {p} cle_rare 1"
+					player_command: false
+					silent: true
+					icon: { id: "minecraft:tripwire_hook" }
+				}
+				{
+					id: "12FC948AF0077B84"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "610BDF49A9ADC2DC"
+			icon: { id: "minecraft:water_bucket" }
+			x: 10.5d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["28F4EC4C459077D1"]
+			tasks: [
+				{
+					id: "78ADE3ECB835FCB2"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "gym_leader_wake_03d7"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "2F8E796175717C61"
+					type: "command"
+					command: "/cobbledollars give {p} 1400"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "42957EFE62B191A7"
+					type: "command"
+					command: "/crates key give {p} cle_rare 1"
+					player_command: false
+					silent: true
+					icon: { id: "minecraft:tripwire_hook" }
+				}
+				{
+					id: "5C3EB17ECFF00902"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "4399E3CF6FF141C8"
+			icon: { id: "cobblemon:great_ball" }
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["610BDF49A9ADC2DC"]
+			tasks: [
+				{
+					id: "6CEFAA0A94F2B72F"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "pokemon_trainer_cedric_0448,pokemon_trainer_cedric_0449,pokemon_trainer_cedric_044a"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "1407ACBE6D45BF25"
+					type: "command"
+					command: "/cobbledollars give {p} 1440"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "215522D09BEE9C09"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "4EDABA08B09B3419"
+			icon: { id: "cobblemon:spell_tag" }
+			x: 1.5d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["4399E3CF6FF141C8"]
+			tasks: [
+				{
+					id: "2D2FF95AE4FBD3CC"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "gym_leader_fantina_03d9"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "75BBFC9E3F3A0B9D"
+					type: "command"
+					command: "/cobbledollars give {p} 1640"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "7560C991AD71C0AC"
+					type: "command"
+					command: "/crates key give {p} cle_rare 1"
+					player_command: false
+					silent: true
+					icon: { id: "minecraft:tripwire_hook" }
+				}
+				{
+					id: "3910B158ED8689BF"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "5B4EB4CBD99A00D3"
+			icon: { id: "cobblemon:great_ball" }
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["4EDABA08B09B3419"]
+			tasks: [
+				{
+					id: "1EF637C6A0AC8652"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "pokemon_trainer_cedric_044b,pokemon_trainer_cedric_044c,pokemon_trainer_cedric_044d"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "2ED1F86844039000"
+					type: "command"
+					command: "/cobbledollars give {p} 1680"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "120B122F9B8818BC"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "48D0CF5DD7FF0AD4"
+			icon: { id: "minecraft:iron_block" }
+			x: 4.5d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["5B4EB4CBD99A00D3"]
+			tasks: [
+				{
+					id: "6FF5276A61E1B6A5"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "gym_leader_byron_0399"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "24018BA2D9F9CD66"
+					type: "command"
+					command: "/cobbledollars give {p} 1760"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "69C403D4FD44AED7"
+					type: "command"
+					command: "/crates key give {p} cle_rare 1"
+					player_command: false
+					silent: true
+					icon: { id: "minecraft:tripwire_hook" }
+				}
+				{
+					id: "3ABAF07948469E1D"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "5EC2739E4272415C"
+			icon: { id: "minecraft:light_blue_banner" }
+			x: 6.0d
+			y: 1.5d
+			shape: "square"
+			dependencies: ["48D0CF5DD7FF0AD4"]
+			tasks: [
+				{
+					id: "4E442B854AE765CD"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "commander_saturn_041f"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "7D7ABC04B4067EC7"
+					type: "command"
+					command: "/cobbledollars give {p} 1680"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "21349ABAD14C028D"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "3C5C1BDF390697D7"
+			icon: { id: "minecraft:light_blue_banner" }
+			x: 7.5d
+			y: 1.5d
+			shape: "square"
+			dependencies: ["5EC2739E4272415C"]
+			tasks: [
+				{
+					id: "438A104E078449CF"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "commander_mars_041c"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "3D92C6FEEFB80D4C"
+					type: "command"
+					command: "/cobbledollars give {p} 1760"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "20E75655B605874D"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "55A46CE7450DC0A6"
+			icon: { id: "cobblemon:never_melt_ice" }
+			x: 9.0d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["3C5C1BDF390697D7"]
+			tasks: [
+				{
+					id: "741E5AF31B68CC99"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "gym_leader_candice_03da"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "58DB12580028E174"
+					type: "command"
+					command: "/cobbledollars give {p} 1880"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "1216744F298FC4DB"
+					type: "command"
+					command: "/crates key give {p} cle_rare 1"
+					player_command: false
+					silent: true
+					icon: { id: "minecraft:tripwire_hook" }
+				}
+				{
+					id: "5381716E161AF3A4"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "660BD0DC61E2FF25"
+			icon: { id: "minecraft:ender_eye" }
+			x: 10.5d
+			y: 1.5d
+			shape: "square"
+			dependencies: ["55A46CE7450DC0A6"]
+			tasks: [
+				{
+					id: "10ED293AEB7FCE03"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "team_galactic_boss_cyrus_041a"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "579B04BC86AE9A99"
+					type: "command"
+					command: "/cobbledollars give {p} 1920"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "74157DFF2B44E275"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "546A2E2C921390AF"
+			icon: { id: "minecraft:light_blue_banner" }
+			x: 0.0d
+			y: 3.0d
+			shape: "square"
+			dependencies: ["660BD0DC61E2FF25"]
+			tasks: [
+				{
+					id: "55EEF8C3F71473ED"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "commander_saturn_0420"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "2441130447F9DF26"
+					type: "command"
+					command: "/cobbledollars give {p} 1800"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "5A69287F7ABD5BAA"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "5A6143A8905F2B2F"
+			icon: { id: "minecraft:light_blue_banner" }
+			x: 1.5d
+			y: 3.0d
+			shape: "square"
+			dependencies: ["546A2E2C921390AF"]
+			tasks: [
+				{
+					id: "53B089948DA9CFAE"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "commander_mars_jupiter_m009"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "5AA04CE3385B8156"
+					type: "command"
+					command: "/cobbledollars give {p} 1840"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "567FF81F08967905"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "19344122293D569B"
+			icon: { id: "minecraft:ender_eye" }
+			x: 3.0d
+			y: 3.0d
+			shape: "square"
+			dependencies: ["5A6143A8905F2B2F"]
+			tasks: [
+				{
+					id: "286FC80A976E3F87"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "team_galactic_boss_cyrus_041b"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "134DFC2D87F67F54"
+					type: "command"
+					command: "/cobbledollars give {p} 2120"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "2C0026D1FA249DE6"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "7B9DEE88E6DBF0BB"
+			icon: { id: "cobblemon:thunder_stone" }
+			x: 4.5d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["19344122293D569B"]
+			tasks: [
+				{
+					id: "115D84EDA28FA36A"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "gym_leader_volkner_03db"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "15C5DCE2FB196200"
+					type: "command"
+					command: "/cobbledollars give {p} 2160"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "7F0826814FB64078"
+					type: "command"
+					command: "/crates key give {p} cle_rare 1"
+					player_command: false
+					silent: true
+					icon: { id: "minecraft:tripwire_hook" }
+				}
+				{
+					id: "30B178AC825C8A53"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "2E262E31BAF65D45"
+			icon: { id: "cobblemon:ultra_ball" }
+			x: 6.0d
+			y: 3.0d
+			dependencies: ["7B9DEE88E6DBF0BB"]
+			tasks: [
+				{
+					id: "622F86ABF9E14B46"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "pokemon_trainer_cedric_044e,pokemon_trainer_cedric_044f,pokemon_trainer_cedric_0450"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "72FEA185628A45F6"
+					type: "command"
+					command: "/cobbledollars give {p} 2400"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "5B2388153D79705C"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "26EC0E2A4B27AB11"
+			icon: { id: "cobblemon:silver_powder" }
+			x: 7.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["2E262E31BAF65D45"]
+			tasks: [
+				{
+					id: "537E7B88FBF0AE4C"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "elite_four_aaron_039f"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "51903D722CA60FE6"
+					type: "command"
+					command: "/cobbledollars give {p} 2480"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "52DAE8859D2C3517"
+					type: "command"
+					command: "/crates key give {p} cle_rare 1"
+					player_command: false
+					silent: true
+					icon: { id: "minecraft:tripwire_hook" }
+				}
+				{
+					id: "7DF12143047F7D42"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "5B8C79F8C92D05F9"
+			icon: { id: "cobblemon:soft_sand" }
+			x: 9.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["26EC0E2A4B27AB11"]
+			tasks: [
+				{
+					id: "13028B49ADBD8F43"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "elite_four_bertha_03a0"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "6AB4F0AEA18966D8"
+					type: "command"
+					command: "/cobbledollars give {p} 2560"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "1539C5ACDEE1391D"
+					type: "command"
+					command: "/crates key give {p} cle_rare 1"
+					player_command: false
+					silent: true
+					icon: { id: "minecraft:tripwire_hook" }
+				}
+				{
+					id: "3556E1918B87D4F7"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "5C75E7CD90F4B6D7"
+			icon: { id: "minecraft:blaze_powder" }
+			x: 10.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["5B8C79F8C92D05F9"]
+			tasks: [
+				{
+					id: "3D5E8B80814C302F"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "elite_four_flint_03a1"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "591866369775613C"
+					type: "command"
+					command: "/cobbledollars give {p} 2640"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "252D88EA819CB27B"
+					type: "command"
+					command: "/crates key give {p} cle_rare 1"
+					player_command: false
+					silent: true
+					icon: { id: "minecraft:tripwire_hook" }
+				}
+				{
+					id: "65D3F2991774C51D"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "1480E33C621D52F4"
+			icon: { id: "cobblemon:twisted_spoon" }
+			x: 0.0d
+			y: 4.5d
+			shape: "diamond"
+			dependencies: ["5C75E7CD90F4B6D7"]
+			tasks: [
+				{
+					id: "63C3AADF9C2AC98D"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "elite_four_lucian_03a2"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "5C7B008E06D6F25F"
+					type: "command"
+					command: "/cobbledollars give {p} 2720"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "3D034F479868182A"
+					type: "command"
+					command: "/crates key give {p} cle_rare 1"
+					player_command: false
+					silent: true
+					icon: { id: "minecraft:tripwire_hook" }
+				}
+				{
+					id: "47CB16A795A8A8CE"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "459CD9F33D249726"
+			icon: { id: "minecraft:gold_block" }
+			x: 1.5d
+			y: 4.5d
+			shape: "gear"
+			size: 1.5d
+			dependencies: ["1480E33C621D52F4"]
+			tasks: [
+				{
+					id: "6C2E21DB2586C20E"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "defeat_trainer"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: "champion_cynthia_03a5"
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "70F5ABC231F1207D"
+					type: "command"
+					command: "/cobbledollars give {p} 2840"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "778A746AD192EE35"
+					type: "command"
+					command: "/crates key give {p} cle_legendaire 2"
+					player_command: false
+					silent: true
+					icon: { id: "minecraft:tripwire_hook" }
+				}
+				{
+					id: "764580419B93CF98"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+	]
+}

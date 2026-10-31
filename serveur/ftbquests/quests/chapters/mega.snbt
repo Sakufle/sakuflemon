@@ -9,7 +9,7 @@
 	quests: [
 		{
 			id: "41FD4618C3D52571"
-			icon: "mega_showdown:keystone"
+			icon: { id: "mega_showdown:keystone" }
 			x: 0.0d
 			y: 0.0d
 			size: 1.5d
@@ -29,7 +29,7 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "1DBA9945276EA193"
@@ -40,7 +40,7 @@
 		}
 		{
 			id: "7599925F82496F93"
-			icon: "mega_showdown:mega_bracelet"
+			icon: { id: "mega_showdown:mega_bracelet" }
 			x: 1.5d
 			y: 0.0d
 			dependencies: ["41FD4618C3D52571"]
@@ -60,7 +60,7 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "3CB5FB540EA50D2D"
@@ -71,7 +71,7 @@
 		}
 		{
 			id: "534D0D3E6C60C448"
-			icon: "mega_showdown:mega_stone"
+			icon: { id: "mega_showdown:mega_stone" }
 			x: 3.0d
 			y: 0.0d
 			dependencies: ["7599925F82496F93"]
@@ -91,7 +91,7 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "30451D9DCC7D01CB"
@@ -102,7 +102,7 @@
 		}
 		{
 			id: "6B0E92EC61A5E408"
-			icon: "mega_showdown:lucarionite"
+			icon: { id: "mega_showdown:lucarionite" }
 			x: 4.5d
 			y: 0.0d
 			dependencies: ["534D0D3E6C60C448"]
@@ -144,7 +144,7 @@
 					command: "/cobbledollars give {p} 500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "198C48CBF1A5A22D"
@@ -155,7 +155,7 @@
 		}
 		{
 			id: "2200B9B799EF1885"
-			icon: "mega_showdown:charizardite_x"
+			icon: { id: "mega_showdown:charizardite_x" }
 			x: 6.0d
 			y: 0.0d
 			dependencies: ["6B0E92EC61A5E408"]
@@ -196,7 +196,7 @@
 					command: "/cobbledollars give {p} 1500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "1DAE658D6F0096BC"
@@ -207,7 +207,7 @@
 		}
 		{
 			id: "113B16282F4EB77B"
-			icon: "mega_showdown:blazikenite"
+			icon: { id: "mega_showdown:blazikenite" }
 			x: 7.5d
 			y: 0.0d
 			dependencies: ["2200B9B799EF1885"]
@@ -241,7 +241,7 @@
 					command: "/cobbledollars give {p} 1500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "14A4B0F0FE2DFF6B"
@@ -252,7 +252,7 @@
 		}
 		{
 			id: "2BE7284E1D4F6565"
-			icon: "mega_showdown:garchompite"
+			icon: { id: "mega_showdown:garchompite" }
 			x: 9.0d
 			y: 0.0d
 			dependencies: ["113B16282F4EB77B"]
@@ -293,7 +293,7 @@
 					command: "/cobbledollars give {p} 2500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "6B68FF1008FBBFE5"
@@ -304,7 +304,7 @@
 		}
 		{
 			id: "10B45E60F79725AE"
-			icon: "mega_showdown:mewtwonite_x"
+			icon: { id: "mega_showdown:mewtwonite_x" }
 			x: 10.5d
 			y: 0.0d
 			shape: "gear"
@@ -340,7 +340,7 @@
 					command: "/cobbledollars give {p} 5000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "2FCCEE604CBA8459"
@@ -351,7 +351,7 @@
 		}
 		{
 			id: "1CBFA012BA554775"
-			icon: "zamega:zeraorite"
+			icon: { id: "zamega:zeraorite" }
 			x: 12.0d
 			y: 0.0d
 			optional: true
@@ -372,7 +372,7 @@
 					command: "/cobbledollars give {p} 2000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "3E8D7C3318BA80D7"
@@ -383,7 +383,7 @@
 		}
 		{
 			id: "31EC273DA5B49530"
-			icon: "mega_showdown:blank_z"
+			icon: { id: "mega_showdown:blank_z" }
 			x: 0.0d
 			y: 1.5d
 			dependencies: ["41FD4618C3D52571"]
@@ -403,7 +403,7 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "379C94E688BB0508"
@@ -414,7 +414,7 @@
 		}
 		{
 			id: "69D83840B93B1470"
-			icon: "mega_showdown:z_ring"
+			icon: { id: "mega_showdown:z_ring" }
 			x: 1.5d
 			y: 1.5d
 			dependencies: ["31EC273DA5B49530"]
@@ -434,7 +434,7 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "4E55A91FB8B57227"
@@ -445,7 +445,7 @@
 		}
 		{
 			id: "21CFA3FC26E0AA34"
-			icon: "mega_showdown:firium_z"
+			icon: { id: "mega_showdown:firium_z" }
 			x: 3.0d
 			y: 1.5d
 			dependencies: ["69D83840B93B1470"]
@@ -479,7 +479,7 @@
 					command: "/cobbledollars give {p} 800"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "2BB75CEB36AE8981"
@@ -490,7 +490,7 @@
 		}
 		{
 			id: "3B21FA33A2E1D1A3"
-			icon: "mega_showdown:normalium_z"
+			icon: { id: "mega_showdown:normalium_z" }
 			x: 4.5d
 			y: 1.5d
 			dependencies: ["21CFA3FC26E0AA34"]
@@ -532,7 +532,7 @@
 					command: "/cobbledollars give {p} 500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "1E276EF0D10DB186"
@@ -543,7 +543,7 @@
 		}
 		{
 			id: "613328955358565B"
-			icon: "mega_showdown:dragonium_z"
+			icon: { id: "mega_showdown:dragonium_z" }
 			x: 6.0d
 			y: 1.5d
 			dependencies: ["3B21FA33A2E1D1A3"]
@@ -619,7 +619,7 @@
 					command: "/cobbledollars give {p} 2000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "435C53F1148F802D"
@@ -630,7 +630,7 @@
 		}
 		{
 			id: "6AC98EA14D36A390"
-			icon: "mega_showdown:fairium_z"
+			icon: { id: "mega_showdown:fairium_z" }
 			x: 7.5d
 			y: 1.5d
 			shape: "gear"
@@ -686,7 +686,7 @@
 					command: "/cobbledollars give {p} 3000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "1ED56A2DEFCEDCB2"
@@ -697,7 +697,7 @@
 		}
 		{
 			id: "1F9FBD47E60AE135"
-			icon: "mega_showdown:ultranecrozium_z"
+			icon: { id: "mega_showdown:ultranecrozium_z" }
 			x: 9.0d
 			y: 1.5d
 			dependencies: ["6AC98EA14D36A390"]
@@ -731,7 +731,7 @@
 					command: "/cobbledollars give {p} 5000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "5BDB2D1FA8C4DE93"
@@ -742,7 +742,7 @@
 		}
 		{
 			id: "4E59DAD5D5000777"
-			icon: "mega_showdown:dynamax_band"
+			icon: { id: "mega_showdown:dynamax_band" }
 			x: 0.0d
 			y: 3.0d
 			dependencies: ["41FD4618C3D52571"]
@@ -762,7 +762,7 @@
 					command: "/cobbledollars give {p} 500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "424D3CA137A56A79"
@@ -773,7 +773,7 @@
 		}
 		{
 			id: "1C661CCBA0F0E833"
-			icon: "mega_showdown:wishing_star"
+			icon: { id: "mega_showdown:wishing_star" }
 			x: 1.5d
 			y: 3.0d
 			dependencies: ["4E59DAD5D5000777"]
@@ -793,7 +793,7 @@
 					command: "/cobbledollars give {p} 600"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "3A4BA38AB3791A4D"
@@ -804,7 +804,7 @@
 		}
 		{
 			id: "4808E6E1708F9309"
-			icon: "mega_showdown:max_mushroom"
+			icon: { id: "mega_showdown:max_mushroom" }
 			x: 3.0d
 			y: 3.0d
 			dependencies: ["1C661CCBA0F0E833"]
@@ -824,7 +824,7 @@
 					command: "/cobbledollars give {p} 1000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "34C7031F116CD44F"
@@ -835,7 +835,7 @@
 		}
 		{
 			id: "252885E8841D3097"
-			icon: "mega_showdown:dynamax_band"
+			icon: { id: "mega_showdown:dynamax_band" }
 			x: 4.5d
 			y: 3.0d
 			dependencies: ["4808E6E1708F9309"]
@@ -877,7 +877,7 @@
 					command: "/cobbledollars give {p} 500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "3F9762C127EC32BE"
@@ -888,7 +888,7 @@
 		}
 		{
 			id: "411D4010525FE61A"
-			icon: "mega_showdown:tera_orb"
+			icon: { id: "mega_showdown:tera_orb" }
 			x: 0.0d
 			y: 4.5d
 			dependencies: ["41FD4618C3D52571"]
@@ -908,7 +908,7 @@
 					command: "/cobbledollars give {p} 500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "5F377ADB0D150CFC"
@@ -919,7 +919,7 @@
 		}
 		{
 			id: "67E08ECCCEAB1B76"
-			icon: "mega_showdown:fire_tera_shard"
+			icon: { id: "mega_showdown:fire_tera_shard" }
 			x: 1.5d
 			y: 4.5d
 			dependencies: ["411D4010525FE61A"]
@@ -939,7 +939,7 @@
 					command: "/cobbledollars give {p} 800"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "2CFE6C41319392D4"
@@ -950,7 +950,7 @@
 		}
 		{
 			id: "5B5F135A28188893"
-			icon: "mega_showdown:tera_orb"
+			icon: { id: "mega_showdown:tera_orb" }
 			x: 3.0d
 			y: 4.5d
 			dependencies: ["67E08ECCCEAB1B76"]
@@ -992,7 +992,7 @@
 					command: "/cobbledollars give {p} 500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "26A4F19831B54D80"
@@ -1003,7 +1003,7 @@
 		}
 		{
 			id: "6DAFD91C342D4404"
-			icon: "mega_showdown:stellar_tera_shard"
+			icon: { id: "mega_showdown:stellar_tera_shard" }
 			x: 4.5d
 			y: 4.5d
 			dependencies: ["5B5F135A28188893"]
@@ -1023,7 +1023,7 @@
 					command: "/cobbledollars give {p} 3000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "365EBDF55ED940E6"
@@ -1034,7 +1034,7 @@
 		}
 		{
 			id: "1F19E636758AEDB7"
-			icon: "mega_showdown:reveal_glass"
+			icon: { id: "mega_showdown:reveal_glass" }
 			x: 0.0d
 			y: 6.0d
 			dependencies: ["41FD4618C3D52571"]
@@ -1054,7 +1054,7 @@
 					command: "/cobbledollars give {p} 800"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "31A300272481D8B3"
@@ -1065,7 +1065,7 @@
 		}
 		{
 			id: "2BB78D0AD4CAFE34"
-			icon: "mega_showdown:rusted_sword"
+			icon: { id: "mega_showdown:rusted_sword" }
 			x: 1.5d
 			y: 6.0d
 			dependencies: ["1F19E636758AEDB7"]
@@ -1092,7 +1092,7 @@
 					command: "/cobbledollars give {p} 2000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "3F26C1D73FBE52CE"
@@ -1103,7 +1103,7 @@
 		}
 		{
 			id: "2D59091ECD2C3064"
-			icon: "mega_showdown:zygarde_cell"
+			icon: { id: "mega_showdown:zygarde_cell" }
 			x: 3.0d
 			y: 6.0d
 			dependencies: ["2BB78D0AD4CAFE34"]
@@ -1130,7 +1130,7 @@
 					command: "/cobbledollars give {p} 2500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "31DF7977D1F9999F"
@@ -1141,7 +1141,7 @@
 		}
 		{
 			id: "20470635C4BF2815"
-			icon: "mega_showdown:n_solarizer"
+			icon: { id: "mega_showdown:n_solarizer" }
 			x: 4.5d
 			y: 6.0d
 			dependencies: ["2D59091ECD2C3064"]
@@ -1168,7 +1168,7 @@
 					command: "/cobbledollars give {p} 3000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "36DC1C12C8B1FF5F"
@@ -1179,7 +1179,7 @@
 		}
 		{
 			id: "28CE528AD079E464"
-			icon: "mega_showdown:griseous_orb"
+			icon: { id: "mega_showdown:griseous_orb" }
 			x: 6.0d
 			y: 6.0d
 			shape: "gear"
@@ -1214,7 +1214,7 @@
 					command: "/cobbledollars give {p} 4000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "15E63E7D318C2996"

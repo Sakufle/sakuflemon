@@ -9,7 +9,7 @@
 	quests: [
 		{
 			id: "13F264C9D1798009"
-			icon: "cobblemon:muscle_band"
+			icon: { id: "cobblemon:muscle_band" }
 			x: 0.0d
 			y: 0.0d
 			shape: "circle"
@@ -52,7 +52,7 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "256FE985AE8C83E3"
@@ -63,7 +63,7 @@
 		}
 		{
 			id: "5F0496AD59DEB376"
-			icon: "cobblemon:muscle_band"
+			icon: { id: "cobblemon:muscle_band" }
 			x: 2.0d
 			y: 0.0d
 			shape: "circle"
@@ -106,7 +106,7 @@
 					command: "/cobbledollars give {p} 1000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "785342ADE067159F"
@@ -117,7 +117,7 @@
 		}
 		{
 			id: "0C7AB53780918F96"
-			icon: "cobblemon:muscle_band"
+			icon: { id: "cobblemon:muscle_band" }
 			x: 4.0d
 			y: 0.0d
 			shape: "circle"
@@ -160,7 +160,7 @@
 					command: "/cobbledollars give {p} 4000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "1948BCA9B67B7F04"
@@ -171,7 +171,7 @@
 		}
 		{
 			id: "61A4BB0DD398813D"
-			icon: "cobblemon:black_belt"
+			icon: { id: "cobblemon:black_belt" }
 			x: 0.0d
 			y: 1.5d
 			shape: "circle"
@@ -214,7 +214,7 @@
 					command: "/cobbledollars give {p} 500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "433024359D2E2779"
@@ -225,7 +225,7 @@
 		}
 		{
 			id: "5AA9C7FEC77FE486"
-			icon: "cobblemon:black_belt"
+			icon: { id: "cobblemon:black_belt" }
 			x: 2.0d
 			y: 1.5d
 			shape: "circle"
@@ -268,7 +268,7 @@
 					command: "/cobbledollars give {p} 2000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "0DD06FEF1F872E00"
@@ -279,7 +279,7 @@
 		}
 		{
 			id: "26B645A1ECF20833"
-			icon: "cobblemon:black_belt"
+			icon: { id: "cobblemon:black_belt" }
 			x: 4.0d
 			y: 1.5d
 			shape: "circle"
@@ -322,7 +322,7 @@
 					command: "/cobbledollars give {p} 5000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "351F60F714371291"
@@ -333,7 +333,7 @@
 		}
 		{
 			id: "715008C09408EFB5"
-			icon: "cobblemon:everstone"
+			icon: { id: "cobblemon:everstone" }
 			x: 0.0d
 			y: 3.0d
 			shape: "circle"
@@ -376,7 +376,7 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "67A3F3FDC36A173A"
@@ -387,7 +387,7 @@
 		}
 		{
 			id: "230D2E9C10272B6A"
-			icon: "cobblemon:everstone"
+			icon: { id: "cobblemon:everstone" }
 			x: 2.0d
 			y: 3.0d
 			shape: "circle"
@@ -430,7 +430,7 @@
 					command: "/cobbledollars give {p} 1500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "6F2244957AE63EB4"
@@ -441,7 +441,7 @@
 		}
 		{
 			id: "5AC761529E0A05E3"
-			icon: "cobblemon:everstone"
+			icon: { id: "cobblemon:everstone" }
 			x: 4.0d
 			y: 3.0d
 			shape: "circle"
@@ -484,7 +484,7 @@
 					command: "/cobbledollars give {p} 5000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "171E759A403ED32E"
@@ -495,7 +495,7 @@
 		}
 		{
 			id: "4ECEB644936C6A4D"
-			icon: "cobblemon:poke_rod"
+			icon: { id: "cobblemon:poke_rod" }
 			x: 0.0d
 			y: 4.5d
 			shape: "circle"
@@ -538,7 +538,7 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "612671B47CED96BA"
@@ -549,7 +549,7 @@
 		}
 		{
 			id: "7371164EA61E838D"
-			icon: "cobblemon:poke_rod"
+			icon: { id: "cobblemon:poke_rod" }
 			x: 2.0d
 			y: 4.5d
 			shape: "circle"
@@ -592,7 +592,7 @@
 					command: "/cobbledollars give {p} 1500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "17696844DFCFEBA7"
@@ -603,7 +603,7 @@
 		}
 		{
 			id: "3809708E63A21335"
-			icon: "cobblemon:poke_rod"
+			icon: { id: "cobblemon:poke_rod" }
 			x: 4.0d
 			y: 4.5d
 			shape: "circle"
@@ -646,7 +646,7 @@
 					command: "/cobbledollars give {p} 4000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "191D8DC5F4D15548"
@@ -657,7 +657,7 @@
 		}
 		{
 			id: "38CEE6E1A002C0A8"
-			icon: "cobblemon:fossil_analyzer"
+			icon: { id: "cobblemon:fossil_analyzer" }
 			x: 0.0d
 			y: 6.0d
 			shape: "circle"
@@ -700,7 +700,7 @@
 					command: "/cobbledollars give {p} 500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "2BF02AC23613C6AC"
@@ -711,7 +711,7 @@
 		}
 		{
 			id: "76CF9E9650D9DB5C"
-			icon: "cobblemon:fossil_analyzer"
+			icon: { id: "cobblemon:fossil_analyzer" }
 			x: 2.0d
 			y: 6.0d
 			shape: "circle"
@@ -754,7 +754,7 @@
 					command: "/cobbledollars give {p} 2000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "6B2C514CAF51678F"
@@ -765,7 +765,7 @@
 		}
 		{
 			id: "151481F37D46DE52"
-			icon: "cobblemon:fossil_analyzer"
+			icon: { id: "cobblemon:fossil_analyzer" }
 			x: 4.0d
 			y: 6.0d
 			shape: "circle"
@@ -808,7 +808,7 @@
 					command: "/cobbledollars give {p} 5000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "78D87BBDF3359D41"

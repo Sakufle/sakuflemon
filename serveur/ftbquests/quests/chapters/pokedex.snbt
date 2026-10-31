@@ -9,7 +9,7 @@
 	quests: [
 		{
 			id: "1E24A7569E59055F"
-			icon: "cobblemon:pokedex_red"
+			icon: { id: "cobblemon:pokedex_red" }
 			x: 0.0d
 			y: 0.0d
 			shape: "circle"
@@ -52,7 +52,7 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "52A01A0FABB78100"
@@ -63,7 +63,7 @@
 		}
 		{
 			id: "4F5C0F57F18F82BC"
-			icon: "cobblemon:pokedex_yellow"
+			icon: { id: "cobblemon:pokedex_yellow" }
 			x: 2.0d
 			y: 0.0d
 			shape: "circle"
@@ -106,7 +106,7 @@
 					command: "/cobbledollars give {p} 600"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "2133A136663E3953"
@@ -117,7 +117,7 @@
 		}
 		{
 			id: "73C4884E37169DE1"
-			icon: "cobblemon:pokedex_green"
+			icon: { id: "cobblemon:pokedex_green" }
 			x: 4.0d
 			y: 0.0d
 			shape: "circle"
@@ -160,7 +160,7 @@
 					command: "/cobbledollars give {p} 1000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "42A325C002ADE21A"
@@ -171,7 +171,7 @@
 		}
 		{
 			id: "68C35F19E8BD920F"
-			icon: "cobblemon:pokedex_blue"
+			icon: { id: "cobblemon:pokedex_blue" }
 			x: 6.0d
 			y: 0.0d
 			shape: "circle"
@@ -214,7 +214,7 @@
 					command: "/cobbledollars give {p} 2000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "7ECD28530A61A031"
@@ -225,7 +225,7 @@
 		}
 		{
 			id: "5185B148A8C9FC66"
-			icon: "cobblemon:pokedex_pink"
+			icon: { id: "cobblemon:pokedex_pink" }
 			x: 8.0d
 			y: 0.0d
 			shape: "circle"
@@ -269,7 +269,7 @@
 					command: "/cobbledollars give {p} 4000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "6E7502AF69E1ACAE"
@@ -280,7 +280,7 @@
 		}
 		{
 			id: "23B3992F780CD11D"
-			icon: "cobblemon:pokedex_black"
+			icon: { id: "cobblemon:pokedex_black" }
 			x: 10.0d
 			y: 0.0d
 			shape: "circle"
@@ -324,7 +324,7 @@
 					command: "/cobbledollars give {p} 8000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "7640236EE4892361"

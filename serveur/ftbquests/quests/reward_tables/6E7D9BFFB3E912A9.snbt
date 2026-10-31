@@ -9,7 +9,7 @@
 			command: "/crates key give {p} cle_rare 2"
 			player_command: false
 			silent: true
-			icon: "minecraft:tripwire_hook"
+			icon: { id: "minecraft:tripwire_hook" }
 			weight: 35.0f
 		}
 		{
@@ -25,7 +25,7 @@
 			command: "/crates key give {p} cle_legendaire 1"
 			player_command: false
 			silent: true
-			icon: "minecraft:tripwire_hook"
+			icon: { id: "minecraft:tripwire_hook" }
 			weight: 25.0f
 		}
 		{

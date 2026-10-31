@@ -947,51 +947,6 @@
 	"quest.3EF78233F3B61F63.title": "Légende des routes"
 	"quest.3EF78233F3B61F63.quest_subtitle": "200 dresseurs battus"
 	"quest.3EF78233F3B61F63.quest_desc": ["Bats 200 dresseurs."]
-	"reward.441AF527675F967B.title": "1000 CobbleDollars"
-	"quest.2EE6046420CEB66D.title": "Champion Pierre"
-	"quest.2EE6046420CEB66D.quest_subtitle": "Arène de Argenta"
-	"quest.2EE6046420CEB66D.quest_desc": ["Trouve la ville de Argenta et bats le champion Pierre."]
-	"reward.40204DCF9A2C5B96.title": "1200 CobbleDollars"
-	"quest.59C73ECA68FD6CFC.title": "Champion Ondine"
-	"quest.59C73ECA68FD6CFC.quest_subtitle": "Arène de Azuria"
-	"quest.59C73ECA68FD6CFC.quest_desc": ["Trouve la ville de Azuria et bats le champion Ondine."]
-	"reward.5B0571815BC8FE5A.title": "1400 CobbleDollars"
-	"quest.1CB8168EDBD2776D.title": "Champion Major Bob"
-	"quest.1CB8168EDBD2776D.quest_subtitle": "Arène de Carmin-sur-Mer"
-	"quest.1CB8168EDBD2776D.quest_desc": ["Trouve la ville de Carmin-sur-Mer et bats le champion Major Bob."]
-	"reward.3869AAD98CB5CF3C.title": "1600 CobbleDollars"
-	"quest.14BAE64B99317AD2.title": "Champion Érika"
-	"quest.14BAE64B99317AD2.quest_subtitle": "Arène de Céladopole"
-	"quest.14BAE64B99317AD2.quest_desc": ["Trouve la ville de Céladopole et bats le champion Érika."]
-	"reward.7D6E18E39BB65E73.title": "1800 CobbleDollars"
-	"quest.11A21C27BB75346E.title": "Champion Koga"
-	"quest.11A21C27BB75346E.quest_subtitle": "Arène de Parmanie"
-	"quest.11A21C27BB75346E.quest_desc": ["Trouve la ville de Parmanie et bats le champion Koga."]
-	"reward.5F5BDB88BA33475A.title": "2000 CobbleDollars"
-	"quest.15FEBA3100F2AC45.title": "Champion Morgane"
-	"quest.15FEBA3100F2AC45.quest_subtitle": "Arène de Safrania"
-	"quest.15FEBA3100F2AC45.quest_desc": ["Trouve la ville de Safrania et bats le champion Morgane."]
-	"reward.355AEC7509BF77E5.title": "2200 CobbleDollars"
-	"quest.4E4463B70A58D562.title": "Champion Auguste"
-	"quest.4E4463B70A58D562.quest_subtitle": "Arène de Cramois'Île"
-	"quest.4E4463B70A58D562.quest_desc": ["Trouve la ville de Cramois'Île et bats le champion Auguste."]
-	"reward.1D079C5E0E6D9FC1.title": "3000 CobbleDollars"
-	"quest.4B0BFA457AACE798.title": "Giovanni"
-	"quest.4B0BFA457AACE798.quest_subtitle": "L'arène de Jadielle"
-	"quest.4B0BFA457AACE798.quest_desc": ["Le dernier champion de Kanto est aussi le chef de la Team Rocket. Trouve Jadielle et bats-le."]
-	"reward.6D38DC9ECA248065.title": "5000 CobbleDollars"
-	"reward.52B228205D7E60A3.title": "2 clés legendaire"
-	"quest.5BF5DF7B49C04AB0.title": "Les huit badges"
-	"quest.5BF5DF7B49C04AB0.quest_subtitle": "Prêt pour la Ligue"
-	"quest.5BF5DF7B49C04AB0.quest_desc": ["Tu as battu les huit champions de Kanto !"]
-	"reward.4600579B1FD74018.title": "2000 CobbleDollars"
-	"quest.7838306870081DB3.title": "La Team Rocket"
-	"quest.7838306870081DB3.quest_subtitle": "Ils sont de retour"
-	"quest.7838306870081DB3.quest_desc": ["Bats Archer et Ariane, les admins de la Team Rocket."]
-	"reward.11DDB65D1BBF5949.title": "1500 CobbleDollars"
-	"quest.212A3EEA0DC973F0.title": "Le rival"
-	"quest.212A3EEA0DC973F0.quest_subtitle": "Terry te défie"
-	"quest.212A3EEA0DC973F0.quest_desc": ["Bats ton rival Terry."]
 	"reward.2F0048D17C6C9619.title": "1500 CobbleDollars"
 	"quest.14A96D01AF185678.title": "Les stades de légende"
 	"quest.14A96D01AF185678.quest_subtitle": "Cynthia, Peter, Pierre Rochard…"
@@ -1016,6 +971,398 @@
 	"quest.27CB01B1C0D2D4C6.title": "Le repaire Aqua"
 	"quest.27CB01B1C0D2D4C6.quest_subtitle": "Sous la mer"
 	"quest.27CB01B1C0D2D4C6.quest_desc": ["Trouve le repaire de la Team Aqua."]
+	"chapter.21FEE82A2F717B4D.title": "Série Kanto"
+	"chapter.21FEE82A2F717B4D.chapter_subtitle": ["Radical Red : les badges de Kanto"]
+	"reward.762AF9829DE1D869.title": "300 CobbleDollars"
+	"quest.6BC56FDDF0A9E161.title": "Série Kanto (Radical Red)"
+	"quest.6BC56FDDF0A9E161.quest_subtitle": "S'inscrire à l'Association des Dresseurs"
+	"quest.6BC56FDDF0A9E161.quest_desc": ["Trouve l'Association des Dresseurs (près des villages) et choisis la série Kanto (Radical Red).", "Récupère ta Carte de Dresseur.", "Attention : commencer une autre série remet la tienne à zéro."]
+	"reward.58692B475013433F.title": "760 CobbleDollars"
+	"reward.1036F02E3D254C67.title": "1 clé rare"
+	"quest.337F4325908CDC37.title": "Pierre"
+	"quest.337F4325908CDC37.quest_subtitle": "Champion d'Argenta"
+	"quest.337F4325908CDC37.quest_desc": ["Dresseur clé de la série, niveau 14.", "On le croise : grottes, plateaux, montagnes ou collines.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.4D89F34FD42AEE13.title": "1040 CobbleDollars"
+	"quest.3CE370CB53F70F39.title": "Archer"
+	"quest.3CE370CB53F70F39.quest_subtitle": "Admin de la Team Rocket"
+	"quest.3CE370CB53F70F39.quest_desc": ["Dresseur clé de la série, niveau 21.", "On le croise : souterrains, badlands, terres désolées ou savanes.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.45449FCC33F96C46.title": "1040 CobbleDollars"
+	"quest.10E143BF3EFAD4F7.title": "Terry"
+	"quest.10E143BF3EFAD4F7.quest_subtitle": "Ton rival"
+	"quest.10E143BF3EFAD4F7.quest_desc": ["Dresseur clé de la série, niveau 21.", "On le croise : plaines, biomes rares ou ville de l'End.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.616800218A09BA8C.title": "1280 CobbleDollars"
+	"reward.71C1ABB5D9F89272.title": "1 clé rare"
+	"quest.5D0394AE13B1DBE2.title": "Ondine"
+	"quest.5D0394AE13B1DBE2.quest_subtitle": "Championne d'Azuria"
+	"quest.5D0394AE13B1DBE2.quest_desc": ["Dresseur clé de la série, niveau 27.", "On le croise : près de l'eau : rivières, plages, océans.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.6834C4A32EB4109B.title": "1360 CobbleDollars"
+	"quest.49EF492DFBBC14D2.title": "Brendan"
+	"quest.49EF492DFBBC14D2.quest_subtitle": "Dresseur de Hoenn"
+	"quest.49EF492DFBBC14D2.quest_desc": ["Dresseur clé de la série, niveau 29.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.1BF9469D259991F1.title": "1560 CobbleDollars"
+	"reward.286B52EF5CF0560A.title": "1 clé rare"
+	"quest.71855B8F4D09ADBD.title": "Major Bob"
+	"quest.71855B8F4D09ADBD.quest_subtitle": "Champion de Carmin-sur-Mer"
+	"quest.71855B8F4D09ADBD.quest_desc": ["Dresseur clé de la série, niveau 34.", "On le croise : plaines ou zones clairsemées.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.557C65E5DB8F792E.title": "1960 CobbleDollars"
+	"reward.139DC00DA8D08584.title": "1 clé rare"
+	"quest.31E50E06FE82D833.title": "Érika"
+	"quest.31E50E06FE82D833.quest_subtitle": "Championne de Céladopole"
+	"quest.31E50E06FE82D833.quest_desc": ["Dresseur clé de la série, niveau 44.", "On le croise : forêts denses ou luxuriantes.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.1A7DBC5EEBA0DDAC.title": "2040 CobbleDollars"
+	"quest.27E227AC37623C8F.title": "Giovanni"
+	"quest.27E227AC37623C8F.quest_subtitle": "Chef de la Team Rocket"
+	"quest.27E227AC37623C8F.quest_desc": ["Dresseur clé de la série, niveau 46.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.6B24C45CE9CB7D45.title": "2400 CobbleDollars"
+	"quest.2FF8AEF16FF627C4.title": "Terry"
+	"quest.2FF8AEF16FF627C4.quest_subtitle": "Ton rival, encore"
+	"quest.2FF8AEF16FF627C4.quest_desc": ["Dresseur clé de la série, niveau 55.", "On le croise : plaines, biomes rares ou ville de l'End.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.160050DAE65C6105.title": "2400 CobbleDollars"
+	"quest.61FB1D39D94FD5DE.title": "Archer et Ariane"
+	"quest.61FB1D39D94FD5DE.quest_subtitle": "Duo d'admins Rocket"
+	"quest.61FB1D39D94FD5DE.quest_desc": ["Dresseur clé de la série, niveau 55.", "On le croise : le Nether, badlands, terres désolées ou savanes.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.7BA3DAD5C137DEBE.title": "2440 CobbleDollars"
+	"quest.7B20572FF4F89612.title": "Giovanni"
+	"quest.7B20572FF4F89612.quest_subtitle": "La revanche"
+	"quest.7B20572FF4F89612.quest_desc": ["Dresseur clé de la série, niveau 56.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.413EF249B2F2D77A.title": "2560 CobbleDollars"
+	"reward.629B4E07C3B5FFCB.title": "1 clé rare"
+	"quest.61E07DB48543C1AF.title": "Morgane"
+	"quest.61E07DB48543C1AF.quest_subtitle": "Championne de Safrania"
+	"quest.61E07DB48543C1AF.quest_desc": ["Dresseur clé de la série, niveau 59.", "On le croise : biomes sombres ou clairsemés.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.27F19E83659A8545.title": "2720 CobbleDollars"
+	"quest.53B25CDB391088A1.title": "Brendan"
+	"quest.53B25CDB391088A1.quest_subtitle": "Il a progressé"
+	"quest.53B25CDB391088A1.quest_desc": ["Dresseur clé de la série, niveau 63.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.37234FC244D76A40.title": "2920 CobbleDollars"
+	"reward.7B02625523A0A8A1.title": "1 clé rare"
+	"quest.44E2253F3376E0BC.title": "Koga"
+	"quest.44E2253F3376E0BC.quest_subtitle": "Champion de Parmanie"
+	"quest.44E2253F3376E0BC.quest_desc": ["Dresseur clé de la série, niveau 68.", "On le croise : marais ou jungles.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.1433105203268DC8.title": "3120 CobbleDollars"
+	"quest.7929476776ED70DA.title": "May"
+	"quest.7929476776ED70DA.quest_subtitle": "Dresseuse de Hoenn"
+	"quest.7929476776ED70DA.quest_desc": ["Dresseur clé de la série, niveau 73.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.5D20E91F25DAB5F6.title": "3240 CobbleDollars"
+	"reward.12161394D3F85BC7.title": "1 clé rare"
+	"quest.2AE672CEB5B7AE2B.title": "Auguste"
+	"quest.2AE672CEB5B7AE2B.quest_subtitle": "Champion de Cramois'Île"
+	"quest.2AE672CEB5B7AE2B.quest_desc": ["Dresseur clé de la série, niveau 76.", "On le croise : biomes chauds.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.59C8A7E1F702B433.title": "3360 CobbleDollars"
+	"quest.5D367A40901500B2.title": "Archer"
+	"quest.5D367A40901500B2.quest_subtitle": "Dernier assaut Rocket"
+	"quest.5D367A40901500B2.quest_desc": ["Dresseur clé de la série, niveau 79.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.42E9A2750B24F9FC.title": "3360 CobbleDollars"
+	"quest.4B79C786C72ECD7E.title": "Ariane"
+	"quest.4B79C786C72ECD7E.quest_subtitle": "Admin de la Team Rocket"
+	"quest.4B79C786C72ECD7E.quest_desc": ["Dresseur clé de la série, niveau 79.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.776C553F1BDAC69B.title": "3400 CobbleDollars"
+	"reward.203D754C6B6EF95D.title": "1 clé rare"
+	"quest.2A2F9A530C82AD1D.title": "Giovanni"
+	"quest.2A2F9A530C82AD1D.quest_subtitle": "Champion de Jadielle"
+	"quest.2A2F9A530C82AD1D.quest_desc": ["Dresseur clé de la série, niveau 80.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.5E2A3DE9AAC5D6F8.title": "3440 CobbleDollars"
+	"reward.6AAA60FA3BA7681B.title": "1 clé rare"
+	"quest.5F8AA079199ADF5D.title": "Sandra"
+	"quest.5F8AA079199ADF5D.quest_subtitle": "La dresseuse de dragons"
+	"quest.5F8AA079199ADF5D.quest_desc": ["Dresseur clé de la série, niveau 81.", "On le croise : montagnes et sommets.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.387DC4069A2C9D21.title": "3440 CobbleDollars"
+	"quest.4FC60728241B9C60.title": "Terry"
+	"quest.4FC60728241B9C60.quest_subtitle": "Avant la Ligue"
+	"quest.4FC60728241B9C60.quest_desc": ["Dresseur clé de la série, niveau 81.", "On le croise : plaines, biomes rares ou ville de l'End.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.639BF46213B2478B.title": "3480 CobbleDollars"
+	"quest.4952E0A92D690AE7.title": "Brendan"
+	"quest.4952E0A92D690AE7.quest_subtitle": "Le dernier duel"
+	"quest.4952E0A92D690AE7.quest_desc": ["Dresseur clé de la série, niveau 82.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.46069D8F8AE45B1E.title": "3600 CobbleDollars"
+	"reward.7D9477D913D91BC2.title": "1 clé rare"
+	"quest.1FCD1504463BFDCB.title": "Olga"
+	"quest.1FCD1504463BFDCB.quest_subtitle": "Conseil 4 – Glace"
+	"quest.1FCD1504463BFDCB.quest_desc": ["Dresseur clé de la série, niveau 85.", "On le croise : biomes froids.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.587CF55FF3D93D05.title": "3600 CobbleDollars"
+	"reward.5E7ABA6F95A2675B.title": "1 clé rare"
+	"quest.425D9FCC17845289.title": "Agatha"
+	"quest.425D9FCC17845289.quest_subtitle": "Conseil 4 – Spectre"
+	"quest.425D9FCC17845289.quest_desc": ["Dresseur clé de la série, niveau 85.", "On le croise : marais ou jungles.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.375DB49AC096DC0D.title": "3600 CobbleDollars"
+	"reward.10304DB4750CD61E.title": "1 clé rare"
+	"quest.2B5A68994E46DF84.title": "Aldo"
+	"quest.2B5A68994E46DF84.quest_subtitle": "Conseil 4 – Combat"
+	"quest.2B5A68994E46DF84.quest_desc": ["Dresseur clé de la série, niveau 85.", "On le croise : grottes, plateaux, montagnes ou collines.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.2CA3A927D5EB687E.title": "3600 CobbleDollars"
+	"reward.2352CE63C0339B7F.title": "1 clé rare"
+	"quest.55D72C2A402F0E2E.title": "Peter"
+	"quest.55D72C2A402F0E2E.quest_subtitle": "Conseil 4 – Dragon"
+	"quest.55D72C2A402F0E2E.quest_desc": ["Dresseur clé de la série, niveau 85.", "On le croise : montagnes et sommets.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.55A575F60539A8A3.title": "3600 CobbleDollars"
+	"reward.2F6DC84ABEEF8AF6.title": "2 clés legendaire"
+	"quest.5675F46DF6A3A641.title": "Maître Terry"
+	"quest.5675F46DF6A3A641.quest_subtitle": "Le sommet de Kanto"
+	"quest.5675F46DF6A3A641.quest_desc": ["Dresseur clé de la série, niveau 85.", "On le croise : ville de l'End ou biomes rares.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.30763CFA1CF38EAF.title": "10000 CobbleDollars"
+	"reward.65B25651531CAE84.title": "3 clés legendaire"
+	"quest.69DFB2CF693490A7.title": "Red"
+	"quest.69DFB2CF693490A7.quest_subtitle": "Le dresseur silencieux"
+	"quest.69DFB2CF693490A7.quest_desc": ["Un défi facultatif au niveau 100, après la Ligue.", "On dit qu'il attend au sommet d'une montagne."]
+	"chapter.6D251C0738C2BEC6.title": "Série Sinnoh"
+	"chapter.6D251C0738C2BEC6.chapter_subtitle": ["BDSP : la Team Galaxie et Cynthia"]
+	"reward.571659FC279428B4.title": "300 CobbleDollars"
+	"quest.296975CE40AAEB54.title": "Série Sinnoh (BDSP)"
+	"quest.296975CE40AAEB54.quest_subtitle": "S'inscrire à l'Association des Dresseurs"
+	"quest.296975CE40AAEB54.quest_desc": ["Trouve l'Association des Dresseurs (près des villages) et choisis la série Sinnoh (BDSP).", "Récupère ta Carte de Dresseur.", "Attention : commencer une autre série remet la tienne à zéro."]
+	"reward.430EF87AF4BC6D2E.title": "760 CobbleDollars"
+	"reward.7E2BC8DE04681769.title": "1 clé rare"
+	"quest.67E59BCCED17FF71.title": "Pierrick"
+	"quest.67E59BCCED17FF71.quest_subtitle": "Champion de Charbourg"
+	"quest.67E59BCCED17FF71.quest_desc": ["Dresseur clé de la série, niveau 14.", "On le croise : grottes, plateaux, montagnes ou collines.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.5485399CDE835940.title": "840 CobbleDollars"
+	"quest.6B6FA010D26C976F.title": "Mars"
+	"quest.6B6FA010D26C976F.quest_subtitle": "Commandante Galaxie"
+	"quest.6B6FA010D26C976F.quest_desc": ["Dresseur clé de la série, niveau 16.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.45666376453443F2.title": "1000 CobbleDollars"
+	"quest.7567395B39075D3B.title": "Jupiter"
+	"quest.7567395B39075D3B.quest_subtitle": "Commandante Galaxie"
+	"quest.7567395B39075D3B.quest_desc": ["Dresseur clé de la série, niveau 20.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.5D7648868E5AB00B.title": "1080 CobbleDollars"
+	"reward.62123F1E00093905.title": "1 clé rare"
+	"quest.12E44FD04C3842F1.title": "Flo"
+	"quest.12E44FD04C3842F1.quest_subtitle": "Championne de Vestigion"
+	"quest.12E44FD04C3842F1.quest_desc": ["Dresseur clé de la série, niveau 22.", "On le croise : forêts denses ou luxuriantes.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.16A021B8ADFE3827.title": "1040 CobbleDollars"
+	"quest.175A18BAE3A7F657.title": "Cédric"
+	"quest.175A18BAE3A7F657.quest_subtitle": "Ton rival"
+	"quest.175A18BAE3A7F657.quest_desc": ["Dresseur clé de la série, niveau 21.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.16D45D3272818133.title": "1400 CobbleDollars"
+	"reward.73327E8FC5733537.title": "1 clé rare"
+	"quest.28F4EC4C459077D1.title": "Mélina"
+	"quest.28F4EC4C459077D1.quest_subtitle": "Championne de Voilaroc"
+	"quest.28F4EC4C459077D1.quest_desc": ["Dresseur clé de la série, niveau 30.", "On le croise : collines, montagnes ou sommets.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.2F8E796175717C61.title": "1400 CobbleDollars"
+	"reward.42957EFE62B191A7.title": "1 clé rare"
+	"quest.610BDF49A9ADC2DC.title": "Lovis"
+	"quest.610BDF49A9ADC2DC.quest_subtitle": "Champion de Verchamps"
+	"quest.610BDF49A9ADC2DC.quest_desc": ["Dresseur clé de la série, niveau 30.", "On le croise : près de l'eau : rivières, plages, océans.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.1407ACBE6D45BF25.title": "1440 CobbleDollars"
+	"quest.4399E3CF6FF141C8.title": "Cédric"
+	"quest.4399E3CF6FF141C8.quest_subtitle": "Il ne lâche rien"
+	"quest.4399E3CF6FF141C8.quest_desc": ["Dresseur clé de la série, niveau 31.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.75BBFC9E3F3A0B9D.title": "1640 CobbleDollars"
+	"reward.7560C991AD71C0AC.title": "1 clé rare"
+	"quest.4EDABA08B09B3419.title": "Kiméra"
+	"quest.4EDABA08B09B3419.quest_subtitle": "Championne de Unionpolis"
+	"quest.4EDABA08B09B3419.quest_desc": ["Dresseur clé de la série, niveau 36.", "On le croise : biomes sombres ou clairsemés.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.2ED1F86844039000.title": "1680 CobbleDollars"
+	"quest.5B4EB4CBD99A00D3.title": "Cédric"
+	"quest.5B4EB4CBD99A00D3.quest_subtitle": "Encore lui"
+	"quest.5B4EB4CBD99A00D3.quest_desc": ["Dresseur clé de la série, niveau 37.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.24018BA2D9F9CD66.title": "1760 CobbleDollars"
+	"reward.69C403D4FD44AED7.title": "1 clé rare"
+	"quest.48D0CF5DD7FF0AD4.title": "Charles"
+	"quest.48D0CF5DD7FF0AD4.quest_subtitle": "Champion de Joliberges"
+	"quest.48D0CF5DD7FF0AD4.quest_desc": ["Dresseur clé de la série, niveau 39.", "On le croise : grottes, plateaux, montagnes ou collines.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.7D7ABC04B4067EC7.title": "1680 CobbleDollars"
+	"quest.5EC2739E4272415C.title": "Saturne"
+	"quest.5EC2739E4272415C.quest_subtitle": "Commandant Galaxie"
+	"quest.5EC2739E4272415C.quest_desc": ["Dresseur clé de la série, niveau 37.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.3D92C6FEEFB80D4C.title": "1760 CobbleDollars"
+	"quest.3C5C1BDF390697D7.title": "Mars"
+	"quest.3C5C1BDF390697D7.quest_subtitle": "La revanche"
+	"quest.3C5C1BDF390697D7.quest_desc": ["Dresseur clé de la série, niveau 39.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.58DB12580028E174.title": "1880 CobbleDollars"
+	"reward.1216744F298FC4DB.title": "1 clé rare"
+	"quest.55A46CE7450DC0A6.title": "Gladys"
+	"quest.55A46CE7450DC0A6.quest_subtitle": "Championne de Frimapic"
+	"quest.55A46CE7450DC0A6.quest_desc": ["Dresseur clé de la série, niveau 42.", "On le croise : biomes froids.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.579B04BC86AE9A99.title": "1920 CobbleDollars"
+	"quest.660BD0DC61E2FF25.title": "Hélio"
+	"quest.660BD0DC61E2FF25.quest_subtitle": "Chef de la Team Galaxie"
+	"quest.660BD0DC61E2FF25.quest_desc": ["Dresseur clé de la série, niveau 43.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.2441130447F9DF26.title": "1800 CobbleDollars"
+	"quest.546A2E2C921390AF.title": "Saturne"
+	"quest.546A2E2C921390AF.quest_subtitle": "Il protège le lac"
+	"quest.546A2E2C921390AF.quest_desc": ["Dresseur clé de la série, niveau 40.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.5AA04CE3385B8156.title": "1840 CobbleDollars"
+	"quest.5A6143A8905F2B2F.title": "Mars et Jupiter"
+	"quest.5A6143A8905F2B2F.quest_subtitle": "Duo de commandantes"
+	"quest.5A6143A8905F2B2F.quest_desc": ["Dresseur clé de la série, niveau 41.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.134DFC2D87F67F54.title": "2120 CobbleDollars"
+	"quest.19344122293D569B.title": "Hélio"
+	"quest.19344122293D569B.quest_subtitle": "Au Mont Couronné"
+	"quest.19344122293D569B.quest_desc": ["Dresseur clé de la série, niveau 48.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.15C5DCE2FB196200.title": "2160 CobbleDollars"
+	"reward.7F0826814FB64078.title": "1 clé rare"
+	"quest.7B9DEE88E6DBF0BB.title": "Tanguy"
+	"quest.7B9DEE88E6DBF0BB.quest_subtitle": "Champion de Rivamar"
+	"quest.7B9DEE88E6DBF0BB.quest_desc": ["Dresseur clé de la série, niveau 49.", "On le croise : plaines ou zones clairsemées.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.72FEA185628A45F6.title": "2400 CobbleDollars"
+	"quest.2E262E31BAF65D45.title": "Cédric"
+	"quest.2E262E31BAF65D45.quest_subtitle": "Avant la Ligue"
+	"quest.2E262E31BAF65D45.quest_desc": ["Dresseur clé de la série, niveau 55.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.51903D722CA60FE6.title": "2480 CobbleDollars"
+	"reward.52DAE8859D2C3517.title": "1 clé rare"
+	"quest.26EC0E2A4B27AB11.title": "Aaron"
+	"quest.26EC0E2A4B27AB11.quest_subtitle": "Conseil 4 – Insecte"
+	"quest.26EC0E2A4B27AB11.quest_desc": ["Dresseur clé de la série, niveau 57.", "On le croise : forêts, forêts denses ou marais.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.6AB4F0AEA18966D8.title": "2560 CobbleDollars"
+	"reward.1539C5ACDEE1391D.title": "1 clé rare"
+	"quest.5B8C79F8C92D05F9.title": "Terry"
+	"quest.5B8C79F8C92D05F9.quest_subtitle": "Conseil 4 – Sol"
+	"quest.5B8C79F8C92D05F9.quest_desc": ["Dresseur clé de la série, niveau 59.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.591866369775613C.title": "2640 CobbleDollars"
+	"reward.252D88EA819CB27B.title": "1 clé rare"
+	"quest.5C75E7CD90F4B6D7.title": "Adrien"
+	"quest.5C75E7CD90F4B6D7.quest_subtitle": "Conseil 4 – Feu"
+	"quest.5C75E7CD90F4B6D7.quest_desc": ["Dresseur clé de la série, niveau 61.", "On le croise : biomes chauds.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.5C7B008E06D6F25F.title": "2720 CobbleDollars"
+	"reward.3D034F479868182A.title": "1 clé rare"
+	"quest.1480E33C621D52F4.title": "Lucio"
+	"quest.1480E33C621D52F4.quest_subtitle": "Conseil 4 – Psy"
+	"quest.1480E33C621D52F4.quest_desc": ["Dresseur clé de la série, niveau 63.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.70F5ABC231F1207D.title": "2840 CobbleDollars"
+	"reward.778A746AD192EE35.title": "2 clés legendaire"
+	"quest.459CD9F33D249726.title": "Cynthia"
+	"quest.459CD9F33D249726.quest_subtitle": "Maîtresse de Sinnoh"
+	"quest.459CD9F33D249726.quest_desc": ["Dresseur clé de la série, niveau 66.", "On le croise : ville de l'End ou biomes rares.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"chapter.125B1F0E01BF350A.title": "Série Unbound"
+	"chapter.125B1F0E01BF350A.chapter_subtitle": ["Borrius : l'Ombre et la Lumière de la Ruine"]
+	"reward.299106BCFD19F292.title": "300 CobbleDollars"
+	"quest.42386D4C3825569F.title": "Série Unbound"
+	"quest.42386D4C3825569F.quest_subtitle": "S'inscrire à l'Association des Dresseurs"
+	"quest.42386D4C3825569F.quest_desc": ["Trouve l'Association des Dresseurs (près des villages) et choisis la série Unbound.", "Récupère ta Carte de Dresseur.", "Attention : commencer une autre série remet la tienne à zéro."]
+	"reward.18F6577841049B61.title": "960 CobbleDollars"
+	"quest.78435B294E624DB9.title": "Le rival"
+	"quest.78435B294E624DB9.quest_subtitle": "Premier vrai duel"
+	"quest.78435B294E624DB9.quest_desc": ["Dresseur clé de la série, niveau 19.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.2DB298DDC2F00CE3.title": "1040 CobbleDollars"
+	"reward.366AA594A0FC90D4.title": "1 clé rare"
+	"quest.21842E267146603F.title": "Mirskle"
+	"quest.21842E267146603F.quest_subtitle": "Championne – Plante"
+	"quest.21842E267146603F.quest_desc": ["Dresseur clé de la série, niveau 21.", "On le croise : forêts, forêts denses ou marais.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.16FE1762800DB63B.title": "1320 CobbleDollars"
+	"quest.298F71DE4D8D64B3.title": "Marlon"
+	"quest.298F71DE4D8D64B3.quest_subtitle": "Admin de l'Ombre"
+	"quest.298F71DE4D8D64B3.quest_desc": ["Dresseur clé de la série, niveau 28.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.27E8AC4C769E99D5.title": "1280 CobbleDollars"
+	"reward.142CB3966F1B0109.title": "1 clé rare"
+	"quest.7CE9908C5D6301D9.title": "Vega"
+	"quest.7CE9908C5D6301D9.quest_subtitle": "Champion – Spectre"
+	"quest.7CE9908C5D6301D9.quest_desc": ["Dresseur clé de la série, niveau 27.", "On le croise : le Nether, badlands, terres désolées ou savanes.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.4B62B79A4A87BA3A.title": "1560 CobbleDollars"
+	"quest.7A787BFBBC9058C3.title": "Ivory"
+	"quest.7A787BFBBC9058C3.quest_subtitle": "Admin de l'Ombre"
+	"quest.7A787BFBBC9058C3.quest_desc": ["Dresseur clé de la série, niveau 34.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.758529E8BB71466F.title": "1520 CobbleDollars"
+	"quest.52706CA52184A967.title": "Zeph"
+	"quest.52706CA52184A967.quest_subtitle": "Chef de l'Ombre"
+	"quest.52706CA52184A967.quest_desc": ["Dresseur clé de la série, niveau 33.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.37E3BBCC2423B7E1.title": "1520 CobbleDollars"
+	"quest.6A10BCF278A57348.title": "Le rival"
+	"quest.6A10BCF278A57348.quest_subtitle": "Il s'est entraîné"
+	"quest.6A10BCF278A57348.quest_desc": ["Dresseur clé de la série, niveau 33.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.37D90D3354166214.title": "1520 CobbleDollars"
+	"reward.10865C8FEBE53779.title": "1 clé rare"
+	"quest.1096E76CB24DA120.title": "Alice"
+	"quest.1096E76CB24DA120.quest_subtitle": "Championne – Vol"
+	"quest.1096E76CB24DA120.quest_desc": ["Dresseur clé de la série, niveau 33.", "On le croise : collines, montagnes ou sommets.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.3731434948221587.title": "1680 CobbleDollars"
+	"reward.3EDF8F62756D87D8.title": "1 clé rare"
+	"quest.18294FFF434F02E2.title": "Mel"
+	"quest.18294FFF434F02E2.quest_subtitle": "Champion – Normal"
+	"quest.18294FFF434F02E2.quest_desc": ["Dresseur clé de la série, niveau 37.", "On le croise : plaines ou zones clairsemées.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.7AE6C88B3A6710E0.title": "1720 CobbleDollars"
+	"quest.311380349AC26857.title": "Ivory"
+	"quest.311380349AC26857.quest_subtitle": "Encore l'Ombre"
+	"quest.311380349AC26857.quest_desc": ["Dresseur clé de la série, niveau 38.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.2A3C017B1947D2DD.title": "1840 CobbleDollars"
+	"reward.7D58F71779410DA8.title": "1 clé rare"
+	"quest.683F4CF4B2C28997.title": "Maxima"
+	"quest.683F4CF4B2C28997.quest_subtitle": "Héritière – Combat"
+	"quest.683F4CF4B2C28997.quest_desc": ["Dresseur clé de la série, niveau 41.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.61C0BFBFD85A71DD.title": "1840 CobbleDollars"
+	"quest.71A4653E572DAE08.title": "Marlon"
+	"quest.71A4653E572DAE08.quest_subtitle": "La revanche"
+	"quest.71A4653E572DAE08.quest_desc": ["Dresseur clé de la série, niveau 41.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.492138571457E1F4.title": "2080 CobbleDollars"
+	"quest.6E91DE864DC27D00.title": "Le rival"
+	"quest.6E91DE864DC27D00.quest_subtitle": "Un duel serré"
+	"quest.6E91DE864DC27D00.quest_desc": ["Dresseur clé de la série, niveau 47.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.11FA09A865E1AA8B.title": "2040 CobbleDollars"
+	"reward.5B7BD92B36391A65.title": "1 clé rare"
+	"quest.300E04A6F4070787.title": "Galavan"
+	"quest.300E04A6F4070787.quest_subtitle": "Champion – Électrik"
+	"quest.300E04A6F4070787.quest_desc": ["Dresseur clé de la série, niveau 46.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.66D1DCBA0683E82F.title": "2080 CobbleDollars"
+	"quest.17A9D8491B35257C.title": "Vega"
+	"quest.17A9D8491B35257C.quest_subtitle": "La Lumière de la Ruine"
+	"quest.17A9D8491B35257C.quest_desc": ["Dresseur clé de la série, niveau 47.", "On le croise : Cité antique, pyramide, ville de l'End, temple de la jungle ou forteresse du Nether.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.179DB320F72C2B53.title": "2040 CobbleDollars"
+	"quest.3DF9542EDA47F306.title": "Zeph"
+	"quest.3DF9542EDA47F306.quest_subtitle": "La revanche"
+	"quest.3DF9542EDA47F306.quest_desc": ["Dresseur clé de la série, niveau 46.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.2744CE398E472220.title": "2320 CobbleDollars"
+	"quest.1415B7B55B595FFC.title": "Aklove"
+	"quest.1415B7B55B595FFC.quest_subtitle": "Lumière de la Ruine"
+	"quest.1415B7B55B595FFC.quest_desc": ["Dresseur clé de la série, niveau 53.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.1A07F70E4698F722.title": "2320 CobbleDollars"
+	"reward.5B5989FFEA21397F.title": "1 clé rare"
+	"quest.45165F7879EB699F.title": "Big Mo"
+	"quest.45165F7879EB699F.quest_subtitle": "Champion – Combat"
+	"quest.45165F7879EB699F.quest_desc": ["Dresseur clé de la série, niveau 53.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.24C55867FF34FE0B.title": "2520 CobbleDollars"
+	"reward.5C90341907051D22.title": "1 clé rare"
+	"quest.29DD1161E8F0ACA1.title": "Tessy"
+	"quest.29DD1161E8F0ACA1.quest_subtitle": "Championne – Eau"
+	"quest.29DD1161E8F0ACA1.quest_desc": ["Dresseur clé de la série, niveau 58.", "On le croise : près de l'eau : rivières, plages, océans.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.20344BACA24E40EC.title": "2800 CobbleDollars"
+	"quest.68FC141212F4F7F6.title": "Le rival"
+	"quest.68FC141212F4F7F6.quest_subtitle": "Avant la Ligue"
+	"quest.68FC141212F4F7F6.quest_desc": ["Dresseur clé de la série, niveau 65.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.3A4304E40C39675C.title": "2680 CobbleDollars"
+	"quest.59C711E299114AB9.title": "Ivory"
+	"quest.59C711E299114AB9.quest_subtitle": "Lumière de la Ruine"
+	"quest.59C711E299114AB9.quest_desc": ["Dresseur clé de la série, niveau 62.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.4E576FAA9DCB96E4.title": "2680 CobbleDollars"
+	"quest.1C722F3AF9A22810.title": "Aklove"
+	"quest.1C722F3AF9A22810.quest_subtitle": "Seconde rencontre"
+	"quest.1C722F3AF9A22810.quest_desc": ["Dresseur clé de la série, niveau 62.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.725C0C5BC50C0E0E.title": "2680 CobbleDollars"
+	"quest.417E113028C56EF8.title": "Marlon"
+	"quest.417E113028C56EF8.quest_subtitle": "Dernier assaut"
+	"quest.417E113028C56EF8.quest_desc": ["Dresseur clé de la série, niveau 62.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.48D491042D4F08F5.title": "2680 CobbleDollars"
+	"reward.33A224B6E779D155.title": "1 clé rare"
+	"quest.7229333EE2B86220.title": "Benjamin"
+	"quest.7229333EE2B86220.quest_subtitle": "Champion – Insecte"
+	"quest.7229333EE2B86220.quest_desc": ["Dresseur clé de la série, niveau 62.", "On le croise : forêts, jungles ou forêts denses.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.78552B8065EA921B.title": "3240 CobbleDollars"
+	"reward.1DB233614162D76A.title": "1 clé rare"
+	"quest.434A2CF1C4236B12.title": "Moleman"
+	"quest.434A2CF1C4236B12.quest_subtitle": "Conseil 4"
+	"quest.434A2CF1C4236B12.quest_desc": ["Dresseur clé de la série, niveau 76.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.3E219D13FAC55D21.title": "3240 CobbleDollars"
+	"reward.7F91DD9C584D6694.title": "1 clé rare"
+	"quest.64C3694CEA473449.title": "Elias"
+	"quest.64C3694CEA473449.quest_subtitle": "Conseil 4"
+	"quest.64C3694CEA473449.quest_desc": ["Dresseur clé de la série, niveau 76.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.5649E2C4C8CED250.title": "3240 CobbleDollars"
+	"reward.4EB799F39A7BC78D.title": "1 clé rare"
+	"quest.206C547EF423EB7D.title": "Arabella"
+	"quest.206C547EF423EB7D.quest_subtitle": "Conseil 4"
+	"quest.206C547EF423EB7D.quest_desc": ["Dresseur clé de la série, niveau 76.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.65D80A43CC5D9B99.title": "3240 CobbleDollars"
+	"reward.2C811D4ABD56E5A3.title": "1 clé rare"
+	"quest.1B2FDBE3A4E8424E.title": "Penny"
+	"quest.1B2FDBE3A4E8424E.quest_subtitle": "Conseil 4"
+	"quest.1B2FDBE3A4E8424E.quest_desc": ["Dresseur clé de la série, niveau 76.", "On le croise : n'importe où sur ta route.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.6329D71C096EC0C3.title": "3240 CobbleDollars"
+	"reward.1A168450324CEF71.title": "2 clés legendaire"
+	"quest.30670EBB0AEEF8B3.title": "Maître Jax"
+	"quest.30670EBB0AEEF8B3.quest_subtitle": "Le sommet de Borrius"
+	"quest.30670EBB0AEEF8B3.quest_desc": ["Dresseur clé de la série, niveau 76.", "On le croise : ville de l'End ou biomes rares.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
+	"reward.5CAC90962B7C9770.title": "3560 CobbleDollars"
+	"quest.74D110527602A6FB.title": "Aklove"
+	"quest.74D110527602A6FB.quest_subtitle": "Le dernier secret"
+	"quest.74D110527602A6FB.quest_desc": ["Dresseur clé de la série, niveau 84.", "On le croise : Cité antique ou ville de l'End.", "Il n'apparaît que si ton Pokémon le plus fort n'est pas trop loin de son niveau."]
 	"chapter.6DAFBD6ABC6D1038.title": "Légendes"
 	"chapter.6DAFBD6ABC6D1038.chapter_subtitle": ["Ceux qu'Arceus a laissés derrière lui"]
 	"reward.7843CD2D9E344540.title": "3000 CobbleDollars"

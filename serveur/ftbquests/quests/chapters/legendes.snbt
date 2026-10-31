@@ -1,7 +1,7 @@
 {
 	id: "6DAFBD6ABC6D1038"
 	group: ""
-	order_index: 12
+	order_index: 15
 	filename: "legendes"
 	icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "sakuflemon:textures/quetes/legendes.png" } }
 	default_quest_shape: ""

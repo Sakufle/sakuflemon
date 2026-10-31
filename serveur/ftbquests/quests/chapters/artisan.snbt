@@ -1,7 +1,7 @@
 {
 	id: "1E053F11C8AA523B"
 	group: ""
-	order_index: 13
+	order_index: 16
 	filename: "artisan"
 	icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "sakuflemon:textures/quetes/artisan.png" } }
 	default_quest_shape: ""

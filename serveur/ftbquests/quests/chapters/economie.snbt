@@ -1,7 +1,7 @@
 {
 	id: "1C215AB5FE9A99D0"
 	group: ""
-	order_index: 14
+	order_index: 17
 	filename: "economie"
 	icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "sakuflemon:textures/quetes/economie.png" } }
 	default_quest_shape: ""

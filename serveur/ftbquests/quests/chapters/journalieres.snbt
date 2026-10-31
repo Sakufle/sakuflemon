@@ -1,7 +1,7 @@
 {
 	id: "209535426C78EBBC"
 	group: ""
-	order_index: 17
+	order_index: 20
 	filename: "journalieres"
 	icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "sakuflemon:textures/quetes/journalieres.png" } }
 	default_quest_shape: ""

@@ -1,7 +1,7 @@
 {
 	id: "6186D4B8C4CC7259"
 	group: ""
-	order_index: 15
+	order_index: 18
 	filename: "nether_end"
 	icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "sakuflemon:textures/quetes/nether_end.png" } }
 	default_quest_shape: ""

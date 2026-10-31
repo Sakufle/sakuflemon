@@ -730,3 +730,8 @@ metafile = true
 file = "shaderpacks/solas-shader.pw.toml"
 hash = "11cc2dd32700ec51aa6c422dca8278456a30f62bd9dd9f822f8568504cfcc775"
 metafile = true
+
+[[files]]
+file = "mods/cobblemon-playerxp.pw.toml"
+hash = "134eacb2b41d2e13e0cd80179881b368a437b5927894558103c4a0e475200615"
+metafile = true

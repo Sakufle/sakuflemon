@@ -1,12 +1,12 @@
 name = "Sakuflemon"
 author = "Lucas"
-version = "1.2.1"
+version = "1.2.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "32ed8e162ebf11e27e48a1533bae2392fb0429a8fadad4739d6396ee00665101"
+hash = "d92b275afd7bd084473eba5f4848f199a45a3f3b772b56ea8f6789a66fcdfc60"
 
 [versions]
 fabric = "0.20.1"

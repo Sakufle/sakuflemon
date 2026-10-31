@@ -1,0 +1,1068 @@
+{
+	id: "1E053F11C8AA523B"
+	group: ""
+	order_index: 13
+	filename: "artisan"
+	icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "sakuflemon:textures/quetes/artisan.png" } }
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "31B62FA321231BCB"
+			icon: "cobblemon:red_apricorn"
+			x: 0.0d
+			y: 0.0d
+			size: 1.5d
+			tasks: [
+				{
+					id: "3451C517EC03D5C7"
+					type: "item"
+					item: { count: 1, id: "cobblemon:red_apricorn" }
+					count: 2L
+					consume_items: false
+				}
+				{
+					id: "18AFAD64908C0D72"
+					type: "item"
+					item: { count: 1, id: "cobblemon:yellow_apricorn" }
+					count: 2L
+					consume_items: false
+				}
+				{
+					id: "4C8ECDBB0462AC4E"
+					type: "item"
+					item: { count: 1, id: "cobblemon:green_apricorn" }
+					count: 2L
+					consume_items: false
+				}
+				{
+					id: "4FE6D23FCE27E5DA"
+					type: "item"
+					item: { count: 1, id: "cobblemon:blue_apricorn" }
+					count: 2L
+					consume_items: false
+				}
+				{
+					id: "708C8C96A1CB6A50"
+					type: "item"
+					item: { count: 1, id: "cobblemon:pink_apricorn" }
+					count: 2L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "2FF126C706235FE9"
+					type: "command"
+					command: "/cobbledollars give {p} 300"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "3C0E750009B3E17C"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "17BE5BF9ED62A353"
+			icon: "cobblemon:black_apricorn_sapling"
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["31B62FA321231BCB"]
+			tasks: [
+				{
+					id: "4749540F593B0F11"
+					type: "item"
+					item: { count: 1, id: "cobblemon:red_apricorn_seed" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "147C7752C7D01F6A"
+					type: "item"
+					item: { count: 1, id: "cobblemon:yellow_apricorn_seed" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "12BD620FD2D94460"
+					type: "item"
+					item: { count: 1, id: "cobblemon:green_apricorn_seed" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "4F47D270C7C4933A"
+					type: "item"
+					item: { count: 1, id: "cobblemon:blue_apricorn_seed" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "4D3CA517EB8CAA1C"
+					type: "item"
+					item: { count: 1, id: "cobblemon:pink_apricorn_seed" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "59A21F0E0D9DB609"
+					type: "item"
+					item: { count: 1, id: "cobblemon:black_apricorn_seed" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "57CF332454D2EB25"
+					type: "item"
+					item: { count: 1, id: "cobblemon:white_apricorn_seed" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "3384E0BE957688F3"
+					type: "command"
+					command: "/cobbledollars give {p} 800"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "43DA686A0E7F9B97"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "28297A0BE76C3162"
+			icon: "cobblemon:quick_ball"
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["17BE5BF9ED62A353"]
+			tasks: [
+				{
+					id: "2B49BE22B5DC1E53"
+					type: "item"
+					item: { count: 1, id: "cobblemon:quick_ball" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "259DD767A76F8A3A"
+					type: "item"
+					item: { count: 1, id: "cobblemon:dusk_ball" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "2CA8A107081BAFA2"
+					type: "item"
+					item: { count: 1, id: "cobblemon:nest_ball" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "3C5414015D2FA2ED"
+					type: "item"
+					item: { count: 1, id: "cobblemon:repeat_ball" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "10C5BA604EB8356A"
+					type: "command"
+					command: "/cobbledollars give {p} 800"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "28A318B8CA1FBC72"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "3B40806EA5ACF5CA"
+			icon: "cobblemon:moon_ball"
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["28297A0BE76C3162"]
+			tasks: [
+				{
+					id: "4B2D69FFCDD816EA"
+					type: "item"
+					item: { count: 1, id: "cobblemon:moon_ball" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "19CA5010ADE35078"
+					type: "item"
+					item: { count: 1, id: "cobblemon:love_ball" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "7FF64BADDFAD84AC"
+					type: "item"
+					item: { count: 1, id: "cobblemon:level_ball" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "3320440295D47B03"
+					type: "item"
+					item: { count: 1, id: "cobblemon:heavy_ball" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "79B49B1E8834C186"
+					type: "item"
+					item: { count: 1, id: "cobblemon:fast_ball" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "4ACA426CB9612BCF"
+					type: "command"
+					command: "/cobbledollars give {p} 1500"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "3683DEE520A470BE"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "1DBF980BA95DA4EA"
+			icon: "cobblemon:ancient_jet_ball"
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["3B40806EA5ACF5CA"]
+			tasks: [
+				{
+					id: "1C38E83E26529496"
+					type: "item"
+					item: { count: 1, id: "cobblemon:ancient_feather_ball" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "7788D92576679D0F"
+					type: "item"
+					item: { count: 1, id: "cobblemon:ancient_jet_ball" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "6FCB55E1FE623362"
+					type: "item"
+					item: { count: 1, id: "cobblemon:ancient_gigaton_ball" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "147BCF492BD07367"
+					type: "command"
+					command: "/cobbledollars give {p} 2000"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "294387B3DE3C1EC2"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "6A657B742E96164F"
+			icon: "cobblemon:oran_berry"
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["31B62FA321231BCB"]
+			tasks: [
+				{
+					id: "5D5D063FD5A5C68E"
+					type: "item"
+					item: { count: 1, id: "cobblemon:oran_berry" }
+					count: 5L
+					consume_items: false
+				}
+				{
+					id: "1EC68AF225A6171B"
+					type: "item"
+					item: { count: 1, id: "cobblemon:cheri_berry" }
+					count: 5L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "47A9909EDE7453E4"
+					type: "command"
+					command: "/cobbledollars give {p} 200"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "668B1A63FDB0494F"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "46D327CF8A4241B7"
+			icon: "cobblemon:campfire_pot_red"
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["6A657B742E96164F"]
+			tasks: [
+				{
+					id: "1B6441BAF490EF12"
+					type: "item"
+					item: { count: 1, id: "cobblemon:campfire_pot_red" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "34EE4F7B253D793A"
+					type: "command"
+					command: "/cobbledollars give {p} 300"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "5C1FB616002F1758"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "1681419644FE252D"
+			icon: "cobblemon:poke_snack"
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["46D327CF8A4241B7"]
+			tasks: [
+				{
+					id: "46715A66B0447267"
+					type: "item"
+					item: { count: 1, id: "cobblemon:poke_snack" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "63D99B57B5CB8371"
+					type: "command"
+					command: "/cobbledollars give {p} 500"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "5C10D9A1B8A488E2"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "325BDCB9EF6271AD"
+			icon: "cobblemon:poke_puff"
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["1681419644FE252D"]
+			tasks: [
+				{
+					id: "3943F214A132E3F9"
+					type: "item"
+					item: { count: 1, id: "cobblemon:poke_puff" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "20DA26190EBCA0B5"
+					type: "item"
+					item: { count: 1, id: "cobblemon:poke_cake" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "2936F97AB74ED769"
+					type: "item"
+					item: { count: 1, id: "cobblemon:poke_bait" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "115689B899A66086"
+					type: "command"
+					command: "/cobbledollars give {p} 800"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "28D55F0042AA9B64"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "400A679E916254EE"
+			icon: "cobblemon:aprijuice_red"
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["325BDCB9EF6271AD"]
+			tasks: [
+				{
+					id: "70CDBE85876253CC"
+					type: "item"
+					item: { count: 1, id: "cobblemon:aprijuice_red" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "43C5D6B814CB3EDA"
+					type: "item"
+					item: { count: 1, id: "cobblemon:aprijuice_blue" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "23A2ED8FC09604CD"
+					type: "item"
+					item: { count: 1, id: "cobblemon:aprijuice_yellow" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "2FDA0F8167C2F930"
+					type: "command"
+					command: "/cobbledollars give {p} 800"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "1ED7F5228F8FD6C2"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "784F447B26D81027"
+			icon: "pokeblocks:pokedoll_eevee"
+			x: 7.5d
+			y: 1.5d
+			dependencies: ["400A679E916254EE"]
+			tasks: [
+				{
+					id: "3A3AA91AD6FFF20B"
+					type: "item"
+					item: { count: 1, id: "pokeblocks:pokedoll_eevee" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "1F129B21BC6F1C51"
+					type: "command"
+					command: "/cobbledollars give {p} 600"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "1B94FD24F7FD0F19"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "1620CDB298180B54"
+			icon: "cobblemon:big_malasada"
+			x: 9.0d
+			y: 1.5d
+			dependencies: ["784F447B26D81027"]
+			tasks: [
+				{
+					id: "5D19691CB056B2B5"
+					type: "item"
+					item: { count: 1, id: "cobblemon:big_malasada" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "75BCC79975842705"
+					type: "command"
+					command: "/cobbledollars give {p} 800"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "209B3C3CD9CBD516"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "6840A14A2B8655F5"
+			icon: "cobblemon:tm_machine"
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["31B62FA321231BCB"]
+			tasks: [
+				{
+					id: "4530B7467E7D3960"
+					type: "item"
+					item: { count: 1, id: "cobblemon:tm_machine" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "7B8250094ABDEEC6"
+					type: "command"
+					command: "/cobbledollars give {p} 500"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "39773BD1E99D21D6"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "5BA5460915D52796"
+			icon: "cobblemon:blank_tm"
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["6840A14A2B8655F5"]
+			tasks: [
+				{
+					id: "7AF335CCA0375C91"
+					type: "item"
+					item: { count: 1, id: "cobblemon:blank_tm" }
+					count: 5L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "3D10EF1F29C16098"
+					type: "command"
+					command: "/cobbledollars give {p} 500"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "369AC6A1C59F33FC"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "5CA9872CD96DF5B7"
+			icon: "cobblemon:technical_machine"
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["5BA5460915D52796"]
+			tasks: [
+				{
+					id: "33F7023C1DB96C09"
+					type: "item"
+					item: { count: 1, id: "cobblemon:technical_machine" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "6D7F235C9132153E"
+					type: "command"
+					command: "/cobbledollars give {p} 800"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "274AE8F0CBEF6492"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "6F49F37AB6766C51"
+			icon: "tmcraft:copper_blank_disc"
+			x: 4.5d
+			y: 3.0d
+			dependencies: ["5CA9872CD96DF5B7"]
+			tasks: [
+				{
+					id: "65D815C22B2A89CD"
+					type: "item"
+					item: { count: 1, id: "tmcraft:copper_blank_disc" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "39F7329F0A367494"
+					type: "command"
+					command: "/cobbledollars give {p} 800"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "293ED41F7A567ECC"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "1C16719C2C711533"
+			icon: "cobblemon:fire_gem"
+			x: 6.0d
+			y: 3.0d
+			dependencies: ["6F49F37AB6766C51"]
+			tasks: [
+				{
+					id: "7F69945BCCF413E2"
+					type: "item"
+					item: { count: 1, id: "cobblemon:fire_gem" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "5E57848A97C0065E"
+					type: "item"
+					item: { count: 1, id: "cobblemon:water_gem" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "2ABDD125A24C876F"
+					type: "item"
+					item: { count: 1, id: "cobblemon:grass_gem" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "59C8D0A0BA607468"
+					type: "command"
+					command: "/cobbledollars give {p} 800"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "10873D00A1FEAA69"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "460F65627610C8F3"
+			icon: "cobblemon:life_orb"
+			x: 7.5d
+			y: 3.0d
+			shape: "gear"
+			dependencies: ["1C16719C2C711533"]
+			tasks: [
+				{
+					id: "29D6DBA9307EE276"
+					type: "item"
+					item: { count: 1, id: "cobblemon:leftovers" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "7CAD2B58A01BEF44"
+					type: "item"
+					item: { count: 1, id: "cobblemon:choice_scarf" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "284CD65AB38B0460"
+					type: "item"
+					item: { count: 1, id: "cobblemon:life_orb" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "70454C6EE437B4CE"
+					type: "command"
+					command: "/cobbledollars give {p} 2500"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "7584D0F7BF11BC6A"
+					type: "random"
+					table_id: 7961691238798267049L
+				}
+			]
+		}
+		{
+			id: "43151D9A6529DF73"
+			icon: "cobblemon:helix_fossil"
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["31B62FA321231BCB"]
+			tasks: [
+				{
+					id: "71AD8409483B61EF"
+					type: "item"
+					item: { count: 1, id: "cobblemon:helix_fossil" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "2D44D8712E8E1148"
+					type: "command"
+					command: "/cobbledollars give {p} 300"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "75ED943D901E64C6"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "6342C1644BAC0344"
+			icon: "cobblemon:fossil_analyzer"
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["43151D9A6529DF73"]
+			tasks: [
+				{
+					id: "21405525FD45C15E"
+					type: "item"
+					item: { count: 1, id: "cobblemon:fossil_analyzer" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "3F7312A0B5301943"
+					type: "item"
+					item: { count: 1, id: "cobblemon:restoration_tank" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "71E9F6CCDD68BDCF"
+					type: "command"
+					command: "/cobbledollars give {p} 800"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "417BD4CA4ADF2624"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "37823A3F54A955BD"
+			icon: "cobblemon:dome_fossil"
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["6342C1644BAC0344"]
+			tasks: [
+				{
+					id: "2DA1AFD301AD19CC"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "revive_fossil"
+					amount: 1L
+					shiny: false
+					pokemon: ""
+					pokemon_type: ""
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "1EC79B8682E36991"
+					type: "command"
+					command: "/cobbledollars give {p} 1000"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "28C42A48F770A78E"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "48FF8F65F5B07C9A"
+			icon: "cobblemon:poke_ball"
+			x: 4.5d
+			y: 4.5d
+			dependencies: ["37823A3F54A955BD"]
+			tasks: [
+				{
+					id: "7CE2BA9A35569651"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "7D7CBE399DF8D220"
+					type: "command"
+					command: "/cobbledollars give {p} 500"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "520B518ECFB783A6"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "74F8884F4F8A9D94"
+			icon: "handcrafted:oak_table"
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["31B62FA321231BCB"]
+			tasks: [
+				{
+					id: "47CBBF0CD6373BAE"
+					type: "item"
+					item: { count: 1, id: "handcrafted:oak_table" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "137B4B1B97820EA7"
+					type: "item"
+					item: { count: 1, id: "handcrafted:oak_chair" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "58CE95380CC92B70"
+					type: "item"
+					item: { count: 1, id: "handcrafted:oak_shelf" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "5DDB3EEC1D213BB7"
+					type: "command"
+					command: "/cobbledollars give {p} 500"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "6B9BBD23193F4A78"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "2AB756DCD9CE26CF"
+			icon: "cobblefurnies:red_sofa"
+			x: 1.5d
+			y: 6.0d
+			dependencies: ["74F8884F4F8A9D94"]
+			tasks: [
+				{
+					id: "69B64EAB3F489E1A"
+					type: "item"
+					item: { count: 1, id: "cobblefurnies:red_sofa" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "668C0BBBD6598EEC"
+					type: "item"
+					item: { count: 1, id: "cobblefurnies:red_lamp" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "242662FB294651F9"
+					type: "command"
+					command: "/cobbledollars give {p} 500"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "122DCC22E01B63DE"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+		{
+			id: "11D2D6F9433B9C43"
+			icon: "cobblemon:pc"
+			x: 3.0d
+			y: 6.0d
+			dependencies: ["2AB756DCD9CE26CF"]
+			tasks: [
+				{
+					id: "11788451CFB2D665"
+					type: "item"
+					item: { count: 1, id: "cobblemon:pc" }
+					count: 1L
+					consume_items: false
+				}
+				{
+					id: "5314B49F422540AD"
+					type: "item"
+					item: { count: 1, id: "cobblemon:healing_machine" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "6197C1055BD21BC5"
+					type: "command"
+					command: "/cobbledollars give {p} 1000"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "33CF14C9E7EFCEBD"
+					type: "random"
+					table_id: 4154057608299291355L
+				}
+			]
+		}
+		{
+			id: "61A2648222A8B089"
+			icon: "cobblemon:display_case"
+			x: 4.5d
+			y: 6.0d
+			dependencies: ["11D2D6F9433B9C43"]
+			tasks: [
+				{
+					id: "3AF7119D8991080E"
+					type: "item"
+					item: { count: 1, id: "cobblemon:display_case" }
+					count: 1L
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "47E7DCFA5C903D7F"
+					type: "command"
+					command: "/cobbledollars give {p} 500"
+					player_command: false
+					silent: true
+					icon: "cobblemon:relic_coin"
+				}
+				{
+					id: "4E67EFFF6D3B4E9D"
+					type: "random"
+					table_id: 8651459768004125577L
+				}
+			]
+		}
+	]
+}

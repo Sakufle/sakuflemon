@@ -9,7 +9,7 @@
 	quests: [
 		{
 			id: "4CA1B5CE87E72ACA"
-			icon: "cobblemonraiddens:raid_crystal_block"
+			icon: { id: "cobblemonraiddens:raid_crystal_block" }
 			x: 0.0d
 			y: 0.0d
 			size: 1.5d
@@ -51,7 +51,7 @@
 					command: "/cobbledollars give {p} 200"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "3627C4803CB0FB6B"
@@ -62,7 +62,7 @@
 		}
 		{
 			id: "1F6B74F47230D7D9"
-			icon: "minecraft:nether_star"
+			icon: { id: "minecraft:nether_star" }
 			x: 1.5d
 			y: 0.0d
 			dependencies: ["4CA1B5CE87E72ACA"]
@@ -104,7 +104,7 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "59D8FA2F5657E509"
@@ -115,7 +115,7 @@
 		}
 		{
 			id: "2CA4418EE7465448"
-			icon: "minecraft:nether_star"
+			icon: { id: "minecraft:nether_star" }
 			x: 3.0d
 			y: 0.0d
 			dependencies: ["1F6B74F47230D7D9"]
@@ -157,7 +157,7 @@
 					command: "/cobbledollars give {p} 500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "484F1A4077CD8120"
@@ -168,7 +168,7 @@
 		}
 		{
 			id: "7D90A8C473BA18B3"
-			icon: "minecraft:nether_star"
+			icon: { id: "minecraft:nether_star" }
 			x: 4.5d
 			y: 0.0d
 			dependencies: ["2CA4418EE7465448"]
@@ -210,7 +210,7 @@
 					command: "/cobbledollars give {p} 800"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "53F81BAEDCDDDF12"
@@ -221,7 +221,7 @@
 		}
 		{
 			id: "4942FA35DC29359D"
-			icon: "minecraft:nether_star"
+			icon: { id: "minecraft:nether_star" }
 			x: 6.0d
 			y: 0.0d
 			dependencies: ["7D90A8C473BA18B3"]
@@ -263,7 +263,7 @@
 					command: "/cobbledollars give {p} 1200"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "4FB33F925CCCB471"
@@ -274,7 +274,7 @@
 		}
 		{
 			id: "3ABE78E783A0CB37"
-			icon: "minecraft:nether_star"
+			icon: { id: "minecraft:nether_star" }
 			x: 7.5d
 			y: 0.0d
 			dependencies: ["4942FA35DC29359D"]
@@ -316,7 +316,7 @@
 					command: "/cobbledollars give {p} 2000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "136F2B75D417691D"
@@ -327,7 +327,7 @@
 		}
 		{
 			id: "5BC3B872C014CE64"
-			icon: "minecraft:nether_star"
+			icon: { id: "minecraft:nether_star" }
 			x: 9.0d
 			y: 0.0d
 			shape: "gear"
@@ -370,7 +370,7 @@
 					command: "/cobbledollars give {p} 3000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "2E2DCC27E564EADC"
@@ -381,7 +381,7 @@
 		}
 		{
 			id: "2F3920C01F343A52"
-			icon: "minecraft:nether_star"
+			icon: { id: "minecraft:nether_star" }
 			x: 10.5d
 			y: 0.0d
 			shape: "gear"
@@ -425,7 +425,7 @@
 					command: "/cobbledollars give {p} 5000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "46B95AB575E9F0BF"
@@ -436,7 +436,7 @@
 		}
 		{
 			id: "73DF8ED76CAD4232"
-			icon: "cobblemonraiddens:raid_pouch"
+			icon: { id: "cobblemonraiddens:raid_pouch" }
 			x: 0.0d
 			y: 1.5d
 			dependencies: ["1F6B74F47230D7D9"]
@@ -478,7 +478,7 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "7175A9F67CD013CE"
@@ -489,7 +489,7 @@
 		}
 		{
 			id: "66C9038AE1FF938A"
-			icon: "minecraft:nether_star"
+			icon: { id: "minecraft:nether_star" }
 			x: 1.5d
 			y: 1.5d
 			dependencies: ["73DF8ED76CAD4232"]
@@ -531,7 +531,7 @@
 					command: "/cobbledollars give {p} 1000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "5ABBA1A73A4DEEF5"
@@ -542,7 +542,7 @@
 		}
 		{
 			id: "799BF326D3184208"
-			icon: "minecraft:nether_star"
+			icon: { id: "minecraft:nether_star" }
 			x: 3.0d
 			y: 1.5d
 			dependencies: ["66C9038AE1FF938A"]
@@ -584,7 +584,7 @@
 					command: "/cobbledollars give {p} 3000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "25CBC64D8E4F4A4E"
@@ -595,7 +595,7 @@
 		}
 		{
 			id: "43AD38E3CD9B6DF2"
-			icon: "cobblemon:shiny_stone"
+			icon: { id: "cobblemon:shiny_stone" }
 			x: 4.5d
 			y: 1.5d
 			optional: true
@@ -638,7 +638,7 @@
 					command: "/cobbledollars give {p} 4000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "606D0B58797C8E6F"

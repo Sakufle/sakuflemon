@@ -9,7 +9,7 @@
 	quests: [
 		{
 			id: "00EBEFDB07F860D2"
-			icon: "cobblemon:poke_ball"
+			icon: { id: "cobblemon:poke_ball" }
 			x: 0.0d
 			y: 0.0d
 			shape: "circle"
@@ -34,13 +34,13 @@
 					command: "/cobbledollars give {p} 100"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "4159A7B742770B87"
-			icon: "cobblemon:great_ball"
+			icon: { id: "cobblemon:great_ball" }
 			x: 2.0d
 			y: 0.0d
 			shape: "circle"
@@ -91,13 +91,13 @@
 					command: "/cobbledollars give {p} 100"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "01502EAA929DEA48"
-			icon: "cobblemon:pokedex_red"
+			icon: { id: "cobblemon:pokedex_red" }
 			x: 4.0d
 			y: 0.0d
 			shape: "circle"
@@ -129,7 +129,7 @@
 		}
 		{
 			id: "397BC115D0B7DC7B"
-			icon: "minecraft:chest"
+			icon: { id: "minecraft:chest" }
 			x: 6.0d
 			y: 0.0d
 			shape: "circle"
@@ -149,7 +149,7 @@
 					command: "/cobbledollars give {p} 200"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "1A3C5E7092B4D6F8"
@@ -167,7 +167,7 @@
 		}
 		{
 			id: "628655F08B22076B"
-			icon: "cobblemon:red_apricorn"
+			icon: { id: "cobblemon:red_apricorn" }
 			x: 8.0d
 			y: 0.0d
 			shape: "circle"
@@ -196,13 +196,13 @@
 					command: "/cobbledollars give {p} 150"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "696EE37416DDB400"
-			icon: "cobblemon:poke_ball"
+			icon: { id: "cobblemon:poke_ball" }
 			x: 0.0d
 			y: 2.0d
 			shape: "circle"
@@ -253,13 +253,13 @@
 					command: "/cobbledollars give {p} 200"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "3D54FC0C19006174"
-			icon: "cobblemon:pokedex_red"
+			icon: { id: "cobblemon:pokedex_red" }
 			x: 2.0d
 			y: 2.0d
 			shape: "circle"
@@ -304,13 +304,13 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "4F097CA259DC23A0"
-			icon: "cobblemon:potion"
+			icon: { id: "cobblemon:potion" }
 			x: 4.0d
 			y: 2.0d
 			shape: "circle"
@@ -347,13 +347,13 @@
 					command: "/cobbledollars give {p} 150"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "1853C66EA20A4DB3"
-			icon: "minecraft:iron_sword"
+			icon: { id: "minecraft:iron_sword" }
 			x: 6.0d
 			y: 2.0d
 			shape: "circle"
@@ -383,13 +383,13 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "01A905984188AF67"
-			icon: "cobblemon:relic_coin"
+			icon: { id: "cobblemon:relic_coin" }
 			x: 8.0d
 			y: 2.0d
 			shape: "circle"
@@ -417,13 +417,13 @@
 					command: "/cobbledollars give {p} 200"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "0644440E617B2DF4"
-			icon: "minecraft:tripwire_hook"
+			icon: { id: "minecraft:tripwire_hook" }
 			x: 0.0d
 			y: 4.0d
 			shape: "circle"
@@ -456,7 +456,7 @@
 		}
 		{
 			id: "061E5E6327B75C35"
-			icon: "cobblemon:poke_rod"
+			icon: { id: "cobblemon:poke_rod" }
 			x: 2.0d
 			y: 4.0d
 			shape: "circle"
@@ -515,13 +515,13 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "6E0072E7094137AD"
-			icon: "cobblemon:fire_stone"
+			icon: { id: "cobblemon:fire_stone" }
 			x: 4.0d
 			y: 4.0d
 			shape: "circle"
@@ -630,13 +630,13 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "4318DD6A6AE16019"
-			icon: "cobblemon:ultra_ball"
+			icon: { id: "cobblemon:ultra_ball" }
 			x: 6.0d
 			y: 4.0d
 			shape: "circle"
@@ -681,13 +681,13 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "5EC029317A9FFCDE"
-			icon: "cobblemon:muscle_band"
+			icon: { id: "cobblemon:muscle_band" }
 			x: 8.0d
 			y: 4.0d
 			shape: "circle"
@@ -738,13 +738,13 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "4F46B5C1B8039714"
-			icon: "cobblemon:rare_candy"
+			icon: { id: "cobblemon:rare_candy" }
 			x: 0.0d
 			y: 6.0d
 			shape: "circle"
@@ -795,13 +795,13 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "353EB08E21C58FD8"
-			icon: "cobblemon:everstone"
+			icon: { id: "cobblemon:everstone" }
 			x: 2.0d
 			y: 6.0d
 			shape: "circle"
@@ -854,13 +854,13 @@
 					command: "/cobbledollars give {p} 500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "493F35F7F666798C"
-			icon: "minecraft:shield"
+			icon: { id: "minecraft:shield" }
 			x: 4.0d
 			y: 6.0d
 			shape: "circle"
@@ -894,13 +894,13 @@
 					command: "/cobbledollars give {p} 800"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "547B24916477DE3D"
-			icon: "minecraft:feather"
+			icon: { id: "minecraft:feather" }
 			x: 6.0d
 			y: 6.0d
 			shape: "rsquare"
@@ -920,7 +920,7 @@
 		}
 		{
 			id: "0305BC51DE70A11D"
-			icon: "minecraft:elytra"
+			icon: { id: "minecraft:elytra" }
 			x: 8.0d
 			y: 6.0d
 			shape: "rsquare"
@@ -948,13 +948,13 @@
 					command: "/cobbledollars give {p} 1000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "704A2E22E36C1743"
-			icon: "minecraft:blaze_powder"
+			icon: { id: "minecraft:blaze_powder" }
 			x: 10.0d
 			y: 6.0d
 			shape: "hexagon"
@@ -983,13 +983,13 @@
 					command: "/cobbledollars give {p} 1500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "6E29DEAED8B5E35B"
-			icon: "minecraft:campfire"
+			icon: { id: "minecraft:campfire" }
 			x: 12.0d
 			y: 6.0d
 			shape: "hexagon"
@@ -1042,7 +1042,7 @@
 					command: "/cobbledollars give {p} 3000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "28314D7F56EEBBB0"

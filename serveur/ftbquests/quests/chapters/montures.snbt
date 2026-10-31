@@ -9,7 +9,7 @@
 	quests: [
 		{
 			id: "2C1CCBF04837B190"
-			icon: "minecraft:saddle"
+			icon: { id: "minecraft:saddle" }
 			x: 0.0d
 			y: 0.0d
 			size: 1.5d
@@ -26,7 +26,7 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "1709DC03954528F4"
@@ -37,7 +37,7 @@
 		}
 		{
 			id: "2297B7C931953094"
-			icon: "minecraft:saddle"
+			icon: { id: "minecraft:saddle" }
 			x: 1.5d
 			y: 0.0d
 			dependencies: ["2C1CCBF04837B190"]
@@ -79,7 +79,7 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "2D5EE2642E6A9A73"
@@ -90,7 +90,7 @@
 		}
 		{
 			id: "2E8F5981F337CDBB"
-			icon: "cobblemon:fire_stone"
+			icon: { id: "cobblemon:fire_stone" }
 			x: 3.0d
 			y: 0.0d
 			dependencies: ["2297B7C931953094"]
@@ -132,7 +132,7 @@
 					command: "/cobbledollars give {p} 600"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "192705F4AFECFE24"
@@ -143,7 +143,7 @@
 		}
 		{
 			id: "3C357C4E746F4FE3"
-			icon: "minecraft:elytra"
+			icon: { id: "minecraft:elytra" }
 			x: 4.5d
 			y: 0.0d
 			dependencies: ["2E8F5981F337CDBB"]
@@ -189,7 +189,7 @@
 					command: "/cobbledollars give {p} 1000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "5DCD4B48037753A9"
@@ -200,7 +200,7 @@
 		}
 		{
 			id: "1452BCFBC8D5CFED"
-			icon: "minecraft:heart_of_the_sea"
+			icon: { id: "minecraft:heart_of_the_sea" }
 			x: 6.0d
 			y: 0.0d
 			dependencies: ["3C357C4E746F4FE3"]
@@ -246,7 +246,7 @@
 					command: "/cobbledollars give {p} 1000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "195CE4AD6850018D"
@@ -257,7 +257,7 @@
 		}
 		{
 			id: "16F93501673CD2C1"
-			icon: "minecraft:prismarine_shard"
+			icon: { id: "minecraft:prismarine_shard" }
 			x: 7.5d
 			y: 0.0d
 			dependencies: ["1452BCFBC8D5CFED"]
@@ -275,7 +275,7 @@
 					command: "/cobbledollars give {p} 1500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "6AACA9006D9F9220"
@@ -286,7 +286,7 @@
 		}
 		{
 			id: "3D60C49995B0E750"
-			icon: "cobblemon:dragon_fang"
+			icon: { id: "cobblemon:dragon_fang" }
 			x: 9.0d
 			y: 0.0d
 			shape: "gear"
@@ -333,7 +333,7 @@
 					command: "/cobbledollars give {p} 3000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "1CD356306AFA03A1"

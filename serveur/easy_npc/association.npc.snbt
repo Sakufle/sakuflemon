@@ -1,0 +1,34 @@
+{
+	PresetMetadata: {
+		variantType: "COBBLEMON_NPC",
+		author: "Sakufle",
+		created: 1793476800000L,
+		name: "association",
+		modified: 1793476800000L,
+		description: "Vend la Carte de Dresseur et explique les séries RCT",
+		entityTypeId: "easy_npc:cobblemon_npc",
+		category: "Sakuflemon",
+		version: "1.0.0"
+	},
+	data: {
+		DisplayAttribute: [ { Type: "LIGHT_LEVEL", Int: 15 } ],
+		ActionData: {
+			ActionEventSet: {
+				ON_INTERACTION: [
+					{ Type: "COMMAND", Cmd: "execute as @initiator run cartedresseur" }
+				]
+			}
+		},
+		EasyNPCVersion: 3,
+		DialogData: {
+			DialogDataSet: [ { Texts: [ { Text: "<black>Bip ! Je suis le guide de l'Association des Dresseurs. Pour affronter les champions, il te faut une <gold>Carte de Dresseur<black>. Donne-la à l'Association, près des villages, pour choisir ta série. La carte te montrera ensuite qui battre, dans l'ordre !" } ], Name: "Default" } ],
+			Type: "STANDARD"
+		},
+		CustomName: "{\"text\":\"Guide de l'Association\",\"color\":\"#55FFFF\"}",
+		RenderData: { EntityModel: "cobblemon:porygon" },
+		SoundData: { SoundDataSet: [ { Type: "DIALOG_OPEN", Name: "cobblemon:pokemon.porygon.cry" } ] },
+		ObjectiveData: { ObjectiveDataSet: [ { Type: "LOOK_AT_RESET" }, { Type: "LOOK_AT_PLAYER" } ] },
+		attributes: [ { id: "minecraft:generic.max_health", base: 1024.0d } ],
+		id: "easy_npc:cobblemon_npc"
+	}
+}

@@ -71,7 +71,7 @@ def icon_snbt(icon):
     if icon.startswith("tex:"):
         return f'{{ id: "ftbquests:custom_icon", components: {{ "ftbquests:icon": "{icon[4:]}" }} }}'
     ITEMS_UTILISES.add(icon)
-    return f'"{icon}"'
+    return f'{{ id: "{icon}" }}'
 
 def build_chapter(ch, order):
     cid = hid("chap", ch["file"])
@@ -112,7 +112,7 @@ def build_chapter(ch, order):
             rw = []
             if money:
                 rid = hid(ch["file"], q.key, "r", "cd")
-                rw.append([f'id: "{rid}"', 'type: "command"', f'command: "/cobbledollars give {{p}} {money}"', "player_command: false", "silent: true", 'icon: "cobblemon:relic_coin"'])
+                rw.append([f'id: "{rid}"', 'type: "command"', f'command: "/cobbledollars give {{p}} {money}"', "player_command: false", "silent: true", 'icon: { id: "cobblemon:relic_coin" }'])
                 lang.append(f'"reward.{rid}.title": "{money} CobbleDollars"')
             for j, (iid, n) in enumerate(items):
                 rid = hid(ch["file"], q.key, "r", "i", str(j))
@@ -120,7 +120,7 @@ def build_chapter(ch, order):
                 ITEMS_UTILISES.add(iid)
             for j, (cmd, title, ic) in enumerate(cmds):
                 rid = hid(ch["file"], q.key, "r", "c", str(j))
-                rw.append([f'id: "{rid}"', 'type: "command"', f'command: "{cmd}"', "player_command: false", "silent: true", f'icon: "{ic}"'])
+                rw.append([f'id: "{rid}"', 'type: "command"', f'command: "{cmd}"', "player_command: false", "silent: true", f'icon: {{ id: "{ic}" }}'])
                 lang.append(f'"reward.{rid}.title": "{title}"')
             if table:
                 rid = hid(ch["file"], q.key, "r", "t")
@@ -158,11 +158,19 @@ def main():
         open(os.path.join(dst, "chapters", ch["file"] + ".snbt"), "w", encoding="utf-8").write(txt)
         all_lang += lang; total += n
         print(f"{ch['file']:<14} {n:>3} quêtes")
+    # FTB Quests 2101 lit "icon" comme un objet { id: ... } : une chaîne est ignorée
+    import re, glob
+    for f in glob.glob(os.path.join(dst, "chapters", "*.snbt")) + glob.glob(os.path.join(dst, "reward_tables", "*.snbt")):
+        s = open(f, encoding="utf-8").read()
+        s2 = re.sub(r'(\bicon: )"([a-z0-9_.-]+:[a-z0-9_./-]+)"', r'\1{ id: "\2" }', s)
+        if s2 != s: open(f, "w", encoding="utf-8").write(s2)
     lp = os.path.join(dst, "lang", "en_us.snbt")
     t = open(lp, encoding="utf-8").read().rstrip()
     assert t.endswith("}")
     t = t[:-1].rstrip() + "\n" + "\n".join("\t" + s for s in all_lang) + "\n}\n"
+    t = t.replace(" & ", " et ")  # & = code couleur pour FTB Quests
     open(lp, "w", encoding="utf-8").write(t)
+    open(os.path.join(dst, "lang", "fr_fr.snbt"), "w", encoding="utf-8").write(t)
     open(os.path.join(dst, "..", "items_utilises.txt"), "w").write("\n".join(sorted(ITEMS_UTILISES)))
     print("TOTAL", total, "quêtes ;", len(ITEMS_UTILISES), "items utilisés")
 

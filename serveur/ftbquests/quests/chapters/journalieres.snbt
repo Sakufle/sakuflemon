@@ -1,7 +1,7 @@
 {
 	id: "209535426C78EBBC"
 	group: ""
-	order_index: 17
+	order_index: 20
 	filename: "journalieres"
 	icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "sakuflemon:textures/quetes/journalieres.png" } }
 	default_quest_shape: ""
@@ -9,7 +9,7 @@
 	quests: [
 		{
 			id: "28F3ED413317BC26"
-			icon: "cobblemon:poke_ball"
+			icon: { id: "cobblemon:poke_ball" }
 			x: 0.0d
 			y: 0.0d
 			can_repeat: true
@@ -52,13 +52,13 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "774D680D80976B7C"
-			icon: "cobblemon:muscle_band"
+			icon: { id: "cobblemon:muscle_band" }
 			x: 1.5d
 			y: 0.0d
 			can_repeat: true
@@ -101,13 +101,13 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "78FFAB073498345C"
-			icon: "cobblemon:black_belt"
+			icon: { id: "cobblemon:black_belt" }
 			x: 3.0d
 			y: 0.0d
 			can_repeat: true
@@ -150,13 +150,13 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "7CE092919C858FF7"
-			icon: "cobblemon:poke_rod"
+			icon: { id: "cobblemon:poke_rod" }
 			x: 4.5d
 			y: 0.0d
 			can_repeat: true
@@ -199,13 +199,13 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "230AFED419B9BED0"
-			icon: "cobblemon:everstone"
+			icon: { id: "cobblemon:everstone" }
 			x: 6.0d
 			y: 0.0d
 			can_repeat: true
@@ -248,13 +248,13 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "391FD2F4BE64FC72"
-			icon: "cobbreeding:pokemon_egg"
+			icon: { id: "cobbreeding:pokemon_egg" }
 			x: 7.5d
 			y: 0.0d
 			can_repeat: true
@@ -297,13 +297,13 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "2FAADA9431FA05F8"
-			icon: "cobblemonraiddens:raid_crystal_block"
+			icon: { id: "cobblemonraiddens:raid_crystal_block" }
 			x: 9.0d
 			y: 0.0d
 			can_repeat: true
@@ -346,7 +346,7 @@
 					command: "/cobbledollars give {p} 500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "4F9523DAE50B9386"
@@ -357,7 +357,7 @@
 		}
 		{
 			id: "6B23FC1C8CFC3180"
-			icon: "cobblemon:water_stone"
+			icon: { id: "cobblemon:water_stone" }
 			x: 0.0d
 			y: 1.5d
 			can_repeat: true
@@ -400,13 +400,13 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "455D6D69FAAF4E1E"
-			icon: "cobblemon:fire_stone"
+			icon: { id: "cobblemon:fire_stone" }
 			x: 1.5d
 			y: 1.5d
 			can_repeat: true
@@ -449,13 +449,13 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "5CDEF6265EA825C0"
-			icon: "cobblemon:leaf_stone"
+			icon: { id: "cobblemon:leaf_stone" }
 			x: 3.0d
 			y: 1.5d
 			can_repeat: true
@@ -498,13 +498,13 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "25D65EDB45FB3F8D"
-			icon: "cobblemon:dusk_ball"
+			icon: { id: "cobblemon:dusk_ball" }
 			x: 4.5d
 			y: 1.5d
 			can_repeat: true
@@ -547,13 +547,13 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "357E54B2C37843B7"
-			icon: "cobblemon:oran_berry"
+			icon: { id: "cobblemon:oran_berry" }
 			x: 6.0d
 			y: 1.5d
 			can_repeat: true
@@ -574,13 +574,13 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "361FD14CA855E3A9"
-			icon: "cobblemon:red_apricorn"
+			icon: { id: "cobblemon:red_apricorn" }
 			x: 7.5d
 			y: 1.5d
 			can_repeat: true
@@ -601,13 +601,13 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "26F9CD8D6E5935C9"
-			icon: "cobblemon:ultra_ball"
+			icon: { id: "cobblemon:ultra_ball" }
 			x: 0.0d
 			y: 3.0d
 			shape: "hexagon"
@@ -652,7 +652,7 @@
 					command: "/cobbledollars give {p} 2500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "6044E68A5312C659"
@@ -663,7 +663,7 @@
 		}
 		{
 			id: "5748385669886FBA"
-			icon: "cobblemon:expert_belt"
+			icon: { id: "cobblemon:expert_belt" }
 			x: 1.5d
 			y: 3.0d
 			shape: "hexagon"
@@ -708,7 +708,7 @@
 					command: "/cobbledollars give {p} 2500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "11B8C94FCC9358C6"
@@ -719,7 +719,7 @@
 		}
 		{
 			id: "387DB1A34135003F"
-			icon: "minecraft:nether_star"
+			icon: { id: "minecraft:nether_star" }
 			x: 3.0d
 			y: 3.0d
 			shape: "hexagon"
@@ -764,7 +764,7 @@
 					command: "/cobbledollars give {p} 3000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "28A50D90029511B4"
@@ -775,7 +775,7 @@
 		}
 		{
 			id: "160C79E6D82C5B9C"
-			icon: "cobblemon:shiny_stone"
+			icon: { id: "cobblemon:shiny_stone" }
 			x: 4.5d
 			y: 3.0d
 			shape: "gear"
@@ -820,7 +820,7 @@
 					command: "/cobbledollars give {p} 5000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "78FB1C1F01E10618"
@@ -831,7 +831,7 @@
 		}
 		{
 			id: "44B025F7B1B455AD"
-			icon: "cobblemon:safari_ball"
+			icon: { id: "cobblemon:safari_ball" }
 			x: 6.0d
 			y: 3.0d
 			shape: "hexagon"
@@ -876,7 +876,7 @@
 					command: "/cobbledollars give {p} 2000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "4364A5183B880684"

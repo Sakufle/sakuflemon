@@ -9,7 +9,7 @@
 	quests: [
 		{
 			id: "57CAAE321280BC1D"
-			icon: "minecraft:nether_star"
+			icon: { id: "minecraft:nether_star" }
 			x: 0.0d
 			y: 0.0d
 			shape: "circle"
@@ -52,7 +52,7 @@
 					command: "/cobbledollars give {p} 1000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "7F361FB277ABC650"
@@ -60,13 +60,13 @@
 					command: "/crates key give {p} cle_commune 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 			]
 		}
 		{
 			id: "4E41B6E89E22F8B5"
-			icon: "minecraft:nether_star"
+			icon: { id: "minecraft:nether_star" }
 			x: 2.0d
 			y: 0.0d
 			shape: "circle"
@@ -109,7 +109,7 @@
 					command: "/cobbledollars give {p} 3000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "315DE553876292C3"
@@ -117,13 +117,13 @@
 					command: "/crates key give {p} cle_rare 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 			]
 		}
 		{
 			id: "272D86CA26C6B58B"
-			icon: "minecraft:nether_star"
+			icon: { id: "minecraft:nether_star" }
 			x: 4.0d
 			y: 0.0d
 			shape: "circle"
@@ -166,7 +166,7 @@
 					command: "/cobbledollars give {p} 6000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "2F5AE7797A4C6EDF"
@@ -177,7 +177,7 @@
 		}
 		{
 			id: "5E005F20C2532190"
-			icon: "minecraft:nether_star"
+			icon: { id: "minecraft:nether_star" }
 			x: 6.0d
 			y: 0.0d
 			shape: "circle"
@@ -221,7 +221,7 @@
 					command: "/cobbledollars give {p} 15000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "1964368A8D5B556F"
@@ -229,13 +229,13 @@
 					command: "/crates key give {p} cle_legendaire 2"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 			]
 		}
 		{
 			id: "501343CE414B51B6"
-			icon: "minecraft:nether_star"
+			icon: { id: "minecraft:nether_star" }
 			x: 8.0d
 			y: 0.0d
 			shape: "circle"
@@ -279,7 +279,7 @@
 					command: "/cobbledollars give {p} 30000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "7500C222F5F832BA"

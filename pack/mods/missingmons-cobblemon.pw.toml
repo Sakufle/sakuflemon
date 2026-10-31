@@ -1,0 +1,13 @@
+name = "MissingMons"
+filename = "missingmons-cobblemon-3.6.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jbbBrQVa/versions/8MaQRS0b/missingmons-cobblemon-3.6.1.jar"
+hash-format = "sha512"
+hash = "c950a8d854c1a0fa3cdee3f204f152533a5bdcde772e588b55d325c7c312880718f3867fba23766757ddcf43a274cf5e5e60d3f2131d12f38593ccbf22af5d95"
+
+[update]
+[update.modrinth]
+mod-id = "jbbBrQVa"
+version = "8MaQRS0b"

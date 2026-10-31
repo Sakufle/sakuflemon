@@ -1,0 +1,13 @@
+name = "Better Caps!"
+filename = "Better Caps v1.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/mbndKTrW/versions/H3DxdTkA/Better%20Caps%21%20%5Bv1.2%5D.zip"
+hash-format = "sha512"
+hash = "c9897acc594e417f6dcc0aaa65960a200f01a5aa7dd546c4d5c84bb0bf258aa06ae6cdec00e7b2cb873409366baf2408ddf4f0a150eac7f2bb907078da773780"
+
+[update]
+[update.modrinth]
+mod-id = "mbndKTrW"
+version = "H3DxdTkA"

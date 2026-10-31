@@ -1,0 +1,13 @@
+name = "CobbleMotion"
+filename = "Cobblemotion_v1.5.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/lIDAJAby/versions/sPztKDIi/Cobblemotion_v1.5.1.zip"
+hash-format = "sha512"
+hash = "87e9175ccab02ad3939ae31f3715349249fc400167882946c1617a3fc55274c1de21794a2d811314a015a5eb88149b2f84089c20e628d4212bbd8a48ac17ba4b"
+
+[update]
+[update.modrinth]
+mod-id = "lIDAJAby"
+version = "sPztKDIi"

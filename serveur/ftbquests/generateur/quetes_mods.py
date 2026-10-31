@@ -18,7 +18,7 @@ COB_FIELDS = ["shiny", "pokemon", "pokemon_type", "form", "aspects", "biome", "d
 def cob(action, n=1, **kw):
     return ("cob", action, n, kw)
 def catch(n=1, **kw): return cob("catch", n, **kw)
-def item(i, n=1): return ("item", i, n)
+def item(i, n=1, consume=False): return ("item", i, n, consume)
 def struct(s): return ("structure", s)
 def dim(d): return ("dimension", d)
 def biome(b): return ("biome", b)
@@ -36,10 +36,10 @@ def task_snbt(t, tid):
                 lines.append(f"shiny: {'true' if kw.get('shiny') else 'false'}")
             else:
                 lines.append(f'{f}: "{kw.get(f, "")}"')
-        lines += [f"min_level: {kw.get('min_level', 0)}", "max_level: 0", "max_turns: 0", "time_min: 0L", "time_max: 24000L"]
+        lines += [f"min_level: {kw.get('min_level', 0)}", "max_level: 0", "max_turns: 0", f"time_min: {kw.get('time_min', 0)}L", f"time_max: {kw.get('time_max', 24000)}L"]
         return lines
     if k == "item":
-        return [f'id: "{tid}"', 'type: "item"', f'item: {{ count: 1, id: "{t[1]}" }}', f"count: {t[2]}L", "consume_items: false"]
+        return [f'id: "{tid}"', 'type: "item"', f'item: {{ count: 1, id: "{t[1]}" }}', f"count: {t[2]}L", f"consume_items: {'true' if t[3] else 'false'}"]
     if k == "structure":
         return [f'id: "{tid}"', 'type: "structure"', f'structure: "{t[1]}"']
     if k == "dimension":
@@ -61,9 +61,9 @@ def cle(kind, n=1):
 
 # ---------- quête ----------
 class Q:
-    def __init__(self, key, title, sub, desc, icon, tasks, reward, deps=None, shape=None, size=None, opt=False):
+    def __init__(self, key, title, sub, desc, icon, tasks, reward, deps=None, shape=None, size=None, opt=False, repeat=0):
         self.key, self.title, self.sub, self.desc, self.icon = key, title, sub, desc, icon
-        self.tasks, self.reward, self.deps, self.shape, self.size, self.opt = tasks, reward, deps, shape, size, opt
+        self.tasks, self.reward, self.deps, self.shape, self.size, self.opt, self.repeat = tasks, reward, deps, shape, size, opt, repeat
 
 ITEMS_UTILISES = set()
 
@@ -100,6 +100,7 @@ def build_chapter(ch, order):
             if q.shape: L.append(f'\tshape: "{q.shape}"')
             if q.size: L.append(f"\tsize: {q.size}d")
             if q.opt: L.append("\toptional: true")
+            if q.repeat: L += ["\tcan_repeat: true", f"\trepeat_cooldown: {q.repeat}L"]
             if deps: L.append("\tdependencies: [" + ", ".join(f'"{d}"' for d in deps) + "]")
             L.append("\ttasks: [")
             for j, t in enumerate(q.tasks):

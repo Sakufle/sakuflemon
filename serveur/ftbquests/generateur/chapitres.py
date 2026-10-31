@@ -272,4 +272,29 @@ gadgets = dict(file="gadgets", title="Gadgets", sub="Les outils du dresseur mode
      Q("equipe_6", "Équipe complète", "Six niveaux 100", "Fais monter 6 Pokémon au niveau 100.", "cobblemon:exp_candy_xl", [cob("level_up", 6, min_level=100)], R(8000, "l", cmds=[cle("legendaire", 2)]), shape="gear", size=1.5)],
 ])
 
-CHAPITRES = [mega, raids, eleveur, safari, montures, explorateur, arenes, legendes, artisan, economie, nether_end, gadgets]
+# ============================================================ 13. Journalières & hebdomadaires
+J, H = 72000, 518400  # 20 h (une fois par jour) et 6 jours (une fois par semaine)
+def jour(key, title, sub, desc, icon, tasks, reward, rep=J, **kw):
+    return Q(key, title, sub, desc + "|§7Se renouvelle " + ("chaque jour." if rep == J else "chaque semaine."), icon, tasks, reward, deps=[], repeat=rep, **kw)
+journalieres = dict(file="journalieres", title="Journalières", sub="De quoi faire chaque jour", icon=T("journalieres"), rows=[
+    [jour("j_capture", "Chasse du jour", "10 captures", "Attrape 10 Pokémon.", "cobblemon:poke_ball", [catch(10)], R(300)),
+     jour("j_combat", "Entraînement du jour", "15 victoires", "Bats 15 Pokémon sauvages.", "cobblemon:muscle_band", [cob("defeat", 15)], R(300)),
+     jour("j_dresseur", "Duel du jour", "3 dresseurs", "Bats 3 dresseurs.", "cobblemon:black_belt", [cob("defeat_trainer", 3)], R(400)),
+     jour("j_peche", "Pêche du jour", "3 prises", "Pêche 3 Pokémon avec une Canne Poké.", "cobblemon:poke_rod", [cob("reel", 3)], R(250)),
+     jour("j_evolution", "Évolution du jour", "2 évolutions", "Fais évoluer 2 Pokémon.", "cobblemon:everstone", [cob("evolve", 2)], R(400)),
+     jour("j_oeufs", "Couvée du jour", "2 éclosions", "Fais éclore 2 œufs.", "cobbreeding:pokemon_egg", [cob("hatch_egg", 2)], R(300)),
+     jour("j_raid", "Raid du jour", "1 victoire", "Gagne un raid.", "cobblemonraiddens:raid_crystal_block", [cob("win_raid", 1)], R(500, "c"))],
+    [jour("j_eau", "Pokémon Eau", "Au bord de l'eau", "Attrape 5 Pokémon de type Eau.", "cobblemon:water_stone", [catch(5, pokemon_type="water")], R(300)),
+     jour("j_feu", "Pokémon Feu", "Là où il fait chaud", "Attrape 5 Pokémon de type Feu.", "cobblemon:fire_stone", [catch(5, pokemon_type="fire")], R(300)),
+     jour("j_plante", "Pokémon Plante", "Dans les hautes herbes", "Attrape 5 Pokémon de type Plante.", "cobblemon:leaf_stone", [catch(5, pokemon_type="grass")], R(300)),
+     jour("j_nuit", "Chasse nocturne", "Après le coucher du soleil", "Attrape 5 Pokémon la nuit.", "cobblemon:dusk_ball", [catch(5, time_min=13000, time_max=23000)], R(400)),
+     jour("j_baies", "Livraison de baies", "La Pension a faim", "Donne 16 baies Oran (elles sont consommées).", "cobblemon:oran_berry", [item("cobblemon:oran_berry", 16, consume=True)], R(400)),
+     jour("j_noigrumes", "Livraison de Noigrumes", "Pour l'atelier de Balls", "Donne 16 Noigrumes rouges (ils sont consommés).", "cobblemon:red_apricorn", [item("cobblemon:red_apricorn", 16, consume=True)], R(400))],
+    [jour("h_captures", "Grande chasse", "100 captures dans la semaine", "Attrape 100 Pokémon.", "cobblemon:ultra_ball", [catch(100)], R(2500, "r"), rep=H, shape="hexagon", size=1.25),
+     jour("h_dresseurs", "Tournée des dresseurs", "20 dresseurs", "Bats 20 dresseurs.", "cobblemon:expert_belt", [cob("defeat_trainer", 20)], R(2500, "r"), rep=H, shape="hexagon", size=1.25),
+     jour("h_raids", "Semaine des raids", "5 raids 3 étoiles ou plus", "Gagne 5 raids de 3 étoiles ou plus.", "minecraft:nether_star", [cob("win_raid", 5, raid_tiers="3,4,5")], R(3000, "r"), rep=H, shape="hexagon", size=1.25),
+     jour("h_shiny", "Lueur de la semaine", "Un chromatique", "Attrape un Pokémon chromatique.", "cobblemon:shiny_stone", [catch(1, shiny=True)], R(5000, "l"), rep=H, shape="gear", size=1.5),
+     jour("h_safari", "Safari de la semaine", "10 captures au Safari", "Attrape 10 Pokémon avec des Safari Balls.", "cobblemon:safari_ball", [catch(10, poke_ball_used="cobblemon:safari_ball")], R(2000, "r"), rep=H, shape="hexagon", size=1.25)],
+])
+
+CHAPITRES = [mega, raids, eleveur, safari, montures, explorateur, arenes, legendes, artisan, economie, nether_end, gadgets, journalieres]

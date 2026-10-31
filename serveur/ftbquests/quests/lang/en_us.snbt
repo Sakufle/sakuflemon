@@ -1375,4 +1375,78 @@
 	"quest.54E18736C94166CA.title": "Équipe complète"
 	"quest.54E18736C94166CA.quest_subtitle": "Six niveaux 100"
 	"quest.54E18736C94166CA.quest_desc": ["Fais monter 6 Pokémon au niveau 100."]
+	"chapter.209535426C78EBBC.title": "Journalières"
+	"chapter.209535426C78EBBC.chapter_subtitle": ["De quoi faire chaque jour"]
+	"reward.237AFE62B3958556.title": "300 CobbleDollars"
+	"quest.28F3ED413317BC26.title": "Chasse du jour"
+	"quest.28F3ED413317BC26.quest_subtitle": "10 captures"
+	"quest.28F3ED413317BC26.quest_desc": ["Attrape 10 Pokémon.", "§7Se renouvelle chaque jour."]
+	"reward.782D654B0575F86F.title": "300 CobbleDollars"
+	"quest.774D680D80976B7C.title": "Entraînement du jour"
+	"quest.774D680D80976B7C.quest_subtitle": "15 victoires"
+	"quest.774D680D80976B7C.quest_desc": ["Bats 15 Pokémon sauvages.", "§7Se renouvelle chaque jour."]
+	"reward.2A9C00EC3B366ED1.title": "400 CobbleDollars"
+	"quest.78FFAB073498345C.title": "Duel du jour"
+	"quest.78FFAB073498345C.quest_subtitle": "3 dresseurs"
+	"quest.78FFAB073498345C.quest_desc": ["Bats 3 dresseurs.", "§7Se renouvelle chaque jour."]
+	"reward.4167E340B2EA1D23.title": "250 CobbleDollars"
+	"quest.7CE092919C858FF7.title": "Pêche du jour"
+	"quest.7CE092919C858FF7.quest_subtitle": "3 prises"
+	"quest.7CE092919C858FF7.quest_desc": ["Pêche 3 Pokémon avec une Canne Poké.", "§7Se renouvelle chaque jour."]
+	"reward.25BF8B905D2AF78E.title": "400 CobbleDollars"
+	"quest.230AFED419B9BED0.title": "Évolution du jour"
+	"quest.230AFED419B9BED0.quest_subtitle": "2 évolutions"
+	"quest.230AFED419B9BED0.quest_desc": ["Fais évoluer 2 Pokémon.", "§7Se renouvelle chaque jour."]
+	"reward.48E21F79F60BFAC7.title": "300 CobbleDollars"
+	"quest.391FD2F4BE64FC72.title": "Couvée du jour"
+	"quest.391FD2F4BE64FC72.quest_subtitle": "2 éclosions"
+	"quest.391FD2F4BE64FC72.quest_desc": ["Fais éclore 2 œufs.", "§7Se renouvelle chaque jour."]
+	"reward.257BFFACEB6B5D79.title": "500 CobbleDollars"
+	"quest.2FAADA9431FA05F8.title": "Raid du jour"
+	"quest.2FAADA9431FA05F8.quest_subtitle": "1 victoire"
+	"quest.2FAADA9431FA05F8.quest_desc": ["Gagne un raid.", "§7Se renouvelle chaque jour."]
+	"reward.6248B2A430E4E5A7.title": "300 CobbleDollars"
+	"quest.6B23FC1C8CFC3180.title": "Pokémon Eau"
+	"quest.6B23FC1C8CFC3180.quest_subtitle": "Au bord de l'eau"
+	"quest.6B23FC1C8CFC3180.quest_desc": ["Attrape 5 Pokémon de type Eau.", "§7Se renouvelle chaque jour."]
+	"reward.6BBD681EE8DBF218.title": "300 CobbleDollars"
+	"quest.455D6D69FAAF4E1E.title": "Pokémon Feu"
+	"quest.455D6D69FAAF4E1E.quest_subtitle": "Là où il fait chaud"
+	"quest.455D6D69FAAF4E1E.quest_desc": ["Attrape 5 Pokémon de type Feu.", "§7Se renouvelle chaque jour."]
+	"reward.534BFFB38FE62A01.title": "300 CobbleDollars"
+	"quest.5CDEF6265EA825C0.title": "Pokémon Plante"
+	"quest.5CDEF6265EA825C0.quest_subtitle": "Dans les hautes herbes"
+	"quest.5CDEF6265EA825C0.quest_desc": ["Attrape 5 Pokémon de type Plante.", "§7Se renouvelle chaque jour."]
+	"reward.2CDAF8DFAC9F8932.title": "400 CobbleDollars"
+	"quest.25D65EDB45FB3F8D.title": "Chasse nocturne"
+	"quest.25D65EDB45FB3F8D.quest_subtitle": "Après le coucher du soleil"
+	"quest.25D65EDB45FB3F8D.quest_desc": ["Attrape 5 Pokémon la nuit.", "§7Se renouvelle chaque jour."]
+	"reward.3F357C950D5D6EE8.title": "400 CobbleDollars"
+	"quest.357E54B2C37843B7.title": "Livraison de baies"
+	"quest.357E54B2C37843B7.quest_subtitle": "La Pension a faim"
+	"quest.357E54B2C37843B7.quest_desc": ["Donne 16 baies Oran (elles sont consommées).", "§7Se renouvelle chaque jour."]
+	"reward.49DDEDFBF403D813.title": "400 CobbleDollars"
+	"quest.361FD14CA855E3A9.title": "Livraison de Noigrumes"
+	"quest.361FD14CA855E3A9.quest_subtitle": "Pour l'atelier de Balls"
+	"quest.361FD14CA855E3A9.quest_desc": ["Donne 16 Noigrumes rouges (ils sont consommés).", "§7Se renouvelle chaque jour."]
+	"reward.5A84138D9638D63F.title": "2500 CobbleDollars"
+	"quest.26F9CD8D6E5935C9.title": "Grande chasse"
+	"quest.26F9CD8D6E5935C9.quest_subtitle": "100 captures dans la semaine"
+	"quest.26F9CD8D6E5935C9.quest_desc": ["Attrape 100 Pokémon.", "§7Se renouvelle chaque semaine."]
+	"reward.1B5FF01DC9707B2A.title": "2500 CobbleDollars"
+	"quest.5748385669886FBA.title": "Tournée des dresseurs"
+	"quest.5748385669886FBA.quest_subtitle": "20 dresseurs"
+	"quest.5748385669886FBA.quest_desc": ["Bats 20 dresseurs.", "§7Se renouvelle chaque semaine."]
+	"reward.1EBACF5AA9477B90.title": "3000 CobbleDollars"
+	"quest.387DB1A34135003F.title": "Semaine des raids"
+	"quest.387DB1A34135003F.quest_subtitle": "5 raids 3 étoiles ou plus"
+	"quest.387DB1A34135003F.quest_desc": ["Gagne 5 raids de 3 étoiles ou plus.", "§7Se renouvelle chaque semaine."]
+	"reward.261891FE073D3A60.title": "5000 CobbleDollars"
+	"quest.160C79E6D82C5B9C.title": "Lueur de la semaine"
+	"quest.160C79E6D82C5B9C.quest_subtitle": "Un chromatique"
+	"quest.160C79E6D82C5B9C.quest_desc": ["Attrape un Pokémon chromatique.", "§7Se renouvelle chaque semaine."]
+	"reward.3424BEE0B998B0E1.title": "2000 CobbleDollars"
+	"quest.44B025F7B1B455AD.title": "Safari de la semaine"
+	"quest.44B025F7B1B455AD.quest_subtitle": "10 captures au Safari"
+	"quest.44B025F7B1B455AD.quest_desc": ["Attrape 10 Pokémon avec des Safari Balls.", "§7Se renouvelle chaque semaine."]
 }

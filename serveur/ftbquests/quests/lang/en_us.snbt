@@ -3,9 +3,9 @@
 	"chapter.3A8EED1650FCCF98.chapter_subtitle": [
 		"Le tutoriel d'Arceus"
 	]
-	"quest.80EBEFDB07F860D2.title": "Réveil"
-	"quest.80EBEFDB07F860D2.quest_subtitle": "Arceus t'a rendu la vie"
-	"quest.80EBEFDB07F860D2.quest_desc": [
+	"quest.00EBEFDB07F860D2.title": "Réveil"
+	"quest.00EBEFDB07F860D2.quest_subtitle": "Arceus t'a rendu la vie"
+	"quest.00EBEFDB07F860D2.quest_desc": [
 		"Tu ouvres les yeux sur une île perdue dans les nuages."
 		"Une voix immense résonne : « Je suis Arceus. Les humains avaient disparu, je t'ai recréé ici, à Incarnam. »"
 		"« Prouve que les humains et les Pokémon peuvent de nouveau vivre ensemble. »"
@@ -19,66 +19,66 @@
 		"Arceus t'offre un compagnon pour commencer ton voyage."
 		"Ouvre l'écran des starters (la touche est indiquée en haut de l'écran) et choisis ton Pokémon."
 	]
-	"task.DFFECAEF4F77DCEF.title": "Obtenir un Pokémon"
-	"reward.A29989D24AE778A3.title": "100 CobbleDollars"
-	"quest.8556ABD2A9333714.title": "Le halo céleste"
-	"quest.8556ABD2A9333714.quest_subtitle": "Découvre Incarnam"
-	"quest.8556ABD2A9333714.quest_desc": [
-		"Au centre de l'île flotte un halo de lumière."
-		"C'est le passage vers le monde d'en bas… mais il ne s'ouvrira que lorsque tu seras prêt."
-		"Va le voir de près."
+	"task.5FFECAEF4F77DCEF.title": "Obtenir un Pokémon"
+	"reward.229989D24AE778A3.title": "100 CobbleDollars"
+	"quest.01502EAA929DEA48.title": "Le Professeur"
+	"quest.01502EAA929DEA48.quest_subtitle": "Reçois ton Pokédex"
+	"quest.01502EAA929DEA48.quest_desc": [
+		"Un chercheur étudie les Pokémon d'Incarnam depuis le retour des humains."
+		"Va parler au Professeur sur la place : il a un Pokédex pour toi."
 	]
-	"task.96E9587A5CD81B6F.title": "Approcher le halo"
-	"reward.EF2FD691B231007E.title": "150 CobbleDollars"
+	"task.07F503519914F029.title": "Parler au Professeur"
+	"reward.779955E092E9DD3E.title": "Pokédex"
 	"quest.397BC115D0B7DC7B.title": "Un coup de pouce"
-	"quest.397BC115D0B7DC7B.quest_subtitle": "Récupère ton kit"
+	"quest.397BC115D0B7DC7B.quest_subtitle": "Ton pack de bienvenue"
 	"quest.397BC115D0B7DC7B.quest_desc": [
-		"Chaque grade donne accès à un kit toutes les 3 heures."
-		"Tape /kit pour voir les tiens, puis valide."
+		"Arceus ne te laisse pas partir les mains vides."
+		"Valide pour recevoir 10 Poké Balls, 5 Potions et 200 CobbleDollars."
+		"Astuce : les grades (/boutique) donnent accès à des kits toutes les 3 heures."
 	]
-	"task.A271C088FDD6CC77.title": "J'ai regardé mes kits"
-	"reward.5E86F85CB0D08965.title": "100 CobbleDollars"
+	"task.2271C088FDD6CC77.title": "Récupérer mon pack"
+	"reward.5E86F85CB0D08965.title": "200 CobbleDollars"
 	"quest.628655F08B22076B.title": "Artisan"
-	"quest.628655F08B22076B.quest_subtitle": "Fabrique des Poké Balls"
+	"quest.628655F08B22076B.quest_subtitle": "Cueille des Noigrumes"
 	"quest.628655F08B22076B.quest_desc": [
 		"Les Poké Balls se fabriquent avec des Noigrumes (Apricorns) et du fer."
-		"Cueille des Noigrumes rouges dans les arbres et fabrique 5 Poké Balls."
+		"Cueille 5 Noigrumes rouges sur les arbres à Noigrumes. Avec du fer, tu pourras fabriquer tes propres Poké Balls."
 	]
-	"task.6B38E4F6CC71E04C.title": "Avoir 5 Poké Balls"
+	"task.6B38E4F6CC71E04C.title": "Avoir 5 Noigrumes rouges"
 	"reward.327B193E60DD7894.title": "150 CobbleDollars"
-	"quest.E96EE37416DDB400.title": "Première chasse"
-	"quest.E96EE37416DDB400.quest_subtitle": "Capture 3 Pokémon"
-	"quest.E96EE37416DDB400.quest_desc": [
+	"quest.696EE37416DDB400.title": "Première chasse"
+	"quest.696EE37416DDB400.quest_subtitle": "Capture 3 Pokémon"
+	"quest.696EE37416DDB400.quest_desc": [
 		"Affaiblis un Pokémon sauvage, puis lance ta Poké Ball."
 	]
 	"task.0C58F13D4EFB31A0.title": "Capturer 3 Pokémon"
 	"reward.1DD2993F6C9387AA.title": "200 CobbleDollars"
-	"quest.BD54FC0C19006174.title": "Chercheur en herbe"
-	"quest.BD54FC0C19006174.quest_subtitle": "Enregistre 8 espèces"
-	"quest.BD54FC0C19006174.quest_desc": [
+	"quest.3D54FC0C19006174.title": "Chercheur en herbe"
+	"quest.3D54FC0C19006174.quest_subtitle": "Enregistre 8 espèces"
+	"quest.3D54FC0C19006174.quest_desc": [
 		"Chaque nouvelle espèce attrapée s'inscrit dans ton Pokédex."
 		"Atteins 8 espèces enregistrées."
 	]
 	"task.6C6EE64EA90A582B.title": "8 espèces au Pokédex"
-	"reward.E1EF4DD3ADE9711B.title": "300 CobbleDollars"
-	"quest.CF097CA259DC23A0.title": "Prendre soin"
-	"quest.CF097CA259DC23A0.quest_subtitle": "Obtiens une Potion"
-	"quest.CF097CA259DC23A0.quest_desc": [
+	"reward.61EF4DD3ADE9711B.title": "300 CobbleDollars"
+	"quest.4F097CA259DC23A0.title": "Prendre soin"
+	"quest.4F097CA259DC23A0.quest_subtitle": "Obtiens une Potion"
+	"quest.4F097CA259DC23A0.quest_desc": [
 		"Tes Pokémon se fatiguent. Garde toujours de quoi les soigner."
 		"Obtiens une Potion (marchand ou fabrication)."
 	]
 	"task.57A24E83B353BDD6.title": "Avoir une Potion"
-	"reward.AA9D18AE6B7D3B37.title": "150 CobbleDollars"
-	"quest.9853C66EA20A4DB3.title": "Premier duel"
-	"quest.9853C66EA20A4DB3.quest_subtitle": "Bats l'Apprenti Lumen"
-	"quest.9853C66EA20A4DB3.quest_desc": [
+	"reward.2A9D18AE6B7D3B37.title": "150 CobbleDollars"
+	"quest.1853C66EA20A4DB3.title": "Premier duel"
+	"quest.1853C66EA20A4DB3.quest_subtitle": "Bats l'Apprenti Lumen"
+	"quest.1853C66EA20A4DB3.quest_desc": [
 		"L'Apprenti Lumen s'entraîne sur l'île. Défie-le pour ton premier vrai combat de dresseur !"
 	]
 	"task.7BC217F1BC897F1E.title": "Battre l'Apprenti Lumen"
 	"reward.20C20053AC96EB26.title": "300 CobbleDollars"
-	"quest.81A905984188AF67.title": "Le marchand"
-	"quest.81A905984188AF67.quest_subtitle": "Fais un achat"
-	"quest.81A905984188AF67.quest_desc": [
+	"quest.01A905984188AF67.title": "Le marchand"
+	"quest.01A905984188AF67.quest_subtitle": "Fais un achat"
+	"quest.01A905984188AF67.quest_desc": [
 		"Les CobbleDollars gagnés en combat servent à acheter des objets chez le marchand ou dans /boutique."
 		"Achète quelque chose, puis valide."
 	]
@@ -95,49 +95,50 @@
 	"quest.061E5E6327B75C35.title": "Pêche céleste"
 	"quest.061E5E6327B75C35.quest_subtitle": "Pêche un Pokémon Eau"
 	"quest.061E5E6327B75C35.quest_desc": [
-		"Fabrique une Poké Canne et lance-la dans l'eau."
+		"Va voir le Pêcheur : il te prêtera une Poké Canne."
+		"Lance-la dans l'eau (clic droit) et attends que ça morde."
 		"Remonte un Pokémon de type Eau."
 	]
-	"task.E35A31F4EE6BF970.title": "Pêcher un Pokémon Eau"
-	"reward.86EE37EFF707F39A.title": "300 CobbleDollars"
-	"quest.EE0072E7094137AD.title": "Variété"
-	"quest.EE0072E7094137AD.quest_subtitle": "Plante, Feu et Vol"
-	"quest.EE0072E7094137AD.quest_desc": [
+	"task.635A31F4EE6BF970.title": "Pêcher un Pokémon Eau"
+	"reward.06EE37EFF707F39A.title": "300 CobbleDollars"
+	"quest.6E0072E7094137AD.title": "Variété"
+	"quest.6E0072E7094137AD.quest_subtitle": "Plante, Feu et Vol"
+	"quest.6E0072E7094137AD.quest_desc": [
 		"Une bonne équipe couvre plusieurs types."
 		"Capture un Pokémon Plante, un Feu et un Vol."
 	]
 	"task.615875DA34102217.title": "Un Pokémon Plante"
 	"task.7D919B9EA00CF251.title": "Un Pokémon Feu"
-	"task.CCB795CE1EAF5A7F.title": "Un Pokémon Vol"
+	"task.4CB795CE1EAF5A7F.title": "Un Pokémon Vol"
 	"reward.1F7484287CF1107D.title": "400 CobbleDollars"
 	"quest.4318DD6A6AE16019.title": "Une vraie équipe"
 	"quest.4318DD6A6AE16019.quest_subtitle": "Obtiens 3 Pokémon"
 	"quest.4318DD6A6AE16019.quest_desc": [
 		"Un dresseur ne voyage jamais seul. Agrandis ton équipe."
 	]
-	"task.94CE7C662AD8424F.title": "Obtenir 3 Pokémon"
+	"task.14CE7C662AD8424F.title": "Obtenir 3 Pokémon"
 	"reward.48F773036DF89E06.title": "300 CobbleDollars"
-	"quest.DEC029317A9FFCDE.title": "Combattant"
-	"quest.DEC029317A9FFCDE.quest_subtitle": "Gagne 3 combats sauvages"
-	"quest.DEC029317A9FFCDE.quest_desc": [
+	"quest.5EC029317A9FFCDE.title": "Combattant"
+	"quest.5EC029317A9FFCDE.quest_subtitle": "Gagne 3 combats sauvages"
+	"quest.5EC029317A9FFCDE.quest_desc": [
 		"Entraîne ton équipe contre les Pokémon sauvages de l'île."
 	]
-	"task.CBEEBA5817D742A9.title": "Vaincre 3 Pokémon sauvages"
-	"reward.F4699C611EB1F21A.title": "300 CobbleDollars"
-	"quest.CF46B5C1B8039714.title": "Montée en puissance"
-	"quest.CF46B5C1B8039714.quest_subtitle": "Atteins le niveau 15"
-	"quest.CF46B5C1B8039714.quest_desc": [
+	"task.4BEEBA5817D742A9.title": "Vaincre 3 Pokémon sauvages"
+	"reward.74699C611EB1F21A.title": "300 CobbleDollars"
+	"quest.4F46B5C1B8039714.title": "Montée en puissance"
+	"quest.4F46B5C1B8039714.quest_subtitle": "Atteins le niveau 15"
+	"quest.4F46B5C1B8039714.quest_desc": [
 		"Fais monter un de tes Pokémon jusqu'au niveau 15."
 	]
-	"task.A6DAF03064DCC46E.title": "Un Pokémon niveau 15"
+	"task.26DAF03064DCC46E.title": "Un Pokémon niveau 15"
 	"reward.3A89B24DC7F34F3F.title": "400 CobbleDollars"
-	"quest.B53EB08E21C58FD8.title": "Métamorphose"
-	"quest.B53EB08E21C58FD8.quest_subtitle": "Fais évoluer un Pokémon"
-	"quest.B53EB08E21C58FD8.quest_desc": [
+	"quest.353EB08E21C58FD8.title": "Métamorphose"
+	"quest.353EB08E21C58FD8.quest_subtitle": "Fais évoluer un Pokémon"
+	"quest.353EB08E21C58FD8.quest_desc": [
 		"Avec assez d'expérience, certains Pokémon évoluent."
 	]
-	"task.CC3B3B3FF4179059.title": "Faire évoluer un Pokémon"
-	"reward.C5BF49B058D9D728.title": "500 CobbleDollars"
+	"task.4C3B3B3FF4179059.title": "Faire évoluer un Pokémon"
+	"reward.45BF49B058D9D728.title": "500 CobbleDollars"
 	"quest.493F35F7F666798C.title": "Les Gardes du ciel"
 	"quest.493F35F7F666798C.quest_subtitle": "Bats les deux Gardes"
 	"quest.493F35F7F666798C.quest_desc": [
@@ -145,7 +146,7 @@
 		"Bats Aéro, Garde du Vent, et Stratus, Garde de la Nuée."
 	]
 	"task.2260BC876EBBCA9B.title": "Battre Aéro"
-	"task.E82A31B390E6B219.title": "Battre Stratus"
+	"task.682A31B390E6B219.title": "Battre Stratus"
 	"reward.798D2BB18D83E8CE.title": "800 CobbleDollars"
 	"quest.547B24916477DE3D.title": "L'Arène Céleste"
 	"quest.547B24916477DE3D.quest_subtitle": "Bats le Champion Céleste"
@@ -153,14 +154,1225 @@
 		"Le Champion Céleste attend sur l'île citrouille."
 		"Son équipe est redoutable : prépare-toi bien !"
 	]
-	"task.E4B8D0D73B8D9B84.title": "Battre le Champion Céleste"
+	"task.64B8D0D73B8D9B84.title": "Battre le Champion Céleste"
 	"quest.0305BC51DE70A11D.title": "Les ailes"
 	"quest.0305BC51DE70A11D.quest_subtitle": "Le grand plongeon"
 	"quest.0305BC51DE70A11D.quest_desc": [
 		"Arceus te juge digne. Le halo céleste s'ouvre à toi."
 		"Saute dans le halo pour plonger vers le monde d'en bas, et sors ton Pokémon volant !"
 	]
-	"task.F630D193F40F1C08.title": "Je suis prêt à plonger"
-	"reward.CA19DA014BA3934E.title": "Le halo s'ouvre"
+	"task.7630D193F40F1C08.title": "Je suis prêt à plonger"
+	"reward.4A19DA014BA3934E.title": "Le halo s'ouvre"
 	"reward.14B2782A022D3256.title": "1000 CobbleDollars"
+	"reward.5FD628B1AC8FFF42.title": "300 CobbleDollars"
+	"reward.5CBBD45A64353C65.title": "1 Clé commune"
+	"reward_table.781028D254782389.title": "Butin commun"
+	"reward.7B120ACD11334AA8.title": "2 Clés communes"
+	"reward.3387AA26D9A86EAA.title": "1 Clé rare"
+	"reward_table.39A62D62B73022DB.title": "Butin rare"
+	"reward.69B2E494C003F758.title": "2 Clés rares"
+	"reward.1CD2C4A45F5267A4.title": "1 Clé légendaire"
+	"reward_table.6E7D9BFFB3E912A9.title": "Butin légendaire"
+	"reward.2713682587DFD7D8.title": "300 CobbleDollars"
+	"quest.1E24A7569E59055F.title": "10 espèces"
+	"quest.1E24A7569E59055F.quest_subtitle": "Complète ton Pokédex"
+	"quest.1E24A7569E59055F.quest_desc": [
+		"Capture 10 espèces différentes."
+		"Chaque espèce ne compte qu'une fois, peu importe sa forme."
+	]
+	"task.4D032A91A68B6218.title": "Avoir capturé 10 espèces"
+	"reward.2032AAC9BFFBE58A.title": "600 CobbleDollars"
+	"quest.4F5C0F57F18F82BC.title": "25 espèces"
+	"quest.4F5C0F57F18F82BC.quest_subtitle": "Complète ton Pokédex"
+	"quest.4F5C0F57F18F82BC.quest_desc": [
+		"Capture 25 espèces différentes."
+		"Chaque espèce ne compte qu'une fois, peu importe sa forme."
+	]
+	"task.7E50BAB2EC44DB0D.title": "Avoir capturé 25 espèces"
+	"reward.52EDF81723093A64.title": "1000 CobbleDollars"
+	"quest.73C4884E37169DE1.title": "50 espèces"
+	"quest.73C4884E37169DE1.quest_subtitle": "Complète ton Pokédex"
+	"quest.73C4884E37169DE1.quest_desc": [
+		"Capture 50 espèces différentes."
+		"Chaque espèce ne compte qu'une fois, peu importe sa forme."
+	]
+	"task.01BBC86B82BA6CDA.title": "Avoir capturé 50 espèces"
+	"reward.38AC8A8BC67A4A19.title": "2000 CobbleDollars"
+	"quest.68C35F19E8BD920F.title": "100 espèces"
+	"quest.68C35F19E8BD920F.quest_subtitle": "Complète ton Pokédex"
+	"quest.68C35F19E8BD920F.quest_desc": [
+		"Capture 100 espèces différentes."
+		"Chaque espèce ne compte qu'une fois, peu importe sa forme."
+	]
+	"task.38B1531D877608EF.title": "Avoir capturé 100 espèces"
+	"reward.5FC25CC95AF778D2.title": "4000 CobbleDollars"
+	"quest.5185B148A8C9FC66.title": "200 espèces"
+	"quest.5185B148A8C9FC66.quest_subtitle": "Complète ton Pokédex"
+	"quest.5185B148A8C9FC66.quest_desc": [
+		"Capture 200 espèces différentes."
+		"Chaque espèce ne compte qu'une fois, peu importe sa forme."
+	]
+	"task.6EB28E3CA772BD58.title": "Avoir capturé 200 espèces"
+	"reward.27404910B5BFB970.title": "8000 CobbleDollars"
+	"quest.23B3992F780CD11D.title": "400 espèces"
+	"quest.23B3992F780CD11D.quest_subtitle": "Complète ton Pokédex"
+	"quest.23B3992F780CD11D.quest_desc": [
+		"Capture 400 espèces différentes."
+		"Chaque espèce ne compte qu'une fois, peu importe sa forme."
+	]
+	"task.31A7739878B60FCC.title": "Avoir capturé 400 espèces"
+	"chapter.480B526CCE8E2990.title": "Pokédex"
+	"chapter.480B526CCE8E2990.chapter_subtitle": [
+		"Deviens un vrai collectionneur"
+	]
+	"reward.2EE85D858F40B6DA.title": "250 CobbleDollars"
+	"quest.27450714C4DF8B7B.title": "Type Normal"
+	"quest.27450714C4DF8B7B.quest_desc": [
+		"Capture 5 Pokémon de type Normal."
+	]
+	"task.4B5FE0180DCF284E.title": "Capturer 5 Pokémon Normal"
+	"reward.752E0032D6292094.title": "250 CobbleDollars"
+	"quest.569AE83EA7F11EE8.title": "Type Feu"
+	"quest.569AE83EA7F11EE8.quest_desc": [
+		"Capture 5 Pokémon de type Feu."
+	]
+	"task.4383BACCFC78395F.title": "Capturer 5 Pokémon Feu"
+	"reward.647CC6229046C189.title": "250 CobbleDollars"
+	"quest.5CF06AC38DC1BD90.title": "Type Eau"
+	"quest.5CF06AC38DC1BD90.quest_desc": [
+		"Capture 5 Pokémon de type Eau."
+	]
+	"task.6B2E31588C8D6E51.title": "Capturer 5 Pokémon Eau"
+	"reward.74012405A085150E.title": "250 CobbleDollars"
+	"quest.2DB5AC9A57BBBFD0.title": "Type Plante"
+	"quest.2DB5AC9A57BBBFD0.quest_desc": [
+		"Capture 5 Pokémon de type Plante."
+	]
+	"task.656AE88ECAD0110A.title": "Capturer 5 Pokémon Plante"
+	"reward.15DF82F9581DADD1.title": "250 CobbleDollars"
+	"quest.781DB44C42F0E13A.title": "Type Électrik"
+	"quest.781DB44C42F0E13A.quest_desc": [
+		"Capture 5 Pokémon de type Électrik."
+	]
+	"task.39A7D49752998FE7.title": "Capturer 5 Pokémon Électrik"
+	"reward.07C65FC26CAD4C6D.title": "250 CobbleDollars"
+	"quest.7BF2CDB3E52BCE63.title": "Type Glace"
+	"quest.7BF2CDB3E52BCE63.quest_desc": [
+		"Capture 5 Pokémon de type Glace."
+	]
+	"task.3240FC98A11F77EE.title": "Capturer 5 Pokémon Glace"
+	"reward.58818FEA14A053E2.title": "250 CobbleDollars"
+	"quest.774D6B312428E00F.title": "Type Combat"
+	"quest.774D6B312428E00F.quest_desc": [
+		"Capture 5 Pokémon de type Combat."
+	]
+	"task.2637CCC53DBD5DE6.title": "Capturer 5 Pokémon Combat"
+	"reward.782F2556C5A8E18A.title": "250 CobbleDollars"
+	"quest.4C013652C33B9E7B.title": "Type Poison"
+	"quest.4C013652C33B9E7B.quest_desc": [
+		"Capture 5 Pokémon de type Poison."
+	]
+	"task.1F678408FBBBBA3E.title": "Capturer 5 Pokémon Poison"
+	"reward.50639B990906420B.title": "250 CobbleDollars"
+	"quest.2B9D681FFF8CEA9E.title": "Type Sol"
+	"quest.2B9D681FFF8CEA9E.quest_desc": [
+		"Capture 5 Pokémon de type Sol."
+	]
+	"task.38656449F0F1B174.title": "Capturer 5 Pokémon Sol"
+	"reward.7FB1F92479FFB93B.title": "250 CobbleDollars"
+	"quest.5114993326394F7A.title": "Type Vol"
+	"quest.5114993326394F7A.quest_desc": [
+		"Capture 5 Pokémon de type Vol."
+	]
+	"task.6CD98EEFBFD90A15.title": "Capturer 5 Pokémon Vol"
+	"reward.6FA5367FE33C87F4.title": "250 CobbleDollars"
+	"quest.4748F4EE46EA5912.title": "Type Psy"
+	"quest.4748F4EE46EA5912.quest_desc": [
+		"Capture 5 Pokémon de type Psy."
+	]
+	"task.753C6384652BB7A5.title": "Capturer 5 Pokémon Psy"
+	"reward.63D93E73E4F0E4FC.title": "250 CobbleDollars"
+	"quest.01DEAFA816051F92.title": "Type Insecte"
+	"quest.01DEAFA816051F92.quest_desc": [
+		"Capture 5 Pokémon de type Insecte."
+	]
+	"task.621143AF2D72EDFD.title": "Capturer 5 Pokémon Insecte"
+	"reward.4DA150315A91ECD5.title": "250 CobbleDollars"
+	"quest.041B09A724295332.title": "Type Roche"
+	"quest.041B09A724295332.quest_desc": [
+		"Capture 5 Pokémon de type Roche."
+	]
+	"task.16D4FCE4DE96E72E.title": "Capturer 5 Pokémon Roche"
+	"reward.4013494E3E023E0F.title": "250 CobbleDollars"
+	"quest.523B6071FEA7CD43.title": "Type Spectre"
+	"quest.523B6071FEA7CD43.quest_desc": [
+		"Capture 5 Pokémon de type Spectre."
+	]
+	"task.0FDE4A7A6935667D.title": "Capturer 5 Pokémon Spectre"
+	"reward.6D68E45987D9AD54.title": "250 CobbleDollars"
+	"quest.63083D7DA3901C99.title": "Type Dragon"
+	"quest.63083D7DA3901C99.quest_desc": [
+		"Capture 5 Pokémon de type Dragon."
+	]
+	"task.73F5B68FCF800E9D.title": "Capturer 5 Pokémon Dragon"
+	"reward.30708DCF57ADC86C.title": "250 CobbleDollars"
+	"quest.64A6AF5F0E45C65B.title": "Type Ténèbres"
+	"quest.64A6AF5F0E45C65B.quest_desc": [
+		"Capture 5 Pokémon de type Ténèbres."
+	]
+	"task.67852C36EE4C8E07.title": "Capturer 5 Pokémon Ténèbres"
+	"reward.150EF49BFCA3BC54.title": "250 CobbleDollars"
+	"quest.13AF57AB55F9B9C6.title": "Type Acier"
+	"quest.13AF57AB55F9B9C6.quest_desc": [
+		"Capture 5 Pokémon de type Acier."
+	]
+	"task.618A655B9C207F32.title": "Capturer 5 Pokémon Acier"
+	"reward.6C0EE9C59C527F15.title": "250 CobbleDollars"
+	"quest.612C03DE30C590AE.title": "Type Fée"
+	"quest.612C03DE30C590AE.quest_desc": [
+		"Capture 5 Pokémon de type Fée."
+	]
+	"task.1563DCDC7CD86E6C.title": "Capturer 5 Pokémon Fée"
+	"reward.58EC72E5682D8013.title": "5000 CobbleDollars"
+	"reward.2D79E0BE58D8EBF9.title": "1 Clé légendaire"
+	"quest.33D3A7DC13F2FE3E.title": "Maître des types"
+	"quest.33D3A7DC13F2FE3E.quest_subtitle": "Les 18 types"
+	"quest.33D3A7DC13F2FE3E.quest_desc": [
+		"Tu as dompté les 18 types. Arceus, le Pokémon aux mille plaques, te salue."
+	]
+	"task.4588C864BA351643.title": "Terminer les 18 types"
+	"chapter.1EAF8FD878174918.title": "Les 18 types"
+	"chapter.1EAF8FD878174918.chapter_subtitle": [
+		"Capture-les tous, type par type"
+	]
+	"reward.482337434595A0F8.title": "1000 CobbleDollars"
+	"reward.7F361FB277ABC650.title": "1 Clé commune"
+	"quest.57CAAE321280BC1D.title": "Premier shiny"
+	"quest.57CAAE321280BC1D.quest_subtitle": "Chasseur de chromatiques"
+	"quest.57CAAE321280BC1D.quest_desc": [
+		"Capture 1 Pokémon chromatique."
+	]
+	"task.5DCC256697D9A594.title": "Capturer 1 shiny"
+	"reward.0A411AA0387A14AB.title": "3000 CobbleDollars"
+	"reward.315DE553876292C3.title": "1 Clé rare"
+	"quest.4E41B6E89E22F8B5.title": "5 shiny"
+	"quest.4E41B6E89E22F8B5.quest_subtitle": "Chasseur de chromatiques"
+	"quest.4E41B6E89E22F8B5.quest_desc": [
+		"Capture 5 Pokémon chromatiques."
+	]
+	"task.3547028716E270FC.title": "Capturer 5 shiny"
+	"reward.2AA0964311CD5C97.title": "6000 CobbleDollars"
+	"quest.272D86CA26C6B58B.title": "10 shiny"
+	"quest.272D86CA26C6B58B.quest_subtitle": "Chasseur de chromatiques"
+	"quest.272D86CA26C6B58B.quest_desc": [
+		"Capture 10 Pokémon chromatiques."
+	]
+	"task.7FD19EF80F73FDD0.title": "Capturer 10 shiny"
+	"reward.2C0D7A9443EF27FE.title": "15000 CobbleDollars"
+	"reward.1964368A8D5B556F.title": "2 Clés légendaires"
+	"quest.5E005F20C2532190.title": "25 shiny"
+	"quest.5E005F20C2532190.quest_subtitle": "Chasseur de chromatiques"
+	"quest.5E005F20C2532190.quest_desc": [
+		"Capture 25 Pokémon chromatiques."
+	]
+	"task.3AF531A2568716A7.title": "Capturer 25 shiny"
+	"reward.2364C7A616C5A809.title": "30000 CobbleDollars"
+	"quest.501343CE414B51B6.title": "50 shiny"
+	"quest.501343CE414B51B6.quest_subtitle": "Chasseur de chromatiques"
+	"quest.501343CE414B51B6.quest_desc": [
+		"Capture 50 Pokémon chromatiques."
+	]
+	"task.25E8E00E04F01A64.title": "Capturer 50 shiny"
+	"chapter.2CEFC9A06BB45E7C.title": "Chasseur de shiny"
+	"chapter.2CEFC9A06BB45E7C.chapter_subtitle": [
+		"Les Pokémon aux couleurs rares"
+	]
+	"reward.150DBCBCA446AF4F.title": "300 CobbleDollars"
+	"quest.13F264C9D1798009.title": "Combats sauvages I"
+	"quest.13F264C9D1798009.quest_desc": [
+		"Mettre K.O. 25 Pokémon sauvages."
+	]
+	"task.668D39C12910A21A.title": "Mettre K.O. 25 Pokémon sauvages"
+	"reward.6E9DA5245C1B4227.title": "1000 CobbleDollars"
+	"quest.5F0496AD59DEB376.title": "Combats sauvages II"
+	"quest.5F0496AD59DEB376.quest_desc": [
+		"Mettre K.O. 100 Pokémon sauvages."
+	]
+	"task.4D5484A28493FF88.title": "Mettre K.O. 100 Pokémon sauvages"
+	"reward.7E626F6603B198F6.title": "4000 CobbleDollars"
+	"quest.0C7AB53780918F96.title": "Combats sauvages III"
+	"quest.0C7AB53780918F96.quest_desc": [
+		"Mettre K.O. 500 Pokémon sauvages."
+	]
+	"task.76AA1B2117C98D98.title": "Mettre K.O. 500 Pokémon sauvages"
+	"reward.7AC908475CE888A7.title": "500 CobbleDollars"
+	"quest.61A4BB0DD398813D.title": "Duels de dresseurs I"
+	"quest.61A4BB0DD398813D.quest_desc": [
+		"Battre 5 dresseurs PNJ."
+	]
+	"task.4E351129234DE7D6.title": "Battre 5 dresseurs PNJ"
+	"reward.1212733A20815B88.title": "2000 CobbleDollars"
+	"quest.5AA9C7FEC77FE486.title": "Duels de dresseurs II"
+	"quest.5AA9C7FEC77FE486.quest_desc": [
+		"Battre 20 dresseurs PNJ."
+	]
+	"task.69C905EE73E598D2.title": "Battre 20 dresseurs PNJ"
+	"reward.6C38D4863AB3A38E.title": "5000 CobbleDollars"
+	"quest.26B645A1ECF20833.title": "Duels de dresseurs III"
+	"quest.26B645A1ECF20833.quest_desc": [
+		"Battre 50 dresseurs PNJ."
+	]
+	"task.40BC376A72DAC257.title": "Battre 50 dresseurs PNJ"
+	"reward.2C1905C595F97C39.title": "400 CobbleDollars"
+	"quest.715008C09408EFB5.title": "Évolutions I"
+	"quest.715008C09408EFB5.quest_desc": [
+		"Faire évoluer 5 Pokémon."
+	]
+	"task.558202242AF1813B.title": "Faire évoluer 5 Pokémon"
+	"reward.6DDCFF1F7547DA12.title": "1500 CobbleDollars"
+	"quest.230D2E9C10272B6A.title": "Évolutions II"
+	"quest.230D2E9C10272B6A.quest_desc": [
+		"Faire évoluer 25 Pokémon."
+	]
+	"task.66FE41A2E1F609D3.title": "Faire évoluer 25 Pokémon"
+	"reward.66B5A88988C1EF4F.title": "5000 CobbleDollars"
+	"quest.5AC761529E0A05E3.title": "Évolutions III"
+	"quest.5AC761529E0A05E3.quest_desc": [
+		"Faire évoluer 100 Pokémon."
+	]
+	"task.3F070D8A99F0957B.title": "Faire évoluer 100 Pokémon"
+	"reward.51E3063E530AF055.title": "300 CobbleDollars"
+	"quest.4ECEB644936C6A4D.title": "Pêche I"
+	"quest.4ECEB644936C6A4D.quest_desc": [
+		"Pêcher 10 Pokémon."
+	]
+	"task.50C9598E50E3FEE2.title": "Pêcher 10 Pokémon"
+	"reward.568BDFF73FA4DAEB.title": "1500 CobbleDollars"
+	"quest.7371164EA61E838D.title": "Pêche II"
+	"quest.7371164EA61E838D.quest_desc": [
+		"Pêcher 50 Pokémon."
+	]
+	"task.5CA77D687A40C2B3.title": "Pêcher 50 Pokémon"
+	"reward.595A12EF790AFB20.title": "4000 CobbleDollars"
+	"quest.3809708E63A21335.title": "Pêche III"
+	"quest.3809708E63A21335.quest_desc": [
+		"Pêcher 200 Pokémon."
+	]
+	"task.2A22499AE7AE406B.title": "Pêcher 200 Pokémon"
+	"reward.13FD4CA065151902.title": "500 CobbleDollars"
+	"quest.38CEE6E1A002C0A8.title": "Paléontologue I"
+	"quest.38CEE6E1A002C0A8.quest_desc": [
+		"Ressusciter 1 fossiles."
+	]
+	"task.35C63305C86FD4E0.title": "Ressusciter 1 fossiles"
+	"reward.2E6216FE3134897C.title": "2000 CobbleDollars"
+	"quest.76CF9E9650D9DB5C.title": "Paléontologue II"
+	"quest.76CF9E9650D9DB5C.quest_desc": [
+		"Ressusciter 5 fossiles."
+	]
+	"task.1D41EA2584BF9A7D.title": "Ressusciter 5 fossiles"
+	"reward.17079C512BBCE7B8.title": "5000 CobbleDollars"
+	"quest.151481F37D46DE52.title": "Paléontologue III"
+	"quest.151481F37D46DE52.quest_desc": [
+		"Ressusciter 15 fossiles."
+	]
+	"task.2D8B08238DBE8464.title": "Ressusciter 15 fossiles"
+	"chapter.3B03C73E39911CC2.title": "Carrière de dresseur"
+	"chapter.3B03C73E39911CC2.chapter_subtitle": [
+		"Combats, évolutions, pêche et fossiles"
+	]
+	"quest.704A2E22E36C1743.title": "La Flamme de la Victoire"
+	"quest.704A2E22E36C1743.quest_subtitle": "Prouve ta valeur"
+	"quest.704A2E22E36C1743.quest_desc": [
+		"Une vieille légende parle d'un autel où brûlait jadis la flamme de la Victoire."
+		"Seul un dresseur aguerri peut la rallumer : bats 10 dresseurs différents, sur Incarnam ou dans le monde d'en bas."
+	]
+	"task.2158BC500F77FB38.title": "Battre 10 dresseurs différents"
+	"reward.7CF3AB6BE78E7058.title": "L'autel te reconnaît"
+	"reward.362D30121A2CD7A7.title": "1500 CobbleDollars"
+	"quest.6E29DEAED8B5E35B.title": "Le Pokémon de la Victoire"
+	"quest.6E29DEAED8B5E35B.quest_subtitle": "Rallume l'autel"
+	"quest.6E29DEAED8B5E35B.quest_desc": [
+		"Va à l'Autel de la Victoire et fais un clic droit dessus pour rallumer la flamme."
+		"Victini apparaîtra : capture-le ! S'il t'échappe, tu pourras rallumer l'autel une minute plus tard."
+	]
+	"task.7D5EB512D23583CA.title": "Capturer Victini"
+	"reward.3A272B21F22F8407.title": "La flamme brûle pour toi"
+	"reward.7ED985D7F80C27AE.title": "3000 CobbleDollars"
+	"reward.28314D7F56EEBBB0.title": "1 Clé rare"
+	"chapter.78C3F4B3C8738B8B.title": "Méga & Cristaux Z"
+	"chapter.78C3F4B3C8738B8B.chapter_subtitle": ["Les pouvoirs oubliés des anciens dresseurs"]
+	"reward.3A0FE43CE0AFA0C6.title": "300 CobbleDollars"
+	"quest.41FD4618C3D52571.title": "La Pierre Clé"
+	"quest.41FD4618C3D52571.quest_subtitle": "Un éclat qui répond aux Pokémon"
+	"quest.41FD4618C3D52571.quest_desc": ["Les Pierres Clés poussent dans les grottes, dans des minerais qui scintillent.", "Mine un minerai de Pierre Clé et récupère la pierre."]
+	"reward.602DFAE737FFD0C2.title": "400 CobbleDollars"
+	"quest.7599925F82496F93.title": "Méga-Bracelet"
+	"quest.7599925F82496F93.quest_subtitle": "Fabrique ton bracelet"
+	"quest.7599925F82496F93.quest_desc": ["Assemble la Pierre Clé sur un bracelet pour pouvoir méga-évoluer en combat."]
+	"reward.1DD098ADAD7E7886.title": "400 CobbleDollars"
+	"quest.534D0D3E6C60C448.title": "Le site méga"
+	"quest.534D0D3E6C60C448.quest_subtitle": "Là où dorment les gemmes"
+	"quest.534D0D3E6C60C448.quest_desc": ["Les méga-gemmes se cachent dans des sites anciens, dans le monde.", "Trouve une pierre méga brute."]
+	"reward.18FD043D24A00537.title": "500 CobbleDollars"
+	"quest.6B0E92EC61A5E408.title": "Première Méga-Évolution"
+	"quest.6B0E92EC61A5E408.quest_subtitle": "La puissance du lien"
+	"quest.6B0E92EC61A5E408.quest_desc": ["Équipe un Pokémon de sa méga-gemme, puis méga-évolue-le en combat."]
+	"reward.64025FCA28A1C317.title": "1500 CobbleDollars"
+	"quest.2200B9B799EF1885.title": "Méga-Starters"
+	"quest.2200B9B799EF1885.quest_subtitle": "Les trois de Kanto"
+	"quest.2200B9B799EF1885.quest_desc": ["Réunis les méga-gemmes des starters de Kanto."]
+	"reward.19F9F2CC70791987.title": "1500 CobbleDollars"
+	"quest.113B16282F4EB77B.title": "Méga-Hoenn"
+	"quest.113B16282F4EB77B.quest_subtitle": "Les starters de Hoenn"
+	"quest.113B16282F4EB77B.quest_desc": ["Réunis les méga-gemmes de Jungko, Braségali et Laggron."]
+	"reward.73F5DC22B2C3C922.title": "2500 CobbleDollars"
+	"quest.2BE7284E1D4F6565.title": "Méga des pseudo-légendaires"
+	"quest.2BE7284E1D4F6565.quest_subtitle": "Les plus redoutables"
+	"quest.2BE7284E1D4F6565.quest_desc": ["Tyranocif, Drattak, Métalosse et Carchacrok."]
+	"reward.74CFA867D28407DE.title": "5000 CobbleDollars"
+	"quest.10B45E60F79725AE.title": "Méga-Légendes"
+	"quest.10B45E60F79725AE.quest_subtitle": "Mewtwo et les Éons"
+	"quest.10B45E60F79725AE.quest_desc": ["Les méga-gemmes des légendaires sont les plus rares de toutes."]
+	"reward.3BB201ACDE7978D8.title": "2000 CobbleDollars"
+	"quest.1CBFA012BA554775.title": "Les gemmes de Navas"
+	"quest.1CBFA012BA554775.quest_subtitle": "Méga-Évolutions inédites"
+	"quest.1CBFA012BA554775.quest_desc": ["Le mod Zamega ajoute des méga-gemmes inédites, comme celle de Zeraora.", "Trouve-en une."]
+	"reward.697DA577E042CAFE.title": "400 CobbleDollars"
+	"quest.31EC273DA5B49530.title": "Cristal Z vierge"
+	"quest.31EC273DA5B49530.quest_subtitle": "Un cristal sans pouvoir"
+	"quest.31EC273DA5B49530.quest_desc": ["Le Cristal Z vierge se trouve dans les coffres rares. Il permet de fabriquer les cristaux de type."]
+	"reward.53BC55B4F31FBA3E.title": "400 CobbleDollars"
+	"quest.69D83840B93B1470.title": "Bracelet Z"
+	"quest.69D83840B93B1470.quest_subtitle": "Pour libérer la puissance Z"
+	"quest.69D83840B93B1470.quest_desc": ["Fabrique le Bracelet Z."]
+	"reward.1DA010768AF9A093.title": "800 CobbleDollars"
+	"quest.21CFA3FC26E0AA34.title": "Z élémentaires"
+	"quest.21CFA3FC26E0AA34.quest_subtitle": "Feu, Eau, Plante"
+	"quest.21CFA3FC26E0AA34.quest_desc": ["Fabrique ou trouve les trois cristaux de base."]
+	"reward.2DE1B0D43FE2613B.title": "500 CobbleDollars"
+	"quest.3B21FA33A2E1D1A3.title": "Première capacité Z"
+	"quest.3B21FA33A2E1D1A3.quest_subtitle": "Un coup unique par combat"
+	"quest.3B21FA33A2E1D1A3.quest_desc": ["Utilise une capacité Z en combat."]
+	"reward.3B0854A92857E49E.title": "2000 CobbleDollars"
+	"quest.613328955358565B.title": "Collection Z"
+	"quest.613328955358565B.quest_subtitle": "Neuf cristaux de type"
+	"quest.613328955358565B.quest_desc": ["Réunis neuf autres cristaux de type."]
+	"reward.355A263F93BACA54.title": "3000 CobbleDollars"
+	"quest.6AC98EA14D36A390.title": "Maître des cristaux"
+	"quest.6AC98EA14D36A390.quest_subtitle": "Les 18 types"
+	"quest.6AC98EA14D36A390.quest_desc": ["Termine la collection avec les six derniers cristaux de type."]
+	"reward.5DC65FD482E19AC1.title": "5000 CobbleDollars"
+	"quest.1F9FBD47E60AE135.title": "Z des légendes"
+	"quest.1F9FBD47E60AE135.quest_subtitle": "Solgaleo, Lunala, Necrozma"
+	"quest.1F9FBD47E60AE135.quest_desc": ["Les cristaux Z des légendaires d'Alola."]
+	"reward.21A98734840E8C3F.title": "500 CobbleDollars"
+	"quest.4E59DAD5D5000777.title": "Poignet Dynamax"
+	"quest.4E59DAD5D5000777.quest_subtitle": "Devenir géant"
+	"quest.4E59DAD5D5000777.quest_desc": ["Fabrique le Poignet Dynamax pour pouvoir dynamaxer tes Pokémon."]
+	"reward.2800AE52CDA92F7C.title": "600 CobbleDollars"
+	"quest.1C661CCBA0F0E833.title": "Étoile Vœu"
+	"quest.1C661CCBA0F0E833.quest_subtitle": "Une étoile tombée du ciel"
+	"quest.1C661CCBA0F0E833.quest_desc": ["Une Étoile Vœu donne son énergie au Poignet Dynamax."]
+	"reward.763979718CEE4924.title": "1000 CobbleDollars"
+	"quest.4808E6E1708F9309.title": "Gigamax"
+	"quest.4808E6E1708F9309.quest_subtitle": "La Maxi-Soupe"
+	"quest.4808E6E1708F9309.quest_desc": ["Prépare une Maxi-Soupe avec des Maxi-Champis pour débloquer le Gigamax."]
+	"reward.2A5193ABBC1AE1CA.title": "500 CobbleDollars"
+	"quest.252885E8841D3097.title": "Premier Dynamax"
+	"quest.252885E8841D3097.quest_subtitle": "Trois tours de puissance"
+	"quest.252885E8841D3097.quest_desc": ["Dynamaxe un Pokémon en combat."]
+	"reward.4A5C643B312CF97F.title": "500 CobbleDollars"
+	"quest.411D4010525FE61A.title": "Orbe Téracristal"
+	"quest.411D4010525FE61A.quest_subtitle": "Le joyau de Paldea"
+	"quest.411D4010525FE61A.quest_desc": ["Trouve l'Orbe Téracristal."]
+	"reward.1101A76089EE632D.title": "800 CobbleDollars"
+	"quest.67E08ECCCEAB1B76.title": "Téra-Éclats"
+	"quest.67E08ECCCEAB1B76.quest_subtitle": "Change le type Téra"
+	"quest.67E08ECCCEAB1B76.quest_desc": ["Réunis 50 Téra-Éclats d'un même type pour changer le type Téra d'un Pokémon."]
+	"reward.2A3249666B01C718.title": "500 CobbleDollars"
+	"quest.5B5F135A28188893.title": "Première Téracristallisation"
+	"quest.5B5F135A28188893.quest_subtitle": "Un Pokémon de cristal"
+	"quest.5B5F135A28188893.quest_desc": ["Téracristallise un Pokémon en combat."]
+	"reward.1F8365010B614C86.title": "3000 CobbleDollars"
+	"quest.6DAFD91C342D4404.title": "Type Stellaire"
+	"quest.6DAFD91C342D4404.quest_subtitle": "Le type légendaire de Terapagos"
+	"quest.6DAFD91C342D4404.quest_desc": ["Obtiens un Téra-Éclat Stellaire."]
+	"reward.40498247B10205A8.title": "800 CobbleDollars"
+	"quest.1F19E636758AEDB7.title": "Objets de forme"
+	"quest.1F19E636758AEDB7.quest_subtitle": "Changer l'apparence d'un légendaire"
+	"quest.1F19E636758AEDB7.quest_desc": ["Certains légendaires changent de forme avec un objet. Trouves-en un."]
+	"reward.20AE17A64E2C848D.title": "2000 CobbleDollars"
+	"quest.2BB78D0AD4CAFE34.title": "Épée et Bouclier rouillés"
+	"quest.2BB78D0AD4CAFE34.quest_subtitle": "Les héros de Galar"
+	"quest.2BB78D0AD4CAFE34.quest_desc": ["Réunis l'Épée rouillée et le Bouclier rouillé."]
+	"reward.662FA5D07F6F06C1.title": "2500 CobbleDollars"
+	"quest.2D59091ECD2C3064.title": "Cellules de Zygarde"
+	"quest.2D59091ECD2C3064.quest_subtitle": "Rassemble l'ordre"
+	"quest.2D59091ECD2C3064.quest_desc": ["Récupère 10 cellules de Zygarde et un noyau."]
+	"reward.662C81EDA58CB0B5.title": "3000 CobbleDollars"
+	"quest.20470635C4BF2815.title": "Fusion lumineuse"
+	"quest.20470635C4BF2815.quest_subtitle": "Le Pointeur Solaire et le Pointeur Lunaire"
+	"quest.20470635C4BF2815.quest_desc": ["Obtiens les deux objets qui fusionnent Necrozma."]
+	"reward.3484116D595592E1.title": "4000 CobbleDollars"
+	"quest.28CE528AD079E464.title": "Orbes et Globes"
+	"quest.28CE528AD079E464.quest_subtitle": "Le Temps, l'Espace, l'Antimatière"
+	"quest.28CE528AD079E464.quest_desc": ["Réunis l'Orbe Adamant, l'Orbe Perlé et l'Orbe Platiné."]
+	"chapter.29EB69B05EB0A82D.title": "Raids"
+	"chapter.29EB69B05EB0A82D.chapter_subtitle": ["Unis contre les Pokémon géants"]
+	"reward.597E5824E9AF9EA6.title": "200 CobbleDollars"
+	"quest.4CA1B5CE87E72ACA.title": "Tanière lumineuse"
+	"quest.4CA1B5CE87E72ACA.quest_subtitle": "Une colonne de lumière"
+	"quest.4CA1B5CE87E72ACA.quest_desc": ["Les tanières de raid brillent dans le monde. Trouves-en une et rejoins un raid."]
+	"reward.12787B4D83D79A52.title": "300 CobbleDollars"
+	"quest.1F6B74F47230D7D9.title": "Raid 1 étoile"
+	"quest.1F6B74F47230D7D9.quest_subtitle": "Ton premier raid"
+	"quest.1F6B74F47230D7D9.quest_desc": ["Gagne un raid 1 étoile."]
+	"reward.3E05E5BAE741F657.title": "500 CobbleDollars"
+	"quest.2CA4418EE7465448.title": "Raid 2 étoiles"
+	"quest.2CA4418EE7465448.quest_subtitle": "Ça se corse"
+	"quest.2CA4418EE7465448.quest_desc": ["Gagne un raid 2 étoiles."]
+	"reward.473D925A2C75714E.title": "800 CobbleDollars"
+	"quest.7D90A8C473BA18B3.title": "Raid 3 étoiles"
+	"quest.7D90A8C473BA18B3.quest_subtitle": "Viens avec des amis"
+	"quest.7D90A8C473BA18B3.quest_desc": ["Gagne un raid 3 étoiles."]
+	"reward.50EE42538926B40F.title": "1200 CobbleDollars"
+	"quest.4942FA35DC29359D.title": "Raid 4 étoiles"
+	"quest.4942FA35DC29359D.quest_subtitle": "Une vraie équipe"
+	"quest.4942FA35DC29359D.quest_desc": ["Gagne un raid 4 étoiles."]
+	"reward.1262E10421FCC180.title": "2000 CobbleDollars"
+	"quest.3ABE78E783A0CB37.title": "Raid 5 étoiles"
+	"quest.3ABE78E783A0CB37.quest_subtitle": "Les plus puissants"
+	"quest.3ABE78E783A0CB37.quest_desc": ["Gagne un raid 5 étoiles."]
+	"reward.2C172F8919AE8EE1.title": "3000 CobbleDollars"
+	"quest.5BC3B872C014CE64.title": "Habitué des 5 étoiles"
+	"quest.5BC3B872C014CE64.quest_subtitle": "Cinq victoires"
+	"quest.5BC3B872C014CE64.quest_desc": ["Gagne 5 raids 5 étoiles."]
+	"reward.779023A1C4F59059.title": "5000 CobbleDollars"
+	"quest.2F3920C01F343A52.title": "Maître des raids"
+	"quest.2F3920C01F343A52.quest_subtitle": "Vingt victoires 5 étoiles"
+	"quest.2F3920C01F343A52.quest_desc": ["Gagne 20 raids 5 étoiles. Seuls les meilleurs y arrivent."]
+	"reward.28E7EBEA37DA1140.title": "400 CobbleDollars"
+	"quest.73DF8ED76CAD4232.title": "Bourse de raid"
+	"quest.73DF8ED76CAD4232.quest_subtitle": "Le butin des vainqueurs"
+	"quest.73DF8ED76CAD4232.quest_desc": ["Ouvre une bourse de raid gagnée en raid."]
+	"reward.151723D29493B51E.title": "1000 CobbleDollars"
+	"quest.66C9038AE1FF938A.title": "Habitué des raids"
+	"quest.66C9038AE1FF938A.quest_subtitle": "10 victoires"
+	"quest.66C9038AE1FF938A.quest_desc": ["Gagne 10 raids, toutes étoiles confondues."]
+	"reward.1E37361F38705628.title": "3000 CobbleDollars"
+	"quest.799BF326D3184208.title": "Chasseur de géants"
+	"quest.799BF326D3184208.quest_subtitle": "50 victoires"
+	"quest.799BF326D3184208.quest_desc": ["Gagne 50 raids."]
+	"reward.77AA7BE99F3789CB.title": "4000 CobbleDollars"
+	"quest.43AD38E3CD9B6DF2.title": "Raid chromatique"
+	"quest.43AD38E3CD9B6DF2.quest_subtitle": "Une lueur rare"
+	"quest.43AD38E3CD9B6DF2.quest_desc": ["Gagne un raid contre un Pokémon chromatique."]
+	"chapter.151DFD48FCA383FE.title": "Éleveur"
+	"chapter.151DFD48FCA383FE.chapter_subtitle": ["Œufs, IVs et pensions"]
+	"reward.7FF1FA9D89A39EF5.title": "200 CobbleDollars"
+	"quest.2B1A5E2535500E2B.title": "La pension"
+	"quest.2B1A5E2535500E2B.quest_subtitle": "Deux Pokémon dans un enclos"
+	"quest.2B1A5E2535500E2B.quest_desc": ["Fabrique un Enclos (Pasture) et mets-y deux Pokémon compatibles."]
+	"reward.5D5718FC0BA1A5F5.title": "300 CobbleDollars"
+	"quest.1D8BA3FAF918459D.title": "Premier œuf"
+	"quest.1D8BA3FAF918459D.quest_subtitle": "Une surprise dans l'herbe"
+	"quest.1D8BA3FAF918459D.quest_desc": ["Récupère un œuf de Pokémon à l'enclos."]
+	"reward.7DA4108632FE572F.title": "400 CobbleDollars"
+	"quest.1AF53527AD6CEB9C.title": "Éclosion"
+	"quest.1AF53527AD6CEB9C.quest_subtitle": "Marche, marche, marche…"
+	"quest.1AF53527AD6CEB9C.quest_desc": ["Fais éclore un œuf en le gardant dans ton inventaire pendant que tu te déplaces."]
+	"reward.387C635B1058A14A.title": "1000 CobbleDollars"
+	"quest.29EEECA50E582FA9.title": "Couveuse"
+	"quest.29EEECA50E582FA9.quest_subtitle": "10 éclosions"
+	"quest.29EEECA50E582FA9.quest_desc": ["Fais éclore 10 œufs."]
+	"reward.221E3C027400023E.title": "2500 CobbleDollars"
+	"quest.23D78BB282D6EBEC.title": "Éleveur chevronné"
+	"quest.23D78BB282D6EBEC.quest_subtitle": "50 éclosions"
+	"quest.23D78BB282D6EBEC.quest_desc": ["Fais éclore 50 œufs."]
+	"reward.15A60438A1C7C654.title": "5000 CobbleDollars"
+	"quest.7B2279F749971B6E.title": "Éclosion chromatique"
+	"quest.7B2279F749971B6E.quest_subtitle": "La méthode Masuda ?"
+	"quest.7B2279F749971B6E.quest_desc": ["Fais éclore un Pokémon chromatique."]
+	"reward.4157932225EE5D69.title": "500 CobbleDollars"
+	"quest.2E912E9398190B86.title": "Le Métamorph"
+	"quest.2E912E9398190B86.quest_subtitle": "Le partenaire universel"
+	"quest.2E912E9398190B86.quest_desc": ["Attrape un Métamorph : il peut faire des œufs avec presque tout le monde."]
+	"reward.24E5839DA93633CE.title": "800 CobbleDollars"
+	"quest.7BC3879993210374.title": "Nœud Destin"
+	"quest.7BC3879993210374.quest_subtitle": "Transmettre les IVs"
+	"quest.7BC3879993210374.quest_desc": ["Le Nœud Destin transmet 5 IVs des parents à l'œuf."]
+	"reward.3614CCD25DCDE302.title": "400 CobbleDollars"
+	"quest.5FFEC0519B7C5B4C.title": "Pierre Stase"
+	"quest.5FFEC0519B7C5B4C.quest_subtitle": "Transmettre la nature"
+	"quest.5FFEC0519B7C5B4C.quest_desc": ["La Pierre Stase transmet la nature du parent qui la tient."]
+	"reward.39E140F5FA8CD2E4.title": "600 CobbleDollars"
+	"quest.1E310F3529959740.title": "Menthes"
+	"quest.1E310F3529959740.quest_subtitle": "Changer de nature sans élevage"
+	"quest.1E310F3529959740.quest_desc": ["Cultive ou trouve 3 menthes différentes."]
+	"reward.45F09AC9DBD4576F.title": "1000 CobbleDollars"
+	"quest.7E2D1D699DACF5D3.title": "Entraînement EV"
+	"quest.7E2D1D699DACF5D3.quest_subtitle": "Protéine, Fer, Calcium…"
+	"quest.7E2D1D699DACF5D3.quest_desc": ["Réunis les vitamines d'entraînement."]
+	"reward.27CAC6AE96FF1B17.title": "2000 CobbleDollars"
+	"quest.54F3B99476718900.title": "Talent caché"
+	"quest.54F3B99476718900.quest_subtitle": "Le Patch Talent"
+	"quest.54F3B99476718900.quest_desc": ["Obtiens un Patch Talent pour débloquer un talent caché."]
+	"reward.2078C811376ACB14.title": "1500 CobbleDollars"
+	"quest.1390860E3FC299EE.title": "Œufs typés"
+	"quest.1390860E3FC299EE.quest_subtitle": "Chaque œuf a sa couleur"
+	"quest.1390860E3FC299EE.quest_desc": ["Les œufs de Cobbreeding prennent la couleur des types du Pokémon. Fais éclore 5 Pokémon de types différents."]
+	"reward.1171E7B376102D17.title": "4000 CobbleDollars"
+	"quest.15BFC679AAC24B1D.title": "L'œuf de Manaphy"
+	"quest.15BFC679AAC24B1D.quest_subtitle": "Un œuf légendaire"
+	"quest.15BFC679AAC24B1D.quest_desc": ["On dit qu'un œuf bleu repose au fond des mers. Obtiens l'œuf de Manaphy."]
+	"chapter.68FB898A8DA7AF30.title": "Zone Safari"
+	"chapter.68FB898A8DA7AF30.chapter_subtitle": ["La réserve des Pokémon rares"]
+	"reward.47331DC7F1C9D4E2.title": "200 CobbleDollars"
+	"quest.185463EDE782D457.title": "Le Garde du Safari"
+	"quest.185463EDE782D457.quest_subtitle": "Au Carrefour des mondes"
+	"quest.185463EDE782D457.quest_desc": ["Le Garde du Safari t'attend au Carrefour des mondes, à Incarnam.", "Paie l'entrée et entre dans la Zone Safari."]
+	"reward.403E81859BD5629C.title": "200 CobbleDollars"
+	"quest.409CEDE05F528B9A.title": "Safari Balls"
+	"quest.409CEDE05F528B9A.quest_subtitle": "La seule Ball autorisée"
+	"quest.409CEDE05F528B9A.quest_desc": ["Dans le Safari, on ne capture qu'avec des Safari Balls."]
+	"reward.6FB086AC79DE1335.title": "400 CobbleDollars"
+	"quest.215B3E5CEA5EE938.title": "Première capture Safari"
+	"quest.215B3E5CEA5EE938.quest_subtitle": "Attention, ils fuient !"
+	"quest.215B3E5CEA5EE938.quest_desc": ["Attrape un Pokémon avec une Safari Ball."]
+	"reward.4D5068C4AB28302B.title": "1000 CobbleDollars"
+	"quest.33AD1D972A0D9EA2.title": "Photographe du Safari"
+	"quest.33AD1D972A0D9EA2.quest_subtitle": "10 captures"
+	"quest.33AD1D972A0D9EA2.quest_desc": ["Attrape 10 Pokémon dans la Zone Safari."]
+	"reward.4C47692A12992723.title": "2000 CobbleDollars"
+	"quest.2996C3ADFDCD1C7F.title": "Les raretés du Safari"
+	"quest.2996C3ADFDCD1C7F.quest_subtitle": "Tauros, Kangourex, Leveinard"
+	"quest.2996C3ADFDCD1C7F.quest_desc": ["Attrape ces trois Pokémon avec une Safari Ball."]
+	"reward.7D7E4C2DDF0BB09B.title": "4000 CobbleDollars"
+	"quest.13911CB0C94696CC.title": "Safari chromatique"
+	"quest.13911CB0C94696CC.quest_subtitle": "Le Graal du Safari"
+	"quest.13911CB0C94696CC.quest_desc": ["Attrape un Pokémon chromatique dans la Zone Safari."]
+	"reward.4DB24BEAD17C9888.title": "300 CobbleDollars"
+	"quest.2D2C0341A53FB418.title": "Les nids"
+	"quest.2D2C0341A53FB418.quest_subtitle": "Un œuf sauvage"
+	"quest.2D2C0341A53FB418.quest_desc": ["Fais un clic droit sur un nid sauvage pour récupérer un œuf."]
+	"reward.3F9BCB865BD91F3E.title": "600 CobbleDollars"
+	"quest.63C7054CBBC3EC83.title": "L'Incubateur"
+	"quest.63C7054CBBC3EC83.quest_subtitle": "Pour faire éclore les œufs sauvages"
+	"quest.63C7054CBBC3EC83.quest_desc": ["Fabrique un Incubateur. Il accélère aussi les œufs de pension."]
+	"reward.15AF90015F2F68A7.title": "400 CobbleDollars"
+	"quest.4C19FA68BF3D3F5A.title": "Parfums et encens"
+	"quest.4C19FA68BF3D3F5A.quest_subtitle": "Attirer certains Pokémon"
+	"quest.4C19FA68BF3D3F5A.quest_desc": ["Fabrique ou trouve un parfum ou un encens."]
+	"reward.26BE0B40A8EE621A.title": "500 CobbleDollars"
+	"quest.6B290C15C761E1FC.title": "Ballon à récompenses"
+	"quest.6B290C15C761E1FC.quest_subtitle": "Il flotte là-haut…"
+	"quest.6B290C15C761E1FC.quest_desc": ["Trouve un ballon à récompenses et fais un clic droit dessus."]
+	"reward.63E05C607DD3FD09.title": "500 CobbleDollars"
+	"quest.2C0BA77010346E89.title": "Portail de Hoopa"
+	"quest.2C0BA77010346E89.quest_subtitle": "Un anneau dans les airs"
+	"quest.2C0BA77010346E89.quest_desc": ["Des portails de Hoopa apparaissent parfois. Traverses-en un avant qu'il se referme."]
+	"reward.24A97422F0FB49D6.title": "600 CobbleDollars"
+	"quest.79487C74FC130439.title": "Le Souterrain"
+	"quest.79487C74FC130439.quest_subtitle": "Creuser les murs"
+	"quest.79487C74FC130439.quest_desc": ["Va dans le Souterrain de Sinnoh par un portail de Hoopa."]
+	"reward.55C6B8ACCF2D2F12.title": "800 CobbleDollars"
+	"quest.2D5B1D6A916F51DC.title": "Fouilles"
+	"quest.2D5B1D6A916F51DC.quest_subtitle": "Sphères et fossiles"
+	"quest.2D5B1D6A916F51DC.quest_desc": ["Fais le mini-jeu de fouille et déterre un trésor."]
+	"reward.36637D9D65221AB1.title": "1000 CobbleDollars"
+	"quest.4180B1B66585825F.title": "Base secrète"
+	"quest.4180B1B66585825F.quest_subtitle": "Vole un drapeau"
+	"quest.4180B1B66585825F.quest_desc": ["Trouve une base secrète et récupère son drapeau."]
+	"reward.45F1C9C2F7DFBDE3.title": "1500 CobbleDollars"
+	"quest.6483347A6AC1FB9C.title": "Monde Distorsion"
+	"quest.6483347A6AC1FB9C.quest_subtitle": "Là où la gravité ment"
+	"quest.6483347A6AC1FB9C.quest_desc": ["Va dans le Monde Distorsion par un portail de Hoopa."]
+	"reward.1003348118E8391F.title": "2500 CobbleDollars"
+	"quest.2C0156B9FDDA65C0.title": "Fragments de chaîne rouge"
+	"quest.2C0156B9FDDA65C0.quest_subtitle": "Les Pokémon distordus"
+	"quest.2C0156B9FDDA65C0.quest_desc": ["Bats des Pokémon distordus et récupère 5 fragments de chaîne rouge."]
+	"chapter.2853C6F52E8B0734.title": "Montures"
+	"chapter.2853C6F52E8B0734.chapter_subtitle": ["Voyager sur le dos de ses Pokémon"]
+	"reward.1B0088F91AFB0C20.title": "300 CobbleDollars"
+	"quest.2C1CCBF04837B190.title": "En selle !"
+	"quest.2C1CCBF04837B190.quest_subtitle": "Ton premier trajet"
+	"quest.2C1CCBF04837B190.quest_desc": ["Certains Pokémon se laissent monter. Monte sur un Pokémon terrestre (Ponyta, Galopa, Tauros…) et valide."]
+	"reward.3793FC657135481E.title": "300 CobbleDollars"
+	"quest.2297B7C931953094.title": "Cavalier"
+	"quest.2297B7C931953094.quest_subtitle": "Un compagnon rapide"
+	"quest.2297B7C931953094.quest_desc": ["Attrape un Ponyta ou un Tauros pour tes trajets."]
+	"reward.7F89CCC6C6E49EB1.title": "600 CobbleDollars"
+	"quest.2E8F5981F337CDBB.title": "Galop"
+	"quest.2E8F5981F337CDBB.quest_subtitle": "Plus vite que le vent"
+	"quest.2E8F5981F337CDBB.quest_desc": ["Fais évoluer Ponyta en Galopa."]
+	"reward.174687C024344E03.title": "1000 CobbleDollars"
+	"quest.3C357C4E746F4FE3.title": "Vol"
+	"quest.3C357C4E746F4FE3.quest_subtitle": "Le ciel est à toi"
+	"quest.3C357C4E746F4FE3.quest_desc": ["Attrape un Pokémon capable de voler avec toi (Dracaufeu, Roucarnage, Corvaillus…) et vole avec !"]
+	"reward.6BDF26728D148472.title": "1000 CobbleDollars"
+	"quest.1452BCFBC8D5CFED.title": "Surf"
+	"quest.1452BCFBC8D5CFED.quest_subtitle": "Traverser les océans"
+	"quest.1452BCFBC8D5CFED.quest_desc": ["Monte sur un Pokémon aquatique (Lokhlass, Wailmer…) et traverse une mer."]
+	"reward.7BFB2BD3337AD527.title": "1500 CobbleDollars"
+	"quest.16F93501673CD2C1.title": "Plongée"
+	"quest.16F93501673CD2C1.quest_subtitle": "Sous la surface"
+	"quest.16F93501673CD2C1.quest_desc": ["Plonge sous l'eau sur le dos d'un Pokémon et atteins un monument sous-marin."]
+	"reward.249022F7A7C224CB.title": "3000 CobbleDollars"
+	"quest.3D60C49995B0E750.title": "Chevaucheur de dragons"
+	"quest.3D60C49995B0E750.quest_subtitle": "Le rêve de tout dresseur"
+	"quest.3D60C49995B0E750.quest_desc": ["Attrape un Dracolosse ou un Drattak et vole sur son dos."]
+	"chapter.106E716211E30FBD.title": "Explorateur"
+	"chapter.106E716211E30FBD.chapter_subtitle": ["Le monde d'en bas s'est réveillé"]
+	"reward.75CC1EBE4D397BD3.title": "200 CobbleDollars"
+	"quest.33441B32EEBA6BCE.title": "La descente"
+	"quest.33441B32EEBA6BCE.quest_subtitle": "Quitter Incarnam"
+	"quest.33441B32EEBA6BCE.quest_desc": ["Passe le halo d'Incarnam et pose le pied dans le monde d'en bas."]
+	"reward.3A5EA7BE802B4B89.title": "300 CobbleDollars"
+	"quest.3EB01115C909D001.title": "Un village habité"
+	"quest.3EB01115C909D001.quest_subtitle": "Les humains d'en bas"
+	"quest.3EB01115C909D001.quest_desc": ["Trouve un village (les villages ont été rénovés par CTOV)."]
+	"reward.5FF0F417B8AAACD4.title": "1000 CobbleDollars"
+	"quest.2F033CADCDF07B73.title": "Villages du monde"
+	"quest.2F033CADCDF07B73.quest_subtitle": "Désert, neige, jungle"
+	"quest.2F033CADCDF07B73.quest_desc": ["Visite trois villages de climats différents."]
+	"reward.161B810207D2751B.title": "2000 CobbleDollars"
+	"quest.496291A11ABBB648.title": "Villages rares"
+	"quest.496291A11ABBB648.quest_subtitle": "Champignons et Noël"
+	"quest.496291A11ABBB648.quest_desc": ["Trouve un village champignon et un village de Noël."]
+	"reward.2649947F7C515E0F.title": "800 CobbleDollars"
+	"quest.63DF8C7997307D8C.title": "Villes et tours"
+	"quest.63DF8C7997307D8C.quest_subtitle": "Towns and Towers"
+	"quest.63DF8C7997307D8C.quest_desc": ["Trouve une ville de Towns and Towers."]
+	"reward.63EDC1BA579E65F7.title": "500 CobbleDollars"
+	"quest.383ECCA4DE41EA63.title": "Une pinte à la taverne"
+	"quest.383ECCA4DE41EA63.quest_subtitle": "Dungeons and Taverns"
+	"quest.383ECCA4DE41EA63.quest_desc": ["Entre dans une taverne."]
+	"reward.1EF1723E419116A6.title": "300 CobbleDollars"
+	"quest.26DF0AC12199D6F7.title": "Pierre de téléportation"
+	"quest.26DF0AC12199D6F7.quest_subtitle": "Ne plus jamais se perdre"
+	"quest.26DF0AC12199D6F7.quest_desc": ["Active une Waystone dans le monde."]
+	"reward.16C23721FD457783.title": "800 CobbleDollars"
+	"quest.322B37DD55F9083E.title": "Ta propre Waystone"
+	"quest.322B37DD55F9083E.quest_subtitle": "Pose-la chez toi"
+	"quest.322B37DD55F9083E.quest_desc": ["Fabrique une Waystone."]
+	"reward.1C4D5CB62AAC3A38.title": "400 CobbleDollars"
+	"quest.42165C55760A79B8.title": "Parchemin de retour"
+	"quest.42165C55760A79B8.quest_subtitle": "Rentrer en un clic"
+	"quest.42165C55760A79B8.quest_desc": ["Fabrique un Parchemin de retour."]
+	"reward.14F6E42375433657.title": "1000 CobbleDollars"
+	"quest.3B3870D1E234D5DC.title": "Les biomes oubliés"
+	"quest.3B3870D1E234D5DC.quest_subtitle": "Oh The Biomes We've Gone"
+	"quest.3B3870D1E234D5DC.quest_desc": ["Visite trois biomes du monde d'en bas."]
+	"reward.66623FD0B207360B.title": "1500 CobbleDollars"
+	"quest.5226970AA9A901BA.title": "Paysages de rêve"
+	"quest.5226970AA9A901BA.quest_subtitle": "Encore plus loin"
+	"quest.5226970AA9A901BA.quest_desc": ["Visite la Prairie et l'Enchevêtrement enchanté."]
+	"reward.7DE317FD0267F23F.title": "200 CobbleDollars"
+	"quest.60D10F7AE4CB7BC0.title": "Coffres partagés"
+	"quest.60D10F7AE4CB7BC0.quest_subtitle": "Un butin pour chacun"
+	"quest.60D10F7AE4CB7BC0.quest_desc": ["Les coffres des structures (Lootr) ont un butin différent pour chaque joueur. Ouvre-en un."]
+	"reward.22936F7D3733C1B5.title": "600 CobbleDollars"
+	"quest.151FA4D7B589F918.title": "Le donjon"
+	"quest.151FA4D7B589F918.quest_subtitle": "YUNG's Better Dungeons"
+	"quest.151FA4D7B589F918.quest_desc": ["Trouve un donjon amélioré."]
+	"reward.4A35AD8C6D74E0A3.title": "800 CobbleDollars"
+	"quest.16216FAEF79EF150.title": "Temple du désert"
+	"quest.16216FAEF79EF150.quest_subtitle": "Gare aux pièges"
+	"quest.16216FAEF79EF150.quest_desc": ["Explore un temple du désert amélioré."]
+	"reward.395CEEFA4DF2D1EC.title": "800 CobbleDollars"
+	"quest.5C98E725F9B26D2B.title": "Temple de la jungle"
+	"quest.5C98E725F9B26D2B.quest_subtitle": "Sous les lianes"
+	"quest.5C98E725F9B26D2B.quest_desc": ["Explore un temple de la jungle amélioré."]
+	"reward.2B429982A1A0680D.title": "600 CobbleDollars"
+	"quest.1CDFC045A6A63815.title": "La cabane de la sorcière"
+	"quest.1CDFC045A6A63815.quest_subtitle": "Dans les marais"
+	"quest.1CDFC045A6A63815.quest_desc": ["Trouve une cabane de sorcière."]
+	"reward.673864ACEBA3A941.title": "1000 CobbleDollars"
+	"quest.5F5358BA00AA0970.title": "Forteresse glacée"
+	"quest.5F5358BA00AA0970.quest_subtitle": "Le fort des Vagabonds"
+	"quest.5F5358BA00AA0970.quest_desc": ["Trouve un fort des Vagabonds."]
+	"reward.66A6DA00981ACCD1.title": "1500 CobbleDollars"
+	"quest.45F03995E853A8D6.title": "La citadelle solitaire"
+	"quest.45F03995E853A8D6.quest_subtitle": "Tout là-haut"
+	"quest.45F03995E853A8D6.quest_desc": ["Trouve la citadelle solitaire."]
+	"reward.2D089AD4DBFA1619.title": "2500 CobbleDollars"
+	"quest.15ADBDFBA0728F93.title": "La Cité antique"
+	"quest.15ADBDFBA0728F93.quest_subtitle": "Silence…"
+	"quest.15ADBDFBA0728F93.quest_desc": ["Trouve une Cité antique dans les profondeurs."]
+	"reward.5B21E792AFECBD0E.title": "500 CobbleDollars"
+	"quest.71B0C8657EE7FFA7.title": "Ruines"
+	"quest.71B0C8657EE7FFA7.quest_subtitle": "Ce qui reste d'avant"
+	"quest.71B0C8657EE7FFA7.quest_desc": ["Trouve des ruines (Dungeons and Taverns)."]
+	"reward.1F9A4AE1CA0DE171.title": "1000 CobbleDollars"
+	"quest.694D3BFA278ACE08.title": "La crypte"
+	"quest.694D3BFA278ACE08.quest_subtitle": "Les morts ne dorment pas"
+	"quest.694D3BFA278ACE08.quest_desc": ["Explore une crypte des morts-vivants."]
+	"reward.29FD195C57D61721.title": "1500 CobbleDollars"
+	"quest.43D3D20724A02756.title": "Le manoir des Illageois"
+	"quest.43D3D20724A02756.quest_subtitle": "Une maison hostile"
+	"quest.43D3D20724A02756.quest_desc": ["Explore un manoir des Illageois."]
+	"reward.5240A69C046C5DEA.title": "1500 CobbleDollars"
+	"quest.2C0BF8D4B2E41FA6.title": "Sanctuaire de combat"
+	"quest.2C0BF8D4B2E41FA6.quest_subtitle": "Cinq épreuves"
+	"quest.2C0BF8D4B2E41FA6.quest_desc": ["Trouve un sanctuaire de combat."]
+	"reward.3360FF26BC49E7EB.title": "5000 CobbleDollars"
+	"reward.137D5E8B34E7F19C.title": "1 clé legendaire"
+	"quest.3DBDA1B3AD07F7B0.title": "Grand explorateur"
+	"quest.3DBDA1B3AD07F7B0.quest_subtitle": "Le monde n'a plus de secret"
+	"quest.3DBDA1B3AD07F7B0.quest_desc": ["Visite un village, une ville, une taverne, une crypte et une Cité antique. Valide quand tu as tout."]
+	"chapter.6407D6E5E3740E98.title": "Arènes & Dresseurs"
+	"chapter.6407D6E5E3740E98.chapter_subtitle": ["La route vers la Ligue"]
+	"reward.1541E3032E0E6A75.title": "200 CobbleDollars"
+	"quest.6327CE6292D7A812.title": "Le Centre Pokémon"
+	"quest.6327CE6292D7A812.quest_subtitle": "Soigner ses Pokémon"
+	"quest.6327CE6292D7A812.quest_desc": ["Trouve un Centre Pokémon dans le monde et soigne ton équipe."]
+	"reward.117D49140DFC2307.title": "200 CobbleDollars"
+	"quest.14BE80737A8608A9.title": "La Boutique Pokémon"
+	"quest.14BE80737A8608A9.quest_subtitle": "Faire ses courses"
+	"quest.14BE80737A8608A9.quest_desc": ["Trouve une Boutique Pokémon."]
+	"reward.4314677ACB14FA75.title": "400 CobbleDollars"
+	"quest.14075498320F5FE6.title": "Boîte à badges"
+	"quest.14075498320F5FE6.quest_subtitle": "Pour ranger ta collection"
+	"quest.14075498320F5FE6.quest_desc": ["Fabrique une boîte à badges pour exposer tes futurs badges."]
+	"reward.2C4F9BD7D6BF8596.title": "800 CobbleDollars"
+	"quest.7170D8F7378B1830.title": "Duels de route"
+	"quest.7170D8F7378B1830.quest_subtitle": "10 dresseurs battus"
+	"quest.7170D8F7378B1830.quest_desc": ["Bats 10 dresseurs dans le monde."]
+	"reward.31B750269444F444.title": "2500 CobbleDollars"
+	"quest.679BA830EE420430.title": "Vétéran des routes"
+	"quest.679BA830EE420430.quest_subtitle": "50 dresseurs battus"
+	"quest.679BA830EE420430.quest_desc": ["Bats 50 dresseurs."]
+	"reward.23B025416E790469.title": "6000 CobbleDollars"
+	"quest.3EF78233F3B61F63.title": "Légende des routes"
+	"quest.3EF78233F3B61F63.quest_subtitle": "200 dresseurs battus"
+	"quest.3EF78233F3B61F63.quest_desc": ["Bats 200 dresseurs."]
+	"reward.441AF527675F967B.title": "1000 CobbleDollars"
+	"quest.2EE6046420CEB66D.title": "Champion Pierre"
+	"quest.2EE6046420CEB66D.quest_subtitle": "Arène de Argenta"
+	"quest.2EE6046420CEB66D.quest_desc": ["Trouve la ville de Argenta et bats le champion Pierre."]
+	"reward.40204DCF9A2C5B96.title": "1200 CobbleDollars"
+	"quest.59C73ECA68FD6CFC.title": "Champion Ondine"
+	"quest.59C73ECA68FD6CFC.quest_subtitle": "Arène de Azuria"
+	"quest.59C73ECA68FD6CFC.quest_desc": ["Trouve la ville de Azuria et bats le champion Ondine."]
+	"reward.5B0571815BC8FE5A.title": "1400 CobbleDollars"
+	"quest.1CB8168EDBD2776D.title": "Champion Major Bob"
+	"quest.1CB8168EDBD2776D.quest_subtitle": "Arène de Carmin-sur-Mer"
+	"quest.1CB8168EDBD2776D.quest_desc": ["Trouve la ville de Carmin-sur-Mer et bats le champion Major Bob."]
+	"reward.3869AAD98CB5CF3C.title": "1600 CobbleDollars"
+	"quest.14BAE64B99317AD2.title": "Champion Érika"
+	"quest.14BAE64B99317AD2.quest_subtitle": "Arène de Céladopole"
+	"quest.14BAE64B99317AD2.quest_desc": ["Trouve la ville de Céladopole et bats le champion Érika."]
+	"reward.7D6E18E39BB65E73.title": "1800 CobbleDollars"
+	"quest.11A21C27BB75346E.title": "Champion Koga"
+	"quest.11A21C27BB75346E.quest_subtitle": "Arène de Parmanie"
+	"quest.11A21C27BB75346E.quest_desc": ["Trouve la ville de Parmanie et bats le champion Koga."]
+	"reward.5F5BDB88BA33475A.title": "2000 CobbleDollars"
+	"quest.15FEBA3100F2AC45.title": "Champion Morgane"
+	"quest.15FEBA3100F2AC45.quest_subtitle": "Arène de Safrania"
+	"quest.15FEBA3100F2AC45.quest_desc": ["Trouve la ville de Safrania et bats le champion Morgane."]
+	"reward.355AEC7509BF77E5.title": "2200 CobbleDollars"
+	"quest.4E4463B70A58D562.title": "Champion Auguste"
+	"quest.4E4463B70A58D562.quest_subtitle": "Arène de Cramois'Île"
+	"quest.4E4463B70A58D562.quest_desc": ["Trouve la ville de Cramois'Île et bats le champion Auguste."]
+	"reward.1D079C5E0E6D9FC1.title": "3000 CobbleDollars"
+	"quest.4B0BFA457AACE798.title": "Giovanni"
+	"quest.4B0BFA457AACE798.quest_subtitle": "L'arène de Jadielle"
+	"quest.4B0BFA457AACE798.quest_desc": ["Le dernier champion de Kanto est aussi le chef de la Team Rocket. Trouve Jadielle et bats-le."]
+	"reward.6D38DC9ECA248065.title": "5000 CobbleDollars"
+	"reward.52B228205D7E60A3.title": "2 clés legendaire"
+	"quest.5BF5DF7B49C04AB0.title": "Les huit badges"
+	"quest.5BF5DF7B49C04AB0.quest_subtitle": "Prêt pour la Ligue"
+	"quest.5BF5DF7B49C04AB0.quest_desc": ["Tu as battu les huit champions de Kanto !"]
+	"reward.4600579B1FD74018.title": "2000 CobbleDollars"
+	"quest.7838306870081DB3.title": "La Team Rocket"
+	"quest.7838306870081DB3.quest_subtitle": "Ils sont de retour"
+	"quest.7838306870081DB3.quest_desc": ["Bats Archer et Ariane, les admins de la Team Rocket."]
+	"reward.11DDB65D1BBF5949.title": "1500 CobbleDollars"
+	"quest.212A3EEA0DC973F0.title": "Le rival"
+	"quest.212A3EEA0DC973F0.quest_subtitle": "Terry te défie"
+	"quest.212A3EEA0DC973F0.quest_desc": ["Bats ton rival Terry."]
+	"reward.2F0048D17C6C9619.title": "1500 CobbleDollars"
+	"quest.14A96D01AF185678.title": "Les stades de légende"
+	"quest.14A96D01AF185678.quest_subtitle": "Cynthia, Peter, Pierre Rochard…"
+	"quest.14A96D01AF185678.quest_desc": ["Trouve un des grands stades Pokémon."]
+	"reward.451CED69D8B30B31.title": "4000 CobbleDollars"
+	"quest.107A63DA64D6F4FD.title": "Cynthia"
+	"quest.107A63DA64D6F4FD.quest_subtitle": "La championne de Sinnoh"
+	"quest.107A63DA64D6F4FD.quest_desc": ["Bats Cynthia dans son stade."]
+	"reward.1681228C852AC497.title": "5000 CobbleDollars"
+	"quest.2A2093E988AADD5E.title": "Le stade de N"
+	"quest.2A2093E988AADD5E.quest_subtitle": "Celui qui a tout changé"
+	"quest.2A2093E988AADD5E.quest_desc": ["Trouve le stade de N… et affronte-le."]
+	"reward.7079A6A882DB8035.title": "4000 CobbleDollars"
+	"quest.639ACAE737BF0D4F.title": "Les quatre temples"
+	"quest.639ACAE737BF0D4F.quest_subtitle": "Sable, Neige, Orage, Soleil"
+	"quest.639ACAE737BF0D4F.quest_desc": ["Trouve les quatre temples gardés."]
+	"reward.51E587114F5075F0.title": "1500 CobbleDollars"
+	"quest.719925D8A650CE75.title": "Le manoir hanté"
+	"quest.719925D8A650CE75.quest_subtitle": "Des voix dans les murs"
+	"quest.719925D8A650CE75.quest_desc": ["Trouve le manoir hanté."]
+	"reward.289C5985D9533FEC.title": "2000 CobbleDollars"
+	"quest.27CB01B1C0D2D4C6.title": "Le repaire Aqua"
+	"quest.27CB01B1C0D2D4C6.quest_subtitle": "Sous la mer"
+	"quest.27CB01B1C0D2D4C6.quest_desc": ["Trouve le repaire de la Team Aqua."]
+	"chapter.6DAFBD6ABC6D1038.title": "Légendes"
+	"chapter.6DAFBD6ABC6D1038.chapter_subtitle": ["Ceux qu'Arceus a laissés derrière lui"]
+	"reward.7843CD2D9E344540.title": "3000 CobbleDollars"
+	"quest.3CB52FF95D39BBBB.title": "Une présence immense"
+	"quest.3CB52FF95D39BBBB.quest_subtitle": "Ton premier légendaire"
+	"quest.3CB52FF95D39BBBB.quest_desc": ["Attrape n'importe quel Pokémon légendaire."]
+	"reward.2B81310ED5987A39.title": "6000 CobbleDollars"
+	"quest.7B9C27C35EBADF24.title": "Les oiseaux de Kanto"
+	"quest.7B9C27C35EBADF24.quest_subtitle": "Artikodin, Électhor, Sulfura"
+	"quest.7B9C27C35EBADF24.quest_desc": ["Attrape les trois oiseaux légendaires de Kanto."]
+	"reward.5A9CD0BD75B33195.title": "5000 CobbleDollars"
+	"quest.3607A51ADB3A63A3.title": "Mewtwo"
+	"quest.3607A51ADB3A63A3.quest_subtitle": "Le Pokémon créé par l'homme"
+	"quest.3607A51ADB3A63A3.quest_desc": ["Attrape Mewtwo."]
+	"reward.447024CEF1372869.title": "5000 CobbleDollars"
+	"quest.2164799BB749EF5A.title": "Lugia"
+	"quest.2164799BB749EF5A.quest_subtitle": "Le gardien des mers"
+	"quest.2164799BB749EF5A.quest_desc": ["Attrape Lugia."]
+	"reward.103F8D5D9C9C0A46.title": "8000 CobbleDollars"
+	"quest.6B7533AEE70D7E58.title": "Lugia Obscur"
+	"quest.6B7533AEE70D7E58.quest_subtitle": "Une ombre dans la tempête"
+	"quest.6B7533AEE70D7E58.quest_desc": ["Une forme obscure de Lugia rôde dans les océans pendant les orages. Attrape-la."]
+	"reward.77948661EFA71F23.title": "5000 CobbleDollars"
+	"quest.56C022D2D566A86A.title": "Ho-Oh"
+	"quest.56C022D2D566A86A.quest_subtitle": "L'arc-en-ciel sacré"
+	"quest.56C022D2D566A86A.quest_desc": ["Attrape Ho-Oh."]
+	"reward.1464D265DB2F097E.title": "5000 CobbleDollars"
+	"quest.674904DB86BEC406.title": "Rayquaza"
+	"quest.674904DB86BEC406.quest_subtitle": "Le seigneur du ciel"
+	"quest.674904DB86BEC406.quest_desc": ["Attrape Rayquaza."]
+	"reward.3247B89AE987FC1B.title": "3000 CobbleDollars"
+	"quest.4B623CA551E99B41.title": "Victini"
+	"quest.4B623CA551E99B41.quest_subtitle": "La Flamme de la Victoire"
+	"quest.4B623CA551E99B41.quest_desc": ["Tu as allumé la flamme à Incarnam ? Attrape Victini à l'autel."]
+	"reward.2CBA47E15F8D03FF.title": "8000 CobbleDollars"
+	"quest.275532C834C83612.title": "Reshiram"
+	"quest.275532C834C83612.quest_subtitle": "La Vérité"
+	"quest.275532C834C83612.quest_desc": ["Attrape Reshiram."]
+	"reward.6C966BE4123D5661.title": "8000 CobbleDollars"
+	"quest.185ED9A9888D6D6E.title": "Zekrom"
+	"quest.185ED9A9888D6D6E.quest_subtitle": "L'Idéal"
+	"quest.185ED9A9888D6D6E.quest_desc": ["Attrape Zekrom."]
+	"reward.407A351D233C6E66.title": "10000 CobbleDollars"
+	"reward.7956F80AFAB8CB52.title": "3 clés legendaire"
+	"quest.24B64A0DDBF07C85.title": "Kyurem"
+	"quest.24B64A0DDBF07C85.quest_subtitle": "La Voix…"
+	"quest.24B64A0DDBF07C85.quest_desc": ["La Voix d'Incarnam, c'était lui. Trouve Kyurem et attrape-le."]
+	"reward.2479A5342636C165.title": "5000 CobbleDollars"
+	"quest.644FD406CD558639.title": "Le Pointeur ADN"
+	"quest.644FD406CD558639.quest_subtitle": "Fusionner la glace et le feu"
+	"quest.644FD406CD558639.quest_desc": ["Fusionne Kyurem avec Reshiram ou Zekrom grâce au Pointeur ADN."]
+	"reward.7DC7667C7BDC35A3.title": "5000 CobbleDollars"
+	"quest.5B54437959A0F856.title": "Fabuleux"
+	"quest.5B54437959A0F856.quest_subtitle": "Plus rares que les légendaires"
+	"quest.5B54437959A0F856.quest_desc": ["Attrape un Pokémon fabuleux (Mew, Celebi, Jirachi…)."]
+	"reward.1900F8CB3EC9E2D4.title": "5000 CobbleDollars"
+	"quest.6690BD54E9325EE1.title": "Mew"
+	"quest.6690BD54E9325EE1.quest_subtitle": "L'ancêtre de tous"
+	"quest.6690BD54E9325EE1.quest_desc": ["Attrape Mew."]
+	"reward.6F04CD9DBAC9CEB2.title": "4000 CobbleDollars"
+	"quest.23CD4825E638E025.title": "Une Ultra-Chimère"
+	"quest.23CD4825E638E025.quest_subtitle": "Venues d'ailleurs"
+	"quest.23CD4825E638E025.quest_desc": ["Attrape Une Ultra-Chimère."]
+	"reward.28F5D35AA68601BE.title": "6000 CobbleDollars"
+	"quest.69F8C5D85428FA55.title": "Chasseur d'Ultra-Chimères"
+	"quest.69F8C5D85428FA55.quest_subtitle": "La Beast Ball"
+	"quest.69F8C5D85428FA55.quest_desc": ["Attrape 3 Ultra-Chimères avec des Beast Balls."]
+	"reward.6978A26D81A5B2FA.title": "3000 CobbleDollars"
+	"quest.783F3A69F2CEC17C.title": "Pokémon Paradoxe"
+	"quest.783F3A69F2CEC17C.quest_subtitle": "Du passé ou du futur"
+	"quest.783F3A69F2CEC17C.quest_desc": ["Attrape un Pokémon Paradoxe."]
+	"reward.63003404258E0D2A.title": "1500 CobbleDollars"
+	"quest.1FDA31527A5EF60B.title": "Fakemon d'Alatias"
+	"quest.1FDA31527A5EF60B.quest_subtitle": "Des espèces inconnues"
+	"quest.1FDA31527A5EF60B.quest_desc": ["Le monde d'en bas abrite des Pokémon que personne n'a jamais vus. Attrapes-en 3."]
+	"reward.5E5323073DEF9200.title": "2000 CobbleDollars"
+	"quest.7C21B65946A28097.title": "Formes régionales"
+	"quest.7C21B65946A28097.quest_subtitle": "Alola, Galar, Hisui, Paldea"
+	"quest.7C21B65946A28097.quest_desc": ["Attrape 4 Pokémon de forme régionale."]
+	"chapter.1E053F11C8AA523B.title": "Artisan"
+	"chapter.1E053F11C8AA523B.chapter_subtitle": ["Crafter, cuisiner, cultiver"]
+	"reward.2FF126C706235FE9.title": "300 CobbleDollars"
+	"quest.31B62FA321231BCB.title": "Noigrumes"
+	"quest.31B62FA321231BCB.quest_subtitle": "Le fruit des Poké Balls"
+	"quest.31B62FA321231BCB.quest_desc": ["Récolte 10 Noigrumes de couleurs différentes."]
+	"reward.3384E0BE957688F3.title": "800 CobbleDollars"
+	"quest.17BE5BF9ED62A353.title": "Le verger"
+	"quest.17BE5BF9ED62A353.quest_subtitle": "Planter les Noigrumes"
+	"quest.17BE5BF9ED62A353.quest_desc": ["Plante des graines de Noigrume de toutes les couleurs."]
+	"reward.10C5BA604EB8356A.title": "800 CobbleDollars"
+	"quest.28297A0BE76C3162.title": "Balls spéciales"
+	"quest.28297A0BE76C3162.quest_subtitle": "Une Ball pour chaque situation"
+	"quest.28297A0BE76C3162.quest_desc": ["Fabrique une Rapide Ball, une Sombre Ball, une Faiblo Ball et une Bis Ball."]
+	"reward.4ACA426CB9612BCF.title": "1500 CobbleDollars"
+	"quest.3B40806EA5ACF5CA.title": "Les Balls de Kurt"
+	"quest.3B40806EA5ACF5CA.quest_subtitle": "Faites main"
+	"quest.3B40806EA5ACF5CA.quest_desc": ["Fabrique une Lune Ball, une Love Ball, une Niveau Ball, une Masse Ball et une Speed Ball."]
+	"reward.147BCF492BD07367.title": "2000 CobbleDollars"
+	"quest.1DBF980BA95DA4EA.title": "Balls anciennes"
+	"quest.1DBF980BA95DA4EA.quest_subtitle": "La technique de Hisui"
+	"quest.1DBF980BA95DA4EA.quest_desc": ["Fabrique 3 Balls anciennes : Ball Plume, Ball Jet et Ball Gigamasse."]
+	"reward.47A9909EDE7453E4.title": "200 CobbleDollars"
+	"quest.6A657B742E96164F.title": "Baies"
+	"quest.6A657B742E96164F.quest_subtitle": "La cueillette"
+	"quest.6A657B742E96164F.quest_desc": ["Récolte des baies Oran et Ceriz."]
+	"reward.34EE4F7B253D793A.title": "300 CobbleDollars"
+	"quest.46D327CF8A4241B7.title": "La marmite"
+	"quest.46D327CF8A4241B7.quest_subtitle": "Cuisiner pour ses Pokémon"
+	"quest.46D327CF8A4241B7.quest_desc": ["Fabrique une marmite de feu de camp."]
+	"reward.63D99B57B5CB8371.title": "500 CobbleDollars"
+	"quest.1681419644FE252D.title": "Poké Snack"
+	"quest.1681419644FE252D.quest_subtitle": "Attirer les Pokémon"
+	"quest.1681419644FE252D.quest_desc": ["Cuisine un Poké Snack et pose-le pour attirer des Pokémon."]
+	"reward.115689B899A66086.title": "800 CobbleDollars"
+	"quest.325BDCB9EF6271AD.title": "Poké Fête"
+	"quest.325BDCB9EF6271AD.quest_subtitle": "Les délices de Kalos"
+	"quest.325BDCB9EF6271AD.quest_desc": ["Cuisine un Poké Puff, une Poké Cake et un Poké Appât."]
+	"reward.2FDA0F8167C2F930.title": "800 CobbleDollars"
+	"quest.400A679E916254EE.title": "Aprijus"
+	"quest.400A679E916254EE.quest_subtitle": "Le jus de Noigrume"
+	"quest.400A679E916254EE.quest_desc": ["Prépare 3 Aprijus de couleurs différentes."]
+	"reward.1F129B21BC6F1C51.title": "600 CobbleDollars"
+	"quest.784F447B26D81027.title": "Poképeluche"
+	"quest.784F447B26D81027.quest_subtitle": "Un doudou Évoli"
+	"quest.784F447B26D81027.quest_desc": ["Trouve ou fabrique une Poképeluche Évoli pour décorer ta chambre."]
+	"reward.75BCC79975842705.title": "800 CobbleDollars"
+	"quest.1620CDB298180B54.title": "La Grosse Malasada"
+	"quest.1620CDB298180B54.quest_subtitle": "Spécialité d'Alola"
+	"quest.1620CDB298180B54.quest_desc": ["Cuisine une Grosse Malasada."]
+	"reward.7B8250094ABDEEC6.title": "500 CobbleDollars"
+	"quest.6840A14A2B8655F5.title": "La machine à CT"
+	"quest.6840A14A2B8655F5.quest_subtitle": "Apprendre de nouvelles capacités"
+	"quest.6840A14A2B8655F5.quest_desc": ["Fabrique une machine à CT."]
+	"reward.3D10EF1F29C16098.title": "500 CobbleDollars"
+	"quest.5BA5460915D52796.title": "CT vierges"
+	"quest.5BA5460915D52796.quest_subtitle": "Prêtes à graver"
+	"quest.5BA5460915D52796.quest_desc": ["Fabrique 5 CT vierges."]
+	"reward.6D7F235C9132153E.title": "800 CobbleDollars"
+	"quest.5CA9872CD96DF5B7.title": "Ta première CT"
+	"quest.5CA9872CD96DF5B7.quest_subtitle": "Grave une capacité"
+	"quest.5CA9872CD96DF5B7.quest_desc": ["Grave une capacité sur une CT."]
+	"reward.39F7329F0A367494.title": "800 CobbleDollars"
+	"quest.6F49F37AB6766C51.title": "TMcraft"
+	"quest.6F49F37AB6766C51.quest_subtitle": "Encore plus de CT"
+	"quest.6F49F37AB6766C51.quest_desc": ["Fabrique un disque vierge en cuivre de TMcraft : il sert à graver des CT."]
+	"reward.59C8D0A0BA607468.title": "800 CobbleDollars"
+	"quest.1C16719C2C711533.title": "Gemmes de type"
+	"quest.1C16719C2C711533.quest_subtitle": "Pour forger des objets"
+	"quest.1C16719C2C711533.quest_desc": ["Récupère 3 gemmes de types différents."]
+	"reward.70454C6EE437B4CE.title": "2500 CobbleDollars"
+	"quest.460F65627610C8F3.title": "Équipement de combat"
+	"quest.460F65627610C8F3.quest_subtitle": "Restes, Mouchoir Choix, Orbe Vie"
+	"quest.460F65627610C8F3.quest_desc": ["Réunis trois objets tenus puissants."]
+	"reward.2D44D8712E8E1148.title": "300 CobbleDollars"
+	"quest.43151D9A6529DF73.title": "Fossiles"
+	"quest.43151D9A6529DF73.quest_subtitle": "Le passé dans la roche"
+	"quest.43151D9A6529DF73.quest_desc": ["Trouve un fossile."]
+	"reward.71E9F6CCDD68BDCF.title": "800 CobbleDollars"
+	"quest.6342C1644BAC0344.title": "Le labo des fossiles"
+	"quest.6342C1644BAC0344.quest_subtitle": "Analyseur et cuve"
+	"quest.6342C1644BAC0344.quest_desc": ["Fabrique l'analyseur de fossiles et la cuve de restauration."]
+	"reward.1EC79B8682E36991.title": "1000 CobbleDollars"
+	"quest.37823A3F54A955BD.title": "Résurrection"
+	"quest.37823A3F54A955BD.quest_subtitle": "Il revient à la vie"
+	"quest.37823A3F54A955BD.quest_desc": ["Ressuscite un Pokémon fossile."]
+	"reward.7D7CBE399DF8D220.title": "500 CobbleDollars"
+	"quest.48FF8F65F5B07C9A.title": "Trésors cachés"
+	"quest.48FF8F65F5B07C9A.quest_subtitle": "CobbleLoots"
+	"quest.48FF8F65F5B07C9A.quest_desc": ["Trouve un trésor de CobbleLoots dans le monde (Poké Ball abandonnée)."]
+	"reward.5DDB3EEC1D213BB7.title": "500 CobbleDollars"
+	"quest.74F8884F4F8A9D94.title": "Décorateur"
+	"quest.74F8884F4F8A9D94.quest_subtitle": "Une maison digne d'un dresseur"
+	"quest.74F8884F4F8A9D94.quest_desc": ["Fabrique une table, une chaise et une étagère Handcrafted."]
+	"reward.242662FB294651F9.title": "500 CobbleDollars"
+	"quest.2AB756DCD9CE26CF.title": "Mobilier Pokémon"
+	"quest.2AB756DCD9CE26CF.quest_subtitle": "CobbleFurnies"
+	"quest.2AB756DCD9CE26CF.quest_desc": ["Fabrique un canapé et une lampe CobbleFurnies."]
+	"reward.6197C1055BD21BC5.title": "1000 CobbleDollars"
+	"quest.11D2D6F9433B9C43.title": "Un PC à la maison"
+	"quest.11D2D6F9433B9C43.quest_subtitle": "Comme au Centre"
+	"quest.11D2D6F9433B9C43.quest_desc": ["Fabrique un PC et une machine de soin pour ta maison."]
+	"reward.47E7DCFA5C903D7F.title": "500 CobbleDollars"
+	"quest.61A2648222A8B089.title": "La vitrine"
+	"quest.61A2648222A8B089.quest_subtitle": "Expose tes trésors"
+	"quest.61A2648222A8B089.quest_desc": ["Fabrique une vitrine pour exposer un objet rare."]
+	"chapter.1C215AB5FE9A99D0.title": "Économie"
+	"chapter.1C215AB5FE9A99D0.chapter_subtitle": ["CobbleDollars, boutique et caisses"]
+	"reward.1171DB86B4478D2F.title": "200 CobbleDollars"
+	"quest.6F34CE268FED31D7.title": "Premiers CobbleDollars"
+	"quest.6F34CE268FED31D7.quest_subtitle": "Ça s'empile vite"
+	"quest.6F34CE268FED31D7.quest_desc": ["Gagne de l'argent en battant des Pokémon et des dresseurs. Ouvre ton porte-monnaie avec /cobbledollars."]
+	"reward.49473668ADE0F403.title": "200 CobbleDollars"
+	"quest.4096F72D034A167A.title": "Le marchand"
+	"quest.4096F72D034A167A.quest_subtitle": "Le Quartier marchand d'Incarnam"
+	"quest.4096F72D034A167A.quest_desc": ["Achète un objet chez un marchand d'Incarnam."]
+	"reward.4F781FB59FD1CF73.title": "200 CobbleDollars"
+	"quest.279CA9EF9AF96E6F.title": "La boutique du serveur"
+	"quest.279CA9EF9AF96E6F.quest_subtitle": "/boutique"
+	"quest.279CA9EF9AF96E6F.quest_desc": ["Ouvre la boutique du serveur avec /boutique et regarde les grades et les clés."]
+	"reward.51693D84AF4A542F.title": "2 clés commune"
+	"quest.307F496FDD1C2E95.title": "Première caisse"
+	"quest.307F496FDD1C2E95.quest_subtitle": "Le Sanctuaire des récompenses"
+	"quest.307F496FDD1C2E95.quest_desc": ["Ouvre une caisse commune au Sanctuaire des récompenses."]
+	"reward.4ECFEBBF3D0401EF.title": "1 clé rare"
+	"quest.726AE8C341DFAC47.title": "Caisse rare"
+	"quest.726AE8C341DFAC47.quest_subtitle": "Ça brille plus"
+	"quest.726AE8C341DFAC47.quest_desc": ["Ouvre une caisse rare."]
+	"reward.17E1AFB9A2D0CE96.title": "1 clé legendaire"
+	"quest.40AAB4740B066150.title": "Caisse légendaire"
+	"quest.40AAB4740B066150.quest_subtitle": "Le jackpot"
+	"quest.40AAB4740B066150.quest_desc": ["Ouvre une caisse légendaire."]
+	"reward.768A768369C47FE4.title": "500 CobbleDollars"
+	"quest.3139C4CF680E57CC.title": "Œuf Chance"
+	"quest.3139C4CF680E57CC.quest_subtitle": "WantedItems"
+	"quest.3139C4CF680E57CC.quest_desc": ["Trouve un Œuf Chance rouge, vert ou bleu (WantedItems)."]
+	"reward.22822C96BCB0A380.title": "1000 CobbleDollars"
+	"quest.1EC54DF578F8B76C.title": "Capsule d'argent"
+	"quest.1EC54DF578F8B76C.quest_subtitle": "Entraînement ultime"
+	"quest.1EC54DF578F8B76C.quest_desc": ["Obtiens une Capsule d'argent pour maximiser un IV."]
+	"reward.2519C78B489E30CB.title": "3000 CobbleDollars"
+	"quest.64028153188DE844.title": "Capsule d'or"
+	"quest.64028153188DE844.quest_subtitle": "Tous les IVs au maximum"
+	"quest.64028153188DE844.quest_desc": ["Obtiens une Capsule d'or."]
+	"reward.2005DF8CF8FD3AD8.title": "800 CobbleDollars"
+	"quest.6C2022B0CF36F5F0.title": "Boîte surprise"
+	"quest.6C2022B0CF36F5F0.quest_subtitle": "Qu'y a-t-il dedans ?"
+	"quest.6C2022B0CF36F5F0.quest_desc": ["Ouvre une Boîte Chance Cobblemon."]
+	"reward.7D8E875EA016700E.title": "5000 CobbleDollars"
+	"quest.73B70F434D9D4375.title": "Échangeur chromatique"
+	"quest.73B70F434D9D4375.quest_subtitle": "L'objet le plus convoité"
+	"quest.73B70F434D9D4375.quest_desc": ["Obtiens un Échangeur chromatique."]
+	"quest.4BA8041733FB806B.title": "Économe"
+	"quest.4BA8041733FB806B.quest_subtitle": "10 000 CobbleDollars"
+	"quest.4BA8041733FB806B.quest_desc": ["Possède 10 000 CobbleDollars en même temps, puis valide (on te fait confiance !)."]
+	"quest.6289F1DC2B38AEBA.title": "Grade Dresseur"
+	"quest.6289F1DC2B38AEBA.quest_subtitle": "Monte en grade"
+	"quest.6289F1DC2B38AEBA.quest_desc": ["Achète le grade Dresseur à la boutique."]
+	"reward.6801E174D2E82358.title": "500 CobbleDollars"
+	"quest.73395E05E9E75E6C.title": "Échange entre joueurs"
+	"quest.73395E05E9E75E6C.quest_subtitle": "Le commerce, c'est l'amitié"
+	"quest.73395E05E9E75E6C.quest_desc": ["Échange un Pokémon avec un autre joueur."]
+	"reward.6EEE4F883DBF8C10.title": "1 clé legendaire"
+	"quest.2FEF486B33D723FA.title": "Magnat"
+	"quest.2FEF486B33D723FA.quest_subtitle": "100 000 CobbleDollars"
+	"quest.2FEF486B33D723FA.quest_desc": ["Possède 100 000 CobbleDollars en même temps, puis valide."]
+	"chapter.6186D4B8C4CC7259.title": "Nether & End"
+	"chapter.6186D4B8C4CC7259.chapter_subtitle": ["Au-delà des halos"]
+	"reward.416C6C39F6E1C396.title": "1000 CobbleDollars"
+	"quest.4562353F979A1150.title": "Le halo de feu"
+	"quest.4562353F979A1150.quest_subtitle": "Depuis Incarnam"
+	"quest.4562353F979A1150.quest_desc": ["Le Nether ne s'ouvre que depuis Incarnam. Traverse le halo de feu."]
+	"reward.52B1A6DCF79E7BBD.title": "800 CobbleDollars"
+	"quest.181043FE8D084736.title": "Pokémon du Nether"
+	"quest.181043FE8D084736.quest_subtitle": "Ils aiment la chaleur"
+	"quest.181043FE8D084736.quest_desc": ["Attrape 5 Pokémon dans le Nether."]
+	"reward.7D58E39E48448093.title": "1000 CobbleDollars"
+	"quest.2AE19E9300709F61.title": "La forteresse"
+	"quest.2AE19E9300709F61.quest_subtitle": "YUNG's Better Nether Fortresses"
+	"quest.2AE19E9300709F61.quest_desc": ["Trouve une forteresse du Nether."]
+	"reward.509CF01BF1342D34.title": "1000 CobbleDollars"
+	"quest.221B6DA697BB6587.title": "Bastion"
+	"quest.221B6DA697BB6587.quest_subtitle": "Les Piglins gardent l'or"
+	"quest.221B6DA697BB6587.quest_desc": ["Trouve un bastion."]
+	"reward.55A9A007E6B13A4D.title": "1500 CobbleDollars"
+	"quest.79485EE988B325E8.title": "Le village Piglin"
+	"quest.79485EE988B325E8.quest_subtitle": "Incendium"
+	"quest.79485EE988B325E8.quest_desc": ["Trouve un village Piglin."]
+	"reward.1009DEF0BF16B606.title": "2500 CobbleDollars"
+	"quest.19CEEF926CAE149E.title": "Le château interdit"
+	"quest.19CEEF926CAE149E.quest_subtitle": "Le cœur d'Incendium"
+	"quest.19CEEF926CAE149E.quest_desc": ["Trouve le château interdit."]
+	"reward.1A5CE7E646BBB1E1.title": "2500 CobbleDollars"
+	"quest.13C2C52D1861D802.title": "Le Sanctuaire"
+	"quest.13C2C52D1861D802.quest_subtitle": "Prière au feu"
+	"quest.13C2C52D1861D802.quest_desc": ["Trouve le Sanctum d'Incendium."]
+	"reward.66DDA8B841F9679E.title": "6000 CobbleDollars"
+	"quest.7532D0C957ADD471.title": "Heatran"
+	"quest.7532D0C957ADD471.quest_subtitle": "Le Pokémon de la lave"
+	"quest.7532D0C957ADD471.quest_desc": ["Attrape Heatran."]
+	"reward.16B29CAA732D531A.title": "1500 CobbleDollars"
+	"quest.26FB5EA81040B237.title": "Le halo du néant"
+	"quest.26FB5EA81040B237.quest_subtitle": "Depuis Incarnam"
+	"quest.26FB5EA81040B237.quest_desc": ["L'End ne s'ouvre que depuis Incarnam. Traverse le halo du néant."]
+	"reward.13AEEF33A5C404FE.title": "5000 CobbleDollars"
+	"reward.681FDD20D85BD88A.title": "2 clés legendaire"
+	"quest.1B64D9FD7C7B0C56.title": "L'Ender Dragon"
+	"quest.1B64D9FD7C7B0C56.quest_subtitle": "Le gardien du néant"
+	"quest.1B64D9FD7C7B0C56.quest_desc": ["Vaincs l'Ender Dragon."]
+	"reward.2316A3BD46865B74.title": "1500 CobbleDollars"
+	"quest.55EE77007A516A2C.title": "Cité de l'End"
+	"quest.55EE77007A516A2C.quest_subtitle": "Les Shulkers veillent"
+	"quest.55EE77007A516A2C.quest_desc": ["Trouve une cité de l'End."]
+	"reward.1DB9537EF735C591.title": "2000 CobbleDollars"
+	"quest.3C987DD3293743FD.title": "Élytres"
+	"quest.3C987DD3293743FD.quest_subtitle": "Voler sans Pokémon"
+	"quest.3C987DD3293743FD.quest_desc": ["Récupère des élytres."]
+	"reward.6BE17405ED17054A.title": "2000 CobbleDollars"
+	"quest.4575BC23B11AB6D7.title": "Le Rift"
+	"quest.4575BC23B11AB6D7.quest_subtitle": "Nullscape"
+	"quest.4575BC23B11AB6D7.quest_desc": ["Trouve une faille (Rift) dans les îles de l'End."]
+	"reward.786EBE4DFF2607BE.title": "2000 CobbleDollars"
+	"quest.39567D5DEF1D5E12.title": "Squelette de dragon"
+	"quest.39567D5DEF1D5E12.quest_subtitle": "Les restes d'un géant"
+	"quest.39567D5DEF1D5E12.quest_desc": ["Trouve un squelette de dragon dans l'End."]
+	"reward.60F532DE8130DA03.title": "2500 CobbleDollars"
+	"quest.22C94DD32B612404.title": "Château de l'End"
+	"quest.22C94DD32B612404.quest_subtitle": "Dungeons and Taverns"
+	"quest.22C94DD32B612404.quest_desc": ["Trouve le château de l'End."]
+	"reward.14DA0AB5397EF26B.title": "6000 CobbleDollars"
+	"quest.30DB3FD88FCEE31D.title": "Deoxys"
+	"quest.30DB3FD88FCEE31D.quest_subtitle": "Venu de l'espace"
+	"quest.30DB3FD88FCEE31D.quest_desc": ["Attrape Deoxys."]
+	"chapter.6639968423DA4EC3.title": "Gadgets"
+	"chapter.6639968423DA4EC3.chapter_subtitle": ["Les outils du dresseur moderne"]
+	"reward.1365088B6CC131F8.title": "800 CobbleDollars"
+	"quest.4DBAAB61A4F11DFF.title": "Smartphone"
+	"quest.4DBAAB61A4F11DFF.quest_subtitle": "Le PC dans la poche"
+	"quest.4DBAAB61A4F11DFF.quest_desc": ["Fabrique un Smartphone : il ouvre ton PC et soigne ton équipe à distance."]
+	"reward.286B7ABF9F0AB090.title": "500 CobbleDollars"
+	"quest.138AA586D6AF57CB.title": "PokéNav"
+	"quest.138AA586D6AF57CB.quest_subtitle": "Ne jamais se perdre"
+	"quest.138AA586D6AF57CB.quest_desc": ["Fabrique un PokéNav."]
+	"reward.100281E035FECD3B.title": "500 CobbleDollars"
+	"quest.41C5C03A404C512C.title": "Sac de voyage"
+	"quest.41C5C03A404C512C.quest_subtitle": "Traveler's Backpack"
+	"quest.41C5C03A404C512C.quest_desc": ["Fabrique un sac à dos de voyageur."]
+	"reward.11F21000141D6ED4.title": "600 CobbleDollars"
+	"quest.2325C06358009F78.title": "Compteur de captures"
+	"quest.2325C06358009F78.quest_subtitle": "Le combo shiny"
+	"quest.2325C06358009F78.quest_desc": ["Attrape 20 fois la même espèce : le compteur augmente tes chances de chromatique. Tape /counter pour voir ton combo."]
+	"reward.2A162281109DBD19.title": "400 CobbleDollars"
+	"quest.61071C84C88EBBCE.title": "Canne à pêche Poké"
+	"quest.61071C84C88EBBCE.quest_subtitle": "Pêcher des Pokémon"
+	"quest.61071C84C88EBBCE.quest_desc": ["Fabrique une Canne Poké et pêche un Pokémon."]
+	"reward.10FF805C2FBE58D3.title": "800 CobbleDollars"
+	"quest.1DAF2B58722940EC.title": "Multi Exp"
+	"quest.1DAF2B58722940EC.quest_subtitle": "Tout le monde progresse"
+	"quest.1DAF2B58722940EC.quest_desc": ["Obtiens un Multi Exp."]
+	"reward.4B9D4353C6AFF48E.title": "1000 CobbleDollars"
+	"quest.7DCB218A3AF99B48.title": "Œuf Chance"
+	"quest.7DCB218A3AF99B48.quest_subtitle": "Plus d'expérience"
+	"quest.7DCB218A3AF99B48.quest_desc": ["Obtiens un Œuf Chance."]
+	"reward.4292E852764CABD6.title": "600 CobbleDollars"
+	"quest.62F3772BFED8EDAA.title": "Bonbons Exp."
+	"quest.62F3772BFED8EDAA.quest_subtitle": "Monter de niveau sans combattre"
+	"quest.62F3772BFED8EDAA.quest_desc": ["Réunis des Bonbons Exp. S, M et L."]
+	"reward.4E4E15646588CA83.title": "1000 CobbleDollars"
+	"quest.3FB95D6997984A40.title": "Niveau 50"
+	"quest.3FB95D6997984A40.quest_subtitle": "Un compagnon aguerri"
+	"quest.3FB95D6997984A40.quest_desc": ["Fais monter un Pokémon au niveau 50."]
+	"reward.35B3CED7CD4552B2.title": "3000 CobbleDollars"
+	"quest.1128E8F98913FAE3.title": "Niveau 100"
+	"quest.1128E8F98913FAE3.quest_subtitle": "Le sommet"
+	"quest.1128E8F98913FAE3.quest_desc": ["Fais monter un Pokémon au niveau 100."]
+	"reward.1677684945EFFC8B.title": "8000 CobbleDollars"
+	"reward.31288BA530FA5A66.title": "2 clés legendaire"
+	"quest.54E18736C94166CA.title": "Équipe complète"
+	"quest.54E18736C94166CA.quest_subtitle": "Six niveaux 100"
+	"quest.54E18736C94166CA.quest_desc": ["Fais monter 6 Pokémon au niveau 100."]
 }

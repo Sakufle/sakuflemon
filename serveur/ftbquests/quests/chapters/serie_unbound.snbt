@@ -3,13 +3,13 @@
 	group: ""
 	order_index: 14
 	filename: "serie_unbound"
-	icon: "cobblemon:dusk_stone"
+	icon: { id: "cobblemon:dusk_stone" }
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			id: "42386D4C3825569F"
-			icon: "rctmod:trainer_card"
+			icon: { id: "rctmod:trainer_card" }
 			x: 0.0d
 			y: 0.0d
 			size: 1.5d
@@ -29,7 +29,7 @@
 					command: "/cobbledollars give {p} 300"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "64171DC3128D5AB1"
@@ -40,7 +40,7 @@
 		}
 		{
 			id: "78435B294E624DB9"
-			icon: "cobblemon:poke_ball"
+			icon: { id: "cobblemon:poke_ball" }
 			x: 1.5d
 			y: 0.0d
 			dependencies: ["42386D4C3825569F"]
@@ -82,7 +82,7 @@
 					command: "/cobbledollars give {p} 960"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "69D6AFB0A27EAA67"
@@ -93,7 +93,7 @@
 		}
 		{
 			id: "21842E267146603F"
-			icon: "cobblemon:leaf_stone"
+			icon: { id: "cobblemon:leaf_stone" }
 			x: 3.0d
 			y: 0.0d
 			shape: "hexagon"
@@ -136,7 +136,7 @@
 					command: "/cobbledollars give {p} 1040"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "366AA594A0FC90D4"
@@ -144,7 +144,7 @@
 					command: "/crates key give {p} cle_rare 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 				{
 					id: "6F2A745D6F90A50E"
@@ -155,7 +155,7 @@
 		}
 		{
 			id: "298F71DE4D8D64B3"
-			icon: "minecraft:black_banner"
+			icon: { id: "minecraft:black_banner" }
 			x: 4.5d
 			y: 0.0d
 			shape: "square"
@@ -198,7 +198,7 @@
 					command: "/cobbledollars give {p} 1320"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "4E5D2A2F407CA800"
@@ -209,7 +209,7 @@
 		}
 		{
 			id: "7CE9908C5D6301D9"
-			icon: "cobblemon:spell_tag"
+			icon: { id: "cobblemon:spell_tag" }
 			x: 6.0d
 			y: 0.0d
 			shape: "hexagon"
@@ -252,7 +252,7 @@
 					command: "/cobbledollars give {p} 1280"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "142CB3966F1B0109"
@@ -260,7 +260,7 @@
 					command: "/crates key give {p} cle_rare 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 				{
 					id: "63DA515EAB738559"
@@ -271,7 +271,7 @@
 		}
 		{
 			id: "7A787BFBBC9058C3"
-			icon: "minecraft:black_banner"
+			icon: { id: "minecraft:black_banner" }
 			x: 7.5d
 			y: 0.0d
 			shape: "square"
@@ -314,7 +314,7 @@
 					command: "/cobbledollars give {p} 1560"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "513DFB6A423B88D8"
@@ -325,7 +325,7 @@
 		}
 		{
 			id: "52706CA52184A967"
-			icon: "minecraft:wither_skeleton_skull"
+			icon: { id: "minecraft:wither_skeleton_skull" }
 			x: 9.0d
 			y: 0.0d
 			shape: "square"
@@ -368,7 +368,7 @@
 					command: "/cobbledollars give {p} 1520"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "10E4CB4F48BCDCB2"
@@ -379,7 +379,7 @@
 		}
 		{
 			id: "6A10BCF278A57348"
-			icon: "cobblemon:great_ball"
+			icon: { id: "cobblemon:great_ball" }
 			x: 10.5d
 			y: 0.0d
 			dependencies: ["52706CA52184A967"]
@@ -421,7 +421,7 @@
 					command: "/cobbledollars give {p} 1520"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "245A80A9D3C4E76B"
@@ -432,7 +432,7 @@
 		}
 		{
 			id: "1096E76CB24DA120"
-			icon: "minecraft:feather"
+			icon: { id: "minecraft:feather" }
 			x: 0.0d
 			y: 1.5d
 			shape: "hexagon"
@@ -475,7 +475,7 @@
 					command: "/cobbledollars give {p} 1520"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "10865C8FEBE53779"
@@ -483,7 +483,7 @@
 					command: "/crates key give {p} cle_rare 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 				{
 					id: "57F46E16C5A5940B"
@@ -494,7 +494,7 @@
 		}
 		{
 			id: "18294FFF434F02E2"
-			icon: "cobblemon:silk_scarf"
+			icon: { id: "cobblemon:silk_scarf" }
 			x: 1.5d
 			y: 1.5d
 			shape: "hexagon"
@@ -537,7 +537,7 @@
 					command: "/cobbledollars give {p} 1680"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "3EDF8F62756D87D8"
@@ -545,7 +545,7 @@
 					command: "/crates key give {p} cle_rare 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 				{
 					id: "187B7E5312FFB45D"
@@ -556,7 +556,7 @@
 		}
 		{
 			id: "311380349AC26857"
-			icon: "minecraft:black_banner"
+			icon: { id: "minecraft:black_banner" }
 			x: 3.0d
 			y: 1.5d
 			shape: "square"
@@ -599,7 +599,7 @@
 					command: "/cobbledollars give {p} 1720"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "295689D205169B09"
@@ -610,7 +610,7 @@
 		}
 		{
 			id: "683F4CF4B2C28997"
-			icon: "cobblemon:black_belt"
+			icon: { id: "cobblemon:black_belt" }
 			x: 4.5d
 			y: 1.5d
 			shape: "hexagon"
@@ -653,7 +653,7 @@
 					command: "/cobbledollars give {p} 1840"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "7D58F71779410DA8"
@@ -661,7 +661,7 @@
 					command: "/crates key give {p} cle_rare 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 				{
 					id: "259422ADDD28EC65"
@@ -672,7 +672,7 @@
 		}
 		{
 			id: "71A4653E572DAE08"
-			icon: "minecraft:black_banner"
+			icon: { id: "minecraft:black_banner" }
 			x: 6.0d
 			y: 1.5d
 			shape: "square"
@@ -715,7 +715,7 @@
 					command: "/cobbledollars give {p} 1840"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "6757D68016D80B7D"
@@ -726,7 +726,7 @@
 		}
 		{
 			id: "6E91DE864DC27D00"
-			icon: "cobblemon:great_ball"
+			icon: { id: "cobblemon:great_ball" }
 			x: 7.5d
 			y: 1.5d
 			dependencies: ["71A4653E572DAE08"]
@@ -768,7 +768,7 @@
 					command: "/cobbledollars give {p} 2080"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "32DEBA8ABE55F333"
@@ -779,7 +779,7 @@
 		}
 		{
 			id: "300E04A6F4070787"
-			icon: "cobblemon:thunder_stone"
+			icon: { id: "cobblemon:thunder_stone" }
 			x: 9.0d
 			y: 1.5d
 			shape: "hexagon"
@@ -822,7 +822,7 @@
 					command: "/cobbledollars give {p} 2040"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "5B7BD92B36391A65"
@@ -830,7 +830,7 @@
 					command: "/crates key give {p} cle_rare 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 				{
 					id: "4612CB7E97939902"
@@ -841,7 +841,7 @@
 		}
 		{
 			id: "17A9D8491B35257C"
-			icon: "minecraft:soul_lantern"
+			icon: { id: "minecraft:soul_lantern" }
 			x: 10.5d
 			y: 1.5d
 			shape: "square"
@@ -884,7 +884,7 @@
 					command: "/cobbledollars give {p} 2080"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "1CE64FCEF275F1FB"
@@ -895,7 +895,7 @@
 		}
 		{
 			id: "3DF9542EDA47F306"
-			icon: "minecraft:wither_skeleton_skull"
+			icon: { id: "minecraft:wither_skeleton_skull" }
 			x: 0.0d
 			y: 3.0d
 			shape: "square"
@@ -938,7 +938,7 @@
 					command: "/cobbledollars give {p} 2040"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "7430BF347CE5B3E7"
@@ -949,7 +949,7 @@
 		}
 		{
 			id: "1415B7B55B595FFC"
-			icon: "minecraft:soul_lantern"
+			icon: { id: "minecraft:soul_lantern" }
 			x: 1.5d
 			y: 3.0d
 			shape: "square"
@@ -992,7 +992,7 @@
 					command: "/cobbledollars give {p} 2320"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "3F065D140FAD15FD"
@@ -1003,7 +1003,7 @@
 		}
 		{
 			id: "45165F7879EB699F"
-			icon: "cobblemon:muscle_band"
+			icon: { id: "cobblemon:muscle_band" }
 			x: 3.0d
 			y: 3.0d
 			shape: "hexagon"
@@ -1046,7 +1046,7 @@
 					command: "/cobbledollars give {p} 2320"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "5B5989FFEA21397F"
@@ -1054,7 +1054,7 @@
 					command: "/crates key give {p} cle_rare 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 				{
 					id: "6EDF6C979B8370F2"
@@ -1065,7 +1065,7 @@
 		}
 		{
 			id: "29DD1161E8F0ACA1"
-			icon: "minecraft:water_bucket"
+			icon: { id: "minecraft:water_bucket" }
 			x: 4.5d
 			y: 3.0d
 			shape: "hexagon"
@@ -1108,7 +1108,7 @@
 					command: "/cobbledollars give {p} 2520"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "5C90341907051D22"
@@ -1116,7 +1116,7 @@
 					command: "/crates key give {p} cle_rare 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 				{
 					id: "1DF079FB02A18EDD"
@@ -1127,7 +1127,7 @@
 		}
 		{
 			id: "68FC141212F4F7F6"
-			icon: "cobblemon:ultra_ball"
+			icon: { id: "cobblemon:ultra_ball" }
 			x: 6.0d
 			y: 3.0d
 			dependencies: ["29DD1161E8F0ACA1"]
@@ -1169,7 +1169,7 @@
 					command: "/cobbledollars give {p} 2800"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "5D72BC8F34F6C3C5"
@@ -1180,7 +1180,7 @@
 		}
 		{
 			id: "59C711E299114AB9"
-			icon: "minecraft:soul_lantern"
+			icon: { id: "minecraft:soul_lantern" }
 			x: 7.5d
 			y: 3.0d
 			shape: "square"
@@ -1223,7 +1223,7 @@
 					command: "/cobbledollars give {p} 2680"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "63FC2E24400190FB"
@@ -1234,7 +1234,7 @@
 		}
 		{
 			id: "1C722F3AF9A22810"
-			icon: "minecraft:soul_lantern"
+			icon: { id: "minecraft:soul_lantern" }
 			x: 9.0d
 			y: 3.0d
 			shape: "square"
@@ -1277,7 +1277,7 @@
 					command: "/cobbledollars give {p} 2680"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "41C12FBF0F0D8E75"
@@ -1288,7 +1288,7 @@
 		}
 		{
 			id: "417E113028C56EF8"
-			icon: "minecraft:black_banner"
+			icon: { id: "minecraft:black_banner" }
 			x: 10.5d
 			y: 3.0d
 			shape: "square"
@@ -1331,7 +1331,7 @@
 					command: "/cobbledollars give {p} 2680"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "2FA967E4EC832F78"
@@ -1342,7 +1342,7 @@
 		}
 		{
 			id: "7229333EE2B86220"
-			icon: "cobblemon:silver_powder"
+			icon: { id: "cobblemon:silver_powder" }
 			x: 0.0d
 			y: 4.5d
 			shape: "hexagon"
@@ -1385,7 +1385,7 @@
 					command: "/cobbledollars give {p} 2680"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "33A224B6E779D155"
@@ -1393,7 +1393,7 @@
 					command: "/crates key give {p} cle_rare 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 				{
 					id: "254C6E10D24FBCA6"
@@ -1404,7 +1404,7 @@
 		}
 		{
 			id: "434A2CF1C4236B12"
-			icon: "cobblemon:soft_sand"
+			icon: { id: "cobblemon:soft_sand" }
 			x: 0.0d
 			y: 6.0d
 			shape: "diamond"
@@ -1447,7 +1447,7 @@
 					command: "/cobbledollars give {p} 3240"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "1DB233614162D76A"
@@ -1455,7 +1455,7 @@
 					command: "/crates key give {p} cle_rare 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 				{
 					id: "6FADA4EFE00E07E0"
@@ -1466,7 +1466,7 @@
 		}
 		{
 			id: "64C3694CEA473449"
-			icon: "cobblemon:twisted_spoon"
+			icon: { id: "cobblemon:twisted_spoon" }
 			x: 1.5d
 			y: 6.0d
 			shape: "diamond"
@@ -1509,7 +1509,7 @@
 					command: "/cobbledollars give {p} 3240"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "7F91DD9C584D6694"
@@ -1517,7 +1517,7 @@
 					command: "/crates key give {p} cle_rare 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 				{
 					id: "446187C77FC46DAC"
@@ -1528,7 +1528,7 @@
 		}
 		{
 			id: "206C547EF423EB7D"
-			icon: "cobblemon:spell_tag"
+			icon: { id: "cobblemon:spell_tag" }
 			x: 3.0d
 			y: 6.0d
 			shape: "diamond"
@@ -1571,7 +1571,7 @@
 					command: "/cobbledollars give {p} 3240"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "4EB799F39A7BC78D"
@@ -1579,7 +1579,7 @@
 					command: "/crates key give {p} cle_rare 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 				{
 					id: "1C374D44F884CFA4"
@@ -1590,7 +1590,7 @@
 		}
 		{
 			id: "1B2FDBE3A4E8424E"
-			icon: "minecraft:pink_dye"
+			icon: { id: "minecraft:pink_dye" }
 			x: 4.5d
 			y: 6.0d
 			shape: "diamond"
@@ -1633,7 +1633,7 @@
 					command: "/cobbledollars give {p} 3240"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "2C811D4ABD56E5A3"
@@ -1641,7 +1641,7 @@
 					command: "/crates key give {p} cle_rare 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 				{
 					id: "62CDBE8278179B49"
@@ -1652,7 +1652,7 @@
 		}
 		{
 			id: "30670EBB0AEEF8B3"
-			icon: "minecraft:gold_block"
+			icon: { id: "minecraft:gold_block" }
 			x: 6.0d
 			y: 6.0d
 			shape: "gear"
@@ -1696,7 +1696,7 @@
 					command: "/cobbledollars give {p} 3240"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "1A168450324CEF71"
@@ -1704,7 +1704,7 @@
 					command: "/crates key give {p} cle_legendaire 2"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 				{
 					id: "5571BE24E7607547"
@@ -1715,7 +1715,7 @@
 		}
 		{
 			id: "74D110527602A6FB"
-			icon: "minecraft:echo_shard"
+			icon: { id: "minecraft:echo_shard" }
 			x: 7.5d
 			y: 6.0d
 			shape: "square"
@@ -1758,7 +1758,7 @@
 					command: "/cobbledollars give {p} 3560"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "61EE0C0A838FB290"

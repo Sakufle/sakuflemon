@@ -30,7 +30,7 @@
 			command: "/cobbledollars give {p} 300"
 			player_command: false
 			silent: true
-			icon: "cobblemon:relic_coin"
+			icon: { id: "cobblemon:relic_coin" }
 			weight: 15.0f
 		}
 		{
@@ -39,7 +39,7 @@
 			command: "/crates key give {p} cle_commune 1"
 			player_command: false
 			silent: true
-			icon: "minecraft:tripwire_hook"
+			icon: { id: "minecraft:tripwire_hook" }
 			weight: 10.0f
 		}
 	]

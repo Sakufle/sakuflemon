@@ -9,7 +9,7 @@
 	quests: [
 		{
 			id: "4DBAAB61A4F11DFF"
-			icon: "cobblemon_smartphone:red_smartphone"
+			icon: { id: "cobblemon_smartphone:red_smartphone" }
 			x: 0.0d
 			y: 0.0d
 			size: 1.5d
@@ -29,7 +29,7 @@
 					command: "/cobbledollars give {p} 800"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "4C775C3B798EC837"
@@ -40,7 +40,7 @@
 		}
 		{
 			id: "138AA586D6AF57CB"
-			icon: "cobblenav:pokenav_item"
+			icon: { id: "cobblenav:pokenav_item" }
 			x: 1.5d
 			y: 0.0d
 			dependencies: ["4DBAAB61A4F11DFF"]
@@ -60,7 +60,7 @@
 					command: "/cobbledollars give {p} 500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "2E7CC7849D556FC9"
@@ -71,7 +71,7 @@
 		}
 		{
 			id: "41C5C03A404C512C"
-			icon: "travelersbackpack:standard"
+			icon: { id: "travelersbackpack:standard" }
 			x: 3.0d
 			y: 0.0d
 			dependencies: ["138AA586D6AF57CB"]
@@ -91,7 +91,7 @@
 					command: "/cobbledollars give {p} 500"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "5E439A8960637998"
@@ -102,7 +102,7 @@
 		}
 		{
 			id: "2325C06358009F78"
-			icon: "cobblemon:poke_ball"
+			icon: { id: "cobblemon:poke_ball" }
 			x: 4.5d
 			y: 0.0d
 			dependencies: ["41C5C03A404C512C"]
@@ -119,7 +119,7 @@
 					command: "/cobbledollars give {p} 600"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "72A6FB4A48AD8484"
@@ -130,7 +130,7 @@
 		}
 		{
 			id: "61071C84C88EBBCE"
-			icon: "cobblemon:poke_rod"
+			icon: { id: "cobblemon:poke_rod" }
 			x: 6.0d
 			y: 0.0d
 			dependencies: ["2325C06358009F78"]
@@ -172,7 +172,7 @@
 					command: "/cobbledollars give {p} 400"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "53E6E3612C4D7D0D"
@@ -183,7 +183,7 @@
 		}
 		{
 			id: "1DAF2B58722940EC"
-			icon: "cobblemon:exp_share"
+			icon: { id: "cobblemon:exp_share" }
 			x: 7.5d
 			y: 0.0d
 			dependencies: ["61071C84C88EBBCE"]
@@ -203,7 +203,7 @@
 					command: "/cobbledollars give {p} 800"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "73CD8D75D868D2C6"
@@ -214,7 +214,7 @@
 		}
 		{
 			id: "7DCB218A3AF99B48"
-			icon: "cobblemon:lucky_egg"
+			icon: { id: "cobblemon:lucky_egg" }
 			x: 9.0d
 			y: 0.0d
 			dependencies: ["1DAF2B58722940EC"]
@@ -234,7 +234,7 @@
 					command: "/cobbledollars give {p} 1000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "1D617B74DC3CACF4"
@@ -245,7 +245,7 @@
 		}
 		{
 			id: "62F3772BFED8EDAA"
-			icon: "cobblemon:exp_candy_m"
+			icon: { id: "cobblemon:exp_candy_m" }
 			x: 0.0d
 			y: 1.5d
 			dependencies: ["4DBAAB61A4F11DFF"]
@@ -279,7 +279,7 @@
 					command: "/cobbledollars give {p} 600"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "26913A9B27DCC544"
@@ -290,7 +290,7 @@
 		}
 		{
 			id: "3FB95D6997984A40"
-			icon: "cobblemon:rare_candy"
+			icon: { id: "cobblemon:rare_candy" }
 			x: 1.5d
 			y: 1.5d
 			dependencies: ["62F3772BFED8EDAA"]
@@ -332,7 +332,7 @@
 					command: "/cobbledollars give {p} 1000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "2F95E51DD41A88A8"
@@ -343,7 +343,7 @@
 		}
 		{
 			id: "1128E8F98913FAE3"
-			icon: "cobblemon:exp_candy_xl"
+			icon: { id: "cobblemon:exp_candy_xl" }
 			x: 3.0d
 			y: 1.5d
 			shape: "gear"
@@ -386,7 +386,7 @@
 					command: "/cobbledollars give {p} 3000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "23E723549D6EE1AD"
@@ -397,7 +397,7 @@
 		}
 		{
 			id: "54E18736C94166CA"
-			icon: "cobblemon:exp_candy_xl"
+			icon: { id: "cobblemon:exp_candy_xl" }
 			x: 4.5d
 			y: 1.5d
 			shape: "gear"
@@ -441,7 +441,7 @@
 					command: "/cobbledollars give {p} 8000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "31288BA530FA5A66"
@@ -449,7 +449,7 @@
 					command: "/crates key give {p} cle_legendaire 2"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 				{
 					id: "3602FFBFFB16434F"

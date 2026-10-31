@@ -52,7 +52,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -101,7 +101,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -150,7 +150,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -199,7 +199,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -248,7 +248,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -297,7 +297,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -346,7 +346,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -395,7 +395,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -444,7 +444,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -493,7 +493,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -542,7 +542,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -591,7 +591,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -640,7 +640,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -689,7 +689,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -738,7 +738,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -787,7 +787,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -836,7 +836,7 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
@@ -885,13 +885,13 @@
 					command: "/cobbledollars give {p} 250"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 			]
 		}
 		{
 			id: "33D3A7DC13F2FE3E"
-			icon: "cobblemon:master_ball"
+			icon: { id: "cobblemon:master_ball" }
 			x: 3.8d
 			y: 5.0d
 			shape: "hexagon"
@@ -910,7 +910,7 @@
 					command: "/cobbledollars give {p} 5000"
 					player_command: false
 					silent: true
-					icon: "cobblemon:relic_coin"
+					icon: { id: "cobblemon:relic_coin" }
 				}
 				{
 					id: "2D79E0BE58D8EBF9"
@@ -918,7 +918,7 @@
 					command: "/crates key give {p} cle_legendaire 1"
 					player_command: false
 					silent: true
-					icon: "minecraft:tripwire_hook"
+					icon: { id: "minecraft:tripwire_hook" }
 				}
 			]
 		}

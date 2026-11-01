@@ -735,3 +735,18 @@ metafile = true
 file = "mods/cobblemon-playerxp.pw.toml"
 hash = "134eacb2b41d2e13e0cd80179881b368a437b5927894558103c4a0e475200615"
 metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "eecdc8127f69c74ff55fd183d1f1d7d5ef3e714d73845a239fe9e086147a67b1"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "8302da862578554b012b2cfe58a3c1e75b514d09f94d842e7303be41a2157aeb"
+metafile = true
+
+[[files]]
+file = "mods/amecs.pw.toml"
+hash = "460cf6adcc5bef52eaae42b039f8156dc51545cf21c997e833bfce1ca9edeeb2"
+metafile = true

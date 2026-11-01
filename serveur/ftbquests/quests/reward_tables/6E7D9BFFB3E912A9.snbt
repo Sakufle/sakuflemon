@@ -1,0 +1,39 @@
+{
+	id: "6E7D9BFFB3E912A9"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			id: "69B2E494C003F758"
+			type: "command"
+			command: "/crates key give {p} cle_rare 2"
+			player_command: false
+			silent: true
+			icon: { id: "minecraft:tripwire_hook" }
+			weight: 35.0f
+		}
+		{
+			id: "21F5B031CB538189"
+			type: "item"
+			item: { count: 1, id: "cobblemon:ability_capsule" }
+			count: 1
+			weight: 30.0f
+		}
+		{
+			id: "1CD2C4A45F5267A4"
+			type: "command"
+			command: "/crates key give {p} cle_legendaire 1"
+			player_command: false
+			silent: true
+			icon: { id: "minecraft:tripwire_hook" }
+			weight: 25.0f
+		}
+		{
+			id: "4586101C2F23D328"
+			type: "item"
+			item: { count: 1, id: "cobblemon:master_ball" }
+			count: 1
+			weight: 10.0f
+		}
+	]
+}

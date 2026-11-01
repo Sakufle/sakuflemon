@@ -1,0 +1,46 @@
+{
+	id: "781028D254782389"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			id: "3D2F0DDAB43CBB16"
+			type: "item"
+			item: { count: 5, id: "cobblemon:great_ball" }
+			count: 1
+			weight: 30.0f
+		}
+		{
+			id: "1F43553EBC185ED5"
+			type: "item"
+			item: { count: 4, id: "cobblemon:super_potion" }
+			count: 1
+			weight: 25.0f
+		}
+		{
+			id: "3FB569FA9A38D587"
+			type: "item"
+			item: { count: 1, id: "cobblemon:rare_candy" }
+			count: 1
+			weight: 20.0f
+		}
+		{
+			id: "5FD628B1AC8FFF42"
+			type: "command"
+			command: "/cobbledollars give {p} 300"
+			player_command: false
+			silent: true
+			icon: { id: "cobblemon:relic_coin" }
+			weight: 15.0f
+		}
+		{
+			id: "5CBBD45A64353C65"
+			type: "command"
+			command: "/crates key give {p} cle_commune 1"
+			player_command: false
+			silent: true
+			icon: { id: "minecraft:tripwire_hook" }
+			weight: 10.0f
+		}
+	]
+}

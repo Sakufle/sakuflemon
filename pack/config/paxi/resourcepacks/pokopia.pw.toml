@@ -1,0 +1,13 @@
+name = "Pokopia Cosmetic Forms"
+filename = "pokopia-1.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/7bGbiPV6/versions/vMTfqbRo/pokopia-1.1.zip"
+hash-format = "sha512"
+hash = "7e5e7ba9e83d1954e5eeeeb443195f2db9051c9415d964174169ac3ad9c4654b96461afc1abaf8e1bb4ba5079cea43506a90c3dc00cf3b6db962151664c7d7c9"
+
+[update]
+[update.modrinth]
+mod-id = "7bGbiPV6"
+version = "vMTfqbRo"

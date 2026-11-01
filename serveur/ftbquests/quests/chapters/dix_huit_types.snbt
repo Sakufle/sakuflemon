@@ -1,0 +1,926 @@
+{
+	id: "1EAF8FD878174918"
+	group: ""
+	order_index: 2
+	filename: "dix_huit_types"
+	icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "sakuflemon:textures/quetes/types.png" } }
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "27450714C4DF8B7B"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/normal.png" } }
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "4B5FE0180DCF284E"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "normal"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "2EE85D858F40B6DA"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "569AE83EA7F11EE8"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/fire.png" } }
+			x: 1.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "4383BACCFC78395F"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "fire"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "752E0032D6292094"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "5CF06AC38DC1BD90"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/water.png" } }
+			x: 3.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "6B2E31588C8D6E51"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "water"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "647CC6229046C189"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "2DB5AC9A57BBBFD0"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/grass.png" } }
+			x: 4.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "656AE88ECAD0110A"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "grass"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "74012405A085150E"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "781DB44C42F0E13A"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/electric.png" } }
+			x: 6.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "39A7D49752998FE7"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "electric"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "15DF82F9581DADD1"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "7BF2CDB3E52BCE63"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/ice.png" } }
+			x: 7.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "3240FC98A11F77EE"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "ice"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "07C65FC26CAD4C6D"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "774D6B312428E00F"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/fighting.png" } }
+			x: 0.0d
+			y: 1.5d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "2637CCC53DBD5DE6"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "fighting"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "58818FEA14A053E2"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "4C013652C33B9E7B"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/poison.png" } }
+			x: 1.5d
+			y: 1.5d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "1F678408FBBBBA3E"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "poison"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "782F2556C5A8E18A"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "2B9D681FFF8CEA9E"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/ground.png" } }
+			x: 3.0d
+			y: 1.5d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "38656449F0F1B174"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "ground"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "50639B990906420B"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "5114993326394F7A"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/flying.png" } }
+			x: 4.5d
+			y: 1.5d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "6CD98EEFBFD90A15"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "flying"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "7FB1F92479FFB93B"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "4748F4EE46EA5912"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/psychic.png" } }
+			x: 6.0d
+			y: 1.5d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "753C6384652BB7A5"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "psychic"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "6FA5367FE33C87F4"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "01DEAFA816051F92"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/bug.png" } }
+			x: 7.5d
+			y: 1.5d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "621143AF2D72EDFD"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "bug"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "63D93E73E4F0E4FC"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "041B09A724295332"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/rock.png" } }
+			x: 0.0d
+			y: 3.0d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "16D4FCE4DE96E72E"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "rock"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "4DA150315A91ECD5"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "523B6071FEA7CD43"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/ghost.png" } }
+			x: 1.5d
+			y: 3.0d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "0FDE4A7A6935667D"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "ghost"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "4013494E3E023E0F"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "63083D7DA3901C99"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/dragon.png" } }
+			x: 3.0d
+			y: 3.0d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "73F5B68FCF800E9D"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "dragon"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "6D68E45987D9AD54"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "64A6AF5F0E45C65B"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/dark.png" } }
+			x: 4.5d
+			y: 3.0d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "67852C36EE4C8E07"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "dark"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "30708DCF57ADC86C"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "13AF57AB55F9B9C6"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/steel.png" } }
+			x: 6.0d
+			y: 3.0d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "618A655B9C207F32"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "steel"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "150EF49BFCA3BC54"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "612C03DE30C590AE"
+			icon: { id: "ftbquests:custom_icon", components: { "ftbquests:icon": "mega_showdown:textures/gui/summary/tera_types/fairy.png" } }
+			x: 7.5d
+			y: 3.0d
+			shape: "circle"
+			dependencies: ["0305BC51DE70A11D"]
+			tasks: [
+				{
+					id: "1563DCDC7CD86E6C"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 5L
+					shiny: false
+					pokemon: ""
+					pokemon_type: "fairy"
+					form: ""
+					aspects: ""
+					biome: ""
+					dimension: ""
+					gender: ""
+					poke_ball_used: ""
+					region: ""
+					natures: ""
+					trainers: ""
+					moves: ""
+					held_items: ""
+					raid_tiers: ""
+					abilities: ""
+					dex_progress: ""
+					targetPlayer: ""
+					min_level: 0
+					max_level: 0
+					max_turns: 0
+					time_min: 0L
+					time_max: 24000L
+				}
+			]
+			rewards: [
+				{
+					id: "6C0EE9C59C527F15"
+					type: "command"
+					command: "/cobbledollars give {p} 250"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+			]
+		}
+		{
+			id: "33D3A7DC13F2FE3E"
+			icon: { id: "cobblemon:master_ball" }
+			x: 3.8d
+			y: 5.0d
+			shape: "hexagon"
+			size: 2.0d
+			dependencies: ["27450714C4DF8B7B" "569AE83EA7F11EE8" "5CF06AC38DC1BD90" "2DB5AC9A57BBBFD0" "781DB44C42F0E13A" "7BF2CDB3E52BCE63" "774D6B312428E00F" "4C013652C33B9E7B" "2B9D681FFF8CEA9E" "5114993326394F7A" "4748F4EE46EA5912" "01DEAFA816051F92" "041B09A724295332" "523B6071FEA7CD43" "63083D7DA3901C99" "64A6AF5F0E45C65B" "13AF57AB55F9B9C6" "612C03DE30C590AE"]
+			tasks: [
+				{
+					id: "4588C864BA351643"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "58EC72E5682D8013"
+					type: "command"
+					command: "/cobbledollars give {p} 5000"
+					player_command: false
+					silent: true
+					icon: { id: "cobblemon:relic_coin" }
+				}
+				{
+					id: "2D79E0BE58D8EBF9"
+					type: "command"
+					command: "/crates key give {p} cle_legendaire 1"
+					player_command: false
+					silent: true
+					icon: { id: "minecraft:tripwire_hook" }
+				}
+			]
+		}
+	]
+}

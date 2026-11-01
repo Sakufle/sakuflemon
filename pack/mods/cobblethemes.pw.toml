@@ -1,0 +1,13 @@
+name = "CobbleThemes"
+filename = "CobbleThemes-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/PAO12Ixe/versions/sFcPGEvh/CobbleThemes-1.0.0.jar"
+hash-format = "sha512"
+hash = "f9edef10beb1e60d106c6f8843efee4bd74af579244870476b6958ec27cda01d6c916ffb9792df2d8df08d7e0066e888704b8a851e4b69859fd32302c764d015"
+
+[update]
+[update.modrinth]
+mod-id = "PAO12Ixe"
+version = "sFcPGEvh"

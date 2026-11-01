@@ -1,0 +1,5 @@
+{
+  "criteria": {"passage": {"trigger": "minecraft:changed_dimension", "conditions": {"from": "minecraft:overworld", "to": "minecraft:the_end",
+    "player": [{"condition": "minecraft:inverted", "term": {"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"nbt": "{Tags:[\"sakuflemon.builder\"]}"}}}]}}},
+  "rewards": {"function": "sakuflemon_portails:renvoyer"}
+}

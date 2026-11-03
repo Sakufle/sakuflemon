@@ -1,0 +1,13 @@
+name = "Diorama"
+filename = "diorama-0.7.0+1.21-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/kwpTgbCk/versions/dtbQYWDH/diorama-0.7.0%2B1.21-1.21.1.jar"
+hash-format = "sha512"
+hash = "1340ffa2fb57c517c977a79566ede7d24aa2e0e88937175d5692cf7277b843cecc3454a317afa0a291cf19c9d0b64ec7b543c77c10c9196bc79f191e3ce2ce73"
+
+[update]
+[update.modrinth]
+mod-id = "kwpTgbCk"
+version = "dtbQYWDH"

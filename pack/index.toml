@@ -297,6 +297,11 @@ hash = "0cb70b095af6e8eb16070cf98397cc5a0eca91a2f34afdd6e771119a2fc35160"
 metafile = true
 
 [[files]]
+file = "mods/diorama.pw.toml"
+hash = "e4ded3a03b2ef545acdaca7697539580eba4e348c342d9ab70272de4f1be14ca"
+metafile = true
+
+[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "6d37de7b436e094a7834d51b5d9d803653ab445e1041853f32a61599b054c7bf"
 metafile = true

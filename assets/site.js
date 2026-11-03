@@ -2,11 +2,13 @@
   var c = window.SAKUFLEMON;
   var ip = c.port === 25565 ? c.adresse : c.adresse + ":" + c.port;
 
-  document.querySelectorAll("[data-ip]").forEach(function (el) { el.textContent = ip; });
+  var pasEncore = c.adresse === "IP_PUBLIQUE";
+  document.querySelectorAll("[data-ip]").forEach(function (el) { el.textContent = pasEncore ? "IP bientôt disponible" : ip; });
   document.querySelectorAll("[data-version]").forEach(function (el) { el.textContent = c.version; });
   document.querySelectorAll("[data-prism]").forEach(function (el) { el.href = c.instancePrism; });
 
   document.querySelectorAll("[data-copy-ip]").forEach(function (btn) {
+    if (pasEncore) { btn.style.display = "none"; return; }
     btn.addEventListener("click", function () {
       navigator.clipboard.writeText(ip).then(function () {
         var t = btn.textContent;

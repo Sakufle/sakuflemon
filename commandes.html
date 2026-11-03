@@ -4,12 +4,44 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wiki · Sakuflemon</title>
-<meta name="description" content="Les commandes du serveur">
+<meta name="description" content="Le wiki de Sakuflemon : premiers pas, Incarnam, monde d'en bas, quêtes, combats, Safari, économie, commandes et touches.">
 <link rel="icon" href="assets/logo.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Lilita+One&display=swap">
 <link rel="stylesheet" href="assets/style.css?v=6">
+<style>
+.wiki { display: grid; grid-template-columns: 220px 1fr; gap: 36px; align-items: start; padding-top: 40px; }
+.sommaire { position: sticky; top: 90px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; }
+.sommaire b { display: block; font-family: var(--display); font-weight: 400; font-size: 1.15rem; margin-bottom: 8px; }
+.sommaire a { display: block; padding: 5px 10px; border-radius: 8px; color: var(--muted); text-decoration: none; font-size: .93rem; }
+.sommaire a:hover { background: rgba(255,255,255,.06); color: #fff; }
+.wiki-corps { min-width: 0; }
+.wiki-corps > section { scroll-margin-top: 90px; padding-bottom: 12px; }
+.wiki-corps > section + section { border-top: 1px solid var(--border); margin-top: 28px; }
+.wiki-corps h2 { display: flex; align-items: center; gap: 10px; font-size: 1.8rem; margin: 28px 0 8px; }
+.wiki-corps h3 { font-size: 1.2rem; margin: 22px 0 6px; }
+.wiki-corps p, .wiki-corps li { color: var(--muted); }
+.wiki-corps p strong, .wiki-corps li strong, .wiki-corps td strong { color: var(--text); }
+.wiki-corps .tableau { margin-top: 16px; }
+.wiki-corps .grille { margin-top: 16px; }
+.wiki-corps .carte { padding: 18px; }
+.wiki-corps .carte h3 { margin: 0 0 6px; font-size: 1.15rem; }
+.astuce { margin: 16px 0; padding: 14px 16px; border-radius: 10px; border-left: 4px solid var(--foudre); background: rgba(56,189,255,.07); color: var(--text); }
+.astuce.feu { border-left-color: var(--feu); background: rgba(255,106,43,.07); }
+.puces { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 0; padding: 0; list-style: none; }
+.puces li { background: var(--surface-2); border: 1px solid var(--border); border-radius: 999px; padding: 4px 12px; font-size: .9rem; color: var(--text); }
+.puces li span { color: var(--muted); }
+.faq details { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px; margin-top: 10px; }
+.faq summary { cursor: pointer; font-weight: 700; color: var(--text); }
+.faq details p { margin: 8px 0 0; }
+@media (max-width: 820px) {
+  .wiki { grid-template-columns: 1fr; gap: 20px; }
+  .sommaire { position: static; display: flex; flex-wrap: wrap; gap: 4px; }
+  .sommaire b { width: 100%; }
+  .sommaire a { background: var(--surface-2); }
+}
+</style>
 </head>
 <body>
 <div class="nav-wrap"><nav class="nav">
@@ -17,28 +49,213 @@
 <div class="liens">
 <a href="index.html">Accueil</a>
 <a href="installer.html">Jouer</a>
-<a href="commandes.html">Wiki</a>
+<a href="commandes.html" aria-current="page">Wiki</a>
 <a href="presentation.html">Présentation</a>
 <a href="regles.html">Règles</a>
 <a href="nouveautes.html">Nouveautés</a>
 </div>
 <a class="btn-jouer" href="installer.html">Installer</a>
 </nav></div>
-<section class="bandeau"><div class="eclair"></div><h1>Wiki du serveur</h1><br><p>Commandes, claims et argent</p></section>
+<section class="bandeau"><div class="eclair"></div><h1>Wiki du serveur</h1><br><p>Tout ce qu'il faut savoir pour jouer sur Sakuflemon</p></section>
 <main>
+<div class="wiki">
+<nav class="sommaire" aria-label="Sommaire">
+<b>Sommaire</b>
+<a href="#premiers-pas">Premiers pas</a>
+<a href="#incarnam">Incarnam</a>
+<a href="#monde">Le monde d'en bas</a>
+<a href="#quetes">Quêtes</a>
+<a href="#combats">Combats</a>
+<a href="#safari">Zone Safari</a>
+<a href="#economie">Argent et boutique</a>
+<a href="#grades">Grades et cosmétiques</a>
+<a href="#base">Protéger sa base</a>
+<a href="#commandes">Commandes</a>
+<a href="#touches">Touches</a>
+<a href="#faq">Questions fréquentes</a>
+</nav>
+
+<div class="wiki-corps">
+
+<section id="premiers-pas">
+<h2>🌅 Premiers pas</h2>
+<p>À ta première connexion, tu te réveilles à <strong>Incarnam</strong>, la cité dans les nuages. Une <strong>flèche de particules</strong> au sol et des <strong>« ! » dorés</strong> au-dessus des PNJ te montrent où aller.</p>
+<ol class="parcours">
+<li><h3>Parle à Arceus</h3><p>Il t'explique pourquoi tu es là et t'ouvre le menu de choix de ton premier Pokémon.</p></li>
+<li><h3>Le Professeur</h3><p>Il te remet ton Pokédex et t'envoie apprendre les bases.</p></li>
+<li><h3>Capture et combat</h3><p>Fabrique des Poké Balls, attrape un Pokémon, bats l'Apprenti puis les Gardes.</p></li>
+<li><h3>Pêche et niveaux</h3><p>Récupère une canne auprès du Pêcheur, attrape un Pokémon Eau, monte ton équipe.</p></li>
+<li><h3>Le halo</h3><p>Avec un Pokémon volant, tu débloques la plongée vers le monde d'en bas.</p></li>
+</ol>
+<div class="astuce">Le livre de quêtes suit tout ton tutoriel : ouvre-le pour voir l'étape en cours et ce qu'elle rapporte.</div>
+</section>
+
+<section id="incarnam">
+<h2>☁️ Incarnam</h2>
+<p>Incarnam est la <strong>capitale partagée</strong> de tous les joueurs, posée sur des îles flottantes. On ne peut pas y casser de blocs : c'est un lieu de rencontre, pas de construction. Les Pokémon y apparaissent quand même dans les prairies.</p>
+<div class="grille">
+<div class="carte feu"><div class="icone">🏛️</div><h3>Grande Place</h3><p>Le cœur de la ville, où tu arrives et où tu reviens avec <code>/spawn</code>.</p></div>
+<div class="carte foudre"><div class="icone">🛒</div><h3>Marchands</h3><p>Poké Balls, soins, objets d'évolution et baies contre des CobbleDollars.</p></div>
+<div class="carte feu"><div class="icone">💉</div><h3>Infirmerie</h3><p>L'infirmière soigne toute ton équipe gratuitement.</p></div>
+<div class="carte foudre"><div class="icone">⚔️</div><h3>Arène Céleste</h3><p>Le Champion d'Incarnam t'attend quand ton équipe est prête.</p></div>
+<div class="carte feu"><div class="icone">📜</div><h3>PNJ de l'histoire</h3><p>Archiviste, Conteur, Vieux Barnabé… chacun dévoile un morceau de ce qui est arrivé au monde.</p></div>
+<div class="carte foudre"><div class="icone">🎃</div><h3>Île Citrouille</h3><p>Une petite île à l'ambiance d'Halloween et ses habitants un peu étranges.</p></div>
+</div>
+<h3>Descendre dans le monde d'en bas</h3>
+<p>Un <strong>halo lumineux</strong> flotte au bord de l'île, près d'une balise. Une fois débloqué par les quêtes, saute dedans : tu plonges vers le monde d'en bas et ta chute est ralentie à l'arrivée. Ton Pokémon monté est rappelé pendant le voyage, il suffit de le ressortir en bas.</p>
+<p>Si tu tombes de l'île sans passer par le halo, tu es simplement ramené sur la Grande Place.</p>
+</section>
+
+<section id="monde">
+<h2>🌍 Le monde d'en bas</h2>
+<p>C'est le monde où l'on <strong>construit, explore et capture</strong>. Tu atterris au <strong>Port</strong>, accueilli par le passeur Gabin et les premiers habitants revenus vivre sur la terre ferme.</p>
+<ul>
+<li><strong>Nouveaux biomes</strong> (Oh The Biomes We've Gone) pour trouver chaque type de Pokémon.</li>
+<li><strong>Villages et structures</strong> : villes Cobblemon avec Centres et Boutiques, villages revisités, tours, tavernes, donjons, structures de dresseurs.</li>
+<li><strong>Dresseurs PNJ</strong> partout dans le monde. L'<strong>Association des Dresseurs</strong> se trouve près des villages.</li>
+<li><strong>Coffres de loot</strong> : chaque joueur a son propre butin dans un même coffre, et il se remplit à nouveau avec le temps.</li>
+<li><strong>Tanières de raid</strong> qui brillent dans le paysage, et parfois des <strong>portails de Hoopa</strong> qui mènent à des donjons.</li>
+<li><strong>Waystones</strong> pour voyager rapidement entre les lieux que tu as découverts.</li>
+</ul>
+<div class="astuce feu">Le Nether et l'End ne s'ouvrent pas avec un portail classique. Leur accès passera par le ciel, plus tard dans l'histoire.</div>
+</section>
+
+<section id="quetes">
+<h2>📖 Quêtes</h2>
+<p>Le livre de quêtes (FTB Quests) contient <strong>plus de 300 quêtes</strong> réparties en chapitres. Elles se valident toutes seules quand tu captures, combats, fais évoluer ou fabriques ce qu'il faut. Les récompenses : CobbleDollars, objets, et <strong>clés de caisse</strong>.</p>
+<ul class="puces">
+<li>Incarnam <span>· tutoriel</span></li>
+<li>Dresseur</li>
+<li>Les 18 types</li>
+<li>Pokédex</li>
+<li>Chromatiques</li>
+<li>Méga et Cristaux Z</li>
+<li>Raids</li>
+<li>Éleveur</li>
+<li>Zone Safari</li>
+<li>Montures</li>
+<li>Explorateur</li>
+<li>Arènes et Dresseurs</li>
+<li>Légendes</li>
+<li>Artisan</li>
+<li>Économie</li>
+<li>Nether et End</li>
+<li>Gadgets</li>
+<li>Série Kanto</li>
+<li>Série Sinnoh</li>
+<li>Série Unbound</li>
+<li>Quotidiennes et hebdo</li>
+</ul>
+<h3>Quêtes quotidiennes et hebdomadaires</h3>
+<p>Elles reviennent toutes seules : les quotidiennes environ <strong>20 h</strong> après les avoir rendues, les hebdomadaires après <strong>6 jours</strong>. Parfait pour gagner un peu d'argent à chaque connexion.</p>
+<h3>Les séries de dresseurs</h3>
+<p>Les chapitres Kanto, Sinnoh et Unbound te font affronter des dresseurs <strong>dans l'ordre</strong>, comme dans les jeux, jusqu'aux Champions et à la Ligue.</p>
+<div class="astuce">Une quête spéciale te mène jusqu'à <strong>Victini</strong>. À toi de trouver son autel…</div>
+</section>
+
+<section id="combats">
+<h2>⚔️ Combats</h2>
+<div class="grille">
+<div class="carte feu"><div class="icone">💎</div><h3>Méga-évolution</h3><p>Trouve une Pierre Clé, fabrique un Méga-Bracelet et donne sa méga-gemme à ton Pokémon.</p></div>
+<div class="carte foudre"><div class="icone">⚡</div><h3>Capacités Z</h3><p>Bracelet Z et Cristaux Z, à fabriquer ou à trouver dans les coffres rares.</p></div>
+<div class="carte feu"><div class="icone">🔴</div><h3>Dynamax</h3><p>Poignet Dynamax et Étoile Vœu. La Maxi-Soupe débloque le Gigamax.</p></div>
+<div class="carte foudre"><div class="icone">💠</div><h3>Téracristal</h3><p>Trouve l'Orbe Téracristal. 50 Téra-Éclats d'un type changent le type Téra.</p></div>
+<div class="carte feu"><div class="icone">🐉</div><h3>Raids</h3><p>De 1 à 5 étoiles, à plusieurs. La bourse de raid contient des récompenses.</p></div>
+<div class="carte foudre"><div class="icone">🧢</div><h3>Dresseurs</h3><p>Des dresseurs PNJ dans tout le monde, des arènes et des séries à finir.</p></div>
+</div>
+<p style="margin-top:16px">Pendant un combat, un indicateur affiche tes <strong>chances de capture</strong>, et tu peux consulter le détail des capacités adverses.</p>
+</section>
+
+<section id="safari">
+<h2>🦒 Zone Safari</h2>
+<p>Le Safari est une <strong>réserve à part</strong> remplie de Pokémon rares. On y entre en se plaçant sur le <strong>téléporteur Safari</strong>, directement depuis l'île d'Incarnam.</p>
+<ul>
+<li>L'entrée est <strong>gratuite</strong> et chaque visite dure <strong>15 minutes</strong>.</li>
+<li>Chaque jour tu reçois <strong>16 Safari Balls</strong>, 32 appâts et 32 boues. Pas de combat : on lance appâts et boue pour amadouer le Pokémon, puis la Ball.</li>
+<li>Les <strong>parfums</strong> et encens attirent des Pokémon plus rares (et même chromatiques).</li>
+<li>Pour sortir avant la fin : <code>/safariexit</code>. Tu reviens à ton point de départ.</li>
+</ul>
+</section>
+
+<section id="economie">
+<h2>🪙 Argent et boutique</h2>
+<p>La monnaie du serveur, ce sont les <strong>CobbleDollars</strong>. Tu en gagnes en battant et capturant des Pokémon, en finissant des quêtes et en vendant aux marchands.</p>
+<h3>Le menu du dresseur</h3>
+<p>Tu reçois un objet <strong>Menu</strong> à ta première connexion. Clic droit pour ouvrir le menu style Pokémon Noir et Blanc : boutique, cosmétiques, kits et téléportation.</p>
+<h3>Les caisses</h3>
+<p>Trois caisses en forme de Poké Ball attendent à Incarnam : <strong>Commune</strong>, <strong>Rare</strong> et <strong>Légendaire</strong>. Il faut la clé correspondante, gagnée dans les quêtes ou achetée à la boutique. Les clés que tu possèdes s'affichent dans la boutique.</p>
+<h3>Les kits</h3>
+<div class="tableau"><table>
+<tr><th>Kit</th><th>Contenu</th></tr>
+<tr><td><strong>Débutant</strong></td><td>De quoi bien démarrer</td></tr>
+<tr><td><strong>Capture</strong></td><td>Un lot de Poké Balls</td></tr>
+<tr><td><strong>Soin</strong></td><td>Potions et objets de soin</td></tr>
+<tr><td><strong>Bonbons</strong></td><td>Super Bonbons pour monter tes Pokémon</td></tr>
+<tr><td><strong>Shiny</strong></td><td>Plus de chances de croiser des chromatiques pendant un moment</td></tr>
+<tr><td><strong>Légende</strong></td><td>Le gros lot, une fois par jour</td></tr>
+</table></div>
+<p>Les kits s'achètent en CobbleDollars dans le menu, le prix est affiché sur chaque carte.</p>
+</section>
+
+<section id="grades">
+<h2>🏅 Grades et cosmétiques</h2>
+<p>Chaque joueur a un <strong>badge</strong> devant son pseudo. On commence <strong>Débutant</strong>, puis on peut monter <strong>Dresseur</strong>, <strong>Conseil 4</strong> et <strong>Champion</strong> en les achetant avec des CobbleDollars dans la boutique. Les grades élevés donnent de meilleurs kits et un bonus chromatique plus fort.</p>
+<p>La boutique de <strong>cosmétiques</strong> propose des chapeaux (dont certains animés), des effets de particules (cœurs, flammes, notes, étoiles, éclairs…) et des auras. Ils s'équipent depuis le menu et restent à toi pour toujours.</p>
+<p>Tu gagnes aussi de l'<strong>expérience de joueur</strong> en jouant, avec un niveau qui monte au fil de l'aventure.</p>
+</section>
+
+<section id="base">
+<h2>🏠 Protéger sa base</h2>
+<p>Ouvre la carte du monde (touche <code>M</code>, Xaero's World Map) et fais un clic droit sur les chunks à revendiquer. Personne d'autre que ton groupe ne pourra y casser, poser ou ouvrir quoi que ce soit.</p>
+<p>Pour jouer à plusieurs dans la même base, crée un groupe avec <code>/openpac-parties</code> et invite tes amis.</p>
+<div class="astuce feu">Construis dans le monde d'en bas : Incarnam est protégée et personne ne peut y bâtir.</div>
+</section>
+
+<section id="commandes">
+<h2>⌨️ Commandes</h2>
 <div class="tableau"><table>
 <tr><th>Commande</th><th>À quoi ça sert</th></tr>
-<tr><td><code>/spawn</code></td><td>Retourner au spawn</td></tr>
+<tr><td><code>/spawn</code></td><td>Retourner sur la Grande Place d'Incarnam</td></tr>
 <tr><td><code>/sethome nom</code> · <code>/home nom</code></td><td>Enregistrer un point et s'y téléporter</td></tr>
-<tr><td><code>/tpa joueur</code> · <code>/tpaccept</code></td><td>Demander à se téléporter vers un ami, accepter une demande</td></tr>
+<tr><td><code>/tpa joueur</code> · <code>/tpaccept</code></td><td>Demander à rejoindre un ami, accepter une demande</td></tr>
 <tr><td><code>/warp</code></td><td>Voir les lieux publics</td></tr>
 <tr><td><code>/back</code></td><td>Revenir à l'endroit précédent</td></tr>
+<tr><td><code>/boutique</code></td><td>Ouvrir la boutique</td></tr>
+<tr><td><code>/kit</code></td><td>Voir les kits disponibles</td></tr>
+<tr><td><code>/cartedresseur</code></td><td>Menu de l'Association des Dresseurs</td></tr>
+<tr><td><code>/safariexit</code></td><td>Quitter la zone Safari</td></tr>
 <tr><td><code>/openpac-parties</code></td><td>Créer un groupe et inviter tes amis dans tes claims</td></tr>
 </table></div>
-<h2>Protéger ta base</h2>
-<p>Ouvre la carte (touche <code>M</code> avec Xaero) et clique droit sur les chunks à revendiquer. Personne d'autre que ton groupe ne pourra y casser ou ouvrir quoi que ce soit.</p>
-<h2>Argent et marchands</h2>
-<p>Tu gagnes des CobbleDollars en battant et capturant des Pokémon. Les marchands du spawn vendent Poké Balls, soins, objets d'évolution et baies.</p>
+</section>
+
+<section id="touches">
+<h2>🎮 Touches</h2>
+<p>Le modpack ajoute beaucoup de raccourcis. Toutes les touches se changent dans <strong>Options › Commandes</strong> : la barre de recherche (Controlling) permet de trouver une action, et un même raccourci peut combiner plusieurs touches (Amecs) pour éviter les conflits.</p>
+<div class="tableau"><table>
+<tr><th>Action</th><th>Touche conseillée</th></tr>
+<tr><td>Carte du monde</td><td><code>M</code></td></tr>
+<tr><td>Ajouter un point de repère</td><td><code>J</code></td></tr>
+<tr><td>Téléphone Rotom</td><td><code>I</code></td></tr>
+<tr><td>Zoom</td><td><code>C</code></td></tr>
+<tr><td>Activer / couper les shaders</td><td><code>F7</code></td></tr>
+<tr><td>Affichage des chances de capture</td><td><code>F8</code></td></tr>
+<tr><td>Objectifs du Safari</td><td><code>:</code></td></tr>
+</table></div>
+<div class="astuce">Sur clavier AZERTY, certaines touches par défaut des mods tombent sur Z, Q, S ou D. Si un menu s'ouvre quand tu marches, cherche la touche dans Options › Commandes et change-la.</div>
+</section>
+
+<section id="faq" class="faq">
+<h2>❓ Questions fréquentes</h2>
+<details><summary>Comment installer le jeu ?</summary><p>Tout est expliqué sur la page <a href="installer.html">Jouer</a> : Prism Launcher, un fichier zip à importer, et les mods se mettent à jour tout seuls.</p></details>
+<details><summary>Quelle est l'adresse du serveur ?</summary><p><span data-ip></span>. Elle sera aussi affichée sur la page d'accueil.</p></details>
+<details><summary>J'ai raté le choix de mon starter, que faire ?</summary><p>Retourne voir Arceus sur Incarnam. Si ça ne marche toujours pas, demande à un admin.</p></details>
+<details><summary>Le jeu rame, je fais comment ?</summary><p>Coupe les shaders (<code>F7</code>) et baisse la distance de Distant Horizons dans les options vidéo. Les mods de performance font le reste.</p></details>
+<details><summary>Mon Pokémon volant disparaît quand je plonge dans le halo.</summary><p>C'est normal : changer de monde rappelle ton Pokémon. Ressors-le à l'arrivée, ta chute est ralentie pendant quelques secondes.</p></details>
+<details><summary>Je peux jouer sans mods ?</summary><p>Non, le modpack est obligatoire : il contient Cobblemon et tous les mods du serveur.</p></details>
+</section>
+
+</div>
+</div>
 </main>
 <footer>Sakuflemon · serveur Cobblemon entre amis · <span data-version></span><br>Pokémon et Cobblemon appartiennent à leurs propriétaires respectifs.</footer>
 <script src="assets/config.js?v=5"></script>

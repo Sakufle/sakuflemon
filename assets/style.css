@@ -199,3 +199,10 @@ footer { text-align: center; color: var(--muted); font-size: .9rem; padding: 28p
 .appel { text-align: center; margin-top: 64px; padding: 40px 20px; border-radius: var(--radius); border: 1px solid var(--border); background: var(--surface); }
 .appel p { color: var(--muted); }
 @media (max-width: 760px) { .duo { grid-template-columns: 1fr; gap: 16px; margin-top: 40px; } .duo.inverse > .duo-img { order: 0; } .lore { padding: 20px; } }
+.capture { margin: 20px 0; } .capture img { display: block; width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--border); }
+.capture figcaption { margin-top: 8px; color: var(--muted); font-size: .9rem; text-align: center; }
+.capture.duo-captures { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; } .capture.duo-captures figure { margin: 0; }
+.galerie { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.galerie figure { margin: 0; } .galerie img { display: block; width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: var(--radius); border: 1px solid var(--border); }
+.galerie figcaption { margin-top: 8px; color: var(--muted); font-size: .9rem; }
+@media (max-width: 760px) { .capture.duo-captures { grid-template-columns: 1fr; } }

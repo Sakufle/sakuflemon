@@ -178,3 +178,24 @@ footer { text-align: center; color: var(--muted); font-size: .9rem; padding: 28p
 .hero .poke.gauche img { filter: drop-shadow(0 0 40px rgba(160,210,255,.45)) drop-shadow(0 20px 30px rgba(0,0,0,.5)); }
 .hero .poke.droite img { filter: drop-shadow(0 0 40px rgba(56,189,255,.55)) drop-shadow(0 20px 30px rgba(0,0,0,.35)); }
 @media (max-width: 640px) { .hero .poke { opacity: .9; } .hero .poke.gauche { width: 46vw; bottom: 110px; } .hero .poke.droite { width: 38vw; bottom: 120px; } }
+
+/* Bande-annonce et présentation */
+.video-cadre { position: relative; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); background: #000; box-shadow: 0 20px 60px rgba(0,0,0,.5); }
+.video-cadre video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; }
+.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: center; margin-top: 56px; }
+.duo.inverse > .duo-img { order: 2; }
+.duo-img img { display: block; width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--border); }
+.duo h3 { font-size: 1.5rem; margin: 0 0 10px; }
+.duo p { color: var(--muted); margin: 0 0 10px; line-height: 1.6; }
+.duo p strong { color: var(--text); }
+.etiquette { display: inline-block; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--feu-2); margin-bottom: 8px; }
+.duo.inverse .etiquette { color: var(--foudre); }
+.lore { margin-top: 32px; padding: 28px; border-radius: var(--radius); border: 1px solid var(--border); background: linear-gradient(135deg, rgba(255,106,43,.08), rgba(56,189,255,.08)); font-size: 1.08rem; line-height: 1.75; }
+.lore p { margin: 0 0 12px; } .lore p:last-child { margin: 0; }
+.parcours { counter-reset: p; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; padding: 0; list-style: none; }
+.parcours li { counter-increment: p; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+.parcours li::before { content: counter(p); display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: linear-gradient(135deg, var(--feu), var(--foudre-2)); font-weight: 800; margin-bottom: 10px; }
+.parcours h3 { margin: 0 0 6px; font-size: 1.05rem; } .parcours p { margin: 0; color: var(--muted); font-size: .95rem; }
+.appel { text-align: center; margin-top: 64px; padding: 40px 20px; border-radius: var(--radius); border: 1px solid var(--border); background: var(--surface); }
+.appel p { color: var(--muted); }
+@media (max-width: 760px) { .duo { grid-template-columns: 1fr; gap: 16px; margin-top: 40px; } .duo.inverse > .duo-img { order: 0; } .lore { padding: 20px; } }

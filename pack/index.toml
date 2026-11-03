@@ -327,6 +327,11 @@ hash = "95286601fd0a77431b6521de52cef98396e466b7f88513e58f8c3588a0e2ca41"
 metafile = true
 
 [[files]]
+file = "mods/punchy.pw.toml"
+hash = "a37815f0715699fb650718f164a7b7da13089e52ae2195dea01d8531f51bdd4b"
+metafile = true
+
+[[files]]
 file = "mods/eating-animation.pw.toml"
 hash = "9099b858e94f6f81db890c7d46f85601dee71ba33fb7ae19773b8da2ce8c3834"
 metafile = true
